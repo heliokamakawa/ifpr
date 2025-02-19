@@ -1,74 +1,72 @@
-# Carreiras no Desenvolvimento de Software
+# Carreiras e Avaliação no Curso de Engenharia de Software
 
-Este arquivo descreve os diferentes níveis de carreira na área de Engenharia de Software, alinhados com as habilidades e competências esperadas para cada estágio da formação acadêmica e do mercado de trabalho. O objetivo é fornecer uma visão clara sobre as expectativas de desempenho e desenvolvimento dos alunos ao longo do curso, bem como orientações sobre como alcançar o próximo nível na carreira.
+Este documento descreve as expectativas para os diferentes níveis de competência dos alunos no curso de Engenharia de Software, de acordo com a metodologia de ensino adotada. O objetivo é avaliar os alunos por meio de **conceitos** e não **notas**, promovendo uma avaliação contínua e alinhada ao mercado de trabalho. As competências exigidas para cada nível são relacionadas a tarefas práticas, desenvolvimento de projetos autorais, e capacidade de aplicar os fundamentos da engenharia de software.
 
-## 1. Introdução às Carreiras
+## 1. Introdução
 
-Cada nível de carreira representa um estágio diferente de habilidades e competências adquiridas durante a formação e experiência no mercado de trabalho. A ideia é que, ao longo do curso, o aluno evolua de **Estagiário** para **Júnior**, depois para **Desenvolvedor** (Pleno) e, finalmente, para **Pleno**, passando de um aprendizado mais orientado para a autonomia total.
+A abordagem de ensino no curso de Engenharia de Software visa capacitar os alunos em várias competências, divididas em diferentes estágios de progressão: **Estagiário**, **Júnior**, **Desenvolvedor (Dev)** e **Pleno**. Ao longo das aulas, os alunos trabalham com projetos autorais e desenvolvem habilidades práticas enquanto acompanham e documentam seu próprio progresso por meio de um **Diário de Aula**.
 
-## 2. Habilidades Esperadas em Cada Nível
-
-### **Pleno**
-- **Liderança**: Capacidade de liderar equipes e projetos, tomar decisões técnicas e gerenciais.
-- **Gestão de Pessoas**: Habilidade para coordenar e ensinar colegas, além de ser referência dentro da equipe.
-- **Domínio dos Fundamentos**: Profundo conhecimento em todos os aspectos da Engenharia de Software e das melhores práticas de desenvolvimento.
-- **Alta Capacidade de Produção**: Entrega de soluções de alta qualidade com pouca supervisão.
-- **Comunicação**: Boa comunicação técnica e interpessoal, conseguindo explicar conceitos e resultados de forma clara e eficiente.
-- **Gestão de Projetos**: Experiência em gerenciar projetos de software, prazos e recursos, garantindo a entrega dentro das expectativas.
-
-### **Desenvolvedor (Dev)**
-- **Projeto Autoral**: Desenvolvimento de projetos originais, bem estruturados, funcionais e bem documentados.
-- **Domínio Técnico**: Habilidade técnica sólida em ferramentas e tecnologias de desenvolvimento.
-- **Boas Práticas**: Aplica boas práticas de engenharia de software, como versionamento de código, testes e documentações claras.
-- **Entrega de Resultados**: Capacidade de entregar resultados dentro do prazo e com a qualidade esperada.
-- **Dificuldades em Gestão e Comunicação**: Apresenta limitações em aspectos como liderança e comunicação, mas consegue desempenhar tarefas de forma autônoma.
-- **Foco em Execução**: Excelente execução técnica, mas com dificuldades em explicar conceitos ou liderar equipes.
-
-### **Júnior**
-- **Vontade de Aprender**: Grande dedicação e disposição para aprender, mesmo que ainda precise de orientação.
-- **Fundamentos Básicos**: Compreensão básica dos conceitos de Engenharia de Software e das ferramentas utilizadas no desenvolvimento.
-- **Desempenho Sob Supervisão**: Capacidade de executar tarefas com supervisão, apresentando bom desempenho com orientação.
-- **Limitações Técnicas**: Ainda com dificuldades em resolver problemas mais complexos e em aplicar boas práticas de forma autônoma.
-- **Necessidade de Mentoria**: Precisa de acompanhamento para o desenvolvimento de habilidades e crescimento profissional.
-
-### **Estagiário**
-- **Conhecimento Inicial**: Conhecimento básico em desenvolvimento de software, com necessidade de aprendizado constante.
-- **Foco no Aprendizado**: Principalmente em uma fase de aprendizado, com a necessidade de seguir instruções detalhadas e ser supervisionado.
-- **Dificuldades Técnicas**: Dificuldade em aplicar os conceitos de forma prática, com muita ajuda necessária.
-- **Desempenho Sob Supervisão**: Realiza tarefas simples e auxilia na execução de atividades mais complexas sob supervisão.
-- **Autonomia Limitada**: Capacidade de trabalhar apenas em tarefas simples, não sendo esperado desempenho independente ainda.
-
-## 3. Exemplos de Tarefas/Projetos para Cada Nível
+## 2. Níveis de Competência e Expectativas
 
 ### **Pleno**
-- Liderar um time em um projeto completo, com tomada de decisões técnicas e gerenciais.
-- Ministrar uma palestra ou treinamento para outros membros da equipe.
-- Resolver problemas complexos de software, buscando soluções inovadoras e eficientes.
+**Conceito A – Aprendizagem Plena**
+
+- **Gestão e Liderança**: Capacidade de liderar equipes, gerenciar projetos, coordenar tarefas e interagir com colegas e clientes. Deve saber ensinar e orientar outros, além de garantir a entrega dentro de prazos e requisitos de qualidade.
+- **Domínio Técnico**: Forte conhecimento dos fundamentos da Engenharia de Software e capacidade de aplicar as melhores práticas de forma autônoma. Realiza análises críticas e encontra soluções criativas para problemas complexos.
+- **Capacidade de Produção**: Alta produtividade e entrega de resultados com qualidade consistente.
+- **Comunicação e Apresentação**: Capacidade de comunicar ideias de forma clara, seja com a equipe, clientes ou stakeholders. Saber explicar conceitos e decisões técnicas de maneira acessível.
+- **Projeto Autor**: Desenvolvimento e entrega de projetos completos, bem estruturados, com documentação clara e que atendem aos requisitos do cliente e do mercado.
+
+**Exemplo de Tarefas**:
+- Liderar um time em um projeto, coordenar o andamento das entregas, delegar tarefas, revisar o código e garantir que os padrões de qualidade sejam seguidos.
+- Ministrar workshops internos, ensinando aos colegas sobre boas práticas de desenvolvimento ou novas tecnologias.
 
 ### **Desenvolvedor (Dev)**
-- Desenvolver uma funcionalidade complexa de software de forma autônoma.
-- Criar documentação técnica detalhada e de fácil compreensão.
-- Participar de discussões técnicas para melhorar o processo de desenvolvimento.
+**Conceito B – Aprendizagem Parcialmente Plena**
+
+- **Projeto Autor**: Entrega de projetos autorais funcionais, bem estruturados e originais, mas com algumas limitações na documentação ou em aspectos de escalabilidade.
+- **Boas Práticas Técnicas**: Aplica boas práticas de desenvolvimento e utiliza ferramentas e tecnologias de forma eficiente.
+- **Entrega de Resultados**: Capacidade de entregar soluções completas e funcionais dentro de um prazo razoável, porém, com alguns ajustes necessários em termos de desempenho ou qualidade de código.
+- **Desafios Interpessoais**: Dificuldade em se comunicar de maneira eficaz com clientes e colegas em termos de liderança e orientação.
+- **Autonomia**: Consegue trabalhar de forma independente em tarefas técnicas, mas pode precisar de apoio na organização do projeto e nas decisões mais complexas.
+
+**Exemplo de Tarefas**:
+- Desenvolver uma funcionalidade ou módulo complexo de um sistema, com código bem estruturado, e documentar claramente o processo e os resultados.
+- Participar de revisões de código e implementações, propondo melhorias e correções, mas necessitando de feedback para ajustar abordagens mais complexas.
 
 ### **Júnior**
-- Contribuir com pequenos módulos de um sistema ou com a implementação de tarefas simples.
-- Realizar correções de bugs e melhorias em sistemas existentes.
-- Participar ativamente de discussões e reuniões de equipe para aprender com os mais experientes.
+**Conceito C – Aprendizagem Suficiente**
+
+- **Dedicação e Vontade de Aprender**: Apesar das limitações técnicas e de comunicação, apresenta forte disposição para aprender e melhorar.
+- **Conhecimentos Básicos**: Conhecimento fundamental dos conceitos da Engenharia de Software, mas ainda não totalmente aplicado em projetos reais.
+- **Dependência de Supervisão**: Trabalha sob supervisão, completando tarefas de acordo com as orientações fornecidas. Precisa de suporte para executar tarefas mais complexas.
+- **Desafios de Comunicação e Execução**: Dificuldade para explicar conceitos, aplicar boas práticas de engenharia de software de maneira autônoma, e ainda necessita de orientações.
+
+**Exemplo de Tarefas**:
+- Contribuir em partes de um projeto, como realizar correções de bugs ou desenvolver funcionalidades pequenas, com forte supervisão e orientação.
+- Participar de atividades de documentação e suporte em projetos maiores, trabalhando com tarefas simples e com acompanhamento constante.
 
 ### **Estagiário**
-- Auxiliar em tarefas de apoio, como corrigir erros simples ou realizar tarefas administrativas.
-- Observar o desenvolvimento de soluções e aprender com o processo, sem responsabilidades diretas sobre decisões.
+**Conceito D – Aprendizagem Insuficiente**
 
-## 4. Desenvolvimento Pessoal e Profissional
+- **Necessidade de Aprendizado Contínuo**: Está em um estágio inicial do processo de aprendizagem, com conhecimento teórico básico, mas dificuldade significativa na aplicação prática.
+- **Dependência Total de Supervisão**: Realiza tarefas simples com intensa orientação e supervisionamento.
+- **Falta de Autonomia**: Não apresenta ainda autonomia ou capacidade de executar tarefas de desenvolvimento de forma independente.
+- **Dificuldade com Práticas Técnicas e de Comunicação**: Precisa de orientação em todas as etapas do processo de desenvolvimento e frequentemente apresenta dificuldades em lidar com os conceitos básicos de engenharia de software.
 
-- **De Estagiário para Júnior**: Focar no aprendizado e execução das tarefas, entender os fundamentos e como aplicar as boas práticas.
-- **De Júnior para Desenvolvedor**: Aprofundar o conhecimento técnico, assumir mais responsabilidades e começar a trabalhar de forma mais independente.
-- **De Desenvolvedor para Pleno**: Desenvolver habilidades de liderança, gestão de pessoas e comunicação, além de consolidar a capacidade de lidar com projetos complexos.
+**Exemplo de Tarefas**:
+- Apoiar a equipe em tarefas menores, como coleta de dados ou configuração de ambientes de desenvolvimento.
+- Ajudar na execução de testes e verificações sob orientação, sem responsabilidade sobre decisões importantes.
 
-## 5. Relacionamento com o Mercado de Trabalho
+## 3. O Diário de Aula
 
-Cada nível de carreira representa uma posição distinta no mercado de trabalho. Empresas esperam que os **Plenos** possuam habilidades técnicas e de liderança robustas, enquanto os **Desenvolvedores** são valorizados pela execução de tarefas de alto nível técnico. Já os **Júnior** estão em constante aprendizado e possuem oportunidades de crescimento com o apoio de colegas mais experientes. Os **Estagiários** estão em uma fase de treinamento intensivo, buscando amadurecer suas habilidades e compreender o funcionamento das equipes e dos processos.
+O **Diário de Aula** será um repositório contínuo de aprendizagem para cada aluno, onde ele documenta seu processo de aprendizagem, seus projetos autorais, desafios enfrentados e as soluções aplicadas. Esse diário terá o seguinte formato:
 
----
+- **Anotações Diárias**: Cada aluno deve registrar as atividades realizadas, conceitos aprendidos e discussões de sala de aula.
+- **Projetos Autorais**: Cada aluno deve ter um projeto único, onde pode aplicar os conceitos discutidos em aula. Esse projeto será avaliado quanto à qualidade, originalidade, documentação e entrega.
+- **Entrega Contínua**: O diário será atualizado regularmente com entregas, validações e verificações de qualidade dos projetos e atividades propostas.
+- **Postagem no GitHub**: O repositório no GitHub servirá como a principal plataforma para a postagem e acompanhamento do progresso dos alunos. Ele deve incluir código, documentação e exemplos do que foi discutido e aprendido.
 
-Esse arquivo é um guia para os alunos entenderem os diferentes estágios de carreira e como eles podem progredir na área de Engenharia de Software, além de fornecer expectativas claras sobre o que é esperado em cada fase. Ao seguir esse caminho, os alunos terão uma visão clara de sua jornada acadêmica e profissional.
+## 4. Relacionamento com o Mercado de Trabalho
+
+O objetivo é preparar os alunos para os diferentes estágios de sua carreira, alinhando as competências acadêmicas às exigências do mercado. Ao final do curso, os alunos deverão ser capazes de atuar como **Desenvolvedores** (Pleno),
