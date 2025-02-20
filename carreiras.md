@@ -1,4 +1,4 @@
-# Carreiras e Avaliação no Curso de Engenharia de Software
+# Carreiras e Avaliação do Diário de Aula
 
 Este documento descreve as expectativas para os diferentes níveis de competência dos alunos no curso de Engenharia de Software, de acordo com a metodologia de ensino adotada. O objetivo é avaliar os alunos por meio de **conceitos** e não **notas**, promovendo uma avaliação contínua e alinhada ao mercado de trabalho. As competências exigidas para cada nível são relacionadas a tarefas práticas, desenvolvimento de projetos autorais, e capacidade de aplicar os fundamentos da engenharia de software.
 
