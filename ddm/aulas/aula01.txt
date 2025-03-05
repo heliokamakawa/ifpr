@@ -1,0 +1,42 @@
+# Roteiro da Primeira Aula de DDM (Desenvolvimento de Software e Metodologias Ágeis)
+
+## 1) Atividade de Espera: 19h20 às 19h45
+**Objetivo**: Reflexão inicial sobre o curso e os temas que serão abordados.  
+**Descrição**:
+- Acessar o [link do GitHub](https://github.com/heliokamakawa/aula/tree/main) para realizar a leitura do material disponível.
+- Em equipes de 4 pessoas, responder aos questionários propostos no repositório. A leitura deve ser feita de forma colaborativa, discutindo as respostas com os colegas antes de registrar.
+- **Tópicos a serem discutidos**:
+  - Importância da integração de metodologias ágeis no desenvolvimento de software.
+  - Reflexão sobre a evolução da programação e a chegada da Inteligência Artificial no desenvolvimento de código.
+
+---
+
+## 2) Apresentações: 19h45 às 20h00
+**Objetivo**: Conhecimento sobre o professor, a disciplina e os aspectos administrativos.  
+**Descrição**:
+- **Apresentação do Professor**:
+  - Contato (e-mail), horário de atendimento e os dias em que estará presente na instituição.
+- **Apresentação da Disciplina**:
+  - Plano de ensino e a ementa da disciplina.
+  - Carga horária (CH) e os dias de aula.
+- **Avaliação**:
+  - Explicação dos dias de avaliação, a metodologia de retomada e recuperação.
+- **Enquete**:
+  - Realização de uma enquete para saber se os alunos estão de acordo em seguir o formato do "diário de aula".
+  - **Orientação**: Explicar a importância de iniciar o repositório e desenvolver o diário de aula desde o início para evitar sobrecarga de tarefas.
+
+---
+
+## 3) Apresentações e Discussões das Questões: 20h00 às 20h30
+**Objetivo**: Responder e discutir as questões do material com participação ativa dos alunos.  
+**Descrição**:
+- Responder às questões de forma individual ou em grupos pequenos.
+- O professor irá orientar, corrigir e discutir as respostas com a turma. A participação ativa é fundamental para a compreensão do conteúdo.
+- Revisão dos conceitos abordados no material de leitura, esclarecendo dúvidas e explicando pontos mais complexos.
+
+---
+
+## 4) Responsabilidades do Programador na Geração de Código com Integração de Inteligência Artificial: 21h30 às 22h40
+**Objetivo**: Discutir o papel do programador e como a IA pode auxiliar no desenvolvimento de software.  
+**Descrição**:
+- **Atividade 01** (20 minutos
