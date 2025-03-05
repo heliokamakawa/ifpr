@@ -33,7 +33,10 @@ Durante o processo, as equipes deverão responder questões que incentivam o pen
    - **Como solucionar cada um desses desafios?**
 8. **Quais são as obrigações do aluno em uma aula presencial?**
 9. **Dado que há alunos com diferentes níveis de facilidade e dificuldade, qual a melhor estratégia para estruturar as aulas?**
+   - **Tarefas grandes e/ou complexas - risco de gerar tarefas extras**
+   - **Tarefas pequenas - necessário o complemento no tempo excedente**
 10. **Se houver tempo excedente, como aproveitá-lo de maneira produtiva?**
+11. **Quais estratégias definir para manter o entusiamo do primeiro dia ató o final do ano?**
 
 ---
 
