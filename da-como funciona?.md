@@ -27,7 +27,13 @@ Em equipes responder as questões abaixo:
 10) Diário de aula:
   - validação tem que ser fácil!!!
   - aceitar o que ajuda - o que atende os princípios da aula;
-  - Nâo é obrigatório...
+  - Nâo é obrigatório - avaliação tradicional no final do trimestre;
+  - 3 falhas invalida o diário;
+
+    Trabalho em equipe
+- O líder define o valor final!
+- Quanto mais "fraco" o time, mais fácil destacar!
+- Quanto mais "forte" o time, mais difícil destacar!
 
 
 ---
