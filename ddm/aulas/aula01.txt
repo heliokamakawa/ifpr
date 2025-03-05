@@ -6,8 +6,8 @@
 - Acessar o [link do GitHub](https://github.com/heliokamakawa/aula/tree/main) para realizar a leitura do material disponível.
 - Em equipes de 4 pessoas, responder aos questionários propostos no repositório. A leitura deve ser feita de forma colaborativa, discutindo as respostas com os colegas antes de registrar.
 - **Tópicos a serem discutidos**:
-  - Importância da integração de metodologias ágeis no desenvolvimento de software.
-  - Reflexão sobre a evolução da programação e a chegada da Inteligência Artificial no desenvolvimento de código.
+  - Refletir sobre como a empatia e a compreensão das responsabilidades do chefe imediato podem transformar o trabalho em equipe em um ambiente de colaboração, confiança e eficácia é essencial para seu alcançar o objetivo.
+  - Entender as regras e seguir com ética, sabendo que é possível discordar e escolher outro caminho, sem cair na armadilha do egocentrismo de querer o melhor de dois mundos é fundamental. Para alcançar benefícios, é preciso trabalhar e fazer o que deve ser feito e de forma justa.
 
 ---
 
