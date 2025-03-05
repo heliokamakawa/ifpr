@@ -10,7 +10,25 @@ A equipe terá um **líder** responsável por coordenar a interação com o prof
 
 O diário de aula é uma tentativa de enganjar a diligência da aprendizagem, seguindo os seguintes princípios:
 - tem que ser fácil avaliar/entender;
-- tem que atingir os objetivos da aula - influência positiva espontânea (proatividade, disciplina, ética/honestidade, time perfeito); 
+- tem que atingir os objetivos da aula - influência positiva espontânea (proatividade, disciplina, ética/honestidade, time perfeito);
+
+Em equipes responder as questões abaixo:
+1) Qual a diferença de desenvolver um projeto de software no instituto e em uma empresa?
+2) No desenvolvimento de um projeto de software em equipes, codificar é o mais impotante? Basta entregar o produto da descrição? Justifique.
+3) Quais são as principais responsabilidades de um chefe/líder de uma equipe?
+4) Como líder de uma equipe permanente, a longo prazo, qual integrante tem mais valor? quais características?
+5) Qual a diferença entre motivo e justificativa?
+6) Julgue, na sua visão em relação a entrega de um projeto de software nos seguintes cenários: (1) entrega com qualidade atrasado; (2) entrega adiantada; (3) entrega incompleta dentro do prazo.
+7) Qual cenário é mais desafiador: tarefas pequenas (simples e fáceis) em um prazo grande ou tarefas complexas em um prazo pequeno? Para cada cenário indique uma solução.
+
+  Reflexões finais
+8) Quais são as obrigações do aluno em uma aula presencial?
+9) Consideramos que, teremos muitos alunos com dificuldade e muitos com facilidade, é melhor preparar aula complexas com risco de tarefas para casa ou tarefas simples - aqui o que fazer com tempo excedente? 
+10) Diário de aula:
+  - validação tem que ser fácil!!!
+  - aceitar o que ajuda - o que atende os princípios da aula;
+  - Nâo é obrigatório...
+
 
 ---
 
