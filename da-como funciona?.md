@@ -2,11 +2,15 @@
 
 ## **Como Funciona?**  
 
-O Diário de Aula é um método ativo de aprendizagem no qual **a responsabilidade de validar e comprovar o conhecimento é do aluno**. O professor atua como mediador, mas é o aluno quem deve demonstrar sua evolução.  
+O Diário de Aula é um método ativo de aprendizagem no qual **o aluno tem o papel de demostrar e validar o conhecimento**. O professor atua como mediador e o aluno, conforme o seu nível de aprendizagem busca a sua evolução.  
 
-A cada aula, os alunos trabalharão em **equipes de quatro**, mas cada um terá um **projeto próprio e único**. O objetivo é que todos colaborem e se ajudem, mas **cada aluno deve comprovar individualmente seu aprendizado**.  
+Os alunos trabalharão em **equipes**, mas cada um terá um **projeto próprio e único**. O objetivo é que todos colaborem e se ajudem, mas **cada aluno deve comprovar individualmente seu aprendizado**.  
 
 A equipe terá um **líder** responsável por coordenar a interação com o professor. **Os alunos podem e devem discutir, questionar, consultar e opinar**, desenvolvendo suas habilidades interpessoais e técnicas.  
+
+O diário de aula é uma tentativa de enganjar a diligência da aprendizagem, seguindo os seguintes princípios:
+- tem que ser fácil avaliar/entender;
+- tem que atingir os objetivos da aula - influência positiva espontânea (proatividade, disciplina, ética/honestidade, time perfeito); 
 
 ---
 
@@ -17,7 +21,7 @@ A **entrega final isolada não possibilita avaliação**, pois:
 ✅ É **contraditório** à proposta do curso, que valoriza **entrega contínua**, qualidade e **intervenção oportuna**.  
 ✅ O aprendizado acontece **ao longo do processo**, com acompanhamento e ajustes constantes.  
 
-A proposta do Diário de Aula segue **princípios reais da Engenharia de Software**, onde a validação e entrega são **contínuas** e não um evento único ao final do ciclo.  
+A proposta do Diário de Aula segue **princípios da Engenharia de Software**, onde a validação e entrega são **contínuas** e não um evento único ao final do ciclo.  
 
 ---
 
