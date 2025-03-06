@@ -1,5 +1,8 @@
 # Roteiro da Primeira Aula de DDM (Desenvolvimento de Software e Metodologias Ágeis)
 
+## Formar equipes de 4 pessoas, definir nome da equipe, líder e preecher o diário de aula.
+ Acesse o diário a[aqui](https://docs.google.com/spreadsheets/d/1ZszFZx3z9FCj0NkWx_9US0kgOXNVW6I2OnyaXiBknzM/edit?usp=sharing).
+
 ## 1) Atividade de Espera: 19h20 às 19h45
 **Objetivo**: Reflexão inicial sobre o curso e os temas que serão abordados.  
 **Descrição**:
