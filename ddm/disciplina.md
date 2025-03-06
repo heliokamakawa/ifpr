@@ -38,7 +38,8 @@ A disciplina adota uma abordagem prática e exige dedicação dentro e fora da s
 
 
 ## 📚 Material e Recursos  
-- **Horário de Atendimento:** [Acompanhe aqui]([https://docs.google.com/spreadsheets/d/1ZszFZx3z9FCj0NkWx_9US0kgOXNVW6I2OnyaXiBknzM/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1JueZrEYPPX5_ef2vExfk4OQpNCGICHeAt1dx5wdypww/edit?gid=716042935#gid=716042935)) 
+
+- **Horário de Atendimento:** [Acompanhe aqui](https://docs.google.com/spreadsheets/d/1JueZrEYPPX5_ef2vExfk4OQpNCGICHeAt1dx5wdypww/edit?gid=716042935#gid=716042935)) 
 - **Plano de Ensino:** [Acesse aqui](https://suap.ifpr.edu.br/)  
 - **Conteúdo Programático:** [Acesse aqui](https://docs.google.com/spreadsheets/d/1ZszFZx3z9FCj0NkWx_9US0kgOXNVW6I2OnyaXiBknzM/edit?usp=sharing)  
 - **Diário de Aula:** [Acesse aqui](https://docs.google.com/spreadsheets/d/1ZszFZx3z9FCj0NkWx_9US0kgOXNVW6I2OnyaXiBknzM/edit?usp=sharing)   
