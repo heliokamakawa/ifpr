@@ -58,3 +58,16 @@ O aluno terá a oportunidade de desenvolver projetos de software reais, analisan
 - Automação de Tarefas de Programação com IA: Ferramentas baseadas em IA para automação de tarefas de codificação, como geração de código, revisão e depuração
 - Testes e Validação com IA: Aplicação de IA para realizar testes automatizados inteligentes
 - Sistemas Inteligentes e Machine Learning: uso de machine lea
+
+# Aulas Práticas com desenvolvimento de projetos
+A linguagem utilizada para desenvolvimento no curso será definida pelo professor, levando em consideração o foco do conteúdo.
+
+**Cronograma**: SUAP
+
+**Desafios 4 ano**: 
+- Horas complementares
+- Estágio Obrigatório ou equivalência (projeto, CLT)
+- Disciplinas (horário de aula)
+- TCC 
+- Muitos já estão atuando na área, especificamente em programação
+
