@@ -13,7 +13,5 @@
 - **Conteúdo Programático:**  
 - **Conceitos e Faltas**  
 
-📢 _Dica:_ A disciplina tem um ritmo dinâmico e orientado ao mercado. Mantenha o foco, pratique e participe ativamente!  
-
 e-mail: helio.kamakawa@ifpr.edu.br
 
