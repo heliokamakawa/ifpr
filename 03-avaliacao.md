@@ -24,4 +24,4 @@
 ## ❓ Questões para Reflexão  
 1. A avaliação tem o objetivo de medir o desempenho dos alunos. Você acha que é justo avaliar todo o aprendizado de um aluno em um único dia? Por quê? Quais poderiam ser alternativas mais eficazes?  
 2. O que significa recuperação de estudo? Como um aluno pode revisar o conteúdo de forma eficiente após uma avaliação?  
-3. Entre uma **única avaliação** e **estudo contínuo**, qual desses métodos você acredita ser (1) o mais fácil para aprovação e o (2) mais eficiente para o aprendizado? Justifique sua resposta.  
+3. Entre uma **única avaliação** e o **estudo contínuo**, qual desses métodos você acredita ser (1) o mais fácil para aprovação e o (2) mais eficiente para o aprendizado? Justifique sua resposta.  
