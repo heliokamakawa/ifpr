@@ -19,7 +19,7 @@
   - Documentação oficial de tecnologias (Python, Flutter, React, etc.).
   - Dissertações e teses de universidades renomadas.
   - Cases e relatórios de empresas reconhecidas.
-  - >>A fonte de estudo deve ser **ACESSÍVEL** e ser a **REFERÊNCIA** do projeto.<<
+  - >> A fonte de estudo deve ser **ACESSÍVEL** e ser a **REFERÊNCIA** do projeto. <<
   - **Revisão do material**: organizar os conceitos-chave para garantir uma base sólida para as próximas fases do ciclo.
   - **QUALIDADE**: Acessível-específico-claro, base do projeto, diferente/agragadora.
 
