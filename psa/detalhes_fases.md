@@ -71,3 +71,23 @@
   - Discussão sobre vantagens, desvantagens e contextos de aplicação do projeto.
   - Relação do projeto com a disciplina PSA.
 - **Finalização do material de estudo**: elaborar os materiais finais e disponibilizá-los para que possam ser utilizados em uma avaliação dissertativa de recuperação.
+
+---
+
+Objetivos
+
+O **reaproveitamento de projetos** reduz a sobrecarga e estimula um aprendizado mais profundo, permitindo que os alunos evoluam a partir do que já construíram.
+Conectar a disciplina com o TCC e outras matérias reforça a interdisciplinaridade.
+
+**Foco na Aplicação Prática**
+A implementação com testes e validações garante que os alunos vejam o impacto real das suas escolhas de design.
+A análise crítica das abordagens diferentes treina a capacidade de tomada de decisão, essencial para o mercado.
+
+**Flexibilidade e Autonomia**
+Os alunos podem escolher temas de interesse dentro dos tópicos sugeridos, tornando a experiência mais motivadora.
+O trabalho em equipe simula o ambiente real de projetos de software.
+
+**Fórum de Discussão**
+Permitir que os próprios alunos coordenem a discussão os força a entender e dominar o assunto, além de desenvolverem soft skills.
+Convidar profissionais do mercado é um grande diferencial, trazendo insights valiosos.
+
