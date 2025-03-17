@@ -26,6 +26,7 @@ A atividade será dividida nas seguintes etapas:
    - Definição do escopo do projeto.
    - Escolha do projeto e da fonte (pode ser de outra disciplina ou TCC).
    - Análise de cases e conexão com a disciplina.
+   - Produto a ser gerado: documento (escopo, materiais de estudo, coenexão com a disciplina, case, projeção da prática).
 
 2. **Implementação (2 dias)**: 
    - Adaptação de um projeto próprio, de outra disciplina ou do TCC para incluir conceitos do tema escolhido.
@@ -33,6 +34,7 @@ A atividade será dividida nas seguintes etapas:
    - Avaliação dos ganhos e perdas das modificações.
    - Comparação de diferentes abordagens e definição de contextos para a aplicação de cada solução.
    - Justificação técnica das decisões tomadas e documentação do processo.
+   - Produto a ser gerado: código fonte, exmplificações, comparação crítica.
 
 3. **Fórum de Discussão (1 dia)**: 
    - Cada equipe coordenará um Fórum Técnico para:
@@ -40,6 +42,7 @@ A atividade será dividida nas seguintes etapas:
      - Coordenar uma discussão com a turma, incentivando a troca de experiências.
      - Receber e fornecer feedbacks para aprimorar o trabalho.
      - A equipe pode convidar profissionais da área para enriquecer a discussão.
+     - Produto a ser gerado: Discussões dos principais pontos.
 
 4. **Finalização (1 dia)**: 
    - Elaboração de um vídeo de 15 a 20 minutos para a avaliação dissertativa da Recuperação.
