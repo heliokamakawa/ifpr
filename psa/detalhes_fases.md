@@ -50,7 +50,7 @@
   - **Realização de testes e validações**: avaliar os ganhos e perdas resultantes da adaptação.
   - **Comparação de abordagens**: analisar diferentes soluções e definir em quais contextos cada uma delas é mais adequada.
   - **Justificativa técnica**: documentar as decisões tomadas durante a implementação, detalhando as escolhas feitas e os motivos.
-  - **QUALIDADE**: Exemplos práticos correlato-esclarecedores-relevantes, análise crítica bem trabalhada, correlação com cases.
+  - **QUALIDADE**: Exemplos práticos correlatos-esclarecedores-relevantes, análise crítica bem trabalhada, correlação com cases.
 
 ---
 
