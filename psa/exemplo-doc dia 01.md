@@ -2,11 +2,18 @@
 ## Escopo: 
 Aplicação da Inteligência Artificial na Automação e Otimização do Desenvolvimento de Software
 
-## Introdução
+## Introdução, jusitificativa e conexão
 
 O uso de algoritmos de IA pode melhorar a produtividade dos desenvolvedores, reduzir erros e otimizar o desempenho de aplicações.
 O uso de IA não deve ser visto apenas como uma vantagem competitiva, mas como uma necessidade para profissionais que buscam se manter atualizados com as novas demandas do mercado. 
+
 A capacitação em novas ferramentas e metodologias será essencial para a obtenção de resultados superiores. Profissionais que se atualizam sobre as últimas inovações, como o uso de IA para testes automatizados, estarão melhor preparados para enfrentar os desafios e se destacar no mercado de trabalho.
+
+Busca proporcionar conhecimento e as ferramentas necessárias para o desenvolvimento eficiente e de alta qualidade de sistemas. A IA é uma tecnologia emergente que pode transformar os métodos tradicionais de programação, análise e testes de software, oferecendo a oportunidade de explorar novas técnicas que aumentam a produtividade e a qualidade dos projetos.
+
+A prática proposta de uso de IA na automação de tarefas de codificação e na geração de testes unitários proporcionará uma compreensão profunda da importância da qualidade do software, um tema central na disciplina. O entendimento de como a IA pode ser aplicada de forma prática no cotidiano do desenvolvedor permitirá o desenvolvimento de soluções mais rápidas e eficientes, alinhando-se às demandas do mercado de trabalho, que cada vez mais exige profissionais capacitados no uso de novas tecnologias para resolver problemas complexos de software.
+
+O estudo não apresenta apenas as facilidades que a IA pode trazer, mas também as responsabilidades e os cuidados necessários ao utilizá-la. Embora a IA ofereça inúmeras vantagens, como a automação de tarefas repetitivas e a melhoria da eficiência no processo de codificação, seu uso também exige muita responsabilidade. Fiquei atento às implicações que o uso de IA pode ter no código gerado, nos resultados obtidos e nas decisões que ela pode tomar em nome do programador.
 
 ## Objetivo Geral
 Investigar e aplicar técnicas de Inteligência Artificial para aprimorar diferentes etapas do desenvolvimento de software, com foco em automação, refatoração, testes e aprendizado de máquina.
