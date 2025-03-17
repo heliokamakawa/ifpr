@@ -1,11 +1,7 @@
-### Ciclo de Conhecimento
+# Ciclo de Conhecimento
 
-No ciclo de conhecimento deste trimestre, abordaremos os seguintes temas:
 
-- **Inteligência Artificial no Desenvolvimento de Software**
-- **Projetos de Software em Diferentes Paradigmas de Programação**
-
-#### Objetivos
+## Objetivos
 - **Reaproveitamento do código/projeto de outras disciplinas ou TCC**: Aproveitar projetos anteriores para integrar conceitos novos, dando continuidade ao aprendizado.
 - **Trabalho em equipe**: Estimular a colaboração entre os alunos, promovendo a troca de experiências e aprendizado mútuo.
 - **Tema flexível**: Oferecer liberdade para os alunos explorarem abordagens variadas dentro dos temas propostos.
@@ -18,7 +14,12 @@ No ciclo de conhecimento deste trimestre, abordaremos os seguintes temas:
 - **Liberdade no direcionamento**: Incentivar a autonomia na escolha do tema e das soluções técnicas adotadas.
 - **Autonomia e responsabilidade nas aulas**: Valorizar o protagonismo dos alunos no processo de aprendizagem.
 
-#### Estrutura da Atividade
+## Estrutura da Atividade
+
+### Temas
+Trabalharemos com temos em ciclos/etapas. Para este trimestre serão:
+- Inteligência Artificial no Desenvolvimento de Software
+- Projetos de Software em Diferentes Paradigmas de Programação
 
 A atividade será dividida nas seguintes etapas:
 
@@ -48,7 +49,7 @@ A atividade será dividida nas seguintes etapas:
    - Elaboração de um vídeo de 15 a 20 minutos para a avaliação dissertativa da Recuperação.
    - Preparação dos materiais de apoio para a avaliação.
 
-#### Critérios de Avaliação
+### Critérios de Avaliação
 
 Os critérios para avaliação da atividade serão:
 
@@ -59,3 +60,5 @@ Os critérios para avaliação da atividade serão:
 - **Engajamento no Grupo**: Periodicidade, constância, contribuição individual, participação ativa no Fórum e comprometimento com os prazos.
 - **Qualidade das Fontes e Referências**: Uso de materiais confiáveis e bem fundamentados.
 - **Capacidade de Comunicação**: Clareza e objetividade na apresentação do vídeo e no Fórum.
+
+- **Tempo e qualidade/profundiade/relevância**.
