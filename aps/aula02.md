@@ -5,6 +5,7 @@
 
   # Orientações Gerais:
   - Diário de aula (DA) → como? tempo? responsabilidade? recuperação?
+  - DA é um privilégio que deve ser conquistado!
   - Cuidado! DA não é para todos.
   - Pode utilizar IA? CUIDADO!
  
