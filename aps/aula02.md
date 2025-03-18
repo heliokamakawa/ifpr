@@ -10,7 +10,8 @@
   - Pode utilizar IA? CUIDADO!
  
   # Retomada:
-  - Ciclo de Desenvolvimento ► estruturação - conhecimento, execução - desenvolvimento e finalização - implementação);
+  - Ciclo de Desenvolvimento
+      - estruturação/conhecimento → execução/desenvolvimento → finalização/implementação;
       - Validação e Verificação.
   - Qualidade de Software & Engenharia de Software - Análise e Projeto de Sistemas;
   - Planejamento x execução - questionamento/conhecimento;
