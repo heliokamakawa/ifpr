@@ -1,22 +1,22 @@
 # Cronograma:
-- Retomada;
-- Orientações gerais;
-- Atividades de aula.
+  - Retomada;
+  - Orientações gerais;
+  - Atividades de aula.
 
-  # Orientações Gerais:
+# Orientações Gerais:
   - Diário de aula (DA) → como? tempo? responsabilidade? recuperação?
   - DA é um privilégio que deve ser conquistado!
   - Cuidado! DA não é para todos.
   - Pode utilizar IA? CUIDADO!
  
-  # Retomada:
+# Retomada:
   - Ciclo de Desenvolvimento
-      - estruturação/conhecimento → execução/desenvolvimento → finalização/implementação;
-      - Validação e Verificação.
+    - estruturação/conhecimento → execução/desenvolvimento → finalização/implementação;
+    - Validação e Verificação.
   - Qualidade de Software & Engenharia de Software - Análise e Projeto de Sistemas;
-  - Planejamento x execução - questionamento/conhecimento;
+  - Planejamento x execução - questionamento/conhecimento.
  
-    # Atividade em equipe
+  # Atividade em equipe
     Tema: Projeto de Software
     - Buscar fontes confiáveis e referenciar no DA;
     - Busque pelo menos 3 diferentes exemplos de ciclos de vida de desenvolvimento de software (SDLC);
@@ -28,15 +28,15 @@
     - Metogologias ágeis.
 
 
-Diário de aula de hoje
-- Quais tópicos são importantes?
-  SDLC (ciclo de vido do desenovlvimento de software) - citar fases e objetivos.
-  Modelos de SDLC: conceitos e fundamentos.
-  Modelos tradicionais e suas respectivas vantagens e problemas (cascata, incremental, espiral).
-  Metodologia ágeis: conceitos, fundamentos, valores fundamentais e manifesto ágil.
-  Metodologia e processos auxiliares. Diferença Kanban x Scrum.
+# Diário de aula de hoje
+  ## Quais tópicos são importantes?
+    - SDLC (ciclo de vido do desenovlvimento de software) - citar fases e objetivos.
+    - Modelos de SDLC: conceitos e fundamentos.
+    - Modelos tradicionais e suas respectivas vantagens e problemas (cascata, incremental, espiral).
+    - Metodologia ágeis: conceitos, fundamentos, valores fundamentais e manifesto ágil.
+    - Metodologia e processos auxiliares. Diferença Kanban x Scrum.
 
-Exemplo de como citar o material de estudo: 
+Material de estudo: 
 1. LARMAN, Craig. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3ª ed. Porto Alegre: Bookman, 2005. 695 p. ISBN 9788560031528.
   Capítulo 2: "Processo de Desenvolvimento Iterativo e Incremental", páginas 27-52. Este capítulo aborda o ciclo de vida do desenvolvimento de software e contrasta     modelos tradicionais com abordagens iterativas e incrementais.
 
