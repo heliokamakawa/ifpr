@@ -63,7 +63,8 @@ Exemplo de como citar o material de estudo:
   Capítulo 5: "Metodologias Ágeis", que explora diferentes metodologias ágeis no desenvolvimento de software.
 
 
-Para complementar seus estudos, sugiro os seguintes materiais:
+Para complementar seus estudos:
+
 Artigo: "Metodologias de Desenvolvimento de Software: Um Guia Prático". Este artigo fornece uma visão geral das principais metodologias de desenvolvimento de software, suas características, vantagens e cenários de aplicação. Disponível em: 
 KODUS
 
