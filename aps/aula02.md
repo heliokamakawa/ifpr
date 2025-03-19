@@ -16,21 +16,20 @@
   - Qualidade de Software & Engenharia de Software - Análise e Projeto de Sistemas;
   - Planejamento x execução - questionamento/conhecimento.
  
-  # Atividade em equipe
-    Tema: Projeto de Software
-    - Buscar fontes confiáveis e referenciar no DA;
-    - Busque pelo menos 3 diferentes exemplos de ciclos de vida de desenvolvimento de software (SDLC);
-    - Faça a análise dos SDLCs encontradas, verifique as fases e classifique em Estruturação, Execuação e Finalização;
-    - Cite metodologias ágeis.
+# Atividade em equipe:
+  ## Tema: Ciclo de vida do desenvolvimento de um Software, modelos e frameworks auxiliares.
+  -Buscar fontes confiáveis e referenciar no DA;
+  - Busque pelo menos 3 diferentes exemplos de ciclos de vida de desenvolvimento de software (SDLC);
+  - Faça a análise dos SDLCs encontradas, verifique as fases e classifique em Estruturação, Execuação e Finalização;
+  - Cite metodologias ágeis.
    
-    # Discussão/reflexão em sala
-    - SDLC, modelos, metodologias/processos auxiliares.
-    - Metogologias ágeis.
-
+# Discussão/reflexão em sala:
+  - SDLC, modelos, metodologias/processos auxiliares.
+  - Metogologias ágeis.
 
 # Diário de aula de hoje
   ## Quais tópicos são importantes?
-    - SDLC (ciclo de vido do desenovlvimento de software) - citar fases e objetivos.
+  - SDLC (ciclo de vido do desenovlvimento de software) - citar fases e objetivos.
     - Modelos de SDLC: conceitos e fundamentos.
     - Modelos tradicionais e suas respectivas vantagens e problemas (cascata, incremental, espiral).
     - Metodologia ágeis: conceitos, fundamentos, valores fundamentais e manifesto ágil.
