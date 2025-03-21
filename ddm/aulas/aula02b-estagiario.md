@@ -41,7 +41,7 @@ double solicitarNumeroDecimal(String rotulo){
 
 bool solicitarSimNao(String rotulo){
   var entrada = solicitarDados(rotulo).toUpperCase();
-  if(entrada != 'S' || entrada != 'N'){ 
+  if(entrada != 'S' && entrada != 'N'){ 
     print("Valor inválido. Insira 'S' para sim ou 'N' para não.");
     throw Exception();
   }
