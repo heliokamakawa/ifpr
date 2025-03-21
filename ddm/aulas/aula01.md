@@ -1,39 +1,93 @@
 # Exemplo Procedural em Dart
 
-## Introdução
+## Configuração para Execução no Terminal
 
-Neste tutorial, vamos aprender como criar um projeto Dart no VS Code e executar um código simples com entrada e saída de dados no terminal. O objetivo é demonstrar como utilizar a função `print` para saída de dados e a função `readLineSync` da biblioteca `dart:io` para entrada de dados. Também exploraremos como validar as entradas, tratar erros e realizar operações com strings, como concatenação e interpolação.
+### 1. Instalar a Extensão "Code Runner"
+   - No VS Code, instale a extensão **Code Runner**.
 
-### Cuidados com a Nomenclatura
+### 2. Configuração do Code Runner
+   - Acesse as configurações do VS Code (`Ctrl + Shift + P` → "Preferences: Open Settings (JSON)").
+   - Adicione a seguinte configuração para garantir que o terminal aceite entradas de dados:
+     ```json
+     "code-runner.runInTerminal": true
+     ```
 
-Ao criar o projeto e seus arquivos, é fundamental seguir padrões de nomenclatura consistentes. No Dart e Flutter, recomenda-se o uso de **snake_case** para nomes de arquivos (como `exemplo_precedural.dart`). Para nomes de variáveis e funções, adote o padrão **camelCase** (como `nomeCompleto`), que é amplamente utilizado na linguagem.
+## Diferença entre Executar um Arquivo e um Projeto
 
-### Padrões a Serem Seguidos
-
-1. **Organização e Clareza**: Sempre nomeie suas variáveis e funções de maneira descritiva, para que seu código seja legível. Evite nomes genéricos como `var1`, `temp`, etc.
-2. **Indentação e Formatação**: Use uma indentação consistente (geralmente 2 espaços) e sempre formate o código de maneira clara.
-3. **Documentação**: Comente seu código quando necessário para explicar trechos mais complexos, especialmente quando for necessário justificar uma escolha ou método específico.
+- **Executar um arquivo Dart:** Use `dart run arquivo.dart` para executar apenas o código de um arquivo específico.
+- **Executar um projeto Flutter:** Use `flutter run` para rodar a aplicação Flutter, iniciando toda a estrutura do app.
 
 ---
 
-## Pré-requisitos
+## Código Exemplo em Dart
 
-Antes de começar a codificar, vamos garantir que você tenha o ambiente de desenvolvimento adequado configurado.
+```dart
+import 'dart:io';
 
-### 1. Instalar o Plugin Code Runner no VS Code
+void main() {
+  // Solicitando o nome do usuário
+  print("Digite seu nome:");
+  String? nome = stdin.readLineSync();
 
-O plugin **Code Runner** facilita a execução de código no VS Code diretamente no terminal integrado. Para instalar o plugin:
+  // Tratamento de erro para nome: caso o nome seja vazio ou nulo
+  try {
+    if (nome == null || nome.trim().isEmpty) {
+      print("Erro: O nome não pode ser vazio.");
+      nome = "Desconhecido"; // Valor padrão
+    }
+  } catch (e) {
+    print("Erro ao inserir o nome: \$e");
+  }
 
-- Abra o VS Code.
-- Vá para a aba de extensões (pressione `Ctrl + Shift + X`).
-- Pesquise por **Code Runner** e clique em **Instalar**.
+  // Solicitando o sobrenome
+  print("Digite seu sobrenome:");
+  String? sobrenome = stdin.readLineSync();
 
-### 2. Configurar Code Runner para Aceitar Entrada de Dados no Terminal
+  // Lançando uma exceção caso o sobrenome seja vazio
+  if (sobrenome == null || sobrenome.trim().isEmpty) {
+    throw Exception("O sobrenome não pode ser vazio.");
+  }
 
-Agora, precisamos configurar o Code Runner para que ele execute o código no terminal, permitindo a entrada de dados.
+  // Solicitando o ano de nascimento
+  print("Digite o ano de nascimento:");
+  int? anoNascimento;
+  try {
+    anoNascimento = int.parse(stdin.readLineSync()!);
+  } catch (e) {
+    print("Ano de nascimento inválido. Insira um número válido.");
+    return;
+  }
 
-- Vá para as configurações do VS Code (`Ctrl + Shift + P` → "Preferences: Open Settings (JSON)").
-- Adicione a seguinte configuração no arquivo de configurações:
-  
-  ```json
-  "code-runner.runInTerminal": true
+  // Solicitando o peso
+  print("Digite seu peso:");
+  double? peso;
+  try {
+    peso = double.parse(stdin.readLineSync()!);
+  } catch (e) {
+    print("Peso inválido. Insira um número válido.");
+    return;
+  }
+
+  // Solicitando o nome da cidade
+  print("Digite o nome da cidade onde mora:");
+  String? cidade = stdin.readLineSync();
+  cidade = (cidade == null || cidade.trim().isEmpty) ? "Não informado" : cidade;
+
+  // Solicitando o nome do estado
+  print("Digite o nome do estado onde mora:");
+  String? estado = stdin.readLineSync();
+
+  // Solicitando a sigla do estado
+  print("Digite a sigla do estado:");
+  String? siglaEstado = stdin.readLineSync();
+
+  // Solicitando o status (ativo/inativo)
+  print("Digite seu status (ativo/inativo):");
+  String? status = stdin.readLineSync();
+
+  // Exibindo os dados do usuário
+  print("Nome completo (concatenação): " + nome + " " + sobrenome);
+  print("Nome completo (interpolação): \$nome \$sobrenome");
+  print("Dados completos:");
+  print("Nome: \$nome\nSobrenome: \$sobrenome\nAno de Nascimento: \$anoNascimento\nPeso: \$peso kg\nCidade: \$cidade\nEstado: \$estado (\$siglaEstado)\nStatus: \$status");
+}
