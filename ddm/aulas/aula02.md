@@ -254,7 +254,7 @@ Com o código atual, testar partes da lógica de negócios de forma independente
 Testar a lógica de negócios sem interagir com a interface se torna inviável, o que complica a criação de testes eficientes e aumenta o risco de bugs não detectados.
 
 ### O que o aluno do 3º ano já deveria saber:
-Neste momento, você já deve ter aprendido como escrever **testes unitários** e **mockar** dependências, o que significa que pode testar componentes de forma isolada, sem precisar de toda a infraestrutura ao redor.
+Por mais que, talvez, ainda não tenha aprendido realizar testes unitários, conceitos de POO bem aplicados definem em códigos com responsabilidade bem definidas que geralmente não requer alterações estruturais - que facilita os testes, compreensão e manutenção (é importante que o aluno do 3º ano tenha essa ciência e capacidade).
 
 ### Como melhorar:
 1. **Separar a lógica de negócios da interface** para que você possa testar componentes de forma independente.
