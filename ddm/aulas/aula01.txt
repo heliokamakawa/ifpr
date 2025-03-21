@@ -1,45 +1,133 @@
-# Roteiro da Primeira Aula de DDM (Desenvolvimento de Software e Metodologias Ágeis)
+# Desenvolvimento de Dispositivos Móveis
 
-## Formar equipes de 4 pessoas, definir nome da equipe, líder e preecher o diário de aula.
- Acesse o diário a[aqui](https://docs.google.com/spreadsheets/d/1ZszFZx3z9FCj0NkWx_9US0kgOXNVW6I2OnyaXiBknzM/edit?usp=sharing).
+## Criando um Projeto Flutter no VS Code
 
-## 1) Atividade de Espera: 19h20 às 19h45
-**Objetivo**: Reflexão inicial sobre o curso e os temas que serão abordados.  
-**Descrição**:
-- Acessar o [link do GitHub](https://github.com/heliokamakawa/aula/tree/main) para realizar a leitura do material disponível.
-- Em equipes de 4 pessoas, responder aos questionários propostos no repositório. A leitura deve ser feita de forma colaborativa, discutindo as respostas com os colegas antes de registrar.
-- **Tópicos a serem discutidos**:
-  - Refletir sobre como a empatia e a compreensão das responsabilidades do chefe imediato podem transformar o trabalho em equipe em um ambiente de colaboração, confiança e eficácia é essencial para seu alcançar o objetivo.
-  - Entender as regras e seguir com ética, sabendo que é possível discordar e escolher outro caminho, sem cair na armadilha do egocentrismo de querer o melhor de dois mundos é fundamental. Para alcançar benefícios, é preciso trabalhar e fazer o que deve ser feito e de forma justa.
+### Passo a Passo
+1. **Instale o Flutter e Dart**
+   - Certifique-se de ter o Flutter instalado no seu sistema.
+   - Instale a extensão Flutter/Dart no VS Code.
+   - Verifique a instalação com o comando:
+     ```sh
+     flutter doctor
+     ```
+     - Resolva qualquer pendência que o comando relatar.
+
+2. **Criando o projeto Flutter**
+   - No terminal, execute:
+     ```sh
+     flutter create nome_do_projeto
+     ```
+   - Utilize **snake_case** para nomear o projeto (exemplo: `meu_projeto_flutter`).
+   - Entre na pasta do projeto:
+     ```sh
+     cd nome_do_projeto
+     ```
+   - Abra no VS Code:
+     ```sh
+     code .
+     ```
+
+3. **Pré-requisitos**
+   - Instale o plugin **Code Runner**.
+   - Configure para executar no terminal:
+     - Acesse `Configurações` (`Ctrl + ,`).
+     - Busque por `code-runner.runInTerminal` e marque como `true`.
+
+4. **Diferença entre Executar Arquivo e Projeto**
+   - Arquivo: Executa apenas o código Dart no terminal.
+   - Projeto: Executa o aplicativo Flutter no emulador/dispositivo.
 
 ---
 
-## 2) Apresentações: 19h45 às 20h00
-**Objetivo**: Conhecimento sobre o professor, a disciplina e os aspectos administrativos.  
-**Descrição**:
-- **Apresentação do Professor**:
-  - Contato (e-mail), horário de atendimento e os dias em que estará presente na instituição.
-- **Apresentação da Disciplina**:
-  - Plano de ensino e a ementa da disciplina.
-  - Carga horária (CH) e os dias de aula.
-- **Avaliação**:
-  - Explicação dos dias de avaliação, a metodologia de retomada e recuperação.
-- **Enquete**:
-  - Realização de uma enquete para saber se os alunos estão de acordo em seguir o formato do "diário de aula".
-  - **Orientação**: Explicar a importância de iniciar o repositório e desenvolver o diário de aula desde o início para evitar sobrecarga de tarefas.
+## Código Exemplo (Procedural)
+
+```dart
+import 'dart:io';
+
+void main() {
+  // Solicitação de nome com tratamento de erro usando try-catch
+  String nome;
+  try {
+    stdout.write("Digite seu nome: ");
+    nome = stdin.readLineSync()!;
+    if (nome.isEmpty) throw FormatException("O nome não pode ser vazio!");
+  } catch (e) {
+    print("Erro: $e");
+    return;
+  }
+
+  // Solicitação de sobrenome com validação usando throw
+  stdout.write("Digite seu sobrenome: ");
+  String sobrenome = stdin.readLineSync()!;
+  if (sobrenome.isEmpty) {
+    throw Exception("O sobrenome não pode ser vazio!");
+  }
+
+  // Solicitação do ano de nascimento e conversão
+  stdout.write("Digite seu ano de nascimento: ");
+  int anoNascimento = int.tryParse(stdin.readLineSync()!) ?? 0;
+  if (anoNascimento == 0) {
+    print("Ano inválido!");
+    return;
+  }
+
+  // Solicitação do peso e conversão
+  stdout.write("Digite seu peso (kg): ");
+  double peso = double.tryParse(stdin.readLineSync()!) ?? 0.0;
+  if (peso <= 0) {
+    print("Peso inválido!");
+    return;
+  }
+
+  // Solicitação da cidade e estado
+  stdout.write("Digite o nome da cidade: ");
+  String cidade = stdin.readLineSync() ?? "";
+  stdout.write("Digite a sigla do estado (ex: SP): ");
+  String estado = stdin.readLineSync() ?? "";
+
+  // Solicitação do status
+  stdout.write("Digite seu status (ativo/inativo): ");
+  String status = stdin.readLineSync() ?? "";
+
+  // Saída formatada
+  print("Nome completo: " + nome + " " + sobrenome);
+  print("Nome completo (Interpolação): $nome $sobrenome");
+  print("Dados completos: \nNome: $nome $sobrenome\nAno de Nascimento: $anoNascimento\nPeso: $peso kg\nCidade: $cidade - $estado\nStatus: $status");
+}
+```
 
 ---
 
-## 3) Apresentações e Discussões das Questões: 20h00 às 20h30
-**Objetivo**: Responder e discutir as questões do material com participação ativa dos alunos.  
-**Descrição**:
-- Responder às questões de forma individual ou em grupos pequenos.
-- O professor irá orientar, corrigir e discutir as respostas com a turma. A participação ativa é fundamental para a compreensão do conteúdo.
-- Revisão dos conceitos abordados no material de leitura, esclarecendo dúvidas e explicando pontos mais complexos.
+## Tópicos de Estudo
+
+### 1. Entrada e Saída de Dados no Terminal
+- [Documentação oficial](https://dart.dev/tutorials/server/cmdline) - Explica como usar `stdin.readLineSync()` e `stdout.write()`.
+
+### 2. Bibliotecas no Dart
+- O que são e como usá-las: [Dart Libraries](https://dart.dev/guides/libraries)
+- Sintaxe de importação: `import 'dart:io';`
+
+### 3. Null Safety no Dart
+- [Guia oficial](https://dart.dev/null-safety/understanding-null-safety) - Explica por que o Dart implementou Null Safety.
+
+### 4. Concatenação e Interpolação
+- Concatenação: `"Texto " + variavel`
+- Interpolação: `"Texto $variavel"`
+- [Documentação sobre strings](https://dart.dev/guides/language/language-tour#strings)
+
+### 5. Estruturas de Decisão
+- Uso de `if`, `else` e `switch`: [Dart Control Flow](https://dart.dev/guides/language/language-tour#control-flow-statements)
+
+### 6. Conversão de Dados
+- `int.tryParse()`, `double.tryParse()`: [Dart Data Types](https://dart.dev/guides/language/language-tour#numbers)
+
+### 7. Tratamento de Erros (Try Catch, Throw e Exception)
+- `try-catch`: Captura erros em tempo de execução.
+- `throw`: Lança exceções personalizadas.
+- `Exception`: Indica um erro esperado no código.
+- [Dart Exceptions](https://dart.dev/guides/language/language-tour#exceptions)
 
 ---
 
-## 4) Responsabilidades do Programador na Geração de Código com Integração de Inteligência Artificial: 21h30 às 22h40
-**Objetivo**: Discutir o papel do programador e como a IA pode auxiliar no desenvolvimento de software.  
-**Descrição**:
-- **Atividade 01** (20 minutos
+## Orientação Final
+O aprendizado envolve prática e dedicação. Identifique suas dificuldades e reforce seus estudos nos tópicos necessários. A complexidade aumenta ao longo do curso, então mantenha a disciplina! 🚀
