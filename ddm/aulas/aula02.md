@@ -204,6 +204,97 @@ Atividade de reflexão:
 - [🔗 Guia oficial de nomenclatura](https://dart.dev/guides/language/effective-dart/style#identifier-names)  
 
 ---
+# Análise do Código e Melhorias Possíveis
+
+## 1. **Acoplamento de Interface**
+### Problema:
+O código está fortemente acoplado à interface, o que significa que, caso você precise mudar a tecnologia de interface (por exemplo, de terminal para interface gráfica ou web), será necessário alterar todo o código.
+
+**Exemplo:**  
+Se a lógica de coleta de dados e exibição de informações está diretamente ligada à interface do usuário (por exemplo, no `main()`), qualquer mudança na forma como a interface é construída pode quebrar a funcionalidade.
+
+### O que o aluno do 3º ano já deveria saber:
+Neste ponto, você já aprendeu sobre **abstração** e **desacoplamento**. Isso significa que a lógica de negócios e a interface de usuário devem ser separadas. Você pode usar conceitos como **injeção de dependências** e **padrões de projeto**, como o **MVC (Model-View-Controller)**, para isolar a lógica de negócios da interface.
+
+### Como melhorar:
+1. **Desacoplar a interface** da lógica de negócios.
+2. Utilizar **interfaces** ou **classes abstratas** para que o código de negócios não dependa diretamente de tecnologias específicas de UI.
+3. Aprofundar seus estudos em padrões de projeto como **MVC** e **MVVM** para separar ainda mais responsabilidades.
+
+### Motivação:
+Ao se aprofundar em boas práticas de desacoplamento, você estará criando um código que é mais fácil de manter e adaptar, seja para mudanças de tecnologia, seja para novos requisitos. Isso é uma habilidade valorizada por empresas, que buscam profissionais capazes de escrever código que evolui facilmente sem grandes riscos de quebrar a funcionalidade existente.
+
+---
+
+## 2. **Falta de Definição de Responsabilidades**
+### Problema:
+O código está muito concentrado, com múltiplas responsabilidades em um único local, como a coleta de dados, processamento e exibição. Isso cria um **módulo único** e grande, tornando o código difícil de entender e manter.
+
+**Exemplo:**  
+Tudo está dentro do `main()`, sem um padrão claro de responsabilidades. Isso dificulta a manutenção e a localização de partes específicas do código, além de aumentar o risco de erros quando for necessário modificar algo.
+
+### O que o aluno do 3º ano já deveria saber:
+Você já aprendeu sobre **separação de responsabilidades**, o que significa dividir seu código em **funções** e **classes** pequenas e focadas, cada uma com uma única responsabilidade.
+
+### Como melhorar:
+1. **Dividir o código** em **módulos menores**, cada um com uma responsabilidade clara.
+2. Utilizar o conceito de **classes** com responsabilidades únicas, como classes para **controle**, **lógica de negócios**, e **dados**.
+3. **Refatorar** o código para que ele siga a ideia do **Princípio da Responsabilidade Única (SRP)**.
+
+### Motivação:
+Quando você divide seu código de forma estruturada e clara, o código se torna muito mais fácil de entender e de modificar. Isso é essencial não apenas para a manutenção do código ao longo do tempo, mas também para **colocar novas funcionalidades rapidamente**, o que é uma habilidade muito demandada no mercado de trabalho.
+
+---
+
+## 3. **Dificuldade para Testes (Problemas com Testabilidade)**
+### Problema:
+Com o código atual, testar partes da lógica de negócios de forma independente se torna impossível. Se a interface de usuário e a lógica estão acopladas, você não consegue realizar **testes unitários** eficazes sem envolver toda a interface.
+
+**Exemplo:**  
+Testar a lógica de negócios sem interagir com a interface se torna inviável, o que complica a criação de testes eficientes e aumenta o risco de bugs não detectados.
+
+### O que o aluno do 3º ano já deveria saber:
+Neste momento, você já deve ter aprendido como escrever **testes unitários** e **mockar** dependências, o que significa que pode testar componentes de forma isolada, sem precisar de toda a infraestrutura ao redor.
+
+### Como melhorar:
+1. **Separar a lógica de negócios da interface** para que você possa testar componentes de forma independente.
+2. **Criar mocks** para simular partes do sistema que não estão diretamente relacionadas ao código que você deseja testar.
+3. Estudar o uso de ferramentas como o **Mockito** (para Dart) para mockar dependências durante os testes.
+
+### Motivação:
+A habilidade de escrever código testável é uma das mais valorizadas no mercado de trabalho. Testes bem feitos garantem que o código funciona corretamente e facilita a **manutenção contínua** sem a introdução de novos erros. Isso também torna você um profissional mais confiável e capacitado.
+
+---
+
+## 4. **Necessidade de Alterações Estruturais ao Invés de Implementações de Novos Módulos**
+### Problema:
+Devido à falta de modularização e separação de responsabilidades, qualquer alteração ou novo recurso exige modificações estruturais em todo o código, ao invés de simplesmente adicionar novos módulos independentes.
+
+**Exemplo:**  
+Para adicionar uma nova funcionalidade ou corrigir um erro em uma parte do código, você acaba alterando a estrutura inteira, aumentando o risco de introduzir novos bugs.
+
+### O que o aluno do 3º ano já deveria saber:
+Você já estudou sobre **modularização** e como dividir o código em componentes que podem ser modificados ou atualizados de forma independente, sem afetar o restante da aplicação.
+
+### Como melhorar:
+1. **Aplicar a modularização** criando componentes independentes e reutilizáveis.
+2. Aprender a usar **pacotes** e **bibliotecas** externas para expandir o funcionalidade do seu código sem modificar a estrutura principal.
+3. Refatorar o código para que as alterações não afetem outras partes, utilizando **interfaces** e **herança** para garantir a independência dos módulos.
+
+### Motivação:
+Ter a capacidade de trabalhar com **módulos independentes** significa que você será capaz de adicionar novos recursos ou modificar o sistema sem comprometer a estabilidade do que já está funcionando. Isso é um diferencial importante para **entrar no mercado de trabalho** com boas oportunidades, pois a maioria das empresas busca desenvolvedores que possam **escalar** e **manter** sistemas de forma eficiente.
+
+---
+
+## **Conclusão e Dicas para Evoluir**
+Você já tem a base necessária para escrever código limpo e bem estruturado, mas agora é hora de começar a aplicar essas práticas de forma consistente. A maneira mais eficiente de evoluir como programador é **praticando sempre** e aplicando os conceitos aprendidos, como **modularização**, **testabilidade** e **desacoplamento**.
+
+Ao investir em melhorar a qualidade do seu código, você se torna um profissional mais **preparado** para enfrentar os desafios do mercado de trabalho. Empresas estão em busca de desenvolvedores que saibam escrever código não apenas para funcionar, mas para **manter, evoluir e escalar** de maneira eficiente.
+
+Se você se dedicar a aprimorar essas habilidades, com certeza terá uma **grande vantagem competitiva** ao se candidatar a boas oportunidades profissionais, seja em grandes empresas de tecnologia ou startups inovadoras. O mercado está cheio de oportunidades para quem sabe **aplicar boas práticas**!
+
+**Lembre-se**: **A qualidade do seu código é o reflexo da sua qualificação como profissional**. Quanto mais você investir no seu conhecimento, mais chances terá de **se destacar** e conquistar boas colocações no mercado.
+
 
 # 📢 Mensagem Final  
 
