@@ -1,133 +1,39 @@
-# Desenvolvimento de Dispositivos Móveis
+# Exemplo Procedural em Dart
 
-## Criando um Projeto Flutter no VS Code
+## Introdução
 
-### Passo a Passo
-1. **Instale o Flutter e Dart**
-   - Certifique-se de ter o Flutter instalado no seu sistema.
-   - Instale a extensão Flutter/Dart no VS Code.
-   - Verifique a instalação com o comando:
-     ```sh
-     flutter doctor
-     ```
-     - Resolva qualquer pendência que o comando relatar.
+Neste tutorial, vamos aprender como criar um projeto Dart no VS Code e executar um código simples com entrada e saída de dados no terminal. O objetivo é demonstrar como utilizar a função `print` para saída de dados e a função `readLineSync` da biblioteca `dart:io` para entrada de dados. Também exploraremos como validar as entradas, tratar erros e realizar operações com strings, como concatenação e interpolação.
 
-2. **Criando o projeto Flutter**
-   - No terminal, execute:
-     ```sh
-     flutter create nome_do_projeto
-     ```
-   - Utilize **snake_case** para nomear o projeto (exemplo: `meu_projeto_flutter`).
-   - Entre na pasta do projeto:
-     ```sh
-     cd nome_do_projeto
-     ```
-   - Abra no VS Code:
-     ```sh
-     code .
-     ```
+### Cuidados com a Nomenclatura
 
-3. **Pré-requisitos**
-   - Instale o plugin **Code Runner**.
-   - Configure para executar no terminal:
-     - Acesse `Configurações` (`Ctrl + ,`).
-     - Busque por `code-runner.runInTerminal` e marque como `true`.
+Ao criar o projeto e seus arquivos, é fundamental seguir padrões de nomenclatura consistentes. No Dart e Flutter, recomenda-se o uso de **snake_case** para nomes de arquivos (como `exemplo_precedural.dart`). Para nomes de variáveis e funções, adote o padrão **camelCase** (como `nomeCompleto`), que é amplamente utilizado na linguagem.
 
-4. **Diferença entre Executar Arquivo e Projeto**
-   - Arquivo: Executa apenas o código Dart no terminal.
-   - Projeto: Executa o aplicativo Flutter no emulador/dispositivo.
+### Padrões a Serem Seguidos
+
+1. **Organização e Clareza**: Sempre nomeie suas variáveis e funções de maneira descritiva, para que seu código seja legível. Evite nomes genéricos como `var1`, `temp`, etc.
+2. **Indentação e Formatação**: Use uma indentação consistente (geralmente 2 espaços) e sempre formate o código de maneira clara.
+3. **Documentação**: Comente seu código quando necessário para explicar trechos mais complexos, especialmente quando for necessário justificar uma escolha ou método específico.
 
 ---
 
-## Código Exemplo (Procedural)
+## Pré-requisitos
 
-```dart
-import 'dart:io';
+Antes de começar a codificar, vamos garantir que você tenha o ambiente de desenvolvimento adequado configurado.
 
-void main() {
-  // Solicitação de nome com tratamento de erro usando try-catch
-  String nome;
-  try {
-    stdout.write("Digite seu nome: ");
-    nome = stdin.readLineSync()!;
-    if (nome.isEmpty) throw FormatException("O nome não pode ser vazio!");
-  } catch (e) {
-    print("Erro: $e");
-    return;
-  }
+### 1. Instalar o Plugin Code Runner no VS Code
 
-  // Solicitação de sobrenome com validação usando throw
-  stdout.write("Digite seu sobrenome: ");
-  String sobrenome = stdin.readLineSync()!;
-  if (sobrenome.isEmpty) {
-    throw Exception("O sobrenome não pode ser vazio!");
-  }
+O plugin **Code Runner** facilita a execução de código no VS Code diretamente no terminal integrado. Para instalar o plugin:
 
-  // Solicitação do ano de nascimento e conversão
-  stdout.write("Digite seu ano de nascimento: ");
-  int anoNascimento = int.tryParse(stdin.readLineSync()!) ?? 0;
-  if (anoNascimento == 0) {
-    print("Ano inválido!");
-    return;
-  }
+- Abra o VS Code.
+- Vá para a aba de extensões (pressione `Ctrl + Shift + X`).
+- Pesquise por **Code Runner** e clique em **Instalar**.
 
-  // Solicitação do peso e conversão
-  stdout.write("Digite seu peso (kg): ");
-  double peso = double.tryParse(stdin.readLineSync()!) ?? 0.0;
-  if (peso <= 0) {
-    print("Peso inválido!");
-    return;
-  }
+### 2. Configurar Code Runner para Aceitar Entrada de Dados no Terminal
 
-  // Solicitação da cidade e estado
-  stdout.write("Digite o nome da cidade: ");
-  String cidade = stdin.readLineSync() ?? "";
-  stdout.write("Digite a sigla do estado (ex: SP): ");
-  String estado = stdin.readLineSync() ?? "";
+Agora, precisamos configurar o Code Runner para que ele execute o código no terminal, permitindo a entrada de dados.
 
-  // Solicitação do status
-  stdout.write("Digite seu status (ativo/inativo): ");
-  String status = stdin.readLineSync() ?? "";
-
-  // Saída formatada
-  print("Nome completo: " + nome + " " + sobrenome);
-  print("Nome completo (Interpolação): $nome $sobrenome");
-  print("Dados completos: \nNome: $nome $sobrenome\nAno de Nascimento: $anoNascimento\nPeso: $peso kg\nCidade: $cidade - $estado\nStatus: $status");
-}
-```
-
----
-
-## Tópicos de Estudo
-
-### 1. Entrada e Saída de Dados no Terminal
-- [Documentação oficial](https://dart.dev/tutorials/server/cmdline) - Explica como usar `stdin.readLineSync()` e `stdout.write()`.
-
-### 2. Bibliotecas no Dart
-- O que são e como usá-las: [Dart Libraries](https://dart.dev/guides/libraries)
-- Sintaxe de importação: `import 'dart:io';`
-
-### 3. Null Safety no Dart
-- [Guia oficial](https://dart.dev/null-safety/understanding-null-safety) - Explica por que o Dart implementou Null Safety.
-
-### 4. Concatenação e Interpolação
-- Concatenação: `"Texto " + variavel`
-- Interpolação: `"Texto $variavel"`
-- [Documentação sobre strings](https://dart.dev/guides/language/language-tour#strings)
-
-### 5. Estruturas de Decisão
-- Uso de `if`, `else` e `switch`: [Dart Control Flow](https://dart.dev/guides/language/language-tour#control-flow-statements)
-
-### 6. Conversão de Dados
-- `int.tryParse()`, `double.tryParse()`: [Dart Data Types](https://dart.dev/guides/language/language-tour#numbers)
-
-### 7. Tratamento de Erros (Try Catch, Throw e Exception)
-- `try-catch`: Captura erros em tempo de execução.
-- `throw`: Lança exceções personalizadas.
-- `Exception`: Indica um erro esperado no código.
-- [Dart Exceptions](https://dart.dev/guides/language/language-tour#exceptions)
-
----
-
-## Orientação Final
-O aprendizado envolve prática e dedicação. Identifique suas dificuldades e reforce seus estudos nos tópicos necessários. A complexidade aumenta ao longo do curso, então mantenha a disciplina! 🚀
+- Vá para as configurações do VS Code (`Ctrl + Shift + P` → "Preferences: Open Settings (JSON)").
+- Adicione a seguinte configuração no arquivo de configurações:
+  
+  ```json
+  "code-runner.runInTerminal": true
