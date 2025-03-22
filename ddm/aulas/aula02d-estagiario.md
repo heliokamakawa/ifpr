@@ -161,7 +161,7 @@ Com esses ajustes, o aluno será capaz de aplicar POO de maneira mais eficiente,
 
 ### 3. **Encapsulamento e Responsabilidade Única**
    - **[Encapsulamento e Responsabilidade Única - Microsoft Docs](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/)**
-   - **[Curso POO Guanabara - YouTube](https://www.youtube.com/watch?v=Ke0oUB7UQdQ](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)**
+   - **[Curso POO Guanabara - YouTube](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)**
 
 ### 4. **Práticas de Codificação e Design de Software**
    - **[SOLID Principles - GeeksforGeeks](https://www.geeksforgeeks.org/solid-principles-in-object-oriented-design/)**
