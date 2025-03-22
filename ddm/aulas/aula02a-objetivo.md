@@ -56,6 +56,9 @@ Agora é o momento de aprofundar-se em **Programação Orientada a Objetos**.
 ✔ Distinguir aqueles que apenas decoraram a **sintaxe** dos que realmente entenderam os **conceitos fundamentais**.  
 ✔ Auxiliar na **aplicação dos princípios da POO** em diferentes contextos e linguagens de programação.  
 
+> **📢 Observação:**  
+> Quando aprendemos de fato POO, conseguimos aplicar em qualquer contexto em qualquer linguagem.  
+
 ---
 
 ## 🚀 Conclusão
