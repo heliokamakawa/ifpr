@@ -6,7 +6,7 @@
   - UnidadeMedida {nome, descrição, sigla} 
   - Produto {nome, descrição, sku, preço de custo, preço de venda, Categoria, UnidadeMedida}
     
-- Analisar a aula02 → (objetivo)[https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02a-objetivo.md], [v1](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02b-v1.md), [v2](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02c-v2.md) e [v3](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02d-v3.md);
+- Analisar a aula02 → [objetivo](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02a-objetivo.md), [v1](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02b-v1.md), [v2](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02c-v2.md) e [v3](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02d-v3.md);
   - Entender progressão e suas respectivas fases/versões;
   - Indentificar o nível de cada integrante;
 
