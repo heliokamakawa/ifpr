@@ -1,93 +1,31 @@
-# Exemplo Procedural em Dart
+# Primeira Aula - Engenharia de Software: Desenvolvimento de Aplicativos Móveis
 
-## Configuração para Execução no Terminal
+Iniciamos com uma **sessão de apresentações** para que todos se conhecessem, incluindo a apresentação do **professor**, a **disciplina**, o **plano de ensino** e os **critérios de avaliação**. Também abordamos a importância do **Diário de Aula** como ferramenta central para o acompanhamento do progresso dos alunos e do desenvolvimento contínuo dos projetos.
 
-### 1. Instalar a Extensão "Code Runner"
-   - No VS Code, instale a extensão **Code Runner**.
+## Informes gerais
 
-### 2. Configuração do Code Runner
-   - Acesse as configurações do VS Code (`Ctrl + Shift + P` → "Preferences: Open Settings (JSON)").
-   - Adicione a seguinte configuração para garantir que o terminal aceite entradas de dados:
-     ```json
-     "code-runner.runInTerminal": true
-     ```
+Durante a aula, discutimos os seguintes pontos importantes:
 
-## Diferença entre Executar um Arquivo e um Projeto
+- **Meios de comunicação oficial** (email, plataformas digitais).
+- **Horário de atendimento** e como tirar dúvidas de forma eficiente.
+- **Direitos e obrigações** tanto do professor quanto dos alunos.
+- Distinção entre **motivo e justificativa** em relação a faltas e outras situações.
+- Explicação do **calendário acadêmico**, incluindo datas importantes.
+- **Boas condutas do aluno** dentro e fora da sala de aula, para garantir um ambiente produtivo e respeitoso.
 
-- **Executar um arquivo Dart:** Use `dart run arquivo.dart` para executar apenas o código de um arquivo específico.
-- **Executar um projeto Flutter:** Use `flutter run` para rodar a aplicação Flutter, iniciando toda a estrutura do app.
+## Introdução à disciplina
 
----
+A seguir, fizemos a **introdução à disciplina**, com os seguintes tópicos principais:
 
-## Código Exemplo em Dart
+- **Introdução aos aplicativos móveis**: Discutimos o papel crescente dos aplicativos no mundo atual e como eles impactam a sociedade e os negócios.
+- **Diferença entre aplicativos nativos e híbridos**: Apresentamos as características, vantagens e limitações de ambos os tipos de aplicativos.
+- **Vantagens e desvantagens de cada abordagem**: Analisamos os prós e contras de se optar por nativos ou híbridos, considerando fatores como performance, custo e manutenção.
+- **Tecnologias e ferramentas para o desenvolvimento de aplicativos móveis**: Apresentamos algumas das principais tecnologias utilizadas no mercado, como Flutter, React Native, e Kotlin, e discutimos quando utilizar cada uma delas.
 
-```dart
-import 'dart:io';
+## Aprendizagem colaborativa
 
-void main() {
-  // Solicitando o nome do usuário
-  print("Digite seu nome:");
-  String? nome = stdin.readLineSync();
+Utilizamos a **aprendizagem colaborativa** por meio do **questionário socrático**, incentivando os alunos a refletirem criticamente sobre os temas discutidos e a compreenderem a metodologia ativa que será adotada durante o curso.
 
-  // Tratamento de erro para nome: caso o nome seja vazio ou nulo
-  try {
-    if (nome == null || nome.trim().isEmpty) {
-      print("Erro: O nome não pode ser vazio.");
-      nome = "Desconhecido"; // Valor padrão
-    }
-  } catch (e) {
-    print("Erro ao inserir o nome: \$e");
-  }
+## Limites e diretrizes
 
-  // Solicitando o sobrenome
-  print("Digite seu sobrenome:");
-  String? sobrenome = stdin.readLineSync();
-
-  // Lançando uma exceção caso o sobrenome seja vazio
-  if (sobrenome == null || sobrenome.trim().isEmpty) {
-    throw Exception("O sobrenome não pode ser vazio.");
-  }
-
-  // Solicitando o ano de nascimento
-  print("Digite o ano de nascimento:");
-  int? anoNascimento;
-  try {
-    anoNascimento = int.parse(stdin.readLineSync()!);
-  } catch (e) {
-    print("Ano de nascimento inválido. Insira um número válido.");
-    return;
-  }
-
-  // Solicitando o peso
-  print("Digite seu peso:");
-  double? peso;
-  try {
-    peso = double.parse(stdin.readLineSync()!);
-  } catch (e) {
-    print("Peso inválido. Insira um número válido.");
-    return;
-  }
-
-  // Solicitando o nome da cidade
-  print("Digite o nome da cidade onde mora:");
-  String? cidade = stdin.readLineSync();
-  cidade = (cidade == null || cidade.trim().isEmpty) ? "Não informado" : cidade;
-
-  // Solicitando o nome do estado
-  print("Digite o nome do estado onde mora:");
-  String? estado = stdin.readLineSync();
-
-  // Solicitando a sigla do estado
-  print("Digite a sigla do estado:");
-  String? siglaEstado = stdin.readLineSync();
-
-  // Solicitando o status (ativo/inativo)
-  print("Digite seu status (ativo/inativo):");
-  String? status = stdin.readLineSync();
-
-  // Exibindo os dados do usuário
-  print("Nome completo (concatenação): " + nome + " " + sobrenome);
-  print("Nome completo (interpolação): \$nome \$sobrenome");
-  print("Dados completos:");
-  print("Nome: \$nome\nSobrenome: \$sobrenome\nAno de Nascimento: \$anoNascimento\nPeso: \$peso kg\nCidade: \$cidade\nEstado: \$estado (\$siglaEstado)\nStatus: \$status");
-}
+Por fim, esclarecemos os **limites do professor e do aluno**, abordando a importância de regras e diretrizes claras para o bom andamento da disciplina, sempre com o objetivo de criar um ambiente de aprendizado colaborativo, respeitoso e produtivo.
