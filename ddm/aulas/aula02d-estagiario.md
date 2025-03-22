@@ -132,9 +132,6 @@ class Pessoa{
 - **Estrutura Básica da Classe:**  
   As classes **Estado**, **Cidade** e **Pessoa** representam adequadamente as entidades do sistema, o que é uma tentativa de organização que, com ajustes, pode ser muito útil. 
 
-- **Solicitação de Dados:**  
-  O código implementa funções reutilizáveis e bem moduladas para pedir dados do usuário, garantindo que entradas inválidas sejam tratadas. Isso é uma boa prática para manter o código claro e evitar repetições.
-
 ## O Que é Necessário para Completar a Plenitude na Aprendizagem:
 
 1. **Aplicação Correta da POO:**  
