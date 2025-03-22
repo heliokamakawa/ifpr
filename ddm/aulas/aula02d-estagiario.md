@@ -74,11 +74,11 @@ void main() {
     Nome: ${pessoa.nome}
     Sobrenome: ${pessoa.sobrenome}
     Ano de Nascimento: ${pessoa.anoNascimento}
-    \nPeso: ${pessoa.peso} kg
-    \nCidade: ${pessoa.cidade!.nome}
-    \nEstado: ${pessoa.cidade!.estado!.nome} (${pessoa.cidade!.estado!.sigla})
-    \nStatus: ${pessoa.ativo}
-    \nIdade: $idade
+    Peso: ${pessoa.peso} kg
+    Cidade: ${pessoa.cidade!.nome}
+    Estado: ${pessoa.cidade!.estado!.nome} (${pessoa.cidade!.estado!.sigla})
+    Status: ${pessoa.ativo}
+    Idade: $idade
   ''');
 }
 
