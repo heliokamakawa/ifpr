@@ -144,8 +144,9 @@ O aluno precisa aplicar os coneitos de POO e análise corretamente, evitando pr�
 A interação com o usuário (entrada e saída de dados) deve ser tratada por classes específicas para interface, enquanto a lógica de validação e cálculos fica com as classes de domínio (como **Pessoa**). Isso melhora a clareza do código e facilita modificações futuras.
 
 #### Aprofundamento no Conceito de POO e suas Aplicações em Diferentes Contextos:
+
 Para alcançar a plenitude na aprendizagem, o aluno precisa entender que POO deve ser adaptada ao contexto da linguagem. Em Dart, o modelo de POO não precisa ser o mesmo aplicado em Java. O aluno deve aprender a aplicar POO de maneira eficaz em Dart, focando na clareza e manutenção do código.
----
+
 Com esses ajustes, o aluno será capaz de aplicar POO de maneira mais eficiente, utilizando as melhores práticas de programação, garantindo a qualidade e a facilidade de manutenção do código a longo prazo.
 
 ## Materiais de Referência
