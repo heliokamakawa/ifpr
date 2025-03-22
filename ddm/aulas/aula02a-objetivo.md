@@ -71,5 +71,5 @@ A progressão dessas etapas permitirá que cada aluno:
 
 ---
 
-📌 **Autor:** _Seu Nome_  
-📅 **Última atualização:** _Data_  
+📌 **Autor:** Hélio Kamakawa
+📅 **Última atualização:** 21/08/2025
