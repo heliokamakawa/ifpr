@@ -12,3 +12,4 @@
   segundo ano → empreendedorismo em tecnologia da informação, cálculo, análise e projeto de sistemas, arquitetura de computadores, programação orientada a objetos - 160h/a, banco de dados II - 80h/a, algoritmos e estrutura de dados II - 80h.
 Este material será postado no github – repositório da disciplina. 
 **Característica:** todas as dicisplinas técnicas realizadas em laboratórios de informáticas equipadas com computadores, softwares, climatização adequadas.
+**Característica alunos:** alunos sem dependência com facilidade, alunos com dificuldade com ou sem dependência, alunos que atuam na área motivados a estudar, alunos que atuam na área cansados de programar, alunos que atuam fora de área que chegam sem muita motivação, alunos que querem aprender porém com muitas dificuldades ou atraso nas aprendizagens.
