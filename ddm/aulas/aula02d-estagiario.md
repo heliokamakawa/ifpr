@@ -118,11 +118,19 @@ class Pessoa{
 
   A classe **Pessoa** está essencialmente "burra", ou seja, ela contém apenas atributos e não encapsula comportamentos relacionados a esses atributos. Por exemplo, a validação dos dados e o cálculo da idade, que são responsabilidades da **Pessoa**, estão localizados em funções externas, como `solicitarNumero`, `solicitarNumeroDecimal`, etc. Isso dificulta a localização e manutenção do código, além de não fazer sentido. A **Pessoa** deveria ser responsável por essas ações. Em uma aplicação POO bem feita, ela deveria ser responsável não apenas pelos dados, mas também pelos comportamentos (como a validação dos atributos e o cálculo da idade). Isso organizaria o código, tornando-o mais intuitivo e fácil de manter.
 
-- **Sintaxe Próxima a Java:**  
-  A implementação utiliza uma sintaxe que se assemelha mais à linguagem **Java**, onde os atributos são definidos como `null` por padrão. No Dart, a aplicação de valores nulos nas variáveis por padrão pode indicar que o conceito de POO não foi completamente entendido dentro do contexto da linguagem Dart. Essa abordagem reflete uma compreensão de POO que não se adapta bem ao Dart, evidenciando uma tentativa de aplicar a POO de forma mecanicamente replicada de outra linguagem.
+- ## Sintaxe Próxima a Java:
+
+A implementação utiliza uma sintaxe que se assemelha mais à linguagem Java, onde os atributos são definidos como `null` por padrão. No entanto, a utilização de valores nulos nas variáveis por padrão não é uma boa prática, especialmente quando o comportamento esperado é o oposto, como no caso do atributo **nome** na classe **Pessoa**. O nome de uma pessoa não pode ser `null`, e na versão atual do código, ele está sendo definido como `null`, provavelmente por causa de uma aprendizagem baseada em outra linguagem.
+
+Poderia ter aproveitado a vantagem do Dart, o conceito de **null safety** deve ser aproveitado para evitar que atributos como o **nome** sejam nulos, garantindo a integridade e a segurança dos dados. O aluno deve aprender a aplicar o conceito de POO corretamente, compreendendo que, em Dart, esse comportamento é gerido pelo **null safety**, e os atributos devem ser tratados de acordo com as necessidades do contexto e não de forma mecânica como em outras linguagens.
+
+>>Exemplo: se nome não pode ser nulo, realizar uma rápida pesquisa de como fazer isso na nova linguagem.
+
+É importante que o aluno entenda os conceitos de POO de forma abrangente, aplicando-os corretamente no contexto de Dart e evitando replicar soluções que funcionam em outras linguagens, mas que não se adaptam ao contexto atual.
+
 
 - **Falta de Encapsulamento Adequado:**  
-  O código atual não aplica o encapsulamento corretamente, pois os dados e comportamentos relacionados a cada classe não estão centralizados. As classes não são responsáveis pelas suas próprias validações, cálculos e lógicas de negócio. Em vez disso, essas responsabilidades são distribuídas de maneira inadequada entre funções externas, o que prejudica a clareza e a coesão do código.
+O código atual não aplica o encapsulamento corretamente, pois os dados e comportamentos relacionados a cada classe não estão centralizados. As classes não são responsáveis pelas suas próprias validações, cálculos e lógicas de negócio. Em vez disso, essas responsabilidades são distribuídas de maneira inadequada entre funções externas, o que prejudica a clareza e a coesão do código.
 
 - **Falta de Classes para Responsabilidade da Interface:**  
   Outro ponto importante é que não há classes responsáveis pela interface, ou seja, pela entrada e saída de dados. As funções de solicitação de dados, como `solicitarDados`, `solicitarNumero`, entre outras, estão fazendo a interação com o usuário diretamente no código principal, o que vai contra o princípio de separar a lógica de negócios da interação com o usuário. Para melhorar, seria ideal ter classes separadas para cuidar da interface, permitindo uma maior organização e facilitando a manutenção e evolução do sistema. Isso torna o código mais modular, pois a interface pode ser alterada sem afetar a lógica de negócios e vice-versa.
