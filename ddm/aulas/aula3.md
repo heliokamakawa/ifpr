@@ -1,7 +1,7 @@
 
 # Atividade em grupo
 
-## Estudo de caso
+- Estudo de caso
   - Categoria {nome, descrição} 
   - UnidadeMedida {nome, descrição, sigla} 
   - Produto {nome, descrição, sku, preço de custo, preço de venda, Categoria, UnidadeMedida}
