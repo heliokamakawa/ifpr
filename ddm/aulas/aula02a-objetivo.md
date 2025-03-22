@@ -60,6 +60,22 @@ Agora é o momento de aprofundar-se em **Programação Orientada a Objetos**.
 > Quando aprendemos de fato POO, conseguimos aplicar em qualquer contexto em qualquer linguagem.  
 
 ---
+## 🔹 4ª Versão: Implementação Estruturada e de Qualidade  
+
+Nesta fase, o código atingirá um nível mais próximo do esperado no mercado, garantindo clareza, organização e flexibilidade para futuras evoluções.  
+
+### 🔑 Melhorias aplicadas:
+
+- **Definição clara de responsabilidades** dentro do código, garantindo melhor organização.
+- **Baixo acoplamento**, permitindo que novas implementações sejam adicionadas sem alterar a estrutura base.
+- **Uso de classes com responsabilidades bem definidas para telas e interfaces**, organizando a interação entre diferentes partes do sistema.
+
+### 📌 Objetivos desta fase:
+
+✔ Criar um código **escalável**, que permita adições sem necessidade de grandes alterações estruturais.  
+✔ Estabelecer um modelo organizado e de fácil manutenção.  
+✔ Assegurar que os alunos tenham contato com boas práticas essenciais para projetos reais.  
+---
 
 ## 🚀 Conclusão
 
