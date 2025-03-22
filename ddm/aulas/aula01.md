@@ -1,6 +1,6 @@
 # Primeira Aula - Engenharia de Software: Desenvolvimento de Aplicativos Móveis
 
-**Sessão de apresentações** para que todos se conhecessem, incluindo a apresentação do **professor**, a **disciplina**, o **plano de ensino** e os **critérios de avaliação**. Também abordamos a importância do **Diário de Aula** como ferramenta central para o acompanhamento do progresso dos alunos e do desenvolvimento contínuo dos projetos.
+**Apresentações** do **professor**, a **disciplina**, o **plano de ensino** e os **critérios de avaliação**. Também abordamos a importância do **Diário de Aula** como ferramenta central para o acompanhamento do progresso dos alunos e do desenvolvimento contínuo dos projetos.
 
 ## Informes gerais
 
