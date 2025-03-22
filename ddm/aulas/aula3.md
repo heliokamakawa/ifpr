@@ -1,10 +1,14 @@
 # **Atividade em Grupo**  
 
 ## **1. Estudo de Caso**  
+Estamos começando com exemplos básicos para garantir que todos compreendam os fundamentos. Em breve, vamos escalar a complexidade para padrões de projetos.
+
+Para iniciar, imaginem que vocês vão criar um aplicativo para um pequeno mercado. Como estruturariam as informações básicas dos produtos? Esse desafio inicial ajudará a entender como organizar e relacionar os dados de forma eficiente.
+
 Os grupos devem desenvolver um estudo de caso baseado nas seguintes entidades:  
 
-- **Categoria** → `{nome, descrição}`  
-- **Unidade de Medida** → `{nome, descrição, sigla}`  
+- **Categoria** → Defina um conjunto de categorias para classificar os produtos do mercado. Exemplo: Alimentos, Bebidas, Higiene, Limpeza.
+- **Unidade de Medida** →  Determine como os produtos serão medidos e vendidos. Exemplo: Quilograma (kg), Litro (L), Unidade (un).
 - **Produto** → `{nome, descrição, SKU, preço de custo, preço de venda, Categoria, Unidade de Medida}`  
 
 ## **2. Análise da Aula 02**  
