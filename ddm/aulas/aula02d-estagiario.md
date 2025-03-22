@@ -108,11 +108,8 @@ class Pessoa{
 
 ## O Que Está Bom:
 
-- **Estrutura Inicial de POO:**  
-  As classes **Estado**, **Cidade** e **Pessoa** foram utilizadas para modelar o sistema, o que é uma tentativa de aplicar a Programação Orientada a Objetos. Apesar de as classes ainda não estarem bem definidas e bem estruturadas, a ideia de representar entidades do sistema com classes é um bom ponto de partida.
-
-- **Modularização e Centralização de Funções:**  
-  As funções de solicitação de dados, como `solicitarDados`, `solicitarNumero`, `solicitarNumeroDecimal` e `solicitarSimNao`, estão centralizadas e reutilizáveis. Isso evita a repetição de código e melhora a clareza da entrada de dados, algo que está no caminho certo.
+- **Estrutura Básica da Classe:**  
+  As classes **Estado**, **Cidade** e **Pessoa** representam adequadamente as entidades do sistema, o que é uma tentativa de organização que, com ajustes, pode ser muito útil. 
 
 ## O Que Está Falhando:
 
@@ -127,10 +124,8 @@ class Pessoa{
 - **Falta de Encapsulamento Adequado:**  
   O código atual não aplica o encapsulamento corretamente, pois os dados e comportamentos relacionados a cada classe não estão centralizados. As classes não são responsáveis pelas suas próprias validações, cálculos e lógicas de negócio. Em vez disso, essas responsabilidades são distribuídas de maneira inadequada entre funções externas, o que prejudica a clareza e a coesão do código.
 
-## O Que Está Bom:
-
-- **Estrutura Básica da Classe:**  
-  As classes **Estado**, **Cidade** e **Pessoa** representam adequadamente as entidades do sistema, o que é uma tentativa de organização que, com ajustes, pode ser muito útil. 
+- **Falta de Classes para Responsabilidade da Interface:**  
+  Outro ponto importante é que não há classes responsáveis pela interface, ou seja, pela entrada e saída de dados. As funções de solicitação de dados, como `solicitarDados`, `solicitarNumero`, entre outras, estão fazendo a interação com o usuário diretamente no código principal, o que vai contra o princípio de separar a lógica de negócios da interação com o usuário. Para melhorar, seria ideal ter classes separadas para cuidar da interface, permitindo uma maior organização e facilitando a manutenção e evolução do sistema. Isso torna o código mais modular, pois a interface pode ser alterada sem afetar a lógica de negócios e vice-versa.
 
 ## O Que é Necessário para Completar a Plenitude na Aprendizagem:
 
@@ -143,10 +138,14 @@ class Pessoa{
 3. **Uso Correto de Atributos e Comportamentos em Dart:**  
    O aluno deve aprender a utilizar os recursos da linguagem Dart de forma mais apropriada, evitando aplicar conceitos de POO que são comuns em Java, mas não tão adequados para Dart. Isso inclui o uso de valores nulos e a definição de atributos de forma mais alinhada à linguagem.
 
-4. **Aprofundamento no Conceito de POO e suas Aplicações em Diferentes Contextos:**  
+4. **Separação de Responsabilidades e Interface:**  
+   O código deve ser modificado para que a interação com o usuário (entrada e saída de dados) seja tratada por classes específicas de interface. Essas classes seriam responsáveis apenas por gerenciar a entrada de dados, enquanto a lógica de validação e cálculos ficaria com as classes de domínio (como **Pessoa**). Essa separação de responsabilidades melhora a clareza do código e facilita futuras modificações.
+
+5. **Aprofundamento no Conceito de POO e suas Aplicações em Diferentes Contextos:**  
    Para alcançar a plenitude na aprendizagem, o aluno precisa entender que POO não é uma técnica rígida, mas sim um conceito que deve ser adaptado conforme a linguagem. Em Dart, por exemplo, não é necessário seguir o mesmo modelo de POO que em Java. Isso envolve compreender as particularidades da linguagem Dart e saber como aplicar POO de maneira eficaz, com foco na manutenção e clareza do código.
 
 ---
 
 Ao revisar o código e realizar os ajustes necessários, os alunos poderão avançar na compreensão e aplicação da POO de maneira mais eficiente, utilizando as melhores práticas de programação para garantir a qualidade do código e a facilitação da manutenção no futuro.
+
 
