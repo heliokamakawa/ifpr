@@ -36,9 +36,9 @@ O estudo de caso será desenvolvido em **quatro fases**. Durante o processo:
 
 ### 📌 **Sugestões de checklist para hoje:**  
 #### 🔹 **Planejamento**:  
-- (a) Revisar as tarefas a serem feitas.  
-- (b) Definir ações para a recuperação.  
+- (a) check das tarefas a serem feitas.  
+- (b) check do que deve ser feito para a recuperação.  
 #### 🔹 **Execução**:  
-- (c) Avaliar o nível individual de cada integrante.  
+- (c) check do nível individual de cada integrante.  
 #### 🔹 **Finalização**:  
 - (d) Elaborar um plano de estudo para quem precisar.  
