@@ -1,25 +1,40 @@
+# **Atividade em Grupo**  
 
-# Atividade em grupo
+## **1. Estudo de Caso**  
+Os grupos devem desenvolver um estudo de caso baseado nas seguintes entidades:  
 
-- Estudo de caso
-  - Categoria {nome, descrição} 
-  - UnidadeMedida {nome, descrição, sigla} 
-  - Produto {nome, descrição, sku, preço de custo, preço de venda, Categoria, UnidadeMedida}
-    
-- Analisar a aula02 → [objetivo](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02a-objetivo.md), [v1](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02b-v1.md), [v2](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02c-v2.md) e [v3](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02d-v3.md);
-  - Entender progressão e suas respectivas fases/versões;
-  - Indentificar o nível de cada integrante;
+- **Categoria** → `{nome, descrição}`  
+- **Unidade de Medida** → `{nome, descrição, sigla}`  
+- **Produto** → `{nome, descrição, SKU, preço de custo, preço de venda, Categoria, Unidade de Medida}`  
 
-- Desenvolver o estudo de caso nas 4 fases 
-  - Dar suporte em quem está com dificuldade;
-  - Identificar os níveis de cada integrante;
-  - Definir um plano de estudo/recuperação aos que estão com dificuldades.
- 
-## Diário de Aula
-  - Analisar o DA da aula passada: (a) entender a recuperação ofertada para realizar fora da aula; e (b) caso precise, refazer a equipe.
-  - Sugestões de check para hoje:
-    - Planejamento: (a) check do que deve ser feito; (b) check do que deve ser feito na recuperação;
-    - Execução: (c) check do nível individual.
-    - Finalização: (d) check do plano de estudo.
+## **2. Análise da Aula 02**  
+Os integrantes devem revisar os materiais da Aula 02 para compreender sua progressão e versões:  
 
+🔗 [Objetivo](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02a-objetivo.md) |  
+🔗 [Versão 1](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02b-v1.md) |  
+🔗 [Versão 2](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02c-v2.md) |  
+🔗 [Versão 3](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02d-v3.md)  
 
+### **Tarefas**  
+- ✔️ Compreender a progressão das versões e suas respectivas fases.  
+- ✔️ Identificar o nível de cada integrante do grupo.  
+
+## **3. Desenvolvimento do Estudo de Caso**  
+O estudo de caso será desenvolvido em **quatro fases**. Durante o processo:  
+- ✅ Dar suporte aos colegas com dificuldades.  
+- ✅ Identificar os diferentes níveis de conhecimento no grupo.  
+- ✅ Definir um plano de estudo e recuperação para aqueles que precisarem.  
+
+## **4. Diário de Aula (DA)**  
+### 📌 **Revisão do DA da aula anterior:**  
+- (a) Analisar a recuperação ofertada para ser realizada fora da aula.  
+- (b) Se necessário, reorganizar/refazer a equipe.  
+
+### 📌 **Sugestões de checklist para hoje:**  
+#### 🔹 **Planejamento**:  
+- (a) Revisar as tarefas a serem feitas.  
+- (b) Definir ações para a recuperação.  
+#### 🔹 **Execução**:  
+- (c) Avaliar o nível individual de cada integrante.  
+#### 🔹 **Finalização**:  
+- (d) Elaborar um plano de estudo para quem precisar.  
