@@ -79,10 +79,4 @@
 - Implementação de um sistema de feedback em tempo real durante o jogo.
 - Processamento de dados e garantia de que o feedback seja rápido e preciso.
 
----
 
-## Como Usar
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/usuario/projeto-basquete.git
