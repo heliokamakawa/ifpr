@@ -54,7 +54,7 @@ Para testar a eficácia do aplicativo na melhoria da eficiência ofensiva e nas 
    
 2. **Fase 2**: Testes com jogadores iniciantes, utilizando o aplicativo para coletar dados em um ambiente de quadra real. A análise se concentrará na usabilidade, eficiência e feeckback dos relatórios gerados para avaliar a aceitação do aplicativo.
    
-3. **Fase 3**: Teste com jogadores da seleção local e veteranos, que terão a tarefa de analisar os relatórios gerados pelo aplicativo e implementar mudanças em suas estratégias ofensivas. Será avaliada a capacidade do aplicativo de melhorar o desempenho ofensivo dos jogadores durante as partidas.
+3. **Fase 3**: Teste com jogadores da seleção local e veteranos, que terão a tarefa de analisar os relatórios gerados pelo aplicativo. Será avaliada final de aceitação do aplicativo.
 
 4. **Projetos Semelhantes**: O uso de ferramentas como **ShotTracker** e **Hudl** em equipes profissionais pode fornecer dados valiosos sobre a eficácia dos insights para a tomada de decisões. A ferramenta **Krossover**, que oferece análise estatística em esportes coletivos, também serve como exemplo de como o feedback estatístico pode influenciar o desempenho dos jogadores.
 
