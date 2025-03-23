@@ -1,6 +1,6 @@
 # 1. Descrição geral do projeto a ser desenvolvido
 
-O SpinFlow é um aplicativo para a gestão de atividades de spinning, desenvolvido com o objetivo de melhorar a experiência dos alunos de Spinning. O aplicativo oferece funcionalidades que incluem o controle de presença, gerenciamento de manutenção, além de um sistema de gamificação e premiação, desafios de superação, missões, recomendações personalizadas e um sistema de pontos baseado em selos que pode ser trocado por prêmios. O projeto será desenvolvido para dispositivos móveis, utilizando a tecnologia Flutter para garantir uma experiência fluída e interativa para os usuários.
+O SpinFlow é um aplicativo para a gestão de atividades de spinning, desenvolvido com o objetivo de melhorar a experiência da gestão. O aplicativo oferece funcionalidades que incluem o controle de presença, gerenciamento de manutenção, além de um sistema de gamificação e premiação, desafios de superação, missões, recomendações personalizadas e um sistema de pontos baseado em selos que pode ser trocado por prêmios. O projeto será desenvolvido para dispositivos móveis, utilizando a tecnologia Flutter para garantir uma experiência fluída e interativa para os usuários.
 
 # 2. Objetivos do trabalho
 
