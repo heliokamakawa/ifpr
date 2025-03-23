@@ -29,16 +29,41 @@ Este trabalho envolve conhecimento técnico na coleta de dados esportivos, progr
 
 ## 4. Enunciado do Problema e da(s) Hipótese(s)
 
-### Problema:
-A análise de arremessos no basquete, especialmente em níveis amadores e semi-profissionais, ainda é feita de forma manual ou com ferramentas de difícil acesso. Existe uma lacuna no mercado para uma ferramenta acessível e eficiente que permita o acompanhamento em tempo real da eficiência de arremessos e suas variações durante as partidas.
+## Problema
+A análise de arremessos no basquete, especialmente em níveis amadores e semi-profissionais, não é feita pela dificuldade em coletar muitos dados distintos em tempo real de um jogo muito rápido e com diversas jogadas. Existe uma lacuna neste contexto para uma ferramenta acessível e eficiente que permita o acompanhamento em tempo real da eficiência de arremessos e suas variações durante as partidas.
 
-### Hipótese:
-O desenvolvimento de um aplicativo de scout eletrônico, como o DataHoops, que utilize **event-based tracking** e **positional data**, será capaz de proporcionar insights valiosos sobre a eficiência ofensiva dos jogadores, melhorando a tomada de decisões durante os treinos e jogos.
+## Hipótese 01
+O desenvolvimento de um aplicativo de scout eletrônico será capaz de proporcionar uma interface simples e intuitiva que permita a coleta de dados complexos, mesmo com muitas jogadas rápidas em tempo real.
 
-### Como Testar:
-1. **Fase 1**: Teste inicial de usabilidade realizado pelo próprio programador (análise de vídeo e feedback de usabilidade).
-2. **Fase 2**: Testes com jogadores aleatórios em um ambiente real de quadra, com análise da estrutura e possíveis melhorias.
-3. **Fase 3**: Teste final com jogadores da seleção local e veteranos, validando a eficiência dos relatórios gerados pelo aplicativo.
+### Como Testar
+Para testar a eficácia da interface do aplicativo e sua capacidade de lidar com a complexidade da coleta de dados durante as partidas, serão seguidos os seguintes passos:
+
+1. **Testes de Usabilidade**: Realizar testes com jogadores amadores e técnicos de basquete durante um jogo real para validar a eficácia da interface. O foco será verificar a intuitividade da coleta de dados (por exemplo, a rapidez e precisão na marcação de arremessos e a análise em tempo real).
+   
+2. **Projetos Semelhantes**: A análise de ferramentas como **Hudl** (para esportes coletivos) e **ShotTracker** (focada em basquete) pode oferecer insights sobre as melhores práticas e os desafios enfrentados ao tentar desenvolver um sistema de coleta de dados eficaz. Além disso, sistemas de análise como o **Synergy Sports** e **NBA Stats** utilizam metodologias avançadas de coleta de dados em tempo real e podem servir como base para comparar a eficiência de implementação em um sistema mais simples e acessível.
+
+3. **Artigos Correlatos**:
+   - **"Real-Time Event Detection in Sports"** (Journal of Sports Engineering and Technology) – Discute tecnologias de rastreamento e coleta de dados em tempo real.
+   - **"User-centered design of mobile applications for data collection in sports"** (International Journal of Human-Computer Interaction) – Artigo sobre o design de interfaces para coleta de dados durante eventos esportivos.
+
+## Hipótese 02
+O aplicativo será capaz de proporcionar insights valiosos sobre a eficiência ofensiva dos jogadores, melhorando a tomada de decisões durante os treinos e jogos.
+
+### Como Testar
+Para testar a eficácia do aplicativo na melhoria da eficiência ofensiva e nas tomadas de decisão, serão seguidos os seguintes passos:
+
+1. **Fase 1**: Teste inicial de usabilidade com o próprio programador, usando gravações de jogos e feedback dos usuários para identificar pontos de melhoria na visualização e análise dos dados.
+   
+2. **Fase 2**: Testes com jogadores amadores e técnicos, utilizando o aplicativo para coletar dados em um ambiente de quadra real. A análise se concentrará na aplicabilidade dos relatórios gerados para melhorar as estratégias ofensivas e identificar padrões de acerto e erro nos arremessos.
+   
+3. **Fase 3**: Teste com jogadores da seleção local e veteranos, que terão a tarefa de analisar os relatórios gerados pelo aplicativo e implementar mudanças em suas estratégias ofensivas. Será avaliada a capacidade do aplicativo de melhorar o desempenho ofensivo dos jogadores durante as partidas.
+
+4. **Projetos Semelhantes**: O uso de ferramentas como **ShotTracker** e **Hudl** em equipes profissionais pode fornecer dados valiosos sobre a eficácia dos insights para a tomada de decisões. A ferramenta **Krossover**, que oferece análise estatística em esportes coletivos, também serve como exemplo de como o feedback estatístico pode influenciar o desempenho dos jogadores.
+
+5. **Artigos Correlatos**:
+   - **"The Impact of Performance Analytics on Decision-Making in Sports"** (Journal of Sports Analytics) – Examina como a análise de dados pode influenciar decisões estratégicas no basquete.
+   - **"Using data-driven approaches to enhance basketball performance"** (Journal of Quantitative Analysis in Sports) – Estudo sobre como a análise de dados melhora o desempenho de equipes de basquete.
+
 
 ## 5. Metodologia de Desenvolvimento do Trabalho
 
