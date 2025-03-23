@@ -10,7 +10,7 @@ O DataHoops é um aplicativo de scout eletrônico focado em análise de arremess
 ## 2. Objetivos do Trabalho
 
 ### Objetivo Geral:
-Desenvolver o DataHoops, um aplicativo de scout eletrônico para análise de arremessos no basquete, capaz de coletar dados em tempo real e gerar relatórios automáticos sobre a eficiência de arremessos.
+Desenvolvimento de um aplicativo de scout eletrônico focado em análise de arremessos no basquete.
 
 ### Objetivos Específicos:
 - Implementar a coleta de dados de arremessos com base em diferentes categorias: pontos, tipo de arremesso, e localização na quadra.
