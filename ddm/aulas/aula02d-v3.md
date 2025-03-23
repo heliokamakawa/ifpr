@@ -118,13 +118,13 @@ A principal falha está na aplicação inadequada dos conceitos de Programação
 
 A classe **Pessoa** está essencialmente "burra", ou seja, ela contém apenas atributos e não encapsula comportamentos relacionados a esses atributos. Por exemplo, a validação de dados e o cálculo da idade estão em funções externas, como **solicitarNumero**, **solicitarNumeroDecimal**, etc., o que dificulta a localização e a manutenção do código. A responsabilidade de validar os atributos e calcular a idade deveria estar na própria classe **Pessoa**, organizando o código e tornando-o mais intuitivo e fácil de manter.
 
+> **📢 Termo Técnico:**  
+> O código não aplica o **encapsulamento** corretamente. As classes não são responsáveis pelos seus próprios comportamentos, como validação de dados ou cálculos, que estão espalhados em funções externas. Isso prejudica a coesão do código e dificulta a manutenção.  
+
 #### Sintaxe Próxima a Java:
 O código utiliza uma sintaxe mais próxima ao **Java**, onde os atributos são definidos como `null` por padrão. A definição de atributos como `null` em casos como o **nome** da classe **Pessoa** não faz sentido, já que o nome não pode ser nulo. Esse erro provavelmente ocorre devido ao aprendizado em outra linguagem.
 
 Poderia ter aproveitado o conceito de **null safety** do Dart para garantir a integridade dos dados. Ao invés de definir atributos como `null`, o aluno deveria ter implementado (com uma pesquisa prévia) **null safety** da linguagem, o que vai ajudar a evitar esses problemas. Por exemplo, o **nome** de uma pessoa não deve ser nulo, e isso deve ser tratado de acordo com a sintaxe e boas práticas de Dart.
-
-#### Falta de Encapsulamento Adequado:
-O código não aplica o **encapsulamento** corretamente. As classes não são responsáveis pelos seus próprios comportamentos, como validação de dados ou cálculos, que estão espalhados em funções externas. Isso prejudica a coesão do código e dificulta a manutenção.
 
 #### Falta de Classes para Responsabilidade da Interface:
 Não há classes específicas para tratar a interação com o usuário, ou seja, entrada e saída de dados. As funções **solicitarDados**, **solicitarNumero**, entre outras, estão no código principal, o que vai contra o princípio de separação de responsabilidades. Para melhorar, é necessário criar classes responsáveis pela interface, separando claramente a lógica de negócios da interação com o usuário. Isso tornará o código mais modular, facilitando a manutenção e evolução do sistema.
