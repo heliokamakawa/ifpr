@@ -71,11 +71,12 @@ A avaliação do desempenho do aplicativo será feita com base em:
 |-----------------------------------------------------|----------|-----------------|------------------|
 | Levantamento de requisitos                          | 2 semanas| 01/03/2025      | 14/03/2025       |
 | Planejamento e definição de funcionalidades         | 2 semanas| 15/03/2025      | 28/03/2025       |
-| Desenvolvimento do aplicativo (Fase 1: Funcionalidades principais) | 4 semanas| 29/03/2025      | 25/04/2025       |
-| Desenvolvimento do aplicativo (Fase 2: Gamificação e Sistema de Premiação) | 4 semanas| 26/04/2025      | 23/05/2025       |
-| Testes e validação com usuários                     | 3 semanas| 24/05/2025      | 13/06/2025       |
-| Documentação e ajustes finais                       | 2 semanas| 14/06/2025      | 27/06/2025       |
-| Entrega final e defesa do TCC                       | 1 semana | 28/06/2025      | 04/07/2025       |
+| Desenvolvimento do aplicativo (Fase 1: Funcionalidades principais) |12 semanas| 29/03/2025      | 01/06/2025       |
+| Desenvolvimento do aplicativo (Fase 2: Gamificação e Sistema de Premiação) |12 semanas| 02/07/2025      | 02/10/2025       |
+| Testes e validação com usuários                     | 4 semanas| 03/10/2025      | 03/11/2025       |
+| Documentação e ajustes finais                       | 4 semanas| 04/11/2025      | 04/12/2025       |
+  | Banca de TCC                                      |         | 12/2025      |        |
+| Entrega final e defesa do TCC                       | 1 semana | 12/12/2025      | 19/12/2025       |
 
 # 8. Disponibilidade semanal para o desenvolvimento do projeto
 
