@@ -1,8 +1,4 @@
 
-# Projeto de Análise de Desempenho no Basquete
-
-Este projeto visa desenvolver uma ferramenta de análise de desempenho para jogos de basquete, utilizando dados coletados durante as partidas para gerar relatórios detalhados sobre o desempenho de jogadores e times. O sistema pode incluir diversas funcionalidades, permitindo uma avaliação abrangente da performance no jogo. A seguir estão algumas sugestões de escopo para o projeto.
-
 ## Sugestões de Escopo
 
 ### 1. **Scout Técnico de Defesa**
