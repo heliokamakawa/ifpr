@@ -52,7 +52,7 @@ Para testar a eficácia do aplicativo na melhoria da eficiência ofensiva e nas 
 
 1. **Fase 1**: Teste inicial de usabilidade com o próprio programador, usando gravações de jogos e feedback dos usuários para identificar pontos de melhoria na visualização e análise dos dados.
    
-2. **Fase 2**: Testes com jogadores amadores e técnicos, utilizando o aplicativo para coletar dados em um ambiente de quadra real. A análise se concentrará na aplicabilidade dos relatórios gerados para melhorar as estratégias ofensivas e identificar padrões de acerto e erro nos arremessos.
+2. **Fase 2**: Testes com jogadores iniciantes, utilizando o aplicativo para coletar dados em um ambiente de quadra real. A análise se concentrará na usabilidade, eficiência e feeckback dos relatórios gerados para avaliar a aceitação do aplicativo.
    
 3. **Fase 3**: Teste com jogadores da seleção local e veteranos, que terão a tarefa de analisar os relatórios gerados pelo aplicativo e implementar mudanças em suas estratégias ofensivas. Será avaliada a capacidade do aplicativo de melhorar o desempenho ofensivo dos jogadores durante as partidas.
 
