@@ -21,10 +21,8 @@ Desenvolvimento de um aplicativo de scout eletrônico focado em análise de arre
 
 ## 3. Justificativa para o Desenvolvimento do Trabalho
 
-### Justificativa Contextual:
 O basquete, como esporte dinâmico, depende de decisões rápidas e da análise de dados para otimizar a performance dos jogadores. O uso de tecnologias para coletar dados em tempo real tem sido cada vez mais presente em esportes profissionais, mas a implementação desse tipo de ferramenta em nível amador ainda é incipiente. O DataHoops visa preencher essa lacuna, proporcionando um meio acessível e eficiente para treinos e competições de basquete em diversos níveis.
 
-### Justificativa Acadêmica:
 Este trabalho envolve conhecimento técnico na coleta de dados esportivos, programação para desenvolvimento de aplicativos móveis, análise estatística e interface de usuário. O projeto se insere na interdisciplinaridade entre tecnologia, esporte e análise de dados, e será uma aplicação prática dos conceitos de **event-based tracking** e **positional data**. Além disso, o desenvolvimento do DataHoops permite uma abordagem realista, voltada para a utilização no mercado de esportes amadores e semi-profissionais, possibilitando uma implementação escalável e acessível para clubes e academias de basquete.
 
 ## 4. Enunciado do Problema e da(s) Hipótese(s)
