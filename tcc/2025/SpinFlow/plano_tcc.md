@@ -15,7 +15,9 @@ Desenvolver um aplicativo para a gestão de atividades de spinning.
 
 # 3. Justificativa para o desenvolvimento do Trabalho
 
-A crescente busca por métodos de engajamento e motivação nas academias demanda soluções inovadoras que incentivem a participação constante dos alunos nas atividades físicas. O SpinFlow é uma proposta que visa unir a prática de spinning com tecnologia, criando um ambiente dinâmico e interativo. Através da gamificação, do sistema de pontos e desafios, o aplicativo visa melhorar o engajamento de treino dos alunos. Este projeto busca uma solução prática para a gestão de aulas e acompanhamento contínuo de treinos e aulas.
+A crescente busca por métodos de engajamento e motivação nas academias demanda soluções inovadoras que incentivem a participação constante dos alunos nas atividades físicas. O SpinFlow é uma proposta que visa unir a prática de spinning com tecnologia, criando um ambiente dinâmico e interativo. Através da gamificação, do sistema de pontos e desafios, o aplicativo visa melhorar o engajamento de treino dos alunos. Este projeto busca uma solução prática para a gestão de aulas e acompanhamento contínuo de treinos e aulas. 
+
+Este projeto é uma excelente oportunidade para aplicar as práticas de engenharia de software em um caso real, desenvolvendo um aplicativo funcional e completo, que abrange: Levantamento de requisitos, Arquitetura de software, Design de banco de dados, Desenvolvimento mobile, Testes de usabilidade e Aplicação de gamificação para engajamento de usuários. O trabalho também permitirá explorar a interdisciplinaridade entre engenharia de software, tecnologia mobile e comportamento humano.
 
 # 4. Enunciado do problema e da(s) hipótese(s)
 
