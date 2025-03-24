@@ -11,6 +11,7 @@
 # Retomada:
   - SDLC, modelos, metodologias/processos auxiliares.
   - Metogologias ágeis - 4 valores.
+  - Por qual motivo estudar modelos de SDLC antigos?
 
 # Aula:
   - Levantamento de Requisitos: o que é? importância.
