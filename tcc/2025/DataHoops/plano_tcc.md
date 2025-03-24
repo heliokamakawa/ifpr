@@ -50,15 +50,15 @@ O aplicativo será capaz de proporcionar insights valiosos sobre a eficiência o
 ### Como Testar
 Para testar a eficácia do aplicativo na melhoria da eficiência ofensiva e nas tomadas de decisão, serão seguidos os seguintes passos:
 
-1. **Fase 1**: Teste inicial de usabilidade com o próprio programador, usando gravações de jogos e feedback dos usuários para identificar pontos de melhoria na visualização e análise dos dados.
+1. Teste inicial  realizado pelo programador, usando gravações de jogos.
    
-2. **Fase 2**: Testes com jogadores iniciantes, utilizando o aplicativo para coletar dados em um ambiente de quadra real. A análise se concentrará na usabilidade, eficiência e feeckback dos relatórios gerados para avaliar a aceitação do aplicativo.
+2. Testes com jogadores iniciantes, utilizando o aplicativo para coletar dados em um ambiente de quadra real.
    
-3. **Fase 3**: Teste com jogadores da seleção local e veteranos, que terão a tarefa de analisar os relatórios gerados pelo aplicativo. Será avaliada final de aceitação do aplicativo.
+3. Teste com jogadores da seleção local e veteranos em ambiente de quadra real.
 
-4. **Projetos Semelhantes**: O uso de ferramentas como **ShotTracker** e **Hudl** em equipes profissionais pode fornecer dados valiosos sobre a eficácia dos insights para a tomada de decisões. A ferramenta **Krossover**, que oferece análise estatística em esportes coletivos, também serve como exemplo de como o feedback estatístico pode influenciar o desempenho dos jogadores.
+**Material de apoio - Projetos Semelhantes**: O uso de ferramentas como **ShotTracker** e **Hudl** em equipes profissionais pode fornecer dados valiosos sobre a eficácia dos insights para a tomada de decisões. A ferramenta **Krossover**, que oferece análise estatística em esportes coletivos, também serve como exemplo de como o feedback estatístico pode influenciar o desempenho dos jogadores.
 
-5. **Artigos Correlatos**:
+**Material de apoio - Artigos Correlatos**:
    - **"The Impact of Performance Analytics on Decision-Making in Sports"** (Journal of Sports Analytics) – Examina como a análise de dados pode influenciar decisões estratégicas no basquete.
    - **"Using data-driven approaches to enhance basketball performance"** (Journal of Quantitative Analysis in Sports) – Estudo sobre como a análise de dados melhora o desempenho de equipes de basquete.
 
@@ -80,18 +80,17 @@ A metodologia ágil será adotada para garantir entregas contínuas e iterativas
 ## 6. Metodologia de Análise e Avaliação dos Resultados a Serem Obtidos
 
 A avaliação dos resultados será dividida em três fases principais:
-
 ### Fase 1 (Percepção):
-O próprio desenvolvedor testará a usabilidade inicial do app, verificando a fluidez da interface e a adequação das funcionalidades com a coleta manual de dados.
+Teste inicial  realizado pelo programador, usando gravações de jogos para analisar eficiência e praticidade na coleta de dados.
 
 ### Fase 2 (Estruturação):
-Teste com jogadores amadores, avaliando a precisão da coleta de dados, a confiabilidade dos relatórios e a eficiência do processo de análise.
+Testes com jogadores iniciantes, utilizando o aplicativo para coletar dados em um ambiente de quadra real. A análise se concentrará na usabilidade, eficiência e feeckback dos relatórios gerados para avaliar os funcionamentos e possíveis melhorias.
 
 ### Fase 3 (Teste de Aceitação):
-Teste final com jogadores experientes, coletando feedback sobre a aplicabilidade do aplicativo em jogos reais e a utilidade dos relatórios gerados.
+Teste com jogadores da seleção local e veteranos, que terão a tarefa de analisar os relatórios gerados pelo aplicativo. Será avaliação final de aceitação do aplicativo.
 
 
-#### Referências de Casos e Artigos para Teste de Aceitação e Validação de Projetos de Scouting Técnico e Usabilidade
+#### Material de apoio - Referências de Casos e Artigos para Teste de Aceitação e Validação de Projetos de Scouting Técnico e Usabilidade
 
 Materiais sugeridos para seus estudos de **referências de artigos e cases** relacionados a **teste de aceitação** e **validação de projetos**, com foco em **scouting técnico** e **usabilidade** em ferramentas de análise de desempenho no basquete. O objetivo é fornecer subsídios para a avaliação das ferramentas desenvolvidas no projeto e formar base sólida para o seu trabalho. Segue: 
 
