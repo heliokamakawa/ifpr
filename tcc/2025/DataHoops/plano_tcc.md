@@ -98,42 +98,34 @@ Materiais sugeridos para seus estudos de **referências de artigos e cases** rel
 ##### 1. "Usability Testing in Sports Analytics: A Case Study of the NBA's Data and Analytics Platform"
 Este artigo discute como a NBA realizou testes de aceitação e validação em sua plataforma de dados e análises. Ele explora como realizar avaliações de usabilidade para plataformas de análise de dados esportivos e como essas ferramentas impactam os técnicos e atletas durante a análise de desempenho.
 - **Referência:** Johnson, L., & McDowell, S. (2018). "Usability Testing in Sports Analytics: A Case Study of the NBA's Data and Analytics Platform." *International Journal of Sports Technology and Performance*.
-- **Link:** [Link do artigo](https://www.sportstechjournal.com)
 
 ##### 2. "Evaluating User Experience of Basketball Player Performance Tools: A Usability Study"
 Este estudo foca na avaliação da experiência do usuário de plataformas de rastreamento e análise de desempenho no basquete. Ele apresenta uma análise sobre como a usabilidade de ferramentas de scouting técnico pode ser testada com técnicos e jogadores, considerando aspectos como eficiência, eficácia e satisfação do usuário.
 - **Referência:** White, D., & Wang, S. (2020). "Evaluating User Experience of Basketball Player Performance Tools: A Usability Study." *Journal of Sports Analytics and Technology*.
-- **Link:** [Link do artigo](https://www.journalofsportsanalytics.com)
 
 ##### 3. "Assessing the Impact of Basketball Data Analytics Tools on Coaching Strategies"
 O artigo explora como ferramentas de análise de dados, como *player tracking* e *shot analysis*, são avaliadas em termos de aceitação por técnicos e jogadores. A pesquisa também investiga os testes de aceitação desses sistemas para assegurar que a plataforma seja eficiente na tomada de decisões estratégicas durante as partidas.
 - **Referência:** Tan, C., & Smith, P. (2019). "Assessing the Impact of Basketball Data Analytics Tools on Coaching Strategies." *Sports Coaching Review*.
-- **Link:** [Link do artigo](https://www.sportscoachingreview.com)
 
 ##### 4. "Validation of Basketball Scouting Systems Using Real-World Data"
 Este artigo aborda a validação de sistemas de scouting técnico no basquete, explorando como os resultados são avaliados e validados com base em dados reais de jogos. Ele também examina os métodos de validação, como a comparação de previsões com os resultados reais e a utilização de métricas de performance para garantir a precisão dos sistemas de análise de jogadores.
 - **Referência:** Miller, A., & Thompson, J. (2017). "Validation of Basketball Scouting Systems Using Real-World Data." *Journal of Sports Engineering and Technology*.
-- **Link:** [Link do artigo](https://journals.sagepub.com/doi/abs/10.1177/1754337117718663)
 
 ##### 5. "Evaluating Player Performance Scouting Systems in Basketball: Usability and Accuracy Testing"
 Este estudo enfoca a análise de ferramentas de scouting de desempenho, com ênfase no processo de teste de aceitação e validação de sistemas que avaliam a performance técnica dos jogadores de basquete. A pesquisa explora as metodologias usadas para testar a precisão e a usabilidade dos sistemas, além da comparação com outros métodos tradicionais de scouting.
 - **Referência:** Lee, Y., & Zhao, Q. (2016). "Evaluating Player Performance Scouting Systems in Basketball: Usability and Accuracy Testing." *International Journal of Sports Science & Performance Evaluation*.
-- **Link:** [Link do artigo](https://www.sciencedirect.com/science/article/pii/S1443638215001636)
 
 ##### 6. "A Framework for Usability Testing of Sports Analytics Tools"
 Este artigo apresenta um framework para realizar testes de usabilidade em ferramentas de análise esportiva, com foco naqueles que lidam com dados complexos de jogadores, como *tracking* e análise de arremessos. A metodologia de testes de aceitação descrita ajuda a validar a eficácia das ferramentas na prática de scouting.
 - **Referência:** Davis, J., & Harris, T. (2021). "A Framework for Usability Testing of Sports Analytics Tools." *Journal of Usability Studies in Sports Technology*.
-- **Link:** [Link do artigo](https://www.jusustech.org)
 
 ##### 7. "Assessing the Effectiveness of Performance Analysis Tools in Basketball Coaching"
 O estudo apresenta uma metodologia para avaliar a eficácia de ferramentas de análise de desempenho utilizadas por técnicos de basquete. A pesquisa explora como realizar a validação de sistemas de análise de desempenho com foco na aceitação por parte dos técnicos, jogadores e analistas de dados.
 - **Referência:** Martinez, R., & Jenkins, L. (2019). "Assessing the Effectiveness of Performance Analysis Tools in Basketball Coaching." *Coaching Science Quarterly*.
-- **Link:** [Link do artigo](https://www.coachingsciencequarterly.com)
 
 ##### 8. "User Acceptance of Sports Performance Analysis Tools: Case Study of Football and Basketball"
 Este artigo compara o processo de aceitação de ferramentas de análise de desempenho no futebol e no basquete, discutindo como a aceitação e validação de novas ferramentas são testadas em ambos os esportes. A pesquisa usa um modelo de aceitação de tecnologia (TAM) para avaliar a usabilidade e impacto das ferramentas no campo.
 - **Referência:** Kuan, C., & Lee, S. (2018). "User Acceptance of Sports Performance Analysis Tools: Case Study of Football and Basketball." *International Journal of Sports Performance Analytics*.
-- **Link:** [Link do artigo](https://www.sportsperformanceanalytics.com)
 
 ##### Aplicação no DataHoops
 As referências acima podem ser usadas para embasar a metodologia de **teste de aceitação** e **validação** do **DataHoops**, com foco em usabilidade e efetividade das ferramentas de scouting técnico para análise de desempenho. Você pode:
