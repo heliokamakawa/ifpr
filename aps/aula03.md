@@ -18,7 +18,7 @@
 # Aula:
   - Levantamento de Requisitos: o que é? importância.
     - conhecer certo, analisar certo e descrever certo → padrões e técnicas
-    - Técnicas de Levantamento de dados: análise Documental, entrevistas, etnografia, observação, questionário, workshops, joint aplication design, prototipação e busca de conhecimentos anteriores.
+    - Técnicas de Levantamento de dados: pesquisa de mercado, entrevistas, etnografia, observação, questionário, workshops, joint aplication design, prototipação e análise Documental.
     - Stakeholders, Permissões, Cuidados com a comunicação (prototipação), viés, interpretação, usar mais do que uma técnica.
   - Engenharia de Requisitos: conceitos, terminologias, fundamentos e importância.
     - Processos: Extração de Requisitos (descobrimento); Análise e Negociação de Requisitos (requisitos acordados); Validação de Requisitos (consistentes, completos, precisos); e Gerenciamento de Mudança de Requisitos.
