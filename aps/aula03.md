@@ -33,7 +33,7 @@
   ## Quais tópicos são importantes?
   - Por qual motivo estudar modelos tradicionais antigos?
   - O que é levantamento de dados? Diferença entre levantamente e análise.
-  - Técnicas de levantamento de requisitos.
+  - Quais são as técnicas de levantamento de requisitos e em que caso utilziar casa uma.
 
 # Material de estudo: 
 1. LARMAN, Craig. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. Porto Alegre: Bookman, 2005.
