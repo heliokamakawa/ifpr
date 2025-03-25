@@ -12,6 +12,8 @@
   - SDLC, modelos, metodologias/processos auxiliares.
   - Metogologias ágeis - 4 valores.
   - Por qual motivo estudar modelos de SDLC antigos?
+  - Qual era o % de acerto no desenvolvimento de software?
+  - Baixar o preço resolve?
 
 # Aula:
   - Levantamento de Requisitos: o que é? importância.
@@ -28,11 +30,9 @@
 
 # Diário de aula de hoje
   ## Quais tópicos são importantes?
-  - SDLC (ciclo de vido do desenovlvimento de software) - citar fases e objetivos.
-    - Modelos de SDLC: conceitos e fundamentos.
-    - Modelos tradicionais e suas respectivas vantagens e problemas (cascata, incremental, espiral).
-    - Metodologia ágeis: conceitos, fundamentos, valores fundamentais e manifesto ágil.
-    - Metodologia e processos auxiliares. Diferença Kanban x Scrum.
+  - Por qual motivo estudar modelos tradicionais antigos?
+  - O que é levantamento de dados? Diferença entre levantamente e análise.
+  - Técnicas de levantamento de requisitos.
 
 # Material de estudo: 
 1. LARMAN, Craig. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. Porto Alegre: Bookman, 2005.
