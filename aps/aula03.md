@@ -8,6 +8,17 @@
   - Levantamento de Requisitos;
   - Introdução a apresentação do estudo de caso (ES).
 
+# SÁBADO LETIVO 29/03 – Documento Instrutivo (2 aulas)
+Pode ser realizado em equipes
+- Tema: Inteligência Artificial aplicada à Engenharia de Software
+- Objetivo: Compreender o impacto da Inteligência Artificial na Engenharia de Software, explorando como ela pode ser utilizada para apoiar o desenvolvimento de sistemas, desde a fase de requisitos até a verificação e automação de testes. Além disso, refletir sobre os desafios éticos e as boas práticas no uso da IA, especialmente no contexto acadêmico e na aprendizagem.
+- Desafio: Elaborar um documento instrutivo que explique, de forma clara e objetiva, como a IA está sendo utilizada na Engenharia de Software, apresentando exemplos práticos, ferramentas disponíveis e as questões éticas envolvidas no seu uso.
+- O que deve ser feito? Pesquisar sobre o uso da Inteligência Artificial na Engenharia de Software; Identificar como a IA pode apoiar a engenharia de requisitos, incluindo análise automática de documentos e identificação de inconsistências; Explorar o uso da IA na automação de testes e verificação de software, abordando ferramentas que auxiliam na geração de casos de
+teste e detecção de falhas; Apresentar ferramentas e assistentes baseados em IA que podem ser utilizados na análise e no projeto de sistemas; Discutir os desafios éticos no uso da IA, incluindo riscos de viés algorítmico e suas implicações, uso responsável da IA na aprendizagem (evitar plágio, dependência excessiva, transparência nas fontes), impacto da IA na tomada de decisões e na autonomia dos desenvolvedores; organizar o conteúdo de maneira didática e estruturada.
+- O que deve ser entregue?
+Documento instrutivo em formato PDF contendo: Introdução ao tema e relevância da IA na Engenharia de Software;
+aplicações da IA na engenharia de requisitos; uso da IA na automação de testes e verificação de software; exemplos de ferramentas e assistentes baseados em IA; questões éticas e desafios no uso da IA na academia e na aprendizagem; e conclusão e perspectivas futuras.
+
 # Retomada:
   - SDLC, modelos, metodologias/processos auxiliares.
   - Metogologias ágeis - 4 valores.
