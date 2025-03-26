@@ -11,12 +11,6 @@ Neste exemplo, a classe `Pessoa` possui atributos que podem ser nulos, utilizand
 ```dart
 import 'dart:io';
 
-class Pessoa {
-  // Atributos que podem ser nulos, utilizando o operador `?`
-  String? nome;
-  double? peso;
-}
-
 void main() {
   // Criando uma instância da classe Pessoa
   Pessoa pessoa = Pessoa();
@@ -31,6 +25,12 @@ void main() {
 
   // Imprimindo os dados da pessoa
   print('Nome: ${pessoa.nome}, Peso: ${pessoa.peso} kg');
+}
+
+class Pessoa {
+  // Atributos que podem ser nulos, utilizando o operador `?`
+  String? nome;
+  double? peso;
 }
 ```
 
@@ -56,12 +56,6 @@ Aqui utilizamos late para indicar que a variável será inicializada posteriorme
 ```dart
 import 'dart:io';
 
-class Pessoa {
-  // Atributos com `late` indicando que serão inicializados posteriormente
-  late String nome;
-  late double peso;
-}
-
 void main() {
   // Criando uma instância da classe Pessoa
   Pessoa pessoa = Pessoa();
@@ -76,6 +70,12 @@ void main() {
 
   // Imprimindo os dados da pessoa
   print('Nome: ${pessoa.nome}, Peso: ${pessoa.peso} kg');
+}
+
+class Pessoa {
+  // Atributos com `late` indicando que serão inicializados posteriormente
+  late String nome;
+  late double peso;
 }
 ```
 ### Explicação
@@ -95,15 +95,6 @@ Agora, usaremos um construtor para garantir que os atributos sejam inicializados
 ```dart
 import 'dart:io';
 
-class Pessoa {
-  // Atributos obrigatórios no construtor
-  String nome;
-  double peso;
-
-  // Construtor que inicializa os atributos
-  Pessoa(this.nome, this.peso);
-}
-
 void main() {
   // Solicitando o nome via console
   print('Digite seu nome:');
@@ -118,6 +109,15 @@ void main() {
 
   // Imprimindo os dados da pessoa
   print('Nome: ${pessoa.nome}, Peso: ${pessoa.peso} kg');
+}
+
+class Pessoa {
+  // Atributos obrigatórios no construtor
+  String nome;
+  double peso;
+
+  // Construtor que inicializa os atributos
+  Pessoa(this.nome, this.peso);
 }
 ```
 ### Explicação
@@ -138,15 +138,6 @@ Agora, utilizamos parâmetros nomeados no construtor, o que melhora a legibilida
 ```dart
 import 'dart:io';
 
-class Pessoa {
-  // Atributos obrigatórios no construtor com parâmetros nomeados
-  String nome;
-  double peso;
-
-  // Construtor com parâmetros nomeados
-  Pessoa({required this.nome, required this.peso});
-}
-
 void main() {
   // Solicitando o nome via console
   print('Digite seu nome:');
@@ -161,6 +152,15 @@ void main() {
 
   // Imprimindo os dados da pessoa
   print('Nome: ${pessoa.nome}, Peso: ${pessoa.peso} kg');
+}
+
+class Pessoa {
+  // Atributos obrigatórios no construtor com parâmetros nomeados
+  String nome;
+  double peso;
+
+  // Construtor com parâmetros nomeados
+  Pessoa({required this.nome, required this.peso});
 }
 ```
 ### Explicação
@@ -183,6 +183,22 @@ Agora, vamos incluir métodos get e set para validar os dados antes de modificar
 ```dart
 import 'dart:io';
 
+void main() {
+  // Solicitando o nome via console
+  print('Digite seu nome:');
+  String nome = stdin.readLineSync() ?? ''; // Lê o nome
+
+  // Solicitando o peso via console
+  print('Digite seu peso:');
+  double peso = double.tryParse(stdin.readLineSync() ?? '0') ?? 0; // Lê e converte o peso para double
+
+  // Criando a instância da classe Pessoa com parâmetros nomeados
+  Pessoa pessoa = Pessoa(nome: nome, peso: peso);
+
+  // Imprimindo os dados da pessoa
+  print('Nome: ${pessoa.nome}, Peso: ${pessoa.peso} kg');
+}
+
 class Pessoa {
   // Atributos privados para encapsulamento
   String _nome;
@@ -199,7 +215,7 @@ class Pessoa {
     if (novoNome.isNotEmpty) {
       _nome = novoNome; // Se o nome não for vazio, atribui o novo valor
     } else {
-      print('Nome inválido!'); // Se o nome for vazio, exibe um erro
+      throw Exception('Nome inválido!'); // Se o nome for vazio, exibe um erro
     }
   }
 
@@ -211,33 +227,10 @@ class Pessoa {
     if (novoPeso > 0) {
       _peso = novoPeso; // Se o peso for válido, atribui o valor
     } else {
-      print('Peso inválido!'); // Se o peso for inválido, exibe um erro
+      throw Exception('Peso inválido!'); // Se o peso for inválido, exibe um erro
     }
   }
 }
-
-void main() {
-  // Solicitando o nome via console
-  print('Digite seu nome:');
-  String nome = stdin.readLineSync() ?? ''; // Lê o nome
-
-  // Solicitando o peso via console
-  print('Digite seu peso:');
-  double peso = double.tryParse(stdin.readLineSync() ?? '0') ?? 0; // Lê e converte o peso para double
-
-  // Criando a instância da classe Pessoa com parâmetros nomeados
-  Pessoa pessoa = Pessoa(nome: nome, peso: peso);
-
-  // Tentando modificar o peso para um valor inválido
-  pessoa.peso = -5; // Isso acionará a validação e mostrará "Peso inválido!"
-
-  // Tentando modificar o nome para um valor inválido
-  pessoa.nome = ''; // Isso acionará a validação e mostrará "Nome inválido!"
-
-  // Imprimindo os dados da pessoa
-  print('Nome: ${pessoa.nome}, Peso: ${pessoa.peso} kg');
-}
-
 ```
 ### Explicação
 
