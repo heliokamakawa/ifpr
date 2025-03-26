@@ -84,6 +84,8 @@ class Pessoa {
 
 - **Cuidado com o uso de `late`**: Se você tentar acessar uma variável `late` sem inicializá-la primeiro, ocorrerá um **erro de execução**. Isso acontece porque o Dart não consegue garantir que o valor da variável foi atribuído antes de seu uso, o que pode resultar em comportamento indesejado na aplicação.
 
+- **Uso inadequado do `late`**: O uso inadequado anula o principal benefício do null safery, que é a indicação do erro em tempo de compilação.
+
 📌 **Documentação Oficial - `late`**  
 [Link para a documentação oficial](https://dart.dev/guides/language/language-tour#late-variables)
 
