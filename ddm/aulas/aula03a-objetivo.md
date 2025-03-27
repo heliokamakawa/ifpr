@@ -53,7 +53,7 @@ Durante as primeiras aulas, vamos focar em dois aspectos fundamentais para o suc
   - **Instâncias de Objetos Anônimos Aninhadas**: Trabalhar com objetos anônimos e suas instâncias dentro de outras estruturas de dados, como listas ou mapas, para criar soluções flexíveis e dinâmicas.
 
 ## Exercícios 
-  - [Atividade 01(https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula03b-atv01.md) - nivelamento.
+  - [Atividade 01](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula03b-atv01.md) - nivelamento.
   - [Atividade 02](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula03b-atv02.md) - o que é necessário.
   - [Desafio](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula3c-desafio.md) - validação do diário.
   - [Atividade 03](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula3d-atv03.md) - atividade de recuperação em grupo aula 02.
