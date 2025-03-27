@@ -1,7 +1,6 @@
-# Biblioteca de Classes - Flutter e Dart
+# Atividade - Criar objetos
 
 ## Estrutura de Classes
-Aqui está a biblioteca de classes organizada com associações aninhadas de até 5 níveis, incluindo construtores com parâmetros nomeados, posicionais e do tipo função.
 
 ```dart
 // Classe de Fornecedor
