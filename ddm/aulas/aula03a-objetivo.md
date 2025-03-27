@@ -60,6 +60,10 @@ Durante as primeiras aulas, vamos focar em dois aspectos fundamentais para o suc
   - [Recuperação](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula02f-recuperacao.md) - Opcional para quem quiser recuperar diário de aula 02.
 
 
+## Diário de aula
 
+- Vou disponibilizar a aula de hoje e a da semana que vem para realização das atividades.
+- Aproveite para identificar e mostrar o seu nível de conhecimento.
+- Veja as atividades disponíveis, organize e execute conforme seu tempo, objetivo e dificuldades.
 
 
