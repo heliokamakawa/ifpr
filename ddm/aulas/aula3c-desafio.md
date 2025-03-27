@@ -46,12 +46,10 @@ O objetivo desse desafio é avaliar suas habilidades de programação com Dart, 
 ## Estrutura do Desafio
 
 1. **O que você vai fazer:**
-   Você deverá **escolher um dos desafios**, de acordo com o sorteio, e **codificá-lo no computador** enquanto explica suas escolhas e raciocínios de forma clara. O desafio vai envolver a criação de objetos, associações entre eles, uso de funções anônimas e cálculos dinâmicos.
+   Você deverá, **de acordo com o sorteio**, **codificá-lo no computador em tempo real na frente de todos** enquanto explica suas escolhas e raciocínios de forma clara. O desafio vai envolver a criação de objetos, associações entre eles, uso de funções anônimas e cálculos dinâmicos.
 
 2. **Tempo de execução:**
-   Você terá um **tempo limitado** para realizar a atividade. O tempo varia dependendo da dificuldade do desafio sorteado:
-   - **Desafios mais simples (1, 2, 3)**: Você terá **10 minutos** para concluir.
-   - **Desafios mais complexos (4, 5)**: O tempo será de **15 minutos**.
+   Você terá um **tempo limitado** para realizar a atividade - em torno de 4 minutos. 
    
    Durante esse tempo, você precisará **codificar** e **explicar** o seu código. Se for necessário, você poderá ganhar **2 minutos extras** no caso de estar indo bem, mas precisar de um ajuste no código ou na explicação.
 
@@ -60,7 +58,6 @@ O objetivo desse desafio é avaliar suas habilidades de programação com Dart, 
    - **Explicação clara**: Enquanto você codifica, precisa **explicar** seu raciocínio de maneira simples, detalhando as escolhas que fez, como as associações entre objetos funcionam, e como utilizou as funções anônimas.
    - **Entrega dentro do prazo**: Você deve **finalizar dentro do tempo** proposto. Caso não consiga concluir ou se atrasar, será considerado "Dev" (nível abaixo do pleno).
    - **Qualidade do código**: O código precisa ser **organizado** e **legível**. Utilize **nomes claros** para as variáveis e funções.
-
 
 ---
 
