@@ -418,10 +418,12 @@ Isso torna o código mais abreviado quando a cidade não precisa ser reutilizada
 
 📌 Mais sobre instâncias e construtores: [Construtores no Dart](https://dart.dev/language/constructors)
 
-📌 Resumo das diferenças entre os exemplos
+### 📌 Resumo das diferenças entre os exemplos
+
 Exemplo	Diferença principal
-6º	Função nomeada como parâmetro do construtor
-7º	Função anônima como parâmetro do construtor
-8º	Associação entre classes com instância por referência
-9º	Associação entre classes com instância anônima
+
+- 6º	Função nomeada como parâmetro do construtor
+- 7º	Função anônima como parâmetro do construtor
+- 8º	Associação entre classes com instância por referência
+- 9º	Associação entre classes com instância anônima
 
