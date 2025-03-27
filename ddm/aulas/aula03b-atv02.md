@@ -757,9 +757,10 @@ Crie um objeto de ProdutoRestricaoIdade com referência anônima, incluindo um p
 
 Exercício 20: Criando um Cliente com Preferências
 Crie um objeto de ClientePreferencias com referência anônima, incluindo um parâmetro para preferências de produtos e métodos de pagamento.
+
 ---
 
-## Desafios Avançados
+## Desafios - 
 
 ### Desafio 1 - Associação em 5 Níveis
 **Enunciado:** Instancie uma `Venda` que contenha um `Cliente` associado a uma `Cidade`, que pertence a um `Estado`, dentro de um `País`.
@@ -781,85 +782,6 @@ var pedido = Pedido(
 );
 ```
 
-### Desafio 3 - Associação Profunda e Função
-**Enunciado:** Instancie um `Fornecedor` contendo um `Departamento`, que pertence a uma `Empresa`, situada em uma `Cidade`, dentro de um `Estado` e `País`, e inclua uma função de cálculo de imposto.
 
-```dart
-var fornecedor = Fornecedor(
-  "TechSupply",
-  Departamento("TI", Empresa("InovaCorp", Cidade("Porto Alegre", Estado("RS", Pais("Brasil"))))),
-  (double valor) => valor * 0.18
-);
-```
-Desafio 1: Sistema Complexo de Venda Multinível
-Enunciado:
-Crie um objeto de Venda que englobe um Cliente cujo endereço possui hierarquia completa (Endereço → Cidade → Estado → País). O produto vendido deve estar associado a um Fornecedor com sua própria hierarquia de endereço. Utilize funções anônimas para:
 
-Calcular um imposto dinâmico com base no valor do produto.
 
-Concluir a venda com uma função que valide todas as associações.
-
-Dica: Utilize parâmetros nomeados para facilitar a leitura, mas mantenha alguns parâmetros posicionais para simular a diversidade de construtores.
-
-Desafio 2: Pedido de Compra com Cálculo de Frete e Pagamento
-Enunciado:
-Crie um objeto de PedidoCompra com as seguintes condições:
-
-O Fornecedor deve ter um endereço completo (incluindo Cidade, Estado e País).
-
-O Produto deve possuir detalhes como Tipo, Categoria e Unidade de Medida.
-
-Implemente funções anônimas para:
-
-Calcular o valor do frete com base na distância (simulada) e quantidade.
-
-Realizar o pagamento, que deve validar o pedido e registrar a data do pagamento.
-
-Dica: Estruture as associações de forma a refletir uma cadeia de valor completa e encadeada.
-
-Desafio 3: Sistema Integrado de Empresa e Folha de Pagamento
-Enunciado:
-Crie um objeto de Empresa que contenha múltiplos Departamentos. Cada Departamento deve incluir vários Funcionarios, onde cada funcionário tem uma função anônima para calcular seu bônus (baseado em seu cargo e salário). Além disso, a empresa deve ter um endereço hierárquico (Endereço → Cidade → Estado → País).
-Utilize funções anônimas para:
-
-Calcular a folha de pagamento total da empresa.
-
-Exibir relatórios de desempenho dos departamentos.
-
-Dica: Combine parâmetros nomeados e posicionais para criar construtores que permitam flexibilidade e clareza na instanciação dos objetos.
-
-Desafio 4: Armazém com Estoque Dinâmico e Rastreamento
-Enunciado:
-Crie um objeto de ArmazemEstoque que contenha:
-
-Um objeto Armazem com localização detalhada.
-
-Produtos com informações completas (incluindo Tipo, Categoria, Unidade de Medida e dados de Garantia).
-
-Implemente funções anônimas para:
-
-Atualizar o estoque dinamicamente (exemplo: diminuir a quantidade ao vender).
-
-Registrar um histórico de alterações no estoque, com data e quantidade modificada.
-
-Dica: Garanta que as funções anônimas sejam utilizadas para simular a integração entre vendas e a atualização do estoque.
-
-Desafio 5: Sistema Integrado de Compras, Vendas e Logística
-Enunciado:
-Desenvolva um objeto de “Sistema Integrado” que una os seguintes módulos:
-
-Compras: Utilize um objeto de Compra que contenha um PedidoCompra com Fornecedor, Produto, e um lote específico, usando função anônima para verificar a validade do lote.
-
-Vendas: Crie um objeto de PedidoVendaEntrega que contenha todas as associações do Cliente (incluindo endereço completo) e Produto, com funções anônimas para concluir a venda e organizar a entrega.
-
-Logística: Implemente um módulo de logística (pode ser representado por uma classe ArmazemEstoque ou similar) que integre informações de estoque, com funções anônimas para calcular rotas de entrega e ajustar o estoque automaticamente.
-Utilize funções anônimas para simular:
-
-Cálculos dinâmicos de frete, impostos e descontos.
-
-A integração entre os módulos, validando que os dados do módulo de compras impactam o módulo de vendas e vice-versa.
-
-Dica: Este desafio exige a criação de uma estrutura que englobe múltiplas associações e módulos do sistema. Considere criar classes auxiliares para modularizar as funções (ex: classe Logistica, classe IntegracaoSistema) e, então, utilizar funções anônimas para orquestrar a comunicação entre elas.
----
-
-Esse material servirá para que os alunos dominem a sintaxe do Dart e a estruturação de classes no Flutter. 🚀
