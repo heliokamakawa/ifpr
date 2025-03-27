@@ -243,5 +243,185 @@ class Pessoa {
 📌 **Documentação Oficial - Getters e Setters**  
 [Link para a documentação oficial](https://dart.dev/guides/language/language-tour#getters-and-setters)
 
+---
 
+## 6º Exemplo: Parâmetro do tipo função no construtor
+
+Podemos definir um parâmetro do tipo função no construtor. Neste exemplo, criamos a classe Pessoa com os atributos nome, peso e altura, além de um parâmetro do tipo função chamado calcularIMC, que calcula o Índice de Massa Corporal (IMC).
+
+```dart
+class Pessoa {
+  String nome;
+  double peso;
+  double altura;
+  double Function(double, double) calcularIMC; // Parâmetro do tipo função
+
+  Pessoa(this.nome, this.peso, this.altura, this.calcularIMC);
+}
+
+double calcularIMCFunc(double peso, double altura) {
+  return peso / (altura * altura);
+}
+
+void main() {
+  Pessoa pessoa = Pessoa("Carlos", 80.0, 1.75, calcularIMCFunc);
+
+  print("Nome: ${pessoa.nome}");
+  print("IMC: ${pessoa.calcularIMC(pessoa.peso, pessoa.altura)}");
+}
+
+```
+
+### 📖 Explicação:
+
+Criamos a classe Pessoa com um parâmetro de função calcularIMC.
+
+Definimos uma função nomeada calcularIMCFunc que calcula o IMC.
+
+Passamos essa função como argumento na instância da classe Pessoa.
+
+No main(), chamamos a função armazenada no objeto para calcular o IMC.
+
+📌 Mais sobre funções em Dart: [Funções no Dart](https://dart.dev/language/functions)
+
+---
+
+## 7º Exemplo: Função anônima como parâmetro
+
+A diferença para o exemplo anterior é que agora passamos uma função anônima diretamente no construtor, sem criar uma função nomeada separada.
+
+```dart
+class Pessoa {
+  String nome;
+  double peso;
+  double altura;
+  double Function(double, double) calcularIMC; // Parâmetro do tipo função
+
+  Pessoa(this.nome, this.peso, this.altura, this.calcularIMC);
+}
+
+void main() {
+  Pessoa pessoa = Pessoa(
+    "Carlos",
+    80.0,
+    1.75,
+    (peso, altura) => peso / (altura * altura), // Função anônima
+  );
+
+  print("Nome: ${pessoa.nome}");
+  print("IMC: ${pessoa.calcularIMC(pessoa.peso, pessoa.altura)}");
+}
+
+```
+### 📖 Explicação:
+A função anônima (peso, altura) => peso / (altura * altura) é passada diretamente no construtor.
+
+Isso elimina a necessidade de criar uma função nomeada separadamente.
+
+📌 Mais sobre funções anônimas em Dart: [Funções anônimas](https://dart.dev/language/functions#anonymous-functions)
+
+---
+
+##  8º Exemplo: Associação entre classes (instância com referência)
+
+Agora, além do parâmetro do tipo função, introduzimos a associação de classes. Criamos a classe Cidade e a associamos à Pessoa, representando a cidade onde a pessoa mora.
+
+```dart
+class Cidade {
+  String nome;
+  String estado;
+
+  Cidade(this.nome, this.estado);
+}
+
+class Pessoa {
+  String nome;
+  double peso;
+  double altura;
+  double Function(double, double) calcularIMC;
+  Cidade cidade; // Associação com a classe Cidade
+
+  Pessoa(this.nome, this.peso, this.altura, this.calcularIMC, this.cidade);
+}
+
+void main() {
+  var cidadeNatal = Cidade("São Paulo", "SP"); // Instância com referência
+  var pessoa = Pessoa(
+    "Carlos",
+    80.0,
+    1.75,
+    (peso, altura) => peso / (altura * altura),
+    cidadeNatal,
+  );
+
+  print("Nome: ${pessoa.nome}");
+  print("Cidade: ${pessoa.cidade.nome}, ${pessoa.cidade.estado}");
+  print("IMC: ${pessoa.calcularIMC(pessoa.peso, pessoa.altura)}");
+}
+```
+
+### 📖 Explicação:
+
+Criamos a classe Cidade, que representa a cidade onde a pessoa mora.
+
+Na classe Pessoa, adicionamos um atributo cidade que recebe um objeto da classe Cidade.
+
+No main(), primeiro criamos uma instância de Cidade e depois passamos essa referência ao instanciar Pessoa.
+
+📌 Mais sobre classes e objetos em Dart: [Classes no Dart](https://dart.dev/language/classes)
+
+---
+
+## 9º Exemplo: Instância anônima na associação
+
+Agora, em vez de criar uma variável separada para Cidade, instanciamos a cidade diretamente no construtor da Pessoa (instância anônima).
+
+
+```dart
+class Cidade {
+  String nome;
+  String estado;
+
+  Cidade(this.nome, this.estado);
+}
+
+class Pessoa {
+  String nome;
+  double peso;
+  double altura;
+  double Function(double, double) calcularIMC;
+  Cidade cidade; // Associação com a classe Cidade
+
+  Pessoa(this.nome, this.peso, this.altura, this.calcularIMC, this.cidade);
+}
+
+void main() {
+  var pessoa = Pessoa(
+    "Carlos",
+    80.0,
+    1.75,
+    (peso, altura) => peso / (altura * altura),
+    Cidade("São Paulo", "SP"), // Instância anônima de Cidade
+  );
+
+  print("Nome: ${pessoa.nome}");
+  print("Cidade: ${pessoa.cidade.nome}, ${pessoa.cidade.estado}");
+  print("IMC: ${pessoa.calcularIMC(pessoa.peso, pessoa.altura)}");
+}
+```
+
+### 📖 Explicação:
+
+Em vez de armazenar a cidade em uma variável, instanciamos Cidade diretamente no construtor de Pessoa.
+
+Isso torna o código mais abreviado quando a cidade não precisa ser reutilizada em outros lugares.
+
+📌 Mais sobre instâncias e construtores: [Construtores no Dart](https://dart.dev/language/constructors)
+
+📌 Resumo das diferenças entre os exemplos
+Exemplo	Diferença principal
+6º	Função nomeada como parâmetro do construtor
+7º	Função anônima como parâmetro do construtor
+8º	Associação entre classes com instância por referência
+9º	Associação entre classes com instância anônima
 
