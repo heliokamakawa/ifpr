@@ -353,14 +353,12 @@ class PedidoCompraPagamento {
 ```
 Exemplos de exercícios:
 
-```dart
-Exercício 1 – Nível Fácil: Criar um Fornecedor com Referência Anônima
+
+### Exercício 1 – Nível Fácil: Criar um Fornecedor com Referência Anônima
 Enunciado:
 Crie um objeto do tipo Fornecedor usando referência anônima e parâmetros nomeados. Em seguida, exiba o nome do fornecedor e execute a ação associada.
 
-dart
-Copiar
-Editar
+```dart
 void main() {
   // Cria um objeto Fornecedor utilizando referência anônima para a função 'acaoFornecedor'
   var fornecedor = Fornecedor(
@@ -379,19 +377,14 @@ void main() {
   // Executa a ação anônima associada
   fornecedor.acaoFornecedor();
 }
-Comentários:
 
-Este exercício demonstra a criação de um objeto com parâmetros nomeados, onde a função acaoFornecedor é passada como referência anônima.
+```
 
-Ao final, é exibido o nome do fornecedor e a função é executada.
-
-Exercício 2 – Nível Fácil: Criar um Produto com Referência Anônima
+### Exercício 2 – Nível Fácil: Criar um Produto com Referência Anônima
 Enunciado:
 Crie um objeto do tipo Produto com referência anônima, utilizando classes auxiliares para tipo, categoria e unidade de medida. Em seguida, exiba o nome e o preço do produto e execute a função de ajuste de preço.
 
-dart
-Copiar
-Editar
+```dart
 void main() {
   // Cria um objeto TipoProduto com função anônima para exibir o tipo
   var tipo = TipoProduto("Eletrônico", exibirTipo: () {
@@ -437,19 +430,17 @@ void main() {
   // Executa a função anônima para ajuste de preço
   produto.ajustarPreco();
 }
-Comentários:
 
-Este exercício reforça o uso de classes auxiliares e parâmetros nomeados.
+// Este exercício reforça o uso de classes auxiliares e parâmetros nomeados.
+// Demonstra a composição de um objeto complexo (Produto) e a execução de uma função anônima (ajustarPreco).
+```
 
-Demonstra a composição de um objeto complexo (Produto) e a execução de uma função anônima (ajustarPreco).
-
-Exercício 3 – Nível Médio: Criar um Pedido de Venda com Referência Anônima
+### Exercício 3 – Nível Médio: Criar um Pedido de Venda com Referência Anônima
 Enunciado:
 Crie um objeto PedidoVenda com referência anônima, que contenha um objeto Cliente e um objeto Produto. Utilize funções anônimas para concluir a venda. Exiba os detalhes do pedido e execute a função de conclusão.
 
-dart
-Copiar
-Editar
+```dart
+
 void main() {
   // Cria um Cliente utilizando parâmetros nomeados
   var cliente = Cliente(
@@ -511,19 +502,16 @@ void main() {
   // Executa a função de conclusão da venda
   pedidoVenda.concluirVenda();
 }
-Comentários:
 
-Neste exercício, o aluno compõe objetos aninhados (Cliente e Produto) dentro de um Pedido de Venda.
-
-A função concluirVenda simula o processamento final do pedido.
+//Neste exercício, o aluno compõe objetos aninhados (Cliente e Produto) dentro de um Pedido de Venda.
+//A função concluirVenda simula o processamento final do pedido.
+```
 
 Exercício 4 – Nível Avançado: Criar um Pedido de Compra com Frete e Pagamento
 Enunciado:
 Crie um objeto PedidoCompraFrete que contenha um objeto PedidoCompra, com um Fornecedor e Produto, e inclua uma função anônima para calcular o frete. Em seguida, crie um objeto PedidoCompraPagamento para simular o pagamento do pedido. Exiba as informações e execute as funções anônimas.
 
-dart
-Copiar
-Editar
+```dart
 void main() {
   // Cria um Fornecedor
   var fornecedor = Fornecedor(
@@ -599,19 +587,18 @@ void main() {
   pedidoCompraFrete.calcularFrete();
   pedidoCompraPagamento.realizarPagamentoCompra();
 }
-Comentários:
 
-Este exercício é mais avançado e envolve a criação de objetos aninhados (PedidoCompra, PedidoCompraFrete e PedidoCompraPagamento) com funções anônimas para calcular frete e processar pagamento.
-
-Cada função anônima é executada para simular ações reais no fluxo de compra.
+// Este exercício é mais avançado e envolve a criação de objetos aninhados (PedidoCompra, PedidoCompraFrete e PedidoCompraPagamento)
+// com funções anônimas para  calcular frete e processar pagamento.
+// Cada função anônima é executada para simular ações reais no fluxo de compra.
+```
 
 Exercício 5 – Nível Avançado: Criar um Pedido de Venda com Entrega e Ações Compostas
 Enunciado:
 Crie um objeto PedidoVendaEntrega que contenha um PedidoVenda, que por sua vez contém um Cliente com endereço completo e um Produto. Inclua funções anônimas para organizar a entrega e concluir a venda. Exiba o cenário completo e execute as funções anônimas para simular o fluxo de entrega.
 
-dart
-Copiar
-Editar
+```dart
+
 void main() {
   // Cria o objeto Cliente com endereço detalhado
   var cliente = Cliente(
@@ -686,13 +673,6 @@ void main() {
   pedidoVenda.concluirVenda();
   pedidoVendaEntrega.organizarEntrega();
 }
-Comentários:
-
-Neste exercício avançado, o aluno cria um cenário completo de um pedido de venda com entrega, envolvendo vários objetos aninhados.
-
-As funções anônimas concluirVenda e organizarEntrega são executadas para simular o fluxo do processo de venda e entrega.
-
-Esses 5 exercícios gradativos foram elaborados para que o aluno treine a criação de objetos com referência anônima e compreenda como utilizar parâmetros nomeados e posicionais na construção de instâncias complexas. Cada exercício vem com resolução comentada para facilitar o entendimento e a fixação dos conceitos.
 ```
 ---
 
@@ -758,29 +738,7 @@ Crie um objeto de ProdutoRestricaoIdade com referência anônima, incluindo um p
 Exercício 20: Criando um Cliente com Preferências
 Crie um objeto de ClientePreferencias com referência anônima, incluindo um parâmetro para preferências de produtos e métodos de pagamento.
 
----
 
-## Desafios - 
-
-### Desafio 1 - Associação em 5 Níveis
-**Enunciado:** Instancie uma `Venda` que contenha um `Cliente` associado a uma `Cidade`, que pertence a um `Estado`, dentro de um `País`.
-
-```dart
-var venda = Venda(
-  Cliente("João", Cidade("Curitiba", Estado("Paraná", Pais("Brasil")))),
-  1500.0
-);
-```
-
-### Desafio 2 - Construtor com Função e Associação
-**Enunciado:** Crie um `Pedido` que contenha um `Cliente`, uma `Lista de Produtos` e um cálculo de desconto como função anônima.
-
-```dart
-var pedido = Pedido(
-  Cliente("Maria", Cidade("São Paulo", Estado("SP", Pais("Brasil")))),
-  [Produto("TV", (preco) => preco * 0.85)]
-);
-```
 
 
 
