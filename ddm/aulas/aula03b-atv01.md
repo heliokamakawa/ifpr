@@ -100,7 +100,7 @@ class Pessoa {
   Pessoa(this.idade);
 }
 ```
-14. Modifique a classe abaixo para que o set de idade não permita valores negativos:
+14. Modifique a classe abaixo com a impoementação da idade, no qual, o set não permita valores negativos:
 ```dart
 class Pessoa {
   double _peso;
