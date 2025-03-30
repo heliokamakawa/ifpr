@@ -88,42 +88,6 @@ Com base nos princípios das metodologias ágeis, será utilizada uma abordagem 
 
 Além desses encontros, **o professor orientador terá papel fundamental na condução do processo**, realizando reuniões frequentes com o aluno para revisar o progresso, oferecer suporte técnico e metodológico, e garantir que os objetivos acadêmicos do projeto sejam cumpridos.
 
-
-**Metodologias de Validação e Feedback**
-
-Para validar a eficácia do sistema, serão utilizados métodos de aceitação baseados em boas práticas de **testes de usabilidade e experiência do usuário**. O aluno aplicará **testes de aceite**, nos quais o cliente executará tarefas no sistema e fornecerá feedback por meio de um **formulário estruturado com escala Likert** (0 a 5), permitindo avaliar os seguintes aspectos:
-
-### **Critérios de Avaliação**
-#### **1. Facilidade de Uso (Usabilidade)**
-- O sistema é intuitivo e fácil de usar?
-- A reserva da quadra pode ser feita rapidamente sem dificuldades?
-- As informações sobre disponibilidade estão claras?
-- As telas e botões são bem organizados?
-- Você precisou de ajuda para realizar a reserva?
-
-#### **2. Eficácia na Gestão das Reservas**
-- O sistema evita conflitos de agendamento?
-- O tempo necessário para confirmar uma reserva foi reduzido?
-- O cancelamento e reagendamento são simples de realizar?
-- A visualização das reservas está clara e acessível?
-- Você sente que o sistema melhorou a organização do processo?
-
-#### **3. Notificações e Experiência do Usuário**
-- As notificações de confirmação e lembretes são úteis?
-- As mensagens enviadas pelo sistema são claras?
-- As notificações ajudaram a evitar esquecimentos ou desencontros?
-- O sistema melhora a comunicação entre usuários e o estabelecimento?
-- Você recomendaria o uso desse sistema para outras pessoas?
-
-Cada pergunta será respondida utilizando a **escala Likert de 0 a 5**, onde:
-- **0 – Discordo totalmente**
-- **1 – Discordo parcialmente**
-- **2 – Neutro**
-- **3 – Concordo parcialmente**
-- **4 – Concordo totalmente**
-- **5 – Concordo totalmente e excedeu minhas expectativas**
-
-
 ## Avaliação do Sistema - Teste de Aceite com Usuários Finais
 
 A avaliação do **ArenaNow** será realizada por meio de um **teste de aceite** com usuários finais, com o objetivo de garantir que as funcionalidades da plataforma atendem aos requisitos e expectativas estabelecidas, promovendo uma experiência positiva tanto para os usuários quanto para os gestores. O teste de aceite é uma metodologia amplamente utilizada no desenvolvimento de software, onde os usuários testam as funcionalidades do sistema em um cenário real, validando se o produto final está pronto para ser entregue.
@@ -162,6 +126,28 @@ A metodologia de avaliação será realizada em etapas claras e objetivas:
 4. **Coleta e Análise dos Dados:**
    - Após a realização do teste de aceite, será coletado o formulário preenchido pelos usuários.
    - A análise dos dados será feita de forma agregada, buscando identificar padrões e áreas que precisam de melhorias ou ajustes. As respostas dos usuários fornecerão insights sobre a funcionalidade da plataforma, identificando se as expectativas foram atendidas e onde o sistema pode ser otimizado.
+
+### Formulário do Teste de aceite:
+#### **1. Facilidade de Uso (Usabilidade)**
+- O sistema é intuitivo e fácil de usar?
+- A reserva da quadra pode ser feita rapidamente sem dificuldades?
+- As informações sobre disponibilidade estão claras?
+- As telas e botões são bem organizados?
+- Você precisou de ajuda para realizar a reserva?
+
+#### **2. Eficácia na Gestão das Reservas**
+- O sistema evita conflitos de agendamento?
+- O tempo necessário para confirmar uma reserva foi reduzido?
+- O cancelamento e reagendamento são simples de realizar?
+- A visualização das reservas está clara e acessível?
+- Você sente que o sistema melhorou a organização do processo?
+
+#### **3. Notificações e Experiência do Usuário**
+- As notificações de confirmação e lembretes são úteis?
+- As mensagens enviadas pelo sistema são claras?
+- As notificações ajudaram a evitar esquecimentos ou desencontros?
+- O sistema melhora a comunicação entre usuários e o estabelecimento?
+- Você recomendaria o uso desse sistema para outras pessoas?
 
 ### Materiais de estudo para aprofundar:
 
