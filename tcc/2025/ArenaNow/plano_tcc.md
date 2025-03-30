@@ -90,6 +90,7 @@ Com base nos princípios das metodologias ágeis, será utilizada uma abordagem 
 Além desses encontros, **o professor orientador terá papel fundamental na condução do processo**, realizando reuniões frequentes com o aluno para revisar o progresso, oferecer suporte técnico e metodológico, e garantir que os objetivos acadêmicos do projeto sejam cumpridos.
 
 **Metodologias de Validação e Feedback**
+
 Para validar a eficácia do sistema, serão utilizados métodos de aceitação baseados em boas práticas de **testes de usabilidade e experiência do usuário**. O aluno aplicará **testes de aceite**, nos quais o cliente executará tarefas no sistema e fornecerá feedback por meio de um **formulário estruturado com escala Likert** (0 a 5), permitindo avaliar os seguintes aspectos:
 
 ### **Critérios de Avaliação**
