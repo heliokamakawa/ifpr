@@ -88,6 +88,7 @@ Com base nos princípios das metodologias ágeis, será utilizada uma abordagem 
 
 Além desses encontros, **o professor orientador terá papel fundamental na condução do processo**, realizando reuniões frequentes com o aluno para revisar o progresso, oferecer suporte técnico e metodológico, e garantir que os objetivos acadêmicos do projeto sejam cumpridos.
 
+
 **Metodologias de Validação e Feedback**
 
 Para validar a eficácia do sistema, serão utilizados métodos de aceitação baseados em boas práticas de **testes de usabilidade e experiência do usuário**. O aluno aplicará **testes de aceite**, nos quais o cliente executará tarefas no sistema e fornecerá feedback por meio de um **formulário estruturado com escala Likert** (0 a 5), permitindo avaliar os seguintes aspectos:
@@ -162,7 +163,7 @@ A metodologia de avaliação será realizada em etapas claras e objetivas:
    - Após a realização do teste de aceite, será coletado o formulário preenchido pelos usuários.
    - A análise dos dados será feita de forma agregada, buscando identificar padrões e áreas que precisam de melhorias ou ajustes. As respostas dos usuários fornecerão insights sobre a funcionalidade da plataforma, identificando se as expectativas foram atendidas e onde o sistema pode ser otimizado.
 
-### Fundamentação Teórica:
+### Materiais de estudo para aprofundar:
 
 A **escala Likert** é uma ferramenta de pesquisa psicométrica que mede a intensidade das atitudes ou sentimentos dos indivíduos em relação a um objeto ou fenômeno, sendo uma técnica amplamente utilizada em estudos de avaliação de sistemas, usabilidade e experiência do usuário. 
 
@@ -188,19 +189,6 @@ A metodologia de **teste de aceite com usuários finais** é fundamentada em pr�
 - **Metodologias Ágeis**:
   - **Schwaber, K. (2004)**. *Agile Project Management with Scrum*. Microsoft Press. [Link para estudo](https://www.amazon.com.br/Agile-Project-Management-Scrum-Schwaber/dp/1572316243)
 
-
-### **Fases do Desenvolvimento**
-1. **Levantamento de Requisitos** – Pesquisa com administradores e usuários.
-2. **Planejamento** – Definição de funcionalidades, arquitetura e tecnologias.
-3. **Desenvolvimento** – Codificação utilizando **Flutter** e **Firebase/SQLite**.
-4. **Testes** – Testes unitários, de integração e usabilidade.
-5. **Implantação Piloto** – Teste do sistema em um centro esportivo.
-6. **Ajustes Finais e Documentação**.
-
-## 6. Metodologia de Análise e Avaliação
-- **Coleta de Feedbacks:** Entrevistas e questionários com os usuários.
-- **Métricas de Uso:** Monitoramento do número de reservas e taxa de comparecimento.
-- **Comparativo Antes/Depois:** Análise da redução de conflitos e do aumento de uso das quadras.
 
 ## 7. Cronograma
 | Etapa | Duração | Início | Fim |
