@@ -4,7 +4,6 @@
 O **ArenaNow** é um aplicativo desenvolvido para facilitar a gestão e a reserva de quadras esportivas de **beach tennis** e **futebol society**. A plataforma permitirá que administradores de centros esportivos, clubes e academias gerenciem melhor seus espaços, otimizando o agendamento e evitando conflitos de horário.
 
 ## 2. Objetivos do Trabalho
-## 2. Objetivos do Trabalho
 
 ### **Objetivo Geral**
 Desenvolver uma **plataforma web** para gestão e reserva de quadras esportivas específicas para **beach tennis** e **futebol society** e um aplicativo móvel para clientes realizarem e acompanharem suas reservas.
