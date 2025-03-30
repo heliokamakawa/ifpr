@@ -6,13 +6,6 @@ O **ArenaNow** é um aplicativo desenvolvido para facilitar a gestão e a reserv
 ## 2. Objetivos do Trabalho
 
 ### **Objetivo Geral**
-Desenvolver uma **plataforma web** para gestão e reserva de quadras esportivas específicas para **beach tennis** e **futebol society** e um aplicativo móvel para clientes realizarem e acompanharem suas reservas.
-
-### **Objetivos Específicos**
-
-## 2. Objetivos do Trabalho
-
-### **Objetivo Geral**
 Desenvolver uma **plataforma web** para gestão e reserva de quadras esportivas específicas para **beach tennis** e **futebol society**, com funcionalidades administrativas e para usuários finais.
 
 ### **Objetivos Específicos**
