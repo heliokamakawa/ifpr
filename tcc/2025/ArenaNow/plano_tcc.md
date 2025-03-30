@@ -22,7 +22,18 @@ Desenvolver uma **plataforma web** para gestão e reserva de quadras esportivas 
 - Criar um sistema de avaliação e feedback de usuários sobre a experiência de reserva e uso das quadras.
 >>>> tem interesse? - Implementar um sistema de pagamento integrado para a realização de reservas.
 
+#### Sistema de Reserva Moderna
 
+Para resolver os desafios comuns enfrentados pelos jogadores na organização das partidas, o sistema deve incluir as seguintes funcionalidades:
+- Grupos de Jogadores: Cada usuário pode criar ou participar de grupos de jogadores, permitindo uma melhor organização e comunicação.
+- Sugestão Inteligente de Reservas: O usuário poderá, sem precisar consultar manualmente os amigos, verificar a possibilidade de reserva em um determinado dia.
+- Convite Automático para Grupos: O sistema permite que o usuário selecione um horário desejado e envie convites automáticos para os grupos de jogadores aos quais pertence. O convite inclui detalhes da reserva, como horário, local e custo estimado.
+- Pré-Reserva Inteligente: Assim que o quórum mínimo for atingido, o sistema realiza a pré-reserva da quadra, garantindo o horário temporariamente.
+- Divisão de Custos: O sistema calculará automaticamente o valor exato que cada jogador deve pagar, com a possibilidade de o organizador cobrir eventuais desistências ou cancelamentos.
+- Confirmação de Pagamento e Reserva: A reserva só será consolidada após a confirmação do pagamento. O sistema enviará notificações a todos os participantes.
+- Opção de Cancelamento: Caso o quórum mínimo não seja atingido dentro de um prazo determinado, a reserva é automaticamente cancelada e os jogadores são informados.
+- Gestão de Cancelamentos: Caso um jogador desista, o organizador terá a opção prévia de cancelamento, redistribuição dos custos entre os participantes restantes ou do organizador assuma o valor restante.
+- Histórico de Reservas: O sistema mantém um histórico de pagamentos e participações, permitindo que os usuários consultem reservas passadas e organizem futuras partidas com mais facilidade.
 
 ## 3. Justificativa
 
