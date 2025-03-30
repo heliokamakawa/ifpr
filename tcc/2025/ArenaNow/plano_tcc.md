@@ -64,32 +64,32 @@ O projeto será desenvolvido utilizando **metodologias ágeis (Scrum)**, garanti
 
 Embora as metodologias ágeis sejam amplamente aplicadas no mercado de software com equipes multidisciplinares e interações constantes com stakeholders, no contexto deste **TCC**, algumas adaptações são necessárias. Diferente do ambiente corporativo, onde há uma equipe dedicada e reuniões frequentes, o desenvolvimento será conduzido por **um único desenvolvedor (o aluno)**, conciliando a criação do software com sua rotina acadêmica.
 
-## **Adaptação do Modelo Ágil à Realidade do TCC**
+**Adaptação do Modelo Ágil à Realidade do TCC**
 - **Interatividade com o cliente em três encontros principais**, considerando a limitação de tempo e disponibilidade tanto do aluno quanto do cliente.
 - **Maior envolvimento do professor orientador**, atuando como um facilitador técnico e metodológico ao longo do desenvolvimento.
 - **Ciclos iterativos mais longos**, já que o aluno não pode dedicar-se exclusivamente ao projeto, como ocorre no mercado profissional.
 
-## **Estratégia de Interação e Validação**
+**Estratégia de Interação e Validação**
 Com base nos princípios das metodologias ágeis, será utilizada uma abordagem iterativa, dividida em **três encontros-chave com o cliente**:
 
-### **1º Encontro – Levantamento de Requisitos e Validação Inicial**
+**1º Encontro – Levantamento de Requisitos e Validação Inicial**
 - Definição do problema e levantamento das principais necessidades do cliente.
 - Apresentação de uma proposta inicial de solução e esboço do fluxo de funcionamento do sistema.
 - Discussão sobre funcionalidades essenciais e viabilidade dentro do tempo disponível.
 
-### **2º Encontro – Validação do Protótipo Funcional**
+**2º Encontro – Validação do Protótipo Funcional**
 - Demonstração do primeiro protótipo funcional com as principais funcionalidades implementadas.
 - Coleta de feedback do cliente para ajustes e refinamentos.
 - Definição de melhorias e novas funcionalidades a serem implementadas na próxima iteração.
 
-### **3º Encontro – Teste de Aceite e Ajustes Finais**
+**3º Encontro – Teste de Aceite e Ajustes Finais**
 - O cliente utilizará o sistema e avaliará as funcionalidades com base em um **formulário estruturado**.
 - Serão utilizados critérios de usabilidade e funcionamento técnico para validar a eficácia da solução.
 - Ajustes finais com base no feedback recebido.
 
 Além desses encontros, **o professor orientador terá papel fundamental na condução do processo**, realizando reuniões frequentes com o aluno para revisar o progresso, oferecer suporte técnico e metodológico, e garantir que os objetivos acadêmicos do projeto sejam cumpridos.
 
-## **Metodologias de Validação e Feedback**
+**Metodologias de Validação e Feedback**
 Para validar a eficácia do sistema, serão utilizados métodos de aceitação baseados em boas práticas de **testes de usabilidade e experiência do usuário**. O aluno aplicará **testes de aceite**, nos quais o cliente executará tarefas no sistema e fornecerá feedback por meio de um **formulário estruturado com escala Likert** (0 a 5), permitindo avaliar os seguintes aspectos:
 
 ### **Critérios de Avaliação**
