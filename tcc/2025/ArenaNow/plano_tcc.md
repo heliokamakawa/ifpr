@@ -22,7 +22,7 @@ Desenvolver uma **plataforma web** para gestão e reserva de quadras esportivas 
 - Criar um sistema de avaliação e feedback de usuários sobre a experiência de reserva e uso das quadras.
 >>>> tem interesse? - Implementar um sistema de pagamento integrado para a realização de reservas.
 
-#### Sistema de Reserva Moderna
+#### Sistema de Reserva Inteligente
 
 Para resolver os desafios comuns enfrentados pelos jogadores na organização das partidas, o sistema deve incluir as seguintes funcionalidades:
 - Grupos de Jogadores: Cada usuário pode criar ou participar de grupos de jogadores, permitindo uma melhor organização e comunicação.
