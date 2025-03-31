@@ -99,16 +99,16 @@ A avaliação do **ArenaNow** será realizada por meio de um **teste de aceite**
 ### Objetivo da Avaliação:
 
 O principal objetivo do teste de aceite será avaliar a eficácia das funcionalidades principais do sistema, como:
-1. Facilidade de uso para realizar reservas (PONTO 01),
-2. Organização e eficiência na gestão das reservas, prevenindo conflitos (PONTO 02),
-3. Utilização de notificações e lembretes automáticos para melhorar a experiência do usuário (PONTO 03).
+1. Facilidade de uso para realizar reservas,
+2. Organização e eficiência na gestão das reservas, prevenindo conflitos,
+3. Utilização de notificações e lembretes automáticos para melhorar a experiência do usuário.
 
 ### Metodologia de Avaliação:
 
 A metodologia de avaliação será realizada em etapas claras e objetivas:
 
 1. **Seleção dos Usuários Finais:**
-   - Para garantir uma avaliação representativa, selecionaremos um número de usuários finais que utilizarão a plataforma em um contexto real de reservas de quadras de **beach tennis** e **futebol society**.
+   - Para garantir uma avaliação representativa, será selecionado 4 usuários finais que utilizarão a plataforma em um contexto real de reservas de quadras de **beach tennis** e **futebol society**.
    - Os usuários selecionados serão convidados a testar as funcionalidades, sendo representativos dos perfis de público-alvo da plataforma.
 
 2. **Execução do Teste de Aceite:**
