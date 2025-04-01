@@ -12,6 +12,11 @@
     - Processos: Extração de Requisitos (descobrimento); Análise e Negociação de Requisitos (requisitos acordados); Validação de Requisitos (consistentes, completos, precisos); e Gerenciamento de Mudança de Requisitos.
   - [Diário de Aula](https://github.com/heliokamakawa/aula/blob/main/carreiras.md)
 
+# Diário de aula:
+  - Quais técnicas foram utilizadas?
+  - Quais dificuldades? Quais cuidadeos? e Como contornar? 
+  - Qual a diferença entre levantamento e análise de requisito?
+
 # Material de estudo: 
 1. LARMAN, Craig. Utilizando UML e padrões: uma introdução à análise e ao projeto orientados a objetos e ao desenvolvimento iterativo. 3. ed. Porto Alegre: Bookman, 2005.
   - Capítulo 4: O processo unificado e iterações na modelagem de requisitos (p. 75-100).
