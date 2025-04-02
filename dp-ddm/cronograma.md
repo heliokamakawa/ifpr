@@ -16,25 +16,71 @@
 
 ---
 
-## 📅 06/05 - Introdução a Widgets
-📌 **Objetivos:**
-- Apresentar os fundamentos da criação de widgets no Flutter.
-- Introduzir o conceito de controle de estado.
-- Propor uma lista de exercícios com dificuldade progressiva.
-- Disponibilizar links de referência para aprofundamento.
+## 📅 06/05 - Widgets Avançados e Componentização
 
-### 🔹 Introdução aos Widgets no Flutter
-Widgets são os blocos fundamentais para a construção de interfaces no Flutter. Eles podem ser **stateless** (sem estado) ou **stateful** (com estado). Os widgets são reutilizáveis e podem ser combinados para criar interfaces dinâmicas e eficientes.
+### 🔹 Widgets com Controle de Estado
 
-### 🔹 Controle de Estado
-O estado em Flutter pode ser gerenciado de diferentes formas. A abordagem mais básica utiliza o **StatefulWidget**, permitindo que as interfaces respondam a interações do usuário.
+Widgets no Flutter podem ser **stateless** (sem estado) ou **stateful** (com estado). Os **StatefulWidgets** permitem que a interface responda a interações do usuário, mantendo e atualizando seu estado interno.
 
-### 📖 Material de Apoio
+### 📖 Leituras Recomendadas
+- [StatefulWidget - Flutter Documentation](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html)
+- [Adicionando Interatividade ao seu App Flutter](https://docs.flutter.dev/ui/interactivity)
+
+### 🔹 Listas com Múltiplos Recursos
+
+Criar listas que comportam diferentes tipos de itens ou funcionalidades avançadas é uma prática comum em aplicativos modernos. O Flutter oferece flexibilidade para implementar listas complexas de forma eficiente.
+
+### 📖 Leituras Recomendadas
+- [Criando Listas com Diferentes Tipos de Itens](https://docs.flutter.dev/cookbook/lists/mixed-list)
+- [Trabalhando com Listas Longas](https://docs.flutter.dev/cookbook/lists/long-lists)
+
+### 🔹 Formulários Reativos
+
+Formulários reativos permitem uma gestão mais eficiente e organizada dos dados de entrada do usuário, facilitando validações e sincronização de estados.
+
+### 📖 Leituras Recomendadas
+- [Reactive Forms - Pacote Flutter](https://pub.dev/packages/reactive_forms)
+- [Criando Formulários Reativos no Flutter](https://blog.logrocket.com/creating-reactive-forms-flutter/)
+
+### 🔹 Componentização de Widgets
+
+A componentização envolve a criação de widgets reutilizáveis e modulares, promovendo a manutenção e escalabilidade do código.
+
+### 📖 Leituras Recomendadas
+- [A Arte da Componentização no Flutter](https://medium.com/@bracinho2/the-art-of-componentization-in-flutter-f2e90701eb11)
+- [Guia Completo para Composição de Widgets no Flutter](https://apexive.com/post/guide-to-widget-composition-in-flutter)
+
+### 📌 Exercícios Práticos
+
+1. **Contador com StatefulWidget:** Crie um aplicativo que incremente um contador toda vez que um botão for pressionado.
+2. **Lista de Tarefas Simples:** Implemente uma lista onde o usuário pode adicionar e remover tarefas.
+3. **Lista com Diferentes Tipos de Itens:** Crie uma lista que contenha cabeçalhos e itens de diferentes tipos.
+4. **Formulário de Login com Validação:** Desenvolva um formulário de login que valide os campos de e-mail e senha.
+5. **Formulário Reativo para Cadastro:** Utilize o pacote `reactive_forms` para criar um formulário de cadastro com validações em tempo real.
+6. **Componentização de Botão Personalizado:** Crie um widget de botão personalizado que possa ser reutilizado em diferentes partes do aplicativo.
+7. **Lista com Funcionalidades Avançadas:** Implemente uma lista que permita deslizar itens para excluir e tocar duas vezes para editar.
+8. **Navegação entre Telas com Estado:** Desenvolva um aplicativo com duas telas onde dados inseridos na primeira são exibidos na segunda.
+9. **Tema Dinâmico com Provider:** Implemente a troca de temas (claro/escuro) utilizando o pacote `provider` para gerenciamento de estado.
+10. **Dashboard com Widgets Reutilizáveis:** Crie uma tela de dashboard que componha diversos widgets reutilizáveis para exibir informações variadas.
+
+### 📂 Tarefa Github
+Realizar os exercícios.
+Aplique os conceitos aprendidos no seu estudo de caso único e personalizado, implementando pelo menos três conceitos estudados.
+
+---
+
+## 📅 29/04 - Avaliação: Code Lab (PRESENCIAL)
+📌 **Atividade:**
+- Realizar o desafio disponível no link:
+  🔗 [Desafio Code Lab](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula3c-desafio.md)
+
+### Introdução a Widgets
+#### 📖 Material de Apoio
 - [Documentação Oficial do Flutter](https://docs.flutter.dev/development/ui/widgets-intro)
 - [Guia sobre Stateless e Stateful Widgets](https://docs.flutter.dev/development/ui/widgets-intro#stateful-and-stateless-widgets)
 - [Exemplo prático de componentização](https://docs.flutter.dev/ui/layout)
 
-### 📌 Exercícios Práticos
+#### 📌 Exercícios Práticos
 1. Criar um **StatelessWidget** básico e exibir um texto na tela. *(solução comentada)*
 2. Criar um **StatefulWidget** que altera o texto ao pressionar um botão. *(solução comentada)*
 3. Criar um contador utilizando o **setState** para atualizar o estado.
@@ -43,15 +89,8 @@ O estado em Flutter pode ser gerenciado de diferentes formas. A abordagem mais b
 6. Criar um formulário com validação de entrada.
 
 **📂 Tarefa Github:**
+Realizar todos os exercícios.
 Aplicar os conceitos aprendidos no seu estudo de caso único e personalizado.
-
----
-
-## 📅 29/04 - Avaliação: Code Lab
-📌 **Atividade:**
-- Realizar o desafio disponível no link:
-  🔗 [Desafio Code Lab](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/aula3c-desafio.md)
-
 ---
 
 ## 📅 22/04 - Princípios de Programação Orientada a Objetos (POO) - Sintaxe
