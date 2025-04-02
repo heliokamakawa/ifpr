@@ -11,7 +11,8 @@
 - Criar pelo menos 7 telas, contendo pelo menos uma entidade com associação.
 - Responder questionamentos sobre conceitos e autoria.
 - Apresentar os commits do projeto, demonstrando periodicidade no desenvolvimento.
-- Indicar alunos para recuperação e realizar a retomada de conteúdos.
+
+### Indicação de recuperação e a retomada de conteúdos.
 
 ---
 
