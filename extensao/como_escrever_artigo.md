@@ -51,6 +51,6 @@ Com base nessa análise, estruture seu artigo seguindo um formato similar ao ado
 - 🔹 **Introdução**: Apresentação do problema, justificativa e objetivos.  
 - 🔹 **Referencial Teórico**: Conceitos e estudos anteriores que embasam sua pesquisa.  
 - 🔹 **Metodologia**: Como o estudo foi realizado (tipo de pesquisa, técnicas, ferramentas usadas).  
-- 🔹 **Resultados e Discussão**: Apresentação e interpretação dos dados obtidos.  
+- 🔹 **Resultados e Discussão**: Apresentação e interpretação dos dados obtidos >>>>conexão instituição, aluno, comunidade<<<< benefícios instituição,aluno, comunidade - impacto transformação.  
 - 🔹 **Conclusão**: Fechamento do artigo com os principais achados e contribuições.  
 - 🔹 **Referências**: Lista das fontes utilizadas, conforme a norma exigida pela
