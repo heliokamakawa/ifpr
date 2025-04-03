@@ -54,20 +54,57 @@ O aluno extensionista demonstrou dedicação, participando ativamente das ativid
 
 ## **6. Dificuldades Encontradas**
 
-Liste os desafios enfrentados durante a execução do projeto e como foram solucionados.
+Nesta seção, descreva os desafios enfrentados ao longo do projeto e as estratégias adotadas para superá-los. Relate de forma clara e objetiva quais dificuldades surgiram, como elas impactaram as atividades e quais soluções foram implementadas para garantir o andamento da iniciativa.
 
-**Exemplo:**
-- **Dificuldade:** Engajamento inicial dos alunos beneficiados.
-- **Solução:** Adoção de metodologias ativas para tornar as atividades mais dinâmicas e envolventes.
+Como descrever as dificuldades corretamente?
+Seja específico: Explique quais foram os principais desafios enfrentados (exemplo: baixa adesão dos alunos, dificuldades técnicas, falta de recursos, problemas logísticos, etc.).
+
+Relate impactos: Como esses problemas afetaram o andamento do projeto? Houve atrasos, necessidade de reformulação ou mudanças no planejamento?
+
+Destaque as soluções: Explique como os desafios foram resolvidos. Quais estratégias foram adotadas? Quem contribuiu para superá-los (professores, parceiros, alunos, comunidade)?
+
+Exemplo:
+No início do projeto, enfrentamos dificuldades na adesão dos alunos extensionistas, pois muitos não compreendiam a relevância da ação para sua formação. Para resolver essa questão, realizamos palestras e encontros com profissionais do setor, demonstrando a aplicabilidade prática dos conhecimentos adquiridos. Além disso, os professores envolvidos prestaram mentorias individualizadas, reforçando a importância da experiência extensionista para o desenvolvimento acadêmico e profissional dos estudantes.
 
 ## **7. Resultados e Considerações Finais**
 
-Descreva os impactos do projeto na instituição, nos alunos extensionistas e na comunidade.
+Esta seção deve apresentar os impactos concretos do projeto, detalhando as melhorias e transformações geradas na instituição, nos alunos extensionistas, nas empresas parceiras e na comunidade. As respostas devem ser objetivas, bem estruturadas e devidamente comprovadas com evidências - não use qualidade subjetivas, 
 
-**Exemplo:**
-O projeto proporcionou aprendizado prático aos estudantes do IFPR, permitindo a aplicação de conceitos teóricos em situações reais. A comunidade foi beneficiada com o suporte educacional, contribuindo para a inclusão digital e desenvolvimento social.
+### Instituição
+Descreva os benefícios que a instituição de ensino obteve com a execução do projeto. Considere aspectos como:
+- Engajamento acadêmico: Houve maior participação dos alunos e professores em ações extensionistas?
+- Inovação no ensino: O projeto resultou em novos métodos pedagógicos ou aprimorou a aprendizagem prática?
+- Reconhecimento e visibilidade: O projeto aumentou a notoriedade da instituição junto à comunidade e empresas?
+- Melhoria na infraestrutura: O projeto contribuiu para desenvolvimento de laboratórios, materiais didáticos ou novos recursos?
+Exemplos:
+- Através da parceria com empresas locais, o projeto permitiu que os laboratórios da instituição recebessem novos equipamentos, melhorando a qualidade da formação prática dos estudantes.
+- O projeto foi amplamente divulgado em mídias locais e redes sociais institucionais, destacando o impacto da ação na comunidade. Como resultado, a instituição recebeu convites para participar de eventos acadêmicos e empresariais, além de fortalecer parcerias estratégicas com empresas do setor. Além disso, a iniciativa foi mencionada em uma reportagem de um portal de notícias regional, aumentando o reconhecimento da instituição como referência em inovação e extensão.
 
-Além disso, foram elaborados resumos científicos e relatórios técnicos, promovendo a disseminação do conhecimento gerado.
+### Extensionista
+Explique os benefícios que cada aluno extensionista obteve ao participar do projeto. Algumas questões que podem ser abordadas:
+- Aprimoramento de habilidades técnicas: O aluno aprendeu novas tecnologias, ferramentas ou metodologias?
+- Desenvolvimento de soft skills: Houve melhora na comunicação, liderança, trabalho em equipe ou resolução de problemas?
+- Experiência prática: O aluno teve contato real com desafios do mercado de trabalho?
+- Novas oportunidades: O projeto resultou em estágios, empregos ou networking profissional?
+
+Exemplo: "Durante a atuação no projeto, o extensionista aplicou técnicas avançadas de desenvolvimento de software, além de aprimorar habilidades de comunicação ao interagir diretamente com empresas e clientes."
+
+### Empresas Parceiras
+Detalhe os benefícios que as empresas parceiras obtiveram ao participar do projeto. Alguns aspectos a serem considerados:
+- Soluções práticas: O projeto forneceu soluções inovadoras ou ajudou a resolver problemas específicos da empresa?
+- Capacitação de talentos: Houve um processo de treinamento ou descoberta de novos talentos para contratação?
+- Engajamento com a comunidade: A parceria fortaleceu a imagem da empresa como apoiadora de iniciativas educacionais e sociais?
+Exemplo: "A empresa XYZ conseguiu aprimorar seu processo de desenvolvimento de software com sugestões dos alunos extensionistas e, como resultado, contratou dois participantes do projeto."
+
+### Comunidade
+Descreva como o projeto beneficiou a comunidade de forma geral. Considere aspectos como:
+- Acesso a novas tecnologias e conhecimentos: A comunidade teve acesso a ferramentas, aplicativos ou cursos desenvolvidos pelo projeto?
+- Soluções para demandas locais: O projeto ajudou a resolver problemas específicos da comunidade, como inclusão digital ou apoio a pequenos negócios?
+- Impacto social: Houve melhora na qualidade de vida das pessoas atendidas?
+
+Exemplo: "A comunidade local teve acesso a um aplicativo desenvolvido pelos extensionistas para facilitar a comunicação entre pequenos comerciantes e clientes, aumentando as vendas e promovendo o desenvolvimento econômico da região."
+
+Dica: Sempre que possível, utilize dados concretos, depoimentos e registros fotográficos para validar os resultados apresentados.
 
 ## **8. Anexos**
 
@@ -78,5 +115,6 @@ Liste os documentos e fotos anexadas como comprovação das atividades realizada
 - Lista de presença dos alunos participantes.
 - Relatórios de acompanhamento.
 - Prints de sistemas desenvolvidos.
+- depoimentos, estatísticas ou outros documentos.
 
 
