@@ -79,6 +79,4 @@ Liste os documentos e fotos anexadas como comprovação das atividades realizada
 - Relatórios de acompanhamento.
 - Prints de sistemas desenvolvidos.
 
----
 
-Este modelo facilita o preenchimento pelos alunos e garante um relato completo e estruturado da experiência extensionista.
