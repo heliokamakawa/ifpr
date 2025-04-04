@@ -3,11 +3,39 @@
 ## Estrutura de Classes
 
 ```dart
+// Classe de País
+class Pais {
+  String nome;
+  Pais({required this.nome});
+}
+
+// Classe de Estado
+class Estado {
+  String nome;
+  Pais pais;
+  Estado({required this.nome, required this.pais});
+}
+
+// Classe de Cidade
+class Cidade {
+  String nome;
+  Estado estado;
+  Cidade({required this.nome, required this.estado});
+}
+
+// Classe de Endereco
+class Endereco {
+  String rua;
+  String cep;
+  Cidade cidade;
+  Endereco({required this.rua, required this.cep, required this.cidade});
+}
+
 // Classe de Fornecedor
 class Fornecedor {
   String nome;
   String cnpj;
-  String endereco;
+  Endereco endereco;
   void Function() acaoFornecedor;
 
   Fornecedor(this.nome, this.cnpj, this.endereco, {required this.acaoFornecedor});
@@ -28,76 +56,36 @@ class Departamento {
   String nome;
   Funcionario gerente;
   void Function() acaoDepartamento;
+  List<Funcionario> funcionarios;
 
-  Departamento(this.nome, this.gerente, {required this.acaoDepartamento});
+  Departamento(this.nome, this.gerente, {required this.acaoDepartamento, required this.funcionarios});
 }
 
 // Classe de Cliente
 class Cliente {
   String nome;
-  String endereco;
+  Endereco endereco;
   void Function() atualizarEndereco;
 
   Cliente(this.nome, {required this.endereco, required this.atualizarEndereco});
 }
 
-// Classe de Cidade
-class Cidade {
-  String nome;
-  String estado;
-  void Function(String) alterarEstado;
-
-  Cidade(this.nome, this.estado, {required this.alterarEstado});
-}
-
-// Classe de Estado
-class Estado {
-  String nome;
-  String pais;
-  void Function() mudarPais;
-
-  Estado(this.nome, {required this.pais, required this.mudarPais});
-}
-
-// Classe de País
-class Pais {
-  String nome;
-  void Function() exibirPais;
-
-  Pais(this.nome, {required this.exibirPais});
-}
-
 // Classe de Pedido de Venda
 class PedidoVenda {
   Cliente cliente;
-  Produto produto;
-  int quantidade;
+  List<ItemVenda> itens;
   void Function() concluirVenda;
 
-  PedidoVenda(this.cliente, this.produto, this.quantidade, {required this.concluirVenda});
+  PedidoVenda(this.cliente, {required this.itens, required this.concluirVenda});
 }
 
 // Classe de Pedido de Compra
 class PedidoCompra {
   Fornecedor fornecedor;
-  Produto produto;
-  int quantidade;
+  List<ItemCompra> itens;
   void Function() realizarCompra;
 
-  PedidoCompra(this.fornecedor, this.produto, this.quantidade, {required this.realizarCompra});
-}
-
-// Classe de Produto
-class Produto {
-  String nome;
-  double preco;
-  TipoProduto tipo;
-  CategoriaProduto categoria;
-  UnidadeMedida unidadeMedida;
-  Fornecedor fornecedor;
-  void Function() ajustarPreco;
-
-  Produto(this.nome, this.preco, this.tipo, this.categoria, {required this.unidadeMedida, required this.fornecedor, required this.ajustarPreco});
+  PedidoCompra(this.fornecedor, {required this.itens, required this.realizarCompra});
 }
 
 // Classe de Tipo de Produto
@@ -126,16 +114,30 @@ class UnidadeMedida {
   UnidadeMedida(this.nome, {required this.simbolo, required this.atualizarUnidade});
 }
 
-// Classe de Produto com Estoque
+// Classe de Produto
+class Produto {
+  String nome;
+  double preco;
+  TipoProduto tipo;
+  CategoriaProduto categoria;
+  UnidadeMedida unidadeMedida;
+  Fornecedor fornecedor;
+  void Function() ajustarPreco;
+
+  Produto(this.nome, this.preco, this.tipo, this.categoria, {required this.unidadeMedida, required this.fornecedor, required this.ajustarPreco});
+}
+
+// Classe de ProdutoEstoque
 class ProdutoEstoque {
   Produto produto;
   int quantidade;
   void Function() ajustarEstoque;
+  DateTime dataAtualizacao;
 
-  ProdutoEstoque(this.produto, this.quantidade, {required this.ajustarEstoque});
+  ProdutoEstoque(this.produto, this.quantidade, {required this.ajustarEstoque, required this.dataAtualizacao});
 }
 
-// Classe de Preço de Produto
+// Classe de PrecoProduto
 class PrecoProduto {
   Produto produto;
   double precoVenda;
@@ -146,7 +148,7 @@ class PrecoProduto {
   PrecoProduto(this.produto, this.precoVenda, this.precoCusto, this.margemLucro, {required this.calcularMargemLucro});
 }
 
-// Classe de Histórico de Preço
+// Classe de HistoricoPreco
 class HistoricoPreco {
   Produto produto;
   DateTime dataAlteracao;
@@ -157,7 +159,7 @@ class HistoricoPreco {
   HistoricoPreco(this.produto, this.dataAlteracao, this.precoAntigo, this.precoNovo, {required this.registrarAlteracao});
 }
 
-// Classe de Produto com Desconto
+// Classe de ProdutoDesconto
 class ProdutoDesconto {
   Produto produto;
   double percentualDesconto;
@@ -168,7 +170,7 @@ class ProdutoDesconto {
   ProdutoDesconto(this.produto, this.percentualDesconto, this.dataInicio, this.dataFim, {required this.aplicarDesconto});
 }
 
-// Classe de Produto com Lote
+// Classe de ProdutoLote
 class ProdutoLote {
   Produto produto;
   String numeroLote;
@@ -179,7 +181,7 @@ class ProdutoLote {
   ProdutoLote(this.produto, this.numeroLote, this.dataFabricacao, this.dataValidade, {required this.verificarLote});
 }
 
-// Classe de Produto com Localização
+// Classe de ProdutoLocalizacao
 class ProdutoLocalizacao {
   Produto produto;
   String corredor;
@@ -189,7 +191,7 @@ class ProdutoLocalizacao {
   ProdutoLocalizacao(this.produto, this.corredor, this.prateleira, {required this.atualizarLocalizacao});
 }
 
-// Classe de Produto com Observações
+// Classe de ProdutoObservacao
 class ProdutoObservacao {
   Produto produto;
   String observacao;
@@ -198,7 +200,7 @@ class ProdutoObservacao {
   ProdutoObservacao(this.produto, this.observacao, {required this.registrarObservacao});
 }
 
-// Classe de Garantia do Produto
+// Classe de GarantiaProduto
 class GarantiaProduto {
   Produto produto;
   int anosGarantia;
@@ -208,7 +210,7 @@ class GarantiaProduto {
   GarantiaProduto(this.produto, this.anosGarantia, this.tipoGarantia, {required this.ativarGarantia});
 }
 
-// Classe de Produto com Status de Disponibilidade
+// Classe de ProdutoDisponibilidade
 class ProdutoDisponibilidade {
   Produto produto;
   bool disponivel;
@@ -218,7 +220,7 @@ class ProdutoDisponibilidade {
   ProdutoDisponibilidade(this.produto, this.disponivel, this.status, {required this.atualizarStatus});
 }
 
-// Classe de Produto com Avaliação
+// Classe de AvaliacaoProduto
 class AvaliacaoProduto {
   Produto produto;
   int numeroEstrelas;
@@ -228,7 +230,7 @@ class AvaliacaoProduto {
   AvaliacaoProduto(this.produto, this.numeroEstrelas, this.comentario, {required this.registrarAvaliacao});
 }
 
-// Classe de Produto com Imagem
+// Classe de ImagemProduto
 class ImagemProduto {
   Produto produto;
   String urlImagem;
@@ -237,7 +239,7 @@ class ImagemProduto {
   ImagemProduto(this.produto, {required this.urlImagem, required this.exibirImagem});
 }
 
-// Classe de Produto com Tamanho
+// Classe de TamanhoProduto
 class TamanhoProduto {
   Produto produto;
   String tamanho;
@@ -246,7 +248,7 @@ class TamanhoProduto {
   TamanhoProduto(this.produto, {required this.tamanho, required this.atualizarTamanho});
 }
 
-// Classe de Produto com Cor
+// Classe de CorProduto
 class CorProduto {
   Produto produto;
   String cor;
@@ -255,7 +257,7 @@ class CorProduto {
   CorProduto(this.produto, {required this.cor, required this.alterarCor});
 }
 
-// Classe de Produto com Peso
+// Classe de PesoProduto
 class PesoProduto {
   Produto produto;
   double peso;
@@ -264,7 +266,7 @@ class PesoProduto {
   PesoProduto(this.produto, {required this.peso, required this.atualizarPeso});
 }
 
-// Classe de Produto com Volume
+// Classe de VolumeProduto
 class VolumeProduto {
   Produto produto;
   double volume;
@@ -273,7 +275,7 @@ class VolumeProduto {
   VolumeProduto(this.produto, {required this.volume, required this.ajustarVolume});
 }
 
-// Classe de Produto com Embalagem
+// Classe de EmbalagemProduto
 class EmbalagemProduto {
   Produto produto;
   String tipoEmbalagem;
@@ -295,26 +297,24 @@ class Estoque {
 // Classe de Venda
 class Venda {
   Cliente cliente;
-  Produto produto;
-  int quantidade;
+  List<ItemVenda> itens;
   DateTime dataVenda;
   void Function() registrarVenda;
 
-  Venda(this.cliente, this.produto, this.quantidade, this.dataVenda, {required this.registrarVenda});
+  Venda(this.cliente, this.dataVenda, {required this.itens, required this.registrarVenda});
 }
 
 // Classe de Compra
 class Compra {
   Fornecedor fornecedor;
-  Produto produto;
-  int quantidade;
+  List<ItemCompra> itens;
   DateTime dataCompra;
   void Function() registrarCompra;
 
-  Compra(this.fornecedor, this.produto, this.quantidade, this.dataCompra, {required this.registrarCompra});
+  Compra(this.fornecedor, this.dataCompra, {required this.itens, required this.registrarCompra});
 }
 
-// Classe de Compra com Lote
+// Classe de CompraLote
 class CompraLote {
   Compra compra;
   String numeroLote;
@@ -324,17 +324,17 @@ class CompraLote {
   CompraLote(this.compra, this.numeroLote, this.dataEntrega, {required this.verificarLoteCompra});
 }
 
-// Classe de Pedido de Venda com Entrega
+// Classe de PedidoVendaEntrega
 class PedidoVendaEntrega {
   PedidoVenda pedidoVenda;
   DateTime dataEntrega;
-  String enderecoEntrega;
+  Endereco enderecoEntrega;
   void Function() organizarEntrega;
 
   PedidoVendaEntrega(this.pedidoVenda, this.dataEntrega, this.enderecoEntrega, {required this.organizarEntrega});
 }
 
-// Classe de Pedido de Compra com Frete
+// Classe de PedidoCompraFrete
 class PedidoCompraFrete {
   PedidoCompra pedidoCompra;
   double valorFrete;
@@ -344,11 +344,100 @@ class PedidoCompraFrete {
   PedidoCompraFrete(this.pedidoCompra, this.valorFrete, this.dataEnvio, {required this.calcularFrete});
 }
 
-// Classe de Pedido de Compra com Pagamento
+// Classe de PedidoCompraPagamento
 class PedidoCompraPagamento {
   PedidoCompra pedidoCompra;
   double valorPago;
-  DateTime data
+  DateTime dataPagamento;
+  void Function() realizarPagamentoCompra;
+
+  PedidoCompraPagamento(this.pedidoCompra, this.valorPago, this.dataPagamento, {required this.realizarPagamentoCompra});
+}
+
+// Nova Classe Armazem
+class Armazem {
+  String nome;
+  Endereco endereco;
+
+  Armazem({required this.nome, required this.endereco});
+}
+
+// Nova Classe ArmazemEstoque
+class ArmazemEstoque {
+  Armazem armazem;
+  List<ProdutoEstoque> produtosEstoque;
+  List<Map<String, dynamic>> historicoAlteracoes;
+
+  ArmazemEstoque({required this.armazem, required this.produtosEstoque, required this.historicoAlteracoes});
+}
+
+// Nova Classe Empresa
+class Empresa {
+  String nome;
+  Endereco endereco;
+  List<Departamento> departamentos;
+
+  Empresa({required this.nome, required this.endereco, required this.departamentos});
+}
+
+// Nova Classe FolhaPagamento
+class FolhaPagamento {
+  Empresa empresa;
+  DateTime dataPagamento;
+
+  FolhaPagamento({required this.empresa, required this.dataPagamento});
+
+  double calcularFolhaPagamento() {
+    double total = 0;
+    for (var departamento in empresa.departamentos) {
+      for (var funcionario in departamento.funcionarios) {
+        total += funcionario.salario;
+      }
+    }
+    return total;
+  }
+}
+
+// Nova Classe RotaEntrega
+class RotaEntrega {
+  Endereco origem;
+  Endereco destino;
+  double distancia;
+  double calcularFrete() {
+    return distancia * 10;
+  }
+
+  RotaEntrega({required this.origem, required this.destino, required this.distancia});
+}
+
+// Nova Classe SistemaIntegrado
+class SistemaIntegrado {
+  List<Compra> compras;
+  List<Venda> vendas;
+  ArmazemEstoque armazemEstoque;
+  RotaEntrega rotaEntrega;
+
+  SistemaIntegrado(
+      {required this.compras, required this.vendas, required this.armazemEstoque, required this.rotaEntrega});
+}
+
+// Nova Classe ItemVenda
+class ItemVenda {
+  Produto produto;
+  int quantidade;
+  double precoUnitario;
+
+  ItemVenda({required this.produto, required this.quantidade, required this.precoUnitario});
+}
+
+// Nova Classe ItemCompra
+class ItemCompra {
+  Produto produto;
+  int quantidade;
+  double precoUnitario;
+
+  ItemCompra({required this.produto, required this.quantidade, required this.precoUnitario});
+}
 
 ```
 Exemplos de exercícios:
