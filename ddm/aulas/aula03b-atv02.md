@@ -449,21 +449,26 @@ Crie um objeto do tipo Fornecedor usando referência anônima e parâmetros nome
 
 ```dart
 void main() {
-  // Cria um objeto Fornecedor utilizando referência anônima para a função 'acaoFornecedor'
   var fornecedor = Fornecedor(
-    "Fornecedor A", 
-    "00.000.000/0001-00", 
-    "Rua dos Fornecedores, 123",
+    "Fornecedor A",
+    "00.000.000/0001-00",
+    Endereco(
+      rua: "Rua dos Fornecedores, 123",
+      cep: "00000-000",
+      cidade: Cidade(
+        nome: "São Paulo",
+        estado: Estado(
+          nome: "São Paulo",
+          pais: Pais(nome: "Brasil"),
+        ),
+      ),
+    ),
     acaoFornecedor: () {
-      // Função anônima para simular uma ação do fornecedor
       print("Ação do Fornecedor A executada!");
-    }
+    },
   );
-  
-  // Exibe o nome do fornecedor
+
   print("Fornecedor: ${fornecedor.nome}");
-  
-  // Executa a ação anônima associada
   fornecedor.acaoFornecedor();
 }
 
@@ -475,53 +480,44 @@ Crie um objeto do tipo Produto com referência anônima, utilizando classes auxi
 
 ```dart
 void main() {
-  // Cria um objeto TipoProduto com função anônima para exibir o tipo
-  var tipo = TipoProduto("Eletrônico", exibirTipo: () {
-    print("Tipo: Eletrônico");
-  });
-  
-  // Cria um objeto CategoriaProduto com função anônima para exibir a categoria
-  var categoria = CategoriaProduto("Informática", "Produtos de TI", exibirCategoria: () {
-    print("Categoria: Informática");
-  });
-  
-  // Cria um objeto UnidadeMedida com função anônima para atualizar a unidade
-  var unidade = UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-    print("Unidade atualizada");
-  });
-  
-  // Cria um objeto Fornecedor necessário para o produto
-  var fornecedor = Fornecedor(
-    "Fornecedor X", 
-    "11.111.111/0001-11", 
-    "Av. dos Fornecedores, 456",
-    acaoFornecedor: () {
-      print("Fornecedor X acionado");
-    }
-  );
-  
-  // Cria o objeto Produto utilizando referência anônima para a função ajustarPreco
   var produto = Produto(
-    "Notebook", 
-    3500.00, 
-    tipo, 
-    categoria, 
-    unidade: unidade, 
-    fornecedor: fornecedor, 
+    "Notebook",
+    3500.00,
+    TipoProduto("Eletrônico", exibirTipo: () {
+      print("Tipo: Eletrônico");
+    }),
+    CategoriaProduto("Informática", "Produtos de TI", exibirCategoria: () {
+      print("Categoria: Informática");
+    }),
+    unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+      print("Unidade atualizada");
+    }),
+    fornecedor: Fornecedor(
+      "Fornecedor X",
+      "11.111.111/0001-11",
+      Endereco(
+        rua: "Av. dos Fornecedores, 456",
+        cep: "00000-000",
+        cidade: Cidade(
+          nome: "São Paulo",
+          estado: Estado(
+            nome: "São Paulo",
+            pais: Pais(nome: "Brasil"),
+          ),
+        ),
+      ),
+      acaoFornecedor: () {
+        print("Fornecedor X acionado");
+      },
+    ),
     ajustarPreco: () {
       print("Preço do Notebook ajustado!");
-    }
+    },
   );
-  
-  // Exibe informações do produto
+
   print("Produto: ${produto.nome} - R\$${produto.preco}");
-  
-  // Executa a função anônima para ajuste de preço
   produto.ajustarPreco();
 }
-
-// Este exercício reforça o uso de classes auxiliares e parâmetros nomeados.
-// Demonstra a composição de um objeto complexo (Produto) e a execução de uma função anônima (ajustarPreco).
 ```
 
 ### Exercício 3 – Nível Médio: Criar um Pedido de Venda com Referência Anônima
@@ -529,71 +525,72 @@ Enunciado:
 Crie um objeto PedidoVenda com referência anônima, que contenha um objeto Cliente e um objeto Produto. Utilize funções anônimas para concluir a venda. Exiba os detalhes do pedido e execute a função de conclusão.
 
 ```dart
-
 void main() {
-  // Cria um Cliente utilizando parâmetros nomeados
-  var cliente = Cliente(
-    "Cliente B", 
-    "Rua dos Clientes, 789", 
-    atualizarEndereco: () {
-      print("Endereço do Cliente B atualizado");
-    }
-  );
-  
-  // Cria objetos auxiliares para o Produto
-  var tipo = TipoProduto("Eletrodoméstico", exibirTipo: () {
-    print("Tipo: Eletrodoméstico");
-  });
-  var categoria = CategoriaProduto("Cozinha", "Produtos para cozinha", exibirCategoria: () {
-    print("Categoria: Cozinha");
-  });
-  var unidade = UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-    print("Unidade atualizada");
-  });
-  var fornecedor = Fornecedor(
-    "Fornecedor Y", 
-    "22.222.222/0001-22", 
-    "Av. dos Fornecedores, 101", 
-    acaoFornecedor: () {
-      print("Fornecedor Y acionado");
-    }
-  );
-  
-  // Cria um Produto com função anônima para ajustar o preço
-  var produto = Produto(
-    "Geladeira", 
-    2500.00, 
-    tipo, 
-    categoria, 
-    unidade: unidade, 
-    fornecedor: fornecedor, 
-    ajustarPreco: () {
-      print("Preço da Geladeira ajustado!");
-    }
-  );
-  
-  // Cria o PedidoVenda com função anônima para concluir a venda
   var pedidoVenda = PedidoVenda(
-    cliente, 
-    produto, 
-    1, 
+    Cliente(
+      "Cliente B",
+      endereco: Endereco(
+        rua: "Rua dos Clientes, 789",
+        cep: "00000-000",
+        cidade: Cidade(
+          nome: "Rio de Janeiro",
+          estado: Estado(
+            nome: "Rio de Janeiro",
+            pais: Pais(nome: "Brasil"),
+          ),
+        ),
+      ),
+      atualizarEndereco: () {
+        print("Endereço do Cliente B atualizado");
+      },
+    ),
+    Produto(
+      "Geladeira",
+      2500.00,
+      TipoProduto("Eletrodoméstico", exibirTipo: () {
+        print("Tipo: Eletrodoméstico");
+      }),
+      CategoriaProduto("Cozinha", "Produtos para cozinha", exibirCategoria: () {
+        print("Categoria: Cozinha");
+      }),
+      unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+        print("Unidade atualizada");
+      }),
+      fornecedor: Fornecedor(
+        "Fornecedor Y",
+        "22.222.222/0001-22",
+        Endereco(
+          rua: "Av. dos Fornecedores, 101",
+          cep: "00000-000",
+          cidade: Cidade(
+            nome: "Belo Horizonte",
+            estado: Estado(
+              nome: "Minas Gerais",
+              pais: Pais(nome: "Brasil"),
+            ),
+          ),
+        ),
+        acaoFornecedor: () {
+          print("Fornecedor Y acionado");
+        },
+      ),
+      ajustarPreco: () {
+        print("Preço da Geladeira ajustado!");
+      },
+    ),
+    1,
     concluirVenda: () {
       print("Venda concluída com sucesso!");
-    }
+    },
   );
-  
-  // Exibe detalhes do pedido
+
   print("Pedido de Venda:");
   print("Cliente: ${pedidoVenda.cliente.nome}");
   print("Produto: ${pedidoVenda.produto.nome}");
   print("Quantidade: ${pedidoVenda.quantidade}");
-  
-  // Executa a função de conclusão da venda
+
   pedidoVenda.concluirVenda();
 }
-
-//Neste exercício, o aluno compõe objetos aninhados (Cliente e Produto) dentro de um Pedido de Venda.
-//A função concluirVenda simula o processamento final do pedido.
 ```
 
 Exercício 4 – Nível Avançado: Criar um Pedido de Compra com Frete e Pagamento
@@ -602,84 +599,146 @@ Crie um objeto PedidoCompraFrete que contenha um objeto PedidoCompra, com um For
 
 ```dart
 void main() {
-  // Cria um Fornecedor
-  var fornecedor = Fornecedor(
-    "Fornecedor Z", 
-    "33.333.333/0001-33", 
-    "Rua dos Fornecedores, 202", 
-    acaoFornecedor: () {
-      print("Fornecedor Z acionado");
-    }
-  );
-  
-  // Cria objetos auxiliares para o Produto
-  var tipo = TipoProduto("Móvel", exibirTipo: () {
-    print("Tipo: Móvel");
-  });
-  var categoria = CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
-    print("Categoria: Escritório");
-  });
-  var unidade = UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-    print("Unidade atualizada");
-  });
-  
-  // Cria um Produto com função anônima para ajustar o preço
-  var produto = Produto(
-    "Mesa de Escritório", 
-    800.00, 
-    tipo, 
-    categoria, 
-    unidade: unidade, 
-    fornecedor: fornecedor, 
-    ajustarPreco: () {
-      print("Preço da Mesa de Escritório ajustado!");
-    }
-  );
-  
-  // Cria um PedidoCompra com função anônima para realizar a compra
-  var pedidoCompra = PedidoCompra(
-    fornecedor, 
-    produto, 
-    5, 
-    realizarCompra: () {
-      print("Pedido de Compra realizado com sucesso!");
-    }
-  );
-  
-  // Cria um objeto PedidoCompraFrete com função anônima para calcular o frete
   var pedidoCompraFrete = PedidoCompraFrete(
-    pedidoCompra, 
-    150.00, 
-    DateTime.now(), 
+    PedidoCompra(
+      Fornecedor(
+        "Fornecedor Z",
+        "33.333.333/0001-33",
+        Endereco(
+          rua: "Rua dos Fornecedores, 202",
+          cep: "00000-000",
+          cidade: Cidade(
+            nome: "Curitiba",
+            estado: Estado(
+              nome: "Paraná",
+              pais: Pais(nome: "Brasil"),
+            ),
+          ),
+        ),
+        acaoFornecedor: () {
+          print("Fornecedor Z acionado");
+        },
+      ),
+      Produto(
+        "Mesa de Escritório",
+        800.00,
+        TipoProduto("Móvel", exibirTipo: () {
+          print("Tipo: Móvel");
+        }),
+        CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
+          print("Categoria: Escritório");
+        }),
+        unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+          print("Unidade atualizada");
+        }),
+        fornecedor: Fornecedor(
+          "Fornecedor Z",
+          "33.333.333/0001-33",
+          Endereco(
+            rua: "Rua dos Fornecedores, 202",
+            cep: "00000-000",
+            cidade: Cidade(
+              nome: "Curitiba",
+              estado: Estado(
+                nome: "Paraná",
+                pais: Pais(nome: "Brasil"),
+              ),
+            ),
+          ),
+          acaoFornecedor: () {
+            print("Fornecedor Z acionado");
+          },
+        ),
+        ajustarPreco: () {
+          print("Preço da Mesa de Escritório ajustado!");
+        },
+      ),
+      5,
+      realizarCompra: () {
+        print("Pedido de Compra realizado com sucesso!");
+      },
+    ),
+    150.00,
+    DateTime.now(),
     calcularFrete: () {
       print("Frete calculado com base na distância e quantidade.");
-    }
+    },
   );
-  
-  // Cria um objeto PedidoCompraPagamento com função anônima para realizar o pagamento
+
   var pedidoCompraPagamento = PedidoCompraPagamento(
-    pedidoCompra, 
-    4500.00, 
-    DateTime.now(), 
+    PedidoCompra(
+      Fornecedor(
+        "Fornecedor Z",
+        "33.333.333/0001-33",
+        Endereco(
+          rua: "Rua dos Fornecedores, 202",
+          cep: "00000-000",
+          cidade: Cidade(
+            nome: "Curitiba",
+            estado: Estado(
+              nome: "Paraná",
+              pais: Pais(nome: "Brasil"),
+            ),
+          ),
+        ),
+        acaoFornecedor: () {
+          print("Fornecedor Z acionado");
+        },
+      ),
+      Produto(
+        "Mesa de Escritório",
+        800.00,
+        TipoProduto("Móvel", exibirTipo: () {
+          print("Tipo: Móvel");
+        }),
+        CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
+          print("Categoria: Escritório");
+        }),
+        unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+          print("Unidade atualizada");
+        }),
+        fornecedor: Fornecedor(
+          "Fornecedor Z",
+          "33.333.333/0001-33",
+          Endereco(
+            rua: "Rua dos Fornecedores, 202",
+            cep: "00000-000",
+            cidade: Cidade(
+              nome: "Curitiba",
+              estado: Estado(
+                nome: "Paraná",
+                pais: Pais(nome: "Brasil"),
+              ),
+            ),
+          ),
+          acaoFornecedor: () {
+            print("Fornecedor Z acionado");
+          },
+        ),
+        ajustarPreco: () {
+          print("Preço da Mesa de Escritório ajustado!");
+        },
+      ),
+      5,
+      realizarCompra: () {
+        print("Pedido de Compra realizado com sucesso!");
+      },
+    ),
+    4500.00,
+    DateTime.now(),
     realizarPagamentoCompra: () {
       print("Pagamento do Pedido de Compra efetuado!");
-    }
+    },
   );
-  
-  // Exibe informações
+
   print("Pedido de Compra com Frete:");
-  print("Fornecedor: ${pedidoCompra.fornecedor.nome}");
-  print("Produto: ${pedidoCompra.produto.nome}");
-  print("Quantidade: ${pedidoCompra.quantidade}");
-  
-  // Executa as funções anônimas
+  print("Fornecedor: ${pedidoCompraFrete.pedidoCompra.fornecedor.nome}");
+  print("Produto: ${pedidoCompraFrete.pedidoCompra.produto.nome}");
+  print("Quantidade: ${pedidoCompraFrete.pedidoCompra.quantidade}");
+
   pedidoCompraFrete.calcularFrete();
   pedidoCompraPagamento.realizarPagamentoCompra();
 }
-
-// Este exercício é mais avançado e envolve a criação de objetos aninhados (PedidoCompra, PedidoCompraFrete e PedidoCompraPagamento)
-// com funções anônimas para  calcular frete e processar pagamento.
-// Cada função anônima é executada para simular ações reais no fluxo de compra.
 ```
 
 Exercício 5 – Nível Avançado: Criar um Pedido de Venda com Entrega e Ações Compostas
@@ -689,78 +748,91 @@ Crie um objeto PedidoVendaEntrega que contenha um PedidoVenda, que por sua vez c
 ```dart
 
 void main() {
-  // Cria o objeto Cliente com endereço detalhado
-  var cliente = Cliente(
-    "Cliente C", 
-    "Rua dos Clientes, 987", 
-    atualizarEndereco: () {
-      print("Endereço do Cliente C atualizado!");
-    }
-  );
-  
-  // Cria os objetos auxiliares para o Produto
-  var tipo = TipoProduto("Eletrônico", exibirTipo: () {
-    print("Tipo: Eletrônico");
-  });
-  var categoria = CategoriaProduto("Áudio", "Aparelhos de som", exibirCategoria: () {
-    print("Categoria: Áudio");
-  });
-  var unidade = UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-    print("Unidade atualizada");
-  });
-  var fornecedor = Fornecedor(
-    "Fornecedor W", 
-    "44.444.444/0001-44", 
-    "Av. dos Fornecedores, 303", 
-    acaoFornecedor: () {
-      print("Fornecedor W acionado");
-    }
-  );
-  
-  // Cria um Produto com ajuste de preço
-  var produto = Produto(
-    "Caixa de Som", 
-    299.99, 
-    tipo, 
-    categoria, 
-    unidade: unidade, 
-    fornecedor: fornecedor, 
-    ajustarPreco: () {
-      print("Preço da Caixa de Som ajustado!");
-    }
-  );
-  
-  // Cria um PedidoVenda com conclusão de venda
-  var pedidoVenda = PedidoVenda(
-    cliente, 
-    produto, 
-    2, 
-    concluirVenda: () {
-      print("Venda concluída com sucesso!");
-    }
-  );
-  
-  // Cria um PedidoVendaEntrega com função anônima para organizar a entrega
   var pedidoVendaEntrega = PedidoVendaEntrega(
-    pedidoVenda, 
-    DateTime.now().add(Duration(days: 2)), 
-    "Rua da Entrega, 321", 
+    PedidoVenda(
+      Cliente(
+        "Cliente C",
+        endereco: Endereco(
+          rua: "Rua dos Clientes, 987",
+          cep: "00000-000",
+          cidade: Cidade(
+            nome: "Salvador",
+            estado: Estado(
+              nome: "Bahia",
+              pais: Pais(nome: "Brasil"),
+            ),
+          ),
+        ),
+        atualizarEndereco: () {
+          print("Endereço do Cliente C atualizado!");
+        },
+      ),
+      Produto(
+        "Caixa de Som",
+        299.99,
+        TipoProduto("Eletrônico", exibirTipo: () {
+          print("Tipo: Eletrônico");
+        }),
+        CategoriaProduto("Áudio", "Aparelhos de som", exibirCategoria: () {
+          print("Categoria: Áudio");
+        }),
+        unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+          print("Unidade atualizada");
+        }),
+        fornecedor: Fornecedor(
+          "Fornecedor W",
+          "44.444.444/0001-44",
+          Endereco(
+            rua: "Av. dos Fornecedores, 303",
+            cep: "00000-000",
+            cidade: Cidade(
+              nome: "Goiânia",
+              estado: Estado(
+                nome: "Goiás",
+                pais: Pais(nome: "Brasil"),
+              ),
+            ),
+          ),
+          acaoFornecedor: () {
+            print("Fornecedor W acionado");
+          },
+        ),
+        ajustarPreco: () {
+          print("Preço da Caixa de Som ajustado!");
+        },
+      ),
+      2,
+      concluirVenda: () {
+        print("Venda concluída com sucesso!");
+      },
+    ),
+    DateTime.now().add(Duration(days: 2)),
+    Endereco(
+      rua: "Rua da Entrega, 321",
+      cep: "00000-000",
+      cidade: Cidade(
+        nome: "Fortaleza",
+        estado: Estado(
+          nome: "Ceará",
+          pais: Pais(nome: "Brasil"),
+        ),
+      ),
+    ),
     organizarEntrega: () {
       print("Entrega organizada para o Pedido de Venda!");
-    }
+    },
   );
-  
-  // Exibe informações do cenário
+
   print("Pedido de Venda:");
-  print("Cliente: ${pedidoVenda.cliente.nome}");
-  print("Produto: ${pedidoVenda.produto.nome}");
-  print("Quantidade: ${pedidoVenda.quantidade}");
+  print("Cliente: ${pedidoVendaEntrega.pedidoVenda.cliente.nome}");
+  print("Produto: ${pedidoVendaEntrega.pedidoVenda.produto.nome}");
+  print("Quantidade: ${pedidoVendaEntrega.pedidoVenda.quantidade}");
   print("Data de Entrega: ${pedidoVendaEntrega.dataEntrega}");
-  print("Endereço de Entrega: ${pedidoVendaEntrega.enderecoEntrega}");
-  
-  // Executa as funções anônimas para concluir a venda e organizar a entrega
-  pedidoVenda.concluirVenda();
+  print("Endereço de Entrega: ${pedidoVendaEntrega.enderecoEntrega.rua}");
+
+  pedidoVendaEntrega.pedidoVenda.concluirVenda();
   pedidoVendaEntrega.organizarEntrega();
+}
 }
 ```
 ---
