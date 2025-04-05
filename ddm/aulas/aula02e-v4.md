@@ -133,6 +133,8 @@ class Pessoa{
 
 ### Classe PessoaConsole → Tela/Interface
 
+A classe PessoaConsole atua como interface de console para interagir com o usuário, solicitando dados e exibindo informações.
+
 Observe a orgaização "das gavetas":
 
 → classes (estado, cidade e pessoa) com responsabilidades bem definidas! Separadas de operações de tela (console, print, readline).
@@ -219,7 +221,7 @@ O código apresentado é um exemplo de como estruturar uma aplicação usando os
 Poderia ser melhor?
 r: com certeza! sempre pode! Mas aqui vai um começo simples e didático para aprender e refletir
 
-Se você leu e está estudando tudo isso até aqui, parabéns!!! Poste o seu estudo no story e me marque (@prof_heliokamakawa) que ficarei muito feliz!
+​Chegou até aqui? Leu tudo? Isso é fantástico! Parabéns por dedicar-se aos estudos! Compartilhe seu código/estudo nos stories e marque (@prof_heliokamakawa); ficarei muito feliz em acompanhar sua jornada! Lembre-se: "O sucesso é a soma de pequenos esforços repetidos dia após dia." — Robert Collier 
 
 ### Materiais Complementares
 - Encapsulamento em Dart: [Documentação Oficial do Dart](https://dart.dev/effective-dart/design#encapsulation)
