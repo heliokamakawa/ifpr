@@ -1,4 +1,4 @@
-# 📅 1º Dia – Fundamentos de Layout e Navegação
+# 📅 Widget – Fundamentos de Layout e Navegação
 
 ## 🎯 O que será estudado
 - Layout com Widgets básicos (estrutura de tela)
@@ -34,3 +34,11 @@
 - **Estudo para casa:**  
   - Diferenciar `StatelessWidget` e `StatefulWidget`  
   - Praticar navegação com `Navigator`
+
+---
+
+### ✅ Dica Final:
+Mantenha seu repositório GitHub atualizado com:
+- Projeto em andamento
+- Anotações de aula (diário de aula)
+- README com instruções
