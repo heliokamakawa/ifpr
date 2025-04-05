@@ -1,4 +1,9 @@
 
+# Solução Final
+
+💡 Essa é a solução que, na minha visão, faz mais sentido.
+Agora quero saber de você: o que ela tem de diferente? E por que faria (ou não) a mesma escolha?
+
 ## Classe Estado
 
 ```dart
