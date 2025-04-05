@@ -35,3 +35,11 @@
 - **Estudo para casa:**
   - Instalar pacotes via `pubspec.yaml`
   - Explorar o pacote `url_launcher`
+
+---
+
+### ✅ Dica Final:
+Mantenha seu repositório GitHub atualizado com:
+- Projeto em andamento
+- Anotações de aula (diário de aula)
+- README com instruções
