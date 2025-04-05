@@ -19,8 +19,8 @@ class Estado{
 import 'package:flutter_introducao/estado.dart';
 
 class Cidade{
-  String nome;
-  Estado estado;
+  final String nome;
+  final Estado estado;
 
   Cidade({required this.nome, required this.estado}){
     if (nome.trim().isEmpty) throw Exception('Erro: nome não pode ser nulo');
@@ -38,12 +38,12 @@ Uma classe é a organização (gaveta) do código, seja validação (propriedade
 import 'package:flutter_introducao/cidde.dart';
 
 class Pessoa{
-  String nome;
-  String sobrenome;
-  int anoNascimento;
-  double peso;
-  bool ativo;
-  Cidade cidade;
+  final String nome;
+  final String sobrenome;
+  final int anoNascimento;
+  final double peso;
+  final bool ativo;
+  final Cidade cidade;
 
   Pessoa({required this.nome, required this.sobrenome, required this.anoNascimento, required this.peso, required this.ativo, required this.cidade}){
     if (nome.trim().isEmpty) throw Exception('Erro: nome não pode ser nulo');
