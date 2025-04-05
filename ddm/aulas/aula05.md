@@ -38,6 +38,17 @@
 
 ---
 
+## Diário de aula
+- Anotações dos pontos cruciais
+- Projeto único seu com base no estudo de caso
+📝 Feedback Rápido (individual ou em grupo)
+- Você conseguiu implementar o desafio proposto?
+- Que parte achou mais fácil?
+- Que parte achou mais difícil?
+- O que gostaria de aprofundar?
+
+---
+
 ### ✅ Dica Final:
 Mantenha seu repositório GitHub atualizado com:
 - Projeto em andamento
