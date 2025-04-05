@@ -1,7 +1,7 @@
 
 # Classe Estado
 
-Exemplo de uma classe simples. Repare que todo código/responsabilidade referente a estado está concetrado nesta classe. 
+Exemplo de uma classe simples. Repare que todo código/responsabilidade referente a estado está concentrado nesta classe. 
 Esta organização facilita a manutenção. Visto que, qualquer refatoração em relação a estado está neste arquivo.
 
 ```dart
@@ -32,7 +32,7 @@ class Estado{
 **Encapsulamento:** Os atributos _nome e _sigla são privados, acessíveis apenas através dos getters e setters.
 **Validação:** Os setters garantem que os dados inseridos sejam válidos (nome e sigla não vazios, sigla com 2 caracteres).
 **Construtor Nomeado:** O construtor utiliza parâmetros nomeados "{}", facilitando a criação de instâncias e melhorando a legibilidade do código.
-**Inicialização:** não é possível iniciarliar uma propriedade na lista de inicialização - a lista roda antes do construtor e propriedades não estão prontas.
+**Inicialização:** não é possível inicializar uma propriedade na lista de inicialização - a lista roda antes do construtor e propriedades não estão prontas.
 **late:** o modificador late é necessário em _nome e _sigla porque a inicialização ocorre indiretamente, através dos setters nome e sigla. O construtor tenta atribuir valores a esses atributos por meio dos setters, que podem lançar uma exceção se a validação falhar. O late garante que o compilador considere esses campos como definitivamente atribuídos, mesmo que a atribuição possa não ocorrer em todos os fluxos de execução (devido a uma possível exceção). Isso evita erros de compilação relacionados à não inicialização de variáveis não anuláveis, sem comprometer a segurança, pois o programa falhará se os campos forem acessados antes de uma atribuição bem-sucedida - uso correto do late.
 
 ### Classe Cidade
@@ -64,7 +64,7 @@ class Cidade{
 
 ### Classe Pessoa
 Exemplo de classe com associação aninhada, pessoa associado com cidade, que por sua vez tem uma associação com estado.
-Nesta classe temos a oportunidade de ver, além das propriedades, o mótodo calcular idade.
+Nesta classe temos a oportunidade de ver, além das propriedades, o método calcular idade.
 Uma classe é a organização (gaveta) do código, seja validação (propriedade), definição de características (atributos), como criar (construtores) e suas ações (métodos - calcular idade).
 
 
@@ -101,7 +101,7 @@ class Pessoa{
 
   double get peso => _peso; 
   set peso(double peso){
-    if (peso > 0 || peso < 200) throw Exception('Erro: peso inválido.');
+    if (peso < 0 || peso < 200) throw Exception('Erro: peso inválido.');
     _peso = peso;
   }
 
@@ -127,7 +127,7 @@ class Pessoa{
 
 ### Classe PessoaConsole → Tela/Interface
 Observe a orgaização "das gavetas":
-→ classe estado, cidade e pessoa com responsabilidades especifícas sem dependencia de outras coisas (console, print, readline).
+→ classes (estado, cidade e pessoa) com responsabilidades bem definidas! Separadas de operações de tela (console, print, readline).
 → classe PessoaConsole com especificações de tela, como por exemplo: entrada de dados (readlinesync), saída de dados (print) e mostrar erros (print).
 Poderia ser melhor?
 r: com certeza! sempre pode! Mas aqui vai um começo simples e didático para aprender e refletir
@@ -188,7 +188,7 @@ class PessoaConsole{
   bool _entradaSimNao(){
     var rotulo = 'É ativo? (S/N)';
     var entrada = _entrada(rotulo).toUpperCase();
-    if(entrada != 'S' || entrada != 'N'){
+    if(entrada != 'S' && entrada != 'N'){
       print('Erro: entrada inválida');
       throw Exception();
     }
@@ -212,10 +212,12 @@ O código apresentado é um exemplo de como estruturar uma aplicação usando os
 Poderia ser melhor?
 r: com certeza! sempre pode! Mas aqui vai um começo simples e didático para aprender e refletir
 
-Materiais Complementares
-Encapsulamento em Dart: [Documentação Oficial do Dart](https://dart.dev/effective-dart/design#encapsulation)
-Getters e Setters em Dart: [Documentação Oficial do Dart](https://dart.dev/effective-dart/design#getters-and-setters)
-Construtores em Dart: [Documentação Oficial do Dart](https://dart.dev/language/constructors)
-Separação de Responsabilidades: [The Single Responsibility Principle - Clean Coder Blog - Uncle Bob](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
+Se você leu e está estudando tudo isso até aqui, parabéns!!! Poste o seu estudo no story e me marque (@prof_heliokamakawa) que ficarei muito feliz!
+
+### Materiais Complementares
+- Encapsulamento em Dart: [Documentação Oficial do Dart](https://dart.dev/effective-dart/design#encapsulation)
+- Getters e Setters em Dart: [Documentação Oficial do Dart](https://dart.dev/effective-dart/design#getters-and-setters)
+- Construtores em Dart: [Documentação Oficial do Dart](https://dart.dev/language/constructors)
+- Separação de Responsabilidades: [The Single Responsibility Principle - Clean Coder Blog - Uncle Bob](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 
 
