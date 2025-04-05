@@ -121,7 +121,6 @@ class Produto {
   TipoProduto tipo;
   CategoriaProduto categoria;
   UnidadeMedida unidadeMedida;
-  Fornecedor fornecedor;
   void Function() ajustarPreco;
 
   Produto(this.nome, this.preco, this.tipo, this.categoria, {required this.unidadeMedida, required this.fornecedor, required this.ajustarPreco});
@@ -483,32 +482,25 @@ void main() {
   var produto = Produto(
     "Notebook",
     3500.00,
-    TipoProduto("Eletrônico", exibirTipo: () {
-      print("Tipo: Eletrônico");
-    }),
-    CategoriaProduto("Informática", "Produtos de TI", exibirCategoria: () {
-      print("Categoria: Informática");
-    }),
-    unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-      print("Unidade atualizada");
-    }),
-    fornecedor: Fornecedor(
-      "Fornecedor X",
-      "11.111.111/0001-11",
-      Endereco(
-        rua: "Av. dos Fornecedores, 456",
-        cep: "00000-000",
-        cidade: Cidade(
-          nome: "São Paulo",
-          estado: Estado(
-            nome: "São Paulo",
-            pais: Pais(nome: "Brasil"),
-          ),
-        ),
-      ),
-      acaoFornecedor: () {
-        print("Fornecedor X acionado");
-      },
+    TipoProduto(
+	"Eletrônico", 
+	exibirTipo: () {
+      		print("Tipo: Eletrônico");
+    	}
+    ),
+    CategoriaProduto(
+	"Informática", 
+	"Produtos de TI", 
+	exibirCategoria: () {
+      		print("Categoria: Informática");
+    	}
+    ),
+    unidadeMedida: UnidadeMedida(
+	"Unidade", 
+	simbolo: "UN", 
+	atualizarUnidade: () {
+      		print("Unidade atualizada");
+        }
     ),
     ajustarPreco: () {
       print("Preço do Notebook ajustado!");
@@ -547,32 +539,25 @@ void main() {
     Produto(
       "Geladeira",
       2500.00,
-      TipoProduto("Eletrodoméstico", exibirTipo: () {
-        print("Tipo: Eletrodoméstico");
-      }),
-      CategoriaProduto("Cozinha", "Produtos para cozinha", exibirCategoria: () {
-        print("Categoria: Cozinha");
-      }),
-      unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-        print("Unidade atualizada");
-      }),
-      fornecedor: Fornecedor(
-        "Fornecedor Y",
-        "22.222.222/0001-22",
-        Endereco(
-          rua: "Av. dos Fornecedores, 101",
-          cep: "00000-000",
-          cidade: Cidade(
-            nome: "Belo Horizonte",
-            estado: Estado(
-              nome: "Minas Gerais",
-              pais: Pais(nome: "Brasil"),
-            ),
-          ),
-        ),
-        acaoFornecedor: () {
-          print("Fornecedor Y acionado");
-        },
+      TipoProduto(
+	"Eletrodoméstico", 
+	exibirTipo: () {
+        	print("Tipo: Eletrodoméstico");
+        }
+      ),
+      CategoriaProduto(
+	"Cozinha", 
+	"Produtos para cozinha", 
+	exibirCategoria: () {
+        	print("Categoria: Cozinha");
+        }
+      ),
+      unidadeMedida: UnidadeMedida(
+	"Unidade", 
+	simbolo: "UN", 
+	atualizarUnidade: () {
+        	print("Unidade atualizada");
+        }
       ),
       ajustarPreco: () {
         print("Preço da Geladeira ajustado!");
@@ -631,24 +616,6 @@ void main() {
         unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
           print("Unidade atualizada");
         }),
-        fornecedor: Fornecedor(
-          "Fornecedor Z",
-          "33.333.333/0001-33",
-          Endereco(
-            rua: "Rua dos Fornecedores, 202",
-            cep: "00000-000",
-            cidade: Cidade(
-              nome: "Curitiba",
-              estado: Estado(
-                nome: "Paraná",
-                pais: Pais(nome: "Brasil"),
-              ),
-            ),
-          ),
-          acaoFornecedor: () {
-            print("Fornecedor Z acionado");
-          },
-        ),
         ajustarPreco: () {
           print("Preço da Mesa de Escritório ajustado!");
         },
@@ -697,24 +664,6 @@ void main() {
         unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
           print("Unidade atualizada");
         }),
-        fornecedor: Fornecedor(
-          "Fornecedor Z",
-          "33.333.333/0001-33",
-          Endereco(
-            rua: "Rua dos Fornecedores, 202",
-            cep: "00000-000",
-            cidade: Cidade(
-              nome: "Curitiba",
-              estado: Estado(
-                nome: "Paraná",
-                pais: Pais(nome: "Brasil"),
-              ),
-            ),
-          ),
-          acaoFornecedor: () {
-            print("Fornecedor Z acionado");
-          },
-        ),
         ajustarPreco: () {
           print("Preço da Mesa de Escritório ajustado!");
         },
@@ -779,24 +728,6 @@ void main() {
         unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
           print("Unidade atualizada");
         }),
-        fornecedor: Fornecedor(
-          "Fornecedor W",
-          "44.444.444/0001-44",
-          Endereco(
-            rua: "Av. dos Fornecedores, 303",
-            cep: "00000-000",
-            cidade: Cidade(
-              nome: "Goiânia",
-              estado: Estado(
-                nome: "Goiás",
-                pais: Pais(nome: "Brasil"),
-              ),
-            ),
-          ),
-          acaoFornecedor: () {
-            print("Fornecedor W acionado");
-          },
-        ),
         ajustarPreco: () {
           print("Preço da Caixa de Som ajustado!");
         },
