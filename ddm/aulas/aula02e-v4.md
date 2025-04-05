@@ -30,9 +30,13 @@ class Estado{
 
 ```
 **Encapsulamento:** Os atributos _nome e _sigla são privados, acessíveis apenas através dos getters e setters.
+
 **Validação:** Os setters garantem que os dados inseridos sejam válidos (nome e sigla não vazios, sigla com 2 caracteres).
+
 **Construtor Nomeado:** O construtor utiliza parâmetros nomeados "{}", facilitando a criação de instâncias e melhorando a legibilidade do código.
+
 **Inicialização:** não é possível inicializar uma propriedade na lista de inicialização - a lista roda antes do construtor e propriedades não estão prontas.
+
 **late:** o modificador late é necessário em _nome e _sigla porque a inicialização ocorre indiretamente, através dos setters nome e sigla. O construtor tenta atribuir valores a esses atributos por meio dos setters, que podem lançar uma exceção se a validação falhar. O late garante que o compilador considere esses campos como definitivamente atribuídos, mesmo que a atribuição possa não ocorrer em todos os fluxos de execução (devido a uma possível exceção). Isso evita erros de compilação relacionados à não inicialização de variáveis não anuláveis, sem comprometer a segurança, pois o programa falhará se os campos forem acessados antes de uma atribuição bem-sucedida - uso correto do late.
 
 ### Classe Cidade
@@ -58,16 +62,18 @@ class Cidade{
 
 ```
 **Declaração de parâmetros diferentes no construtor* 
+
 "required String nome" → é um parâmetro comum sem relação com a classe. 
+
 "this.estado" faz a referência que se deve atribuir o parametro para o atributo estado.
 
 
 ### Classe Pessoa
+
 Exemplo de classe com associação aninhada, pessoa associado com cidade, que por sua vez tem uma associação com estado.
 Nesta classe temos a oportunidade de ver, além das propriedades, o método calcular idade.
+
 Uma classe é a organização (gaveta) do código, seja validação (propriedade), definição de características (atributos), como criar (construtores) e suas ações (métodos - calcular idade).
-
-
 
 ```dart
 import 'package:flutter_introducao/cidde.dart';
@@ -126,11 +132,12 @@ class Pessoa{
 ```
 
 ### Classe PessoaConsole → Tela/Interface
+
 Observe a orgaização "das gavetas":
+
 → classes (estado, cidade e pessoa) com responsabilidades bem definidas! Separadas de operações de tela (console, print, readline).
+
 → classe PessoaConsole com especificações de tela, como por exemplo: entrada de dados (readlinesync), saída de dados (print) e mostrar erros (print).
-Poderia ser melhor?
-r: com certeza! sempre pode! Mas aqui vai um começo simples e didático para aprender e refletir
 
 ```dart
 import 'dart:io';
