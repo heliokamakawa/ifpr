@@ -1,19 +1,15 @@
 # Análise de Requisitos
 
-## Identificação de Entidades e Relacionamentos
-
+**Identificação de Entidades e Relacionamentos**
 **Descrição:** Consiste em determinar os principais cadastros/entidades e suas interdependências no sistema, estabelecendo uma base sólida para o desenvolvimento do modelo de dados.
 
-## Definição de Campos e Características das Entidades
-
+**Definição de Campos e Características das Entidades**
 **Descrição:** Envolve especificar os atributos de cada entidade, incluindo suas propriedades, tipos de dados e restrições, garantindo que as necessidades de informação sejam atendidas adequadamente.
 
-## Estabelecimento de Regras de Negócio
-
+**Estabelecimento de Regras de Negócio**
 **Descrição:** Refere-se à identificação e documentação das regras que regem as operações do sistema, assegurando que os processos de negócios sejam corretamente implementados e mantidos.
 
-## Análise Estruturada
-
+**Análise Estruturada**
 **Descrição:** Foca na decomposição funcional do sistema, utilizando ferramentas como o Diagrama de Fluxo de Dados (DFD) para representar processos e fluxos de informação, facilitando a compreensão e a comunicação entre os envolvidos no projeto.
 
 # Processo de Análise de Requisitos
