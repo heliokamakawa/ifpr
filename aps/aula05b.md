@@ -1,111 +1,95 @@
-# Análise de Requisitos: Técnicas e Materiais de Estudo
+# Conteúdos Técnicos em Análise de Requisitos
 
-## Técnicas Aplicadas na Análise de Requisitos
+## Identificação de Entidades e Relacionamentos
 
-### 1. Rastreamento de Requisitos
+**Descrição:** Consiste em determinar os principais cadastros/entidades e suas interdependências no sistema, estabelecendo uma base sólida para o desenvolvimento do modelo de dados.&#8203;:contentReference[oaicite:2]{index=2}
 
-**Descrição:** Estabelece a relação entre requisitos de alto nível e seus detalhamentos, garantindo que cada requisito específico possa ser rastreado até um requisito principal.
+## Definição de Campos e Características das Entidades
 
-**Aplicação no Processo:**
-- **Fase 1:** Identificação do requisito principal.
-- **Fase 2:** Decomposição em requisitos específicos.
-- **Fase 3:** Detalhamento dos requisitos específicos.
+**Descrição:** :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
 
-### 2. Validação e Verificação de Requisitos
+## Estabelecimento de Regras de Negócio
 
-**Descrição:** Processos que asseguram que os requisitos estão corretos, completos e atendem às necessidades dos stakeholders.
+**Descrição:** :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
 
-**Aplicação no Processo:**
-- Antes de iniciar a análise detalhada, os requisitos levantados são validados e verificados para garantir sua consistência e completude.
+## Análise Estruturada
 
-### 3. Identificação de Entidades e Relacionamentos
+**Descrição:** :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
 
-**Descrição:** Consiste em identificar as principais entidades (ou cadastros) e seus relacionamentos no contexto do sistema.
+# Materiais de Estudo
 
-**Aplicação no Processo:**
-- **Fase 1:** Identificação de cadastros/entidades para cada requisito específico.
-- **Fase 2:** Identificação de dependências/correlações entre as entidades.
+## Bibliografias Recomendadas
 
-### 4. Definição de Atributos das Entidades
+- **SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson Education do Brasil, 2011.**
 
-**Descrição:** Envolve a especificação dos campos (atributos) de cada entidade, incluindo características como obrigatoriedade e opções disponíveis.
+  - **Capítulo 5: System Modeling (Modelagem de Sistemas)**
 
-**Aplicação no Processo:**
-- **Fase 3:** Para cada cadastro/entidade, identificar e definir os campos e suas características.
+    Este capítulo aborda técnicas de modelagem de sistemas, incluindo a identificação de entidades e seus relacionamentos, fundamentais para a análise de requisitos.
 
-### 5. Especificação de Regras de Negócio
+- **MACHADO, Felipe Nery Rodrigues. Análise e Gestão de Requisitos de Software: Onde Nascem os Sistemas. 1. ed. São Paulo: Érica, 2011.**
 
-**Descrição:** Define as regras que governam o comportamento das entidades e as restrições aplicáveis no contexto do sistema.
+  - **Capítulo 4: Modelagem de Requisitos**
 
-**Aplicação no Processo:**
-- **Fase 4:** Para cada cadastro/entidade, identificar e definir as regras de negócio associadas.
+    Discute métodos para modelagem eficaz de requisitos, enfatizando a importância da identificação de entidades e definição de seus atributos.
 
-## Materiais de Estudo
+- **PFLEEGER, Shari Lawrence; ATLEE, Joanne M. Engenharia de Software: Teoria e Prática. 4. ed. São Paulo: Pearson Prentice Hall, 2010.**
 
-### 1. Baseados nas Bibliografias Fornecidas
+  - **Capítulo 4: Eliciting Requirements (Levantamento de Requisitos)**
 
-- **Engenharia de Software**
+    Explora técnicas para elicitação e especificação de requisitos, incluindo a definição de campos e características das entidades.
 
-  - **Autor:** Ian Sommerville
-  - **Capítulo 4:** Engenharia de Requisitos
-    - **Tópico:** Processos de Engenharia de Requisitos
-    - **Páginas:** 81-109
-    - **Disponível em:** [Engenharia de Software - Ian Sommerville](https://www.facom.ufu.br/~william/Disciplinas%202018-2/BSI-GSI030-EngenhariaSoftware/Livro/engenhariaSoftwareSommerville.pdf)
+- **BEZERRA, Eduardo. Princípios de Análise e Projetos de Sistemas com UML. 3. ed. Rio de Janeiro: Elsevier, 2014.**
 
-- **Análise e Gestão de Requisitos de Software: Onde Nascem os Sistemas**
+  - **Capítulo 5: Modelagem de Classes**
 
-  - **Autor:** Felipe Nery Rodrigues Machado
-  - **Capítulo 3:** Processo de Engenharia de Requisitos
-    - **Tópico:** Atividades de Engenharia de Requisitos
-    - **Páginas:** 45-78
-    - **Disponível em:** [Análise e Gestão de Requisitos de Software](https://www.amazon.com.br/An%C3%A1lise-Gest%C3%A3o-Requisitos-Software-Sistemas/dp/8536516062)
+    Apresenta a modelagem de classes utilizando UML, focando na definição de atributos e relacionamentos entre entidades.
 
-- **Engenharia de Software: Teoria e Prática**
+- **DENNIS, Alan; WIXOM, Barbara Haley; ROTH, Roberta M. Análise e Projeto de Sistemas. 5. ed. São Paulo: LTC, 2014.**
 
-  - **Autores:** Shari Lawrence Pfleeger; Dino Franklin
-  - **Capítulo 5:** Análise de Requisitos
-    - **Tópico:** Técnicas de Elicitação e Análise
-    - **Páginas:** 150-190
-    - **Disponível em:** [Engenharia de Software: Teoria e Prática](https://www.amazon.com.br/Engenharia-Software-Shari-Lawrence-Pfleeger/dp/8587918311)
+  - **Capítulo 3: Determinação dos Requisitos**
 
-- **Princípios de Análise e Projetos de Sistemas com UML**
+    Aborda o processo de determinação e análise de requisitos, incluindo a identificação de regras de negócio.
 
-  - **Autor:** Eduardo Bezerra
-  - **Capítulo 6:** Modelagem de Requisitos
-    - **Tópico:** Identificação de Entidades e Relacionamentos
-    - **Páginas:** 210-250
-    - **Disponível em:** [Princípios de Análise e Projeto de Sistemas com UML](https://www.tecgraf.puc-rio.br/ftp_pub/lfm/EduardoBezerra-PrincipiosAnaliseProjetoSistemasComUML-2aEd.pdf)
+- **SCHACH, Stephen R. Engenharia de Software. 7. ed. Porto Alegre: McGraw-Hill - Artmed, 2009.**
 
-- **Análise e Projeto de Sistemas**
+  - **Capítulo 6: Engenharia de Requisitos**
 
-  - **Autores:** Alan Dennis; Barbara Haley Wixom; Roberta M. Roth
-  - **Capítulo 7:** Modelagem de Dados
-    - **Tópico:** Identificação de Entidades e Atributos
-    - **Páginas:** 280-320
-    - **Disponível em:** [Análise e Projeto de Sistemas](https://www.grupogen.com.br/e-book-analise-e-projeto-de-sistemas/)
+    Discute a engenharia de requisitos e a importância das regras de negócio no desenvolvimento de sistemas.
 
-### 2. Materiais Públicos, Acessíveis e Gratuitos
+- **TONSIG, Sérgio Luiz. Engenharia de Software: Análise e Projeto de Sistemas. 2. ed. Rio de Janeiro: Futura, 2008.**
 
-- **Guia BABOK v3 (Business Analysis Body of Knowledge)**
+  - **Capítulo 4: Análise Estruturada**
 
-  - **Capítulo 4:** Elicitação e Colaboração
-    - **Tópico:** Técnicas de Elicitação
-    - **Disponível em:** [Guia BABOK v3 em Português](https://iiba.org.br/index.php/consultar/104-babok-pt)
+    Explora a técnica de análise estruturada, incluindo o uso de Diagramas de Fluxo de Dados (DFDs) para decomposição funcional.
 
-- **Material Didático sobre Engenharia de Requisitos**
+- **SBROCCO, José Henrique Teixeira de Carvalho; MACEDO, Paulo Cesar de. Metodologias Ágeis: Engenharia de Software Sob Medida. 1. ed. São Paulo: Érica, 2012.**
 
-  - **Autor:** Prof. Dr. Paulo Meirelles
-  - **Conteúdo:** Apresentação e notas de aula sobre Engenharia de Requisitos
-  - **Disponível em:** [Engenharia de Software Moderna](https://engsoftmoderna.info/cap3.html)
+  - **Capítulo 3: Engenharia de Software: Conceitos Básicos**
 
-- **Tutorial sobre Análise de Requisitos**
+    Introduz conceitos fundamentais de engenharia de software, abordando metodologias ágeis e sua relação com a análise de requisitos.
 
-  - **Plataforma:** Khan Academy
-  - **Conteúdo:** Vídeos explicativos e exercícios práticos
-  - **Disponível em:** [Khan Academy - Computing](https://www.khanacademy.org/computing)
+## Materiais Adicionais Acessíveis e Gratuitos
 
-- **Artigo: "A Arte da Análise de Requisitos"**
+- **Engenharia de Software Moderna**
 
-  - **Autor:** Carlos Eduardo Vazquez
-  - **Conteúdo:** Discussão sobre boas práticas na análise de requisitos
-  - **Disponível em:** [Engenharia de Requisitos: Software Orientado ao Negócio](https://www.amazon.com.br/Engenharia-Requisitos-Software-Orientado-Neg%C3%B3cio/dp/8574523561)
+  - **Capítulo 3: Requisitos**
+
+    Este capítulo trata da engenharia de requisitos, definindo os tipos de requisitos funcionais e não funcionais e as atividades relacionadas à especificação e gerenciamento de requisitos.
+
+    Disponível em: [https://engsoftmoderna.info/cap3.html](https://engsoftmoderna.info/cap3.html)
+
+- **Engenharia de Software - Ian Sommerville**
+
+  - **Capítulo 4: Engenharia de Requisitos**
+
+    Este capítulo aborda a engenharia de requisitos, incluindo processos de elicitação, análise, especificação e validação de requisitos.
+
+    Disponível em: [https://www.facom.ufu.br/~william/Disciplinas%202018-2/BSI-GSI030-EngenhariaSoftware/Livro/engenhariaSoftwareSommerville.pdf](https://www.facom.ufu.br/~william/Disciplinas%202018-2/BSI-GSI030-EngenhariaSoftware/Livro/engenhariaSoftwareSommerville.pdf)
+
+- **Princípios de Análise e Projeto de Sistemas com UML - Eduardo Bezerra**
+
+  - **Capítulo 5: Modelagem de Classes de Análise**
+
+    Este capítulo apresenta a modelagem de classes de análise utilizando UML, enfatizando a identificação de classes, atributos e relacionamentos.
+
+    Disponível em: [https://www.tecgraf.puc-rio.br/ftp_pub/lfm/EduardoBezerra-PrincipiosAnaliseProjetoSistemasComUML-2aEd.pdf](https://www.tecgraf.puc-rio.br/ftp_pub/lfm/EduardoBezerra-PrincipiosAnaliseProjetoSistemasComUML-2aEd.pdf)
