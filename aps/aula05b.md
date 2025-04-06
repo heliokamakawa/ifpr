@@ -1,4 +1,4 @@
-# Conteúdos Técnicos em Análise de Requisitos
+# Análise de Requisitos
 
 ## Identificação de Entidades e Relacionamentos
 
@@ -15,6 +15,104 @@
 ## Análise Estruturada
 
 **Descrição:** Foca na decomposição funcional do sistema, utilizando ferramentas como o Diagrama de Fluxo de Dados (DFD) para representar processos e fluxos de informação, facilitando a compreensão e a comunicação entre os envolvidos no projeto.
+
+# Processo de Análise de Requisitos
+
+## [LRP001] Levantamento de Requisito Principal
+
+### [LRE001] Levantamento de Requisito Específico 01
+
+#### Fase 01 - Identificação de Cadastros/Entidades
+
+- **[AR01-001]** Cadastro A
+- **[AR01-002]** Cadastro B
+- **[AR01-003]** Cadastro C
+
+#### Fase 02 - Identificação de Dependências/Correlações
+
+- **[AR01-004]** Cadastro E (Depende de [AR01-002])
+
+#### Fase 03 - Definição de Campos e Características das Entidades
+
+- **[AR01-001] Cadastro A**: Campos: *a, *f, g
+- **[AR01-002] Cadastro B**: Campos: *b, *c, d, e, &f
+
+#### Fase 04 - Identificação de Regras de Negócio
+
+- **[AR01-001] Cadastro A**: Campos: *x, *y, z, a
+  - **[AR01-002]** Regra K (Exemplo: O cadastro pode ser confirmado somente com autorização do gerente)
+  - **[AR01-003]** Regra O
+- **[AR01-004] Cadastro B**: Campos: *b, *c, d, e, &f
+  - **[AR01-005]** Regra L
+  - **[AR01-006]** Regra M
+
+### [LRE002] Levantamento de Requisito Específico 02
+
+#### Fase 01 - Identificação de Cadastros/Entidades
+
+- **[AR02-001]** Cadastro D
+- **[AR02-002]** Cadastro E
+- **[AR02-003]** Cadastro F
+
+### [LRE003] Levantamento de Requisito Específico 03
+
+#### Fase 01 - Identificação de Cadastros/Entidades
+
+- **[AR03-001]** Cadastro G
+- **[AR03-002]** Cadastro H
+- **[AR03-003]** Cadastro I
+
+#### Fase 02 - Identificação de Dependências/Correlações
+
+- **[AR03-004]** Cadastro K (Depende de [AR03-002])
+
+### [LRE004] Levantamento de Requisito Específico 04
+
+#### Fase 01 - Identificação de Cadastros/Entidades
+
+- **[AR04-001]** Cadastro J
+- **[AR04-002]** Cadastro K
+- **[AR04-003]** Cadastro L
+
+## Iniciando a Análise de Requisitos
+
+Agora que os requisitos estão definidos, é fundamental **validar** e **verificar** cada um deles. Após essa etapa, seguimos para a Análise de Requisitos. Para cada requisito específico, realizamos a análise conforme as fases descritas.
+
+## Exemplo Prático
+
+### [LRP001] Realizar a Gestão de Reserva de Quadras Esportivas de Beach Tennis e Futebol Society
+
+#### [LRE001] Permitir que o Cliente Realize a Gestão de Reserva de Quadras de Beach Tennis
+
+**Fase 01 - Identificação de Cadastros/Entidades**
+
+- **[AR01-001]** Cadastro de Cliente
+- **[AR01-002]** Cadastro de Quadra
+- **[AR01-003]** Cadastro de Reserva
+
+**Fase 02 - Identificação de Dependências/Correlações**
+
+- **[AR01-004]** Relacionamento entre Cliente e Reserva
+- **[AR01-005]** Relacionamento entre Quadra e Reserva
+
+**Fase 03 - Definição de Campos e Características das Entidades**
+
+- **[AR01-001] Cadastro de Cliente**: Campos: *Nome, *CPF, Telefone
+- **[AR01-002] Cadastro de Quadra**: Campos: *Identificação, *Tipo de Piso, *Localização
+- **[AR01-003] Cadastro de Reserva**: Campos: *Data e Hora, &Status
+
+**Fase 04 - Identificação de Regras de Negócio**
+
+- **[AR01-001] Cadastro de Cliente**: Campos: *Nome, *CPF, Telefone
+  - **[AR01-002]** Regra: Validar CPF do cliente no momento do cadastro.
+- **[AR01-003] Cadastro de Reserva**: Campos: *Data e Hora, &Status
+  - **[AR01-005]** Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
+
+*Legenda:*
+
+- **\*** Campo obrigatório
+- **&** Campo de opções
+
 
 # Materiais de Estudo
 ## Bibliografias Recomendadas
