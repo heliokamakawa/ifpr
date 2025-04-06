@@ -14,101 +14,63 @@
 
 # Processo de Análise de Requisitos
 
-## [LRP001] Levantamento de Requisito Principal
+Agora que os requisitos estão definidos, é fundamental **validar** e **verificar** cada um deles. Após essa etapa, seguimos para a Análise de Requisitos. Para cada requisito específico, realizamos a análise conforme as fases descritas.
+  
+**Formato**: AR00-000 
+- AR → ANÁLISE DE REQUITO;
+- 00 → NÚMERO REQUISITO LEVANTADO;
+- 000 → SEQUENCIA DA ANÁLISE DE REQUISITO.
 
-### [LRE001] Levantamento de Requisito Específico 01
 
-#### Fase 01 - Identificação de Cadastros/Entidades
-
-- **[AR01-001]** Cadastro A
-- **[AR01-002]** Cadastro B
-- **[AR01-003]** Cadastro C
+**Fase 01 - Identificação de Cadastros/Entidades**
+- Nesta etapa, identificamos as principais entidades envolvidas no sistema.
+- Para o requisito de permitir que o cliente realize a gestão de reservas de quadras de beach tennis, as entidades podem ser: cliente, quadra e reserva.
+  
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
+		[AR01-001] Cadastro de Cliente
+		[AR01-002] Cadastro de Quadra
+		[AR01-003] Cadastro de Reserva
 
 #### Fase 02 - Identificação de Dependências/Correlações
 
-- **[AR01-004]** Cadastro E (Depende de [AR01-002])
+Aqui, determinamos as relações entre as entidades identificadas:
+- Um Cliente pode ter várias Reservas.
+- Uma Quadra pode estar associada a várias Reservas.
+  
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
+		[AR01-001] Cadastro de Cliente
+		[AR01-002] Cadastro de Quadra
+		[AR01-003] Cadastro de Reserva
+		[AR01-004] Relacionamento entre Cliente e Reserva 
+		[AR01-005] Relacionamento entre Quadra e Reserva 
 
 #### Fase 03 - Definição de Campos e Características das Entidades
 
-- **[AR01-001] Cadastro A**: Campos: *a, *f, g
-- **[AR01-002] Cadastro B**: Campos: *b, *c, d, e, &f
+Para cada cadastro/entidade identificar/definir os campos e suas caracteríticas - pode-se definir símbolos: * campo obrigatório, & campo de opções, outros.
+
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
+		[AR01-001] Cadastro de Cliente - campos: *Nome, *CPF, Telefone
+		[AR01-002] Cadastro de Quadra - campos: *Identificação, *Tipo de Piso, *Localização
+		[AR01-003] Cadastro de Reserva - campos: *Data e Hora, &Status
+		[AR01-004] Relacionamento entre Cliente e Reserva 
+		[AR01-005] Relacionamento entre Quadra e Reserva 
 
 #### Fase 04 - Identificação de Regras de Negócio
 
-- **[AR01-001] Cadastro A**: Campos: *x, *y, z, a
-  - **[AR01-002]** Regra K (Exemplo: O cadastro pode ser confirmado somente com autorização do gerente)
-  - **[AR01-003]** Regra O
-- **[AR01-004] Cadastro B**: Campos: *b, *c, d, e, &f
-  - **[AR01-005]** Regra L
-  - **[AR01-006]** Regra M
+Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere os números para ficar organizado.
 
-### [LRE002] Levantamento de Requisito Específico 02
-
-#### Fase 01 - Identificação de Cadastros/Entidades
-
-- **[AR02-001]** Cadastro D
-- **[AR02-002]** Cadastro E
-- **[AR02-003]** Cadastro F
-
-### [LRE003] Levantamento de Requisito Específico 03
-
-#### Fase 01 - Identificação de Cadastros/Entidades
-
-- **[AR03-001]** Cadastro G
-- **[AR03-002]** Cadastro H
-- **[AR03-003]** Cadastro I
-
-#### Fase 02 - Identificação de Dependências/Correlações
-
-- **[AR03-004]** Cadastro K (Depende de [AR03-002])
-
-### [LRE004] Levantamento de Requisito Específico 04
-
-#### Fase 01 - Identificação de Cadastros/Entidades
-
-- **[AR04-001]** Cadastro J
-- **[AR04-002]** Cadastro K
-- **[AR04-003]** Cadastro L
-
-## Iniciando a Análise de Requisitos
-
-Agora que os requisitos estão definidos, é fundamental **validar** e **verificar** cada um deles. Após essa etapa, seguimos para a Análise de Requisitos. Para cada requisito específico, realizamos a análise conforme as fases descritas.
-
-## Exemplo Prático
-
-### [LRP001] Realizar a Gestão de Reserva de Quadras Esportivas de Beach Tennis e Futebol Society
-
-#### [LRE001] Permitir que o Cliente Realize a Gestão de Reserva de Quadras de Beach Tennis
-
-**Fase 01 - Identificação de Cadastros/Entidades**
-
-- **[AR01-001]** Cadastro de Cliente
-- **[AR01-002]** Cadastro de Quadra
-- **[AR01-003]** Cadastro de Reserva
-
-**Fase 02 - Identificação de Dependências/Correlações**
-
-- **[AR01-004]** Relacionamento entre Cliente e Reserva
-- **[AR01-005]** Relacionamento entre Quadra e Reserva
-
-**Fase 03 - Definição de Campos e Características das Entidades**
-
-- **[AR01-001] Cadastro de Cliente**: Campos: *Nome, *CPF, Telefone
-- **[AR01-002] Cadastro de Quadra**: Campos: *Identificação, *Tipo de Piso, *Localização
-- **[AR01-003] Cadastro de Reserva**: Campos: *Data e Hora, &Status
-
-**Fase 04 - Identificação de Regras de Negócio**
-
-- **[AR01-001] Cadastro de Cliente**: Campos: *Nome, *CPF, Telefone
-  - **[AR01-002]** Regra: Validar CPF do cliente no momento do cadastro.
-- **[AR01-003] Cadastro de Reserva**: Campos: *Data e Hora, &Status
-  - **[AR01-005]** Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
-
-*Legenda:*
-
-- **\*** Campo obrigatório
-- **&** Campo de opções
-
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
+		[AR01-001] Cadastro de Cliente - campos: *Nome, *CPF, Telefone	
+			[AR01-002] Regra: Validar CPF do cliente no momento do cadastro.
+		[AR01-003] Cadastro de Quadra - campos: *Identificação, *Tipo de Piso, *Localização
+		[AR01-004] Cadastro de Reserva - campos: *Data e Hora, &Status
+			[AR01-005] Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
+		[AR01-006] Relacionamento entre Cliente e Reserva 
+		[AR01-007] Relacionamento entre Quadra e Reserva 
 
 # Materiais de Estudo
 ## Bibliografias Recomendadas
