@@ -2,26 +2,23 @@
 
 ## Identificação de Entidades e Relacionamentos
 
-**Descrição:** Consiste em determinar os principais cadastros/entidades e suas interdependências no sistema, estabelecendo uma base sólida para o desenvolvimento do modelo de dados.&#8203;:contentReference[oaicite:2]{index=2}
+**Descrição:** Consiste em determinar os principais cadastros/entidades e suas interdependências no sistema, estabelecendo uma base sólida para o desenvolvimento do modelo de dados.
 
 ## Definição de Campos e Características das Entidades
 
-**Descrição:** :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
+**Descrição:** Envolve especificar os atributos de cada entidade, incluindo suas propriedades, tipos de dados e restrições, garantindo que as necessidades de informação sejam atendidas adequadamente.
 
 ## Estabelecimento de Regras de Negócio
 
-**Descrição:** :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
+**Descrição:** Refere-se à identificação e documentação das regras que regem as operações do sistema, assegurando que os processos de negócios sejam corretamente implementados e mantidos.
 
 ## Análise Estruturada
 
-**Descrição:** :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
+**Descrição:** Foca na decomposição funcional do sistema, utilizando ferramentas como o Diagrama de Fluxo de Dados (DFD) para representar processos e fluxos de informação, facilitando a compreensão e a comunicação entre os envolvidos no projeto.
 
 # Materiais de Estudo
-
 ## Bibliografias Recomendadas
-
 - **SOMMERVILLE, Ian. Engenharia de Software. 9. ed. São Paulo: Pearson Education do Brasil, 2011.**
-
   - **Capítulo 5: System Modeling (Modelagem de Sistemas)**
 
     Este capítulo aborda técnicas de modelagem de sistemas, incluindo a identificação de entidades e seus relacionamentos, fundamentais para a análise de requisitos.
