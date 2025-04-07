@@ -43,6 +43,7 @@ Pleno é um profissional que **agrega valor real à empresa**
 - não precisa monitorar (confiança plena).
 - traz resultados relevantes.
 - é produtivo.
+- torna-se referência.
   
 Ele se destaca em **quatro dimensões**:
 
