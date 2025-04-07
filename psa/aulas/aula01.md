@@ -70,9 +70,7 @@ Ele se destaca em **quatro dimensões**:
 - Valida e verifica o que produz.
 - Em projetos fora da rotina, tenta evitar retrabalho, comunica bem sua produtividade e gera confiança na equipe.
 
----
-
-## 🔍 Autoavaliação: O que significa ser "pleno"?
+## Exemplos:
 
 ### No nosso contexto:
 - ⏰ Produziu bem, mas **errou no tempo** - **Ainda não é pleno.** Por qual motivo?
