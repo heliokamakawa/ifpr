@@ -94,8 +94,10 @@ Isso facilita a gestão, fortalece a colaboração e aproxima a vivência acadê
 
 ## 📊 Feedback Final da Autoavaliação
 
-- ✅ **1 equipe** demonstrou desempenho **pleno**.
-- ⚠️ **1 equipe** atingiu o nível **suficiente**.
+- ✅ **1 equipe** foi muito coerente na **autoavalição**.
+- ⚠️ **1 equipe** não atingiu o nível mínimo.
+
+> Mas, como sempre, foi a primeira em que buscamos **entendimento** para ajustar nas próximas.
 
 ---
 
