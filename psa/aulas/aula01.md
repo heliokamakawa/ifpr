@@ -75,8 +75,8 @@ Ele se destaca em **quatro dimensões**:
 ### No nosso contexto:
 - ⏰ Produziu bem, mas **errou no tempo** - **Ainda não é pleno.** Por qual motivo?
 - 🤝 Dedicou-se, mas **precisou de muita intervenção**? **Não é pleno.** Por qual motivo?
-- 🧪 Teve empenho, mas **o resultado foi fraco**? **Ainda não é pleno.** Por qual motivo?
-- 📊 Entregou bem, mas **houve falha(s) de planejamento ou execução**? **Ainda não é pleno.**  Por qual motivo?
+- 🧪 Teve empenho, mas **o resultado foi fraco**? **Não é pleno.** Por qual motivo?
+- 📊 Entregou bem, mas **houve falha(s) de planejamento ou execução**? **Não é pleno.**  Por qual motivo?
 
 > **Dedicação é importante**, mas o mercado também exige **resultado, organização e autonomia**.
 > 
