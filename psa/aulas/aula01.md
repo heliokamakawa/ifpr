@@ -79,7 +79,9 @@ Ele se destaca em **quatro dimensões**:
 - 📊 Entregou bem, mas **houve falha(s) de planejamento ou execução**? **Ainda não é pleno.**  Por qual motivo?
 
 > **Dedicação é importante**, mas o mercado também exige **resultado, organização e autonomia**.
+> 
 > Não precisamos ser plenos em tudo! O júnior tem o seu valor!
+> 
 > O que acontece se premiarmos um erro?
 
 ---
