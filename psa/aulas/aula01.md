@@ -38,7 +38,13 @@
 ---
 
 ## 🧩 Quais seriam os erros?
-Um profissional que **agrega valor real à empresa** - não precisa monitorar (confiança plena). Ele se destaca em **quatro dimensões**:
+Considerar pleno pela dedicação.
+Pleno é um profissional que **agrega valor real à empresa** 
+- não precisa monitorar (confiança plena).
+- traz resultados relevantes.
+- é produtivo.
+  
+Ele se destaca em **quatro dimensões**:
 
 ### 1. Técnica
 - Domínio de fundamentos.
