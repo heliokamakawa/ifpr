@@ -20,7 +20,8 @@
 ## 🎯 Refinamento do Ciclo
 
 ### Objetivo Central
-Contribuir para a **formação profissional**, que vai além da formação acadêmica.
+- Contribuir para a **formação profissional**, que vai além da formação acadêmica.
+- Não é para ser mais fácil ou virar diversão - pra isso precisamos de organização.
 
 > O foco aqui é **resultado com objetividade** e **consciência de processo**, como no mercado real.
 
