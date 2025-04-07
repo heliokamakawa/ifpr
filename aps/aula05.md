@@ -16,59 +16,6 @@ Organizar e refinar requisitos de forma prática e incremental, garantindo rastr
 
 → Traga exemplos práticos para cada no seu diário.
 
-***Documentação dos Requisitos (SRS – Software Requirements Specification)**
-Modelos de documentação:
-- IEEE 830 (ou ISO/IEC/IEEE 29148, versão mais moderna)
-Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
-
-| ID      | Descrição                                          | Prioridade | Origem      | Critérios de Aceitação                                      |
-|---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
-| REQ-001 | Funcionalidade de login de usuário com autenticação de dois fatores. | Alta       | Stakeholder | Usuários podem fazer login usando senha e código de verificação enviado por e-mail. |
-| REQ-002 | O sistema deve suportar exportação de dados em formato CSV. | Média      | Compliance  | Usuários podem exportar relatórios em formato CSV na seção de relatórios. |
-
-**Prioritização de Requisitos**
-Técnicas simples de priorização:
-- MoSCoW (Must, Should, Could, Won’t - Deve, deveria, poderia, não vai)
-- Kano Model
-- Pontos de Valor x Custo
-
-**Rastreamento e Controle de Mudanças**
-- A importância da rastreabilidade
-- Ferramentas simples como planilhas, Trello ou até GitHub Issues
-- Como lidar com mudanças de requisitos
-
-**Requisitos como base para o design e testes**
-- Como os requisitos bem definidos orientam o projeto da arquitetura e os testes?
-
-**Exemplo:**
-Requisito:
-O sistema deve ter uma função que multiplique dois inteiros e retorne o resultado.
-Implementação:
-Crie uma função chamada multiplicar que receba dois inteiros como parâmetros e retorne seu produto.
-```dart
-int multiply(int a, int b) {
-  return a * b;
-}
-
-void main() {
-  test('multiply two positive numbers', () {
-    expect(multiply(3, 4), equals(12));
-  });
-
-  test('multiply a positive and a negative number', () {
-    expect(multiply(-3, 4), equals(-12));
-  });
-
-  test('multiply two negative numbers', () {
-    expect(multiply(-3, -4), equals(12));
-  });
-
-  test('multiply by zero', () {
-    expect(multiply(0, 5), equals(0));
-  });
-}
-
-```
 ## 📚 Fundamentos Teóricos Aplicados
 
 ### ✅ Rastreabilidade
