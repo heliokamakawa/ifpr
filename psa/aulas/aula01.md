@@ -21,7 +21,7 @@
 
 ### Objetivo Central
 - Contribuir para a **formação profissional**, que vai além da formação acadêmica.
-- Não é para ser mais fácil ou virar diversão - pra isso precisamos de organização.
+- Não é pra sobrecarregar, mas não é para ser mais fácil ou virar diversão - a ideia é compensar na organização e execução.
 
 > O foco aqui é **resultado com objetividade** e **consciência de processo**, como no mercado real.
 
@@ -29,17 +29,17 @@
 
 ## 💬 Reflexão: "Se os conceitos A, B ou C me fazem passar de ano, por que complicar?"
 
-### Resposta:
+### Resposta simpels é GESTÃO
 1. Quem se acha pronto **não busca melhoria**.
 2. **Reconhecer falhas** é o primeiro passo para evoluir profissionalmente.
-3. Não é preciso ser excelente em tudo, mas é essencial **ter consciência do que falta**.
+3. Não é preciso ser PLENO em tudo, mas é essencial **ter consciência do que falta**.
 4. Não é sobre ego ou humildade, mas sobre **clareza da realidade**.
 
 ---
 
 ## 🧩 O que é um Dev Pleno/Sênior?
 
-Um profissional que **agrega valor real à empresa**. Ele se destaca em **quatro dimensões**:
+Um profissional que **agrega valor real à empresa** - não precisa monitorar (confiança plena). Ele se destaca em **quatro dimensões**:
 
 ### 1. Técnica
 - Domínio de fundamentos.
@@ -61,17 +61,17 @@ Um profissional que **agrega valor real à empresa**. Ele se destaca em **quatro
 ### 4. Responsabilidade e Organização
 - Sabe o que fazer, em quanto tempo, e com que nível de qualidade.
 - Valida e verifica o que produz.
-- Em contextos fora da rotina, evita retrabalho, comunica bem sua produtividade e gera confiança na equipe.
+- Em projetos fora da rotina, tenta evitar retrabalho, comunica bem sua produtividade e gera confiança na equipe.
 
 ---
 
 ## 🔍 Autoavaliação: O que significa ser "pleno"?
 
 ### No nosso contexto:
-- ⏰ Produziu, mas **errou no tempo**? **Ainda não é pleno.**
-- 🤝 Dedicou-se, mas **precisou de muita intervenção**? **Ainda não é pleno.**
-- 🧪 Teve empenho, mas **o resultado foi fraco**? **Ainda não é pleno.**
-- 📊 Entregou bem, mas **houve falha de planejamento ou execução**? **Ainda não é pleno.**
+- ⏰ Produziu bem, mas **errou no tempo** - **Ainda não é pleno.** Por qual motivo?
+- 🤝 Dedicou-se, mas **precisou de muita intervenção**? **Ainda não é pleno.** Por qual motivo?
+- 🧪 Teve empenho, mas **o resultado foi fraco**? **Ainda não é pleno.** Por qual motivo?
+- 📊 Entregou bem, mas **houve falha(s) de planejamento ou execução**? **Ainda não é pleno.**  Por qual motivo?
 
 > **Dedicação é importante**, mas o mercado também exige **resultado, organização e autonomia**.
 
