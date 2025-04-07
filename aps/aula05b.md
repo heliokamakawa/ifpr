@@ -15,6 +15,60 @@
 # Processo de Análise de Requisitos
 
 Agora que os requisitos estão definidos, é fundamental **validar** e **verificar** cada um deles. Após essa etapa, seguimos para a Análise de Requisitos. Para cada requisito específico, realizamos a análise conforme as fases descritas.
+
+***Documentação dos Requisitos (SRS – Software Requirements Specification)**
+Modelos de documentação:
+- IEEE 830 (ou ISO/IEC/IEEE 29148, versão mais moderna)
+Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
+
+| ID      | Descrição                                          | Prioridade | Origem      | Critérios de Aceitação                                      |
+|---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
+| REQ-001 | Funcionalidade de login de usuário com autenticação de dois fatores. | Alta       | Stakeholder | Usuários podem fazer login usando senha e código de verificação enviado por e-mail. |
+| REQ-002 | O sistema deve suportar exportação de dados em formato CSV. | Média      | Compliance  | Usuários podem exportar relatórios em formato CSV na seção de relatórios. |
+
+**Prioritização de Requisitos**
+Técnicas simples de priorização:
+- MoSCoW (Must, Should, Could, Won’t - Deve, deveria, poderia, não vai)
+- Kano Model
+- Pontos de Valor x Custo
+
+**Rastreamento e Controle de Mudanças**
+- A importância da rastreabilidade
+- Ferramentas simples como planilhas, Trello ou até GitHub Issues
+- Como lidar com mudanças de requisitos
+
+**Requisitos como base para o design e testes**
+- Como os requisitos bem definidos orientam o projeto da arquitetura e os testes?
+
+**Exemplo:**
+Requisito:
+O sistema deve ter uma função que multiplique dois inteiros e retorne o resultado.
+Implementação:
+Crie uma função chamada multiplicar que receba dois inteiros como parâmetros e retorne seu produto.
+```dart
+int multiply(int a, int b) {
+  return a * b;
+}
+
+void main() {
+  test('multiply two positive numbers', () {
+    expect(multiply(3, 4), equals(12));
+  });
+
+  test('multiply a positive and a negative number', () {
+    expect(multiply(-3, 4), equals(-12));
+  });
+
+  test('multiply two negative numbers', () {
+    expect(multiply(-3, -4), equals(12));
+  });
+
+  test('multiply by zero', () {
+    expect(multiply(0, 5), equals(0));
+  });
+}
+
+```
   
 **Formato**: AR00-000 
 - AR → ANÁLISE DE REQUITO;
@@ -31,6 +85,8 @@ Agora que os requisitos estão definidos, é fundamental **validar** e **verific
 		[AR01-001] Cadastro de Cliente
 		[AR01-002] Cadastro de Quadra
 		[AR01-003] Cadastro de Reserva
+
+
 
 #### Fase 02 - Identificação de Dependências/Correlações
 
@@ -71,6 +127,31 @@ Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere
 			[AR01-005] Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
 		[AR01-006] Relacionamento entre Cliente e Reserva 
 		[AR01-007] Relacionamento entre Quadra e Reserva 
+
+
+#### FORMATAÇÃO
+Com a análise defina, basta formatar com um padrão reconhecível e iquestionável.
+
+**Especifique a fonte**
+Padrão utilizada: IEEE 830 (ou ISO/IEC/IEEE 29148, versão mais moderna)
+Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
+
+| ID      | Descrição                                          | Prioridade | Origem      | Critérios de Aceitação                                      |
+|---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
+| REQ-001 | Funcionalidade de login de usuário com autenticação de dois fatores. | Alta       | Stakeholder | Usuários podem fazer login usando senha e código de verificação enviado por e-mail. |
+| REQ-002 | O sistema deve suportar exportação de dados em formato CSV. | Média      | Compliance  | Usuários podem exportar relatórios em formato CSV na seção de relatórios. |
+
+
+Exemplo:
+
+| LRP001: Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| LRE001: Permitir que o cliente realize a gestão de reserva de quadras de beach.                                      |
+|---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
+| ID      | Descrição                                          | Prioridade | Origem      | Critérios de Aceitação                                      |
+|---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
+| REQ-001 |Cadastro de Cliente - campos: *Nome, *CPF, Telefone | Alta       | AR01-001 | |
+| REQ-002 |Validar CPF do cliente no momento do cadastro. | Alta      | AR01-002  | Realização do cadastro com dados válidos via navegador.  |
 
 # Materiais de Estudo
 ## Bibliografias Recomendadas
