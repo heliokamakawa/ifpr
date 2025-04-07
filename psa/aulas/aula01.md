@@ -77,7 +77,7 @@ Um profissional que **agrega valor real à empresa** - não precisa monitorar (c
 
 ---
 
-## ✅ Conclusão
+## ✅ Entenda!
 
 A intenção **não é desvalorizar o esforço de ninguém**, mas mostrar que dedicação precisa caminhar com **resultado consciente**, **respeito a regras** e **clareza sobre o processo**.
 
