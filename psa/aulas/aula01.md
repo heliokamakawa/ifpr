@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Refinamento do Ciclo
+## 🎯 Refinamento do Ciclo de Conhecimento
 
 ### Objetivo Central
 - Contribuir para a **formação profissional**, que vai além da formação acadêmica.
