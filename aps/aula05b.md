@@ -144,9 +144,8 @@ Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
 
 Exemplo:
 
-| LRP001: Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.                                      |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| LRE001: Permitir que o cliente realize a gestão de reserva de quadras de beach.                                      |
+LRP001: Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.                                  
+→ LRE001: Permitir que o cliente realize a gestão de reserva de quadras de beach.                                    
 
 | ID      | Descrição                                          | Prioridade | Origem      | Critérios de Aceitação                                      |
 |---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
