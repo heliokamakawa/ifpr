@@ -81,7 +81,7 @@ Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualid
 ---
 
 ### Resultado final
-
+```
 [LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
 
 	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
@@ -97,7 +97,7 @@ Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualid
 	[LRE006] Definir um sistema de reserva inteligente em que um jogar possa definir um dia de jogo e o sistema realizar o convite para dar quórum.
  
 	[LRE007] Definir um controle de venda de refrigerantes.
-
+```
 ---
 
 ## 📘 Parte 1 – Referências Clássicas e Acadêmicas
