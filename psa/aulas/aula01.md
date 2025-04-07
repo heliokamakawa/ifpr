@@ -97,7 +97,7 @@ Isso facilita a gestão, fortalece a colaboração e aproxima a vivência acadê
 - ✅ **1 equipe** foi a mais coerente **autoavalição**.
 - ⚠️ **1 equipe** não atingiu o nível mínimo.
 
-> Mas, como sempre, foi a primeira em que buscamos **entendimento** para ajustar nas próximas.
+> Lembre-se: foi apenas o 1º ciclo! Basta ajustar e melhorar.
 
 ---
 
