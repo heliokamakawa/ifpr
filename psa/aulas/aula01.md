@@ -37,8 +37,7 @@
 
 ---
 
-## 🧩 O que é um Dev Pleno/Sênior?
-
+## 🧩 Quais seriam os erros?
 Um profissional que **agrega valor real à empresa** - não precisa monitorar (confiança plena). Ele se destaca em **quatro dimensões**:
 
 ### 1. Técnica
