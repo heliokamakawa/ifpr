@@ -6,6 +6,7 @@
 - 🎥 Elaboração de um **vídeo de 15 a 20 minutos**.
 - 📚 Produção de **material de apoio** (ex: slides, artigo, resumo técnico, links úteis).
 - 🗂️ Definição, junto à turma, de um **repositório compartilhado** para armazenar os conteúdos.
+- 🗂️ Definição da autoavalição do ciclo.
 
 ---
 
