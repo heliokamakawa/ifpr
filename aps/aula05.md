@@ -7,6 +7,7 @@ Organizar e refinar requisitos de forma prática e incremental, garantindo rastr
 - Funcionais vs. Não-funcionais
 - Requisitos do sistema vs. do usuário
 - Requisitos explícitos vs. implícitos
+
 → Traga exemplos práticos para cada no seu diário.
 
 ***Documentação dos Requisitos (SRS – Software Requirements Specification)**
