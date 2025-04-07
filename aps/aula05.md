@@ -82,14 +82,14 @@ Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualid
 
 ### Resultado final
 
-[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
-	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
-	[LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.
-	[LRE003] Permitir que o administrador realize a gestão de todas as reserva de quadras de beach.
-	[LRE004] Permitir que o administrador realize a gestão de todas as reserva de quadras de futebol society.
-	[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.
-	[LRE006] Definir um sistema de reserva inteligente em que um jogar possa definir um dia de jogo e o sistema realizar o convite para dar quórum.
-	[LRE007] Definir um controle de venda de refrigerantes.
+-[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+	-[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
+	-[LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.
+	-[LRE003] Permitir que o administrador realize a gestão de todas as reserva de quadras de beach.
+	-[LRE004] Permitir que o administrador realize a gestão de todas as reserva de quadras de futebol society.
+	-[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.
+	-[LRE006] Definir um sistema de reserva inteligente em que um jogar possa definir um dia de jogo e o sistema realizar o convite para dar quórum.
+	-[LRE007] Definir um controle de venda de refrigerantes.
 
 ---
 
