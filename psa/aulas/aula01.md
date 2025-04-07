@@ -103,8 +103,8 @@ Isso facilita a gestão, fortalece a colaboração e aproxima a vivência acadê
 
 ## 📊 Feedback Final da Autoavaliação
 
-- ✅ **1 equipe** foi a mais coerente **autoavalição**.
-- ⚠️ **1 equipe** não atingiu o nível mínimo.
+- ✅ **1 equipe** foi a mais coerente na **autoavalição**.
+- ⚠️ **1 equipe** não atingiu o suficiente.
 
 > Lembre-se: foi apenas o 1º ciclo! Basta ajustar e melhorar.
 
