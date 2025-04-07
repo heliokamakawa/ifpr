@@ -5,8 +5,14 @@ Organizar e refinar requisitos de forma prática e incremental, garantindo rastr
 
 **Classificação dos Requisitos:** 
 - Funcionais vs. Não-funcionais
+	- Um Cliente pode ter realizar Reservas.
+	- A Reserva deve ser realizada em 20s.
 - Requisitos do sistema vs. do usuário
+	- O sistema deve ser compatível com as versões mais recentes dos navegadores Chrome, Firefox e Safari.
+	- O Cliente deve ser capaz de acessar sua conta e visualizar suas reservas em até 30 segundos após abrir o aplicativo.
 - Requisitos explícitos vs. implícitos
+	- Um Cliente pode ter realizar Reservas.
+	-  O Cliente espera que a reserva seja intuitiva e que as opções de menu sejam facilmente localizáveis. (Implícito, a usabilidade geralmente é dada como garantida, mas não é especificada).
 
 → Traga exemplos práticos para cada no seu diário.
 
