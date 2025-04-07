@@ -80,9 +80,9 @@ Ele se destaca em **quatro dimensões**:
 
 > **Dedicação é importante**, mas o mercado também exige **resultado, organização e autonomia**.
 > 
-> Não precisamos ser plenos em tudo! O júnior tem o seu valor!
-> 
 > O que acontece se premiarmos um erro?
+> 
+> A coerência do que ganha e faz é um bom ponto de equilíbrio.
 
 ---
 
