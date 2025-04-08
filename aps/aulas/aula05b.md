@@ -15,7 +15,7 @@ Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
 
 **Formato Análise de Requisito**: AR00-000 
 - AR → ANÁLISE DE REQUITO;
-- 00 → NÚMERO REQUISITO LEVANTADO;
+- 00 → NÚMERO DO LEVANTAMENTO DE REQUISITO;
 - 000 → SEQUENCIA DA ANÁLISE DE REQUISITO.
 
 **Formato da identificação do requisito**: REQ001
