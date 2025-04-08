@@ -16,61 +16,74 @@
 ## 🎯 Objetivo
 Organizar e refinar requisitos de forma prática e incremental, garantindo rastreabilidade, clareza e foco no que realmente é necessário.
 
-## 🧩 Estrutura das Fases
-
-### 🔹 **Fase 1 – Identificação do Requisito Principal**
-- [LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
-
-### 🔹 **Fase 2 – Especificação**
-- [LRE001] Realizar a gestão de reserva de quadras de beach.
-- [LRE002] Realizar a gestão de reserva de quadras de futebol society.
-
-### 🔹 **Fase 3 – Especificação com Atores**
-- [LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
-- [LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.
-- [LRE003] Permitir que o administrador realize a gestão de todas as reservas de quadras de beach.
-- [LRE004] Permitir que o administrador realize a gestão de todas as reservas de quadras de futebol society.
-
-### 🔹 **Fase 4 – Complementação Funcional**
-- [LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.
-- [LRE006] Definir um sistema de reserva inteligente em que um jogador possa definir um dia de jogo e o sistema realizar o convite para dar quórum.
-
-### 🔹 **Fase 5 – Funcionalidades Fora do Escopo Inicial**
-- [LRE007] Definir um controle de venda de refrigerantes.
-
----
-
-### Resultado final
-```
-[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
-
-	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
- 
-	[LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.
- 
-	[LRE003] Permitir que o administrador realize a gestão de todas as reserva de quadras de beach.
- 
-	[LRE004] Permitir que o administrador realize a gestão de todas as reserva de quadras de futebol society.
- 
-	[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.
- 
-	[LRE006] Definir um sistema de reserva inteligente em que um jogar possa definir um dia de jogo e o sistema realizar o convite para dar quórum.
- 
-	[LRE007] Definir um controle de venda de refrigerantes.
-```
-
-## 📚 Fundamentos Teóricos Aplicados
-
-### ✅ Rastreabilidade
-- Permite ligar cada requisito a funcionalidades, testes, casos de uso, código, etc.
-- Código identificador de requisitos.
-- Conexão entre requisitos principais e específicos.
-
 ### ✅ Decomposição Funcional (Refinamento Incremental)
 - Organização em fases.
 - Macro para o micro com clareza - uma prática essencial em levantamento e análise de requisitos.
 - Como? Quebra de requisitos em subníveis com detalhamento progressivo.
-  
+
+## 🧩 Estrutura das Fases
+
+### 🔹 **Fase 1 – Rastreabilidade**
+- Código identificador de requisitos.
+- Conexão entre requisitos principais e específicos.
+- Permite ligar cada requisito a funcionalidades, testes, casos de uso, código, etc.
+
+→ LRP000 - Levantamento de Requisitos Principal e a sequência numérica  
+→ LRE000 - Levantamento de Requisitos Específico e a sequência numérica 
+
+### 🔹 **Fase 2 – Identificação do Requisito Principal**
+Identificar o(s) principal(is) requisito(s).  
+
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+
+
+### 🔹 **Fase 3 – Especificação**
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.  
+   [LRE001] Realizar a gestão de reserva de quadras de beach.  
+   [LRE002] Realizar a gestão de reserva de quadras de futebol society.  
+
+### 🔹 **Fase 4 – Identificação dos Atores**
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.   
+   [LRE001] Permitir que o **cliente** realize a gestão de reserva de quadras de beach.  
+   [LRE002] Permitir que o **cliente** realize a gestão de reserva de quadras de futebol society.  
+   [LRE003] Permitir que o **administrador** realize a gestão de todas as reservas de quadras de beach.  
+   [LRE004] Permitir que o **administrador** realize a gestão de todas as reservas de quadras de futebol society.  
+
+### 🔹 **Fase 5 – Complementação Funcional**
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.   
+   [LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.  
+   [LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.  
+   [LRE003] Permitir que o administrador realize a gestão de todas as reservas de quadras de beach.  
+   [LRE004] Permitir que o administrador realize a gestão de todas as reservas de quadras de futebol society.  
+   **[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.**
+   **[LRE006] Definir um sistema de reserva inteligente em que um jogador possa definir um dia de jogo e o sistema realizar o convite para dar quórum.**
+
+### 🔹 **Fase 6 – Funcionalidades Fora do Escopo Inicial**
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.   
+   [LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.  
+   [LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.  
+   [LRE003] Permitir que o administrador realize a gestão de todas as reservas de quadras de beach.  
+   [LRE004] Permitir que o administrador realize a gestão de todas as reservas de quadras de futebol society.  
+   [LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.**
+   [LRE006] Definir um sistema de reserva inteligente em que um jogador possa definir um dia de jogo e o sistema realizar o convite para dar quórum.  
+   **[LRE007] Definir um controle de venda de refrigerantes.**  
+
+### 🔹 **Fase 7 – Validação e Verificação**
+---
+
+### Resultado final
+```
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.  
+	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.  
+	[LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.  
+	[LRE003] Permitir que o administrador realize a gestão de todas as reserva de quadras de beach.  
+	[LRE004] Permitir que o administrador realize a gestão de todas as reserva de quadras de futebol society.  
+	[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.  
+	[LRE006] Definir um sistema de reserva inteligente em que um jogar possa definir um dia de jogo e o sistema realizar o convite para dar quórum.  
+	[LRE007] Definir um controle de venda de refrigerantes.  
+```
+
+## 📚 Fundamentos Teóricos Aplicados 
 ### ✅ Engajamento e Validação com Stakeholders
 - Detalhar quem faz o quê (cliente, administrador) - simular papéis de usuários reais ajuda a validar requisitos com clareza.
 
@@ -94,8 +107,6 @@ Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualid
 
 ### ✅ Análise de Completeness
 - Ir da ideia inicial até requisitos complementares e fora do escopo, você conduz uma análise de completude.
-
-  
 ---
 
 ## 📘 Parte 1 – Referências Clássicas e Acadêmicas
