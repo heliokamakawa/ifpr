@@ -72,7 +72,7 @@ Identificar o(s) principal(is) requisito(s).
    [LRE004] Permitir que o administrador realize a gestão de todas as reservas de quadras de futebol society.  
    [LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.**  
    [LRE006] Definir um sistema de reserva inteligente em que um jogador possa definir um dia de jogo e o sistema realizar o convite para dar quórum.   
-[LRE008] Definir um controle de venda de refrigerantes.
+[LRE007] Definir um controle de venda de refrigerantes.
 ```
 
 ### 🔹 **Fase 7 – Validação e Verificação**
@@ -87,7 +87,7 @@ Identificar o(s) principal(is) requisito(s).
 	[LRE004] Permitir que o administrador realize a gestão de todas as reserva de quadras de futebol society.  
 	[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.  
 	[LRE006] Definir um sistema de reserva inteligente em que um jogar possa definir um dia de jogo e o sistema realizar o convite para dar quórum.  
-[LRE008] Definir um controle de venda de refrigerantes.
+[LRE007] Definir um controle de venda de refrigerantes.
 ```
 
 ## 📚 Fundamentos Teóricos Aplicados 
