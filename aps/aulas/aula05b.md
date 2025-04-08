@@ -8,15 +8,25 @@ Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
 | REQ-001 | Funcionalidade de login de usuário com autenticação de dois fatores. | Alta       | Stakeholder | Usuários podem fazer login usando senha e código de verificação enviado por e-mail. |
 | REQ-002 | O sistema deve suportar exportação de dados em formato CSV. | Média      | Compliance  | Usuários podem exportar relatórios em formato CSV na seção de relatórios. |
 
+**Fase 1 – Rastreabilidade**
+- Código identificador de requisitos.
+- Conexão entre requisitos específicos e a análise de requisitos.
+- Permite ligar cada requisito a funcionalidades, testes, casos de uso, código, etc.
 
-**Fase 01 - Definindo siglas**
-**Formato**: AR00-000 
+**Formato Análise de Requisito**: AR00-000 
 - AR → ANÁLISE DE REQUITO;
 - 00 → NÚMERO REQUISITO LEVANTADO;
 - 000 → SEQUENCIA DA ANÁLISE DE REQUISITO.
 
+**Formato da identificação do requisito**: REQ001
+- REQ → Requisito;
+- 000 → SEQUENCIA DA ANÁLISE DE REQUISITO.
 
-**Fase 01 - Identificação de Cadastros/Entidades**
+**Formato da identificação do requisito não funcional**: RNF001
+- RNF → Requisito não funcional;
+- 000 → SEQUENCIA DA ANÁLISE DE REQUISITO.
+
+**Fase 02 - Identificação de Cadastros/Entidades**
 - Nesta etapa, identificamos as principais entidades envolvidas no sistema.
 - Para o requisito de permitir que o cliente realize a gestão de reservas de quadras de beach tennis, as entidades podem ser: cliente, quadra e reserva.
 
@@ -29,7 +39,7 @@ Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
 ```
 
 
-#### Fase 02 - Identificação de Dependências/Correlações
+#### Fase 03 - Identificação de Dependências/Correlações
 
 Aqui, determinamos as relações entre as entidades identificadas:
 - Um Cliente pode ter várias Reservas.
@@ -45,7 +55,7 @@ Aqui, determinamos as relações entre as entidades identificadas:
 		[AR01-005] Relacionamento entre Quadra e Reserva 
 ```
 
-#### Fase 03 - Definição de Campos e Características das Entidades
+#### Fase 04 - Definição de Campos e Características das Entidades
 
 Para cada cadastro/entidade identificar/definir os campos e suas caracteríticas - pode-se definir símbolos: * campo obrigatório, & campo de opções, outros.
 
@@ -59,7 +69,7 @@ Para cada cadastro/entidade identificar/definir os campos e suas caracteríticas
 		[AR01-005] Relacionamento entre Quadra e Reserva 
 ```
 
-#### Fase 04 - Identificação de Regras de Negócio
+#### Fase 05 - Identificação de Regras de Negócio
 
 Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere os números para ficar organizado.
 ```  
@@ -72,19 +82,42 @@ Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere
 			[AR01-005] Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
 		[AR01-006] Relacionamento entre Cliente e Reserva 
 		[AR01-007] Relacionamento entre Quadra e Reserva 
+```
+
+
+
+#### Fase 06 - Identificação de Requisitos não funcionais
+**Desempenho:** O sistema deve processar e enviar ordens de compra e venda de ações em até 50 milissegundos.  
+**Segurança:** O sistema não deve expor o número completo do CPF nos logs.  
+**Usabilidade:** O sistema deve destacar visualmente dados inválidos e exibir uma mensagem clara e objetiva, sem jargões técnicos.  
+**Disponibilidade:** O sistema de prontuário eletrônico deve ter disponibilidade mínima de 99,95%, operando 24/7 para garantir acesso contínuo aos dados dos pacientes.  
+**Compatibilidade:** A aplicação deve ser responsiva e funcionar corretamente nos principais navegadores;  
+**Confiabilidade:** O sistema deve garantir que os dados enviados pelos usuários não sejam perdidos em caso de falha de conexão.  
+
+Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere os números para ficar organizado.
+```  
+[LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
+	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
+		[AR01-001] Cadastro de Cliente - campos: *Nome, *CPF, Telefone	
+			[AR01-002] Regra: Validar CPF do cliente no momento do cadastro.
+			[RNF-001] O sistema não deve expor o número completo do CPF nos logs, armazenando apenas os 3 últimos dígitos para fins de auditoria.
+		[AR01-003] Cadastro de Quadra - campos: *Identificação, *Tipo de Piso, *Localização
+		[AR01-004] Cadastro de Reserva - campos: *Data e Hora, &Status
+			[AR01-005] Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
+		[AR01-006] Relacionamento entre Cliente e Reserva 
+		[AR01-007] Relacionamento entre Quadra e Reserva 
 ```  
 
-#### FORMATAÇÃO
-Com a análise defina, basta formatar com um padrão reconhecível e iquestionável.
+#### Fase 07 - FORMATAÇÃO
+Com a análise defina, basta formatar com um padrão reconhecível e iquestionável. Especifique a fonte e/ou padrão utilizada.
 
-**Especifique a fonte**
-Padrão utilizada: IEEE 830 (ou ISO/IEC/IEEE 29148, versão mais moderna)
-Formato simples: ID, descrição, prioridade, origem, critérios de aceitação
+**Padrão utilizada:** IEEE 830 (ou ISO/IEC/IEEE 29148, versão mais moderna)
 
 | ID      | Descrição                                          | Prioridade | Origem      | Critérios de Aceitação                                      |
 |---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
 | REQ-001 | Funcionalidade de login de usuário com autenticação de dois fatores. | Alta       | Stakeholder | Usuários podem fazer login usando senha e código de verificação enviado por e-mail. |
 | REQ-002 | O sistema deve suportar exportação de dados em formato CSV. | Média      | Compliance  | Usuários podem exportar relatórios em formato CSV na seção de relatórios. |
+
 
 
 Exemplo:
@@ -96,6 +129,8 @@ LRP001: Realizar a gestão de reserva de quadras esportivas de beach tennis e fu
 |---------|----------------------------------------------------|------------|-------------|-------------------------------------------------------------|
 | REQ-001 |Cadastro de Cliente - campos: *Nome, *CPF, Telefone | Alta       | AR01-001 | |
 | REQ-002 |Validar CPF do cliente no momento do cadastro. | Alta      | AR01-002  | Realização do cadastro com dados válidos via navegador.  |
+| RNF-001 |O sistema não deve expor o número completo do CPF nos logs. | Média      | AR01-001 | Validação visual nos logs.  |
+
 
 # Análise de Requisitos
 
