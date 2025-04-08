@@ -60,8 +60,8 @@ Identificar o(s) principal(is) requisito(s).
    [LRE002] Permitir que o cliente realize a gestão de reserva de quadras de futebol society.  
    [LRE003] Permitir que o administrador realize a gestão de todas as reservas de quadras de beach.  
    [LRE004] Permitir que o administrador realize a gestão de todas as reservas de quadras de futebol society.  
-   **[LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.**  
-   **[LRE006] Definir um sistema de reserva inteligente em que um jogador possa definir um dia de jogo e o sistema realizar o convite para dar quórum.**
+   [LRE005] Definir calendário para facilitar a visualização da disponibilidade das quadras.  
+   [LRE006] Definir um sistema de reserva inteligente em que um jogador possa definir um dia de jogo e o sistema realizar o convite para dar quórum.
 ```
 
 ### 🔹 **Fase 6 – Funcionalidades Fora do Escopo Inicial**
