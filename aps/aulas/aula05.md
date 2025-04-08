@@ -1,12 +1,12 @@
 # Cronograma
-08/04 - Levantamento e Análise de requisitos - Técnicas (entender, analisar e escrever certo); Desenvolvimento do ES.
-15/04 - Desenvolvimento do ES.
-22/04 - Desenvolvimento do ES. Desenvolvimento do ES.
-29/04 - Diagrama de classe.
-06/05 - Desenvolvimento do ES.
-13/05 - Entrega documento.
-20/05 - Retomada conteúdo.
-27/05 - Recuperação - avaliação dissetativa.
+08/04 - Levantamento e Análise de requisitos - Técnicas (entender, analisar e escrever certo); Desenvolvimento do ES.  
+15/04 - Desenvolvimento do ES.  
+22/04 - Diagrama de caso de uso geral. Desenvolvimento do ES.  
+29/04 - Diagrama de classe.  
+06/05 - Desenvolvimento do ES.  
+13/05 - Entrega documento.  
+20/05 - Retomada conteúdo.  
+27/05 - Recuperação - avaliação dissetativa.  
 
 # Diário de aula
 - Feedback.
@@ -15,59 +15,6 @@
 
 ## 🎯 Objetivo
 Organizar e refinar requisitos de forma prática e incremental, garantindo rastreabilidade, clareza e foco no que realmente é necessário.
-
-**Classificação dos Requisitos:** 
-- Funcionais vs. Não-funcionais
-	- Um Cliente pode realizar Reservas.
-	- A Reserva deve ser realizada em 20s.
-- Requisitos do sistema vs. do usuário
-	- O sistema deve ser compatível com as versões mais recentes dos navegadores Chrome, Firefox e Safari.
-	- O Cliente deve ser capaz de acessar sua conta e visualizar suas reservas em até 30 segundos após abrir o aplicativo.
-- Requisitos explícitos vs. implícitos
-	- Um Cliente pode ter realizar Reservas.
-	-  O Cliente espera que a reserva seja intuitiva e que as opções de menu sejam facilmente localizáveis. (Implícito, a usabilidade geralmente é dada como garantida, mas não é especificada).
-
-→ Traga exemplos práticos para cada no seu diário.
-
-## 📚 Fundamentos Teóricos Aplicados
-
-### ✅ Rastreabilidade
-- Permite ligar cada requisito a funcionalidades, testes, casos de uso, código, etc.
-- Código identificador de requisitos.
-- Conexão entre requisitos principais e específicos.
-
-### ✅ Decomposição Funcional (Refinamento Incremental)
-- Organização em fases.
-- Macro para o micro com clareza - uma prática essencial em levantamento e análise de requisitos.
-- Como? Quebra de requisitos em subníveis com detalhamento progressivo.
-  
-### ✅ Engajamento e Validação com Stakeholders
-- Detalhar quem faz o quê (cliente, administrador) - simular papéis de usuários reais ajuda a validar requisitos com clareza.
-
-### ✅ Separação de Escopo
-- Inclusão explícita de funcionalidades não correlatas ao objetivo principal.
-
-### ✅ Análise de Papéis (Stakeholders)
-- Definição clara de clientes e administradores.
-
-### ✅ Modularidade e Organização
-- Agrupar os requisitos por fases e hierarquia melhora a modularidade, facilitando a análise de impacto e a evolução futura.
-- Estrutura clara, hierárquica e didática.
-
-### ✅ Qualidade dos Requisitos (SMART)
-Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualidade:
-- Específico: define quem faz o quê
-- Mensurável: funcionalidades podem ser testadas
-- Alcançável / Realista: não são utopias
-- Temporal: implícito no calendário ou lembretes
-- Rastreável: claramente mapeado do geral ao específico
-
-### ✅ Análise de Completeness
-- Ir da ideia inicial até requisitos complementares e fora do escopo, você conduz uma análise de completude.
-
----
-
-# Exemplo
 
 ## 🧩 Estrutura das Fases
 
@@ -111,6 +58,44 @@ Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualid
  
 	[LRE007] Definir um controle de venda de refrigerantes.
 ```
+
+## 📚 Fundamentos Teóricos Aplicados
+
+### ✅ Rastreabilidade
+- Permite ligar cada requisito a funcionalidades, testes, casos de uso, código, etc.
+- Código identificador de requisitos.
+- Conexão entre requisitos principais e específicos.
+
+### ✅ Decomposição Funcional (Refinamento Incremental)
+- Organização em fases.
+- Macro para o micro com clareza - uma prática essencial em levantamento e análise de requisitos.
+- Como? Quebra de requisitos em subníveis com detalhamento progressivo.
+  
+### ✅ Engajamento e Validação com Stakeholders
+- Detalhar quem faz o quê (cliente, administrador) - simular papéis de usuários reais ajuda a validar requisitos com clareza.
+
+### ✅ Separação de Escopo
+- Inclusão explícita de funcionalidades não correlatas ao objetivo principal.
+
+### ✅ Análise de Papéis (Stakeholders)
+- Definição clara de clientes e administradores.
+
+### ✅ Modularidade e Organização
+- Agrupar os requisitos por fases e hierarquia melhora a modularidade, facilitando a análise de impacto e a evolução futura.
+- Estrutura clara, hierárquica e didática.
+
+### ✅ Qualidade dos Requisitos (SMART)
+Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualidade:
+- Específico: define quem faz o quê
+- Mensurável: funcionalidades podem ser testadas
+- Alcançável / Realista: não são utopias
+- Temporal: implícito no calendário ou lembretes
+- Rastreável: claramente mapeado do geral ao específico
+
+### ✅ Análise de Completeness
+- Ir da ideia inicial até requisitos complementares e fora do escopo, você conduz uma análise de completude.
+
+  
 ---
 
 ## 📘 Parte 1 – Referências Clássicas e Acadêmicas
