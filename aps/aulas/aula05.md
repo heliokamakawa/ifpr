@@ -1,6 +1,6 @@
 # Cronograma
 08/04 - Levantamento e Análise de requisitos - Técnicas (entender, analisar e escrever certo); Desenvolvimento do ES.  
-15/04 - Diagrama de caso de uso geral. Desenvolvimento do ES. 
+15/04 - Diagrama de caso de uso geral. Desenvolvimento do ES.   
 22/04 - Diagrama de classe.    
 29/04 - Desenvolvimento do ES.   
 06/05 - Desenvolvimento do ES.  
