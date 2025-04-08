@@ -79,13 +79,14 @@ void main() {
 **Fase 01 - Identificação de Cadastros/Entidades**
 - Nesta etapa, identificamos as principais entidades envolvidas no sistema.
 - Para o requisito de permitir que o cliente realize a gestão de reservas de quadras de beach tennis, as entidades podem ser: cliente, quadra e reserva.
-  
+
+```  
 [LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
 	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
 		[AR01-001] Cadastro de Cliente
 		[AR01-002] Cadastro de Quadra
 		[AR01-003] Cadastro de Reserva
-
+```
 
 
 #### Fase 02 - Identificação de Dependências/Correlações
@@ -93,7 +94,8 @@ void main() {
 Aqui, determinamos as relações entre as entidades identificadas:
 - Um Cliente pode ter várias Reservas.
 - Uma Quadra pode estar associada a várias Reservas.
-  
+
+```  
 [LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
 	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
 		[AR01-001] Cadastro de Cliente
@@ -101,11 +103,13 @@ Aqui, determinamos as relações entre as entidades identificadas:
 		[AR01-003] Cadastro de Reserva
 		[AR01-004] Relacionamento entre Cliente e Reserva 
 		[AR01-005] Relacionamento entre Quadra e Reserva 
+```
 
 #### Fase 03 - Definição de Campos e Características das Entidades
 
 Para cada cadastro/entidade identificar/definir os campos e suas caracteríticas - pode-se definir símbolos: * campo obrigatório, & campo de opções, outros.
 
+```  
 [LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
 	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
 		[AR01-001] Cadastro de Cliente - campos: *Nome, *CPF, Telefone
@@ -113,11 +117,12 @@ Para cada cadastro/entidade identificar/definir os campos e suas caracteríticas
 		[AR01-003] Cadastro de Reserva - campos: *Data e Hora, &Status
 		[AR01-004] Relacionamento entre Cliente e Reserva 
 		[AR01-005] Relacionamento entre Quadra e Reserva 
+```
 
 #### Fase 04 - Identificação de Regras de Negócio
 
 Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere os números para ficar organizado.
-
+```  
 [LRP001] Realizar a gestão de reserva de quadras esportivas de beach tennis e futebol society.
 	[LRE001] Permitir que o cliente realize a gestão de reserva de quadras de beach.
 		[AR01-001] Cadastro de Cliente - campos: *Nome, *CPF, Telefone	
@@ -127,7 +132,7 @@ Para cada cadastro/entidade identificar/definir regras. Aqui é comum que altere
 			[AR01-005] Regra: Verificar disponibilidade da quadra antes de confirmar a reserva.
 		[AR01-006] Relacionamento entre Cliente e Reserva 
 		[AR01-007] Relacionamento entre Quadra e Reserva 
-
+```  
 
 #### FORMATAÇÃO
 Com a análise defina, basta formatar com um padrão reconhecível e iquestionável.
