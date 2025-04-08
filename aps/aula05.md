@@ -1,12 +1,12 @@
 # Cronograma
-08/04 - Levantamento e Análise de requisitos - Técnicas (entender, analisar e escrever certo); Desenvolvimento do ES.
-15/04 - Desenvolvimento do ES.
-22/04 - Desenvolvimento do ES. Desenvolvimento do ES.
-29/04 - Diagrama de classe.
-06/05 - Desenvolvimento do ES.
-13/05 - Entrega documento.
-20/05 - Retomada conteúdo.
-27/05 - Recuperação - avaliação dissetativa.
+08/04 - Levantamento e Análise de requisitos - Técnicas (entender, analisar e escrever certo); Desenvolvimento do ES.  
+15/04 - Desenvolvimento do ES.  
+22/04 - Desenvolvimento do ES. Desenvolvimento do ES.  
+29/04 - Diagrama de classe.  
+06/05 - Desenvolvimento do ES.  
+13/05 - Entrega documento.  
+20/05 - Retomada conteúdo.  
+27/05 - Recuperação - avaliação dissetativa.  
 
 # Diário de aula
 - Feedback.
