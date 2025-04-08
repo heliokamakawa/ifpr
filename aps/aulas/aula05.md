@@ -26,7 +26,6 @@ Organizar e refinar requisitos de forma prática e incremental, garantindo rastr
 ### 🔹 **Fase 1 – Rastreabilidade**
 - Código identificador de requisitos.
 - Conexão entre requisitos principais e específicos.
-- Permite ligar cada requisito a funcionalidades, testes, casos de uso, código, etc.
 
 → LRP000 - Levantamento de Requisitos Principal e a sequência numérica  
 → LRE000 - Levantamento de Requisitos Específico e a sequência numérica 
