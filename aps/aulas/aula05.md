@@ -153,7 +153,7 @@ Ao refinar e detalhar, você aproxima os requisitos das boas práticas de qualid
 
 ---
 
-## 🌐 Parte 2 – Materiais Públicos, Acessíveis e Renomados
+## 🌐 Parte 2 – Materiais Complementares
 
 ### 🔹 **Guia BABOK (Business Analysis Body of Knowledge)** – IIBA
 - Capítulo 10: Requirements Life Cycle Management
