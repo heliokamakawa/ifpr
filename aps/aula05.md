@@ -18,7 +18,7 @@ Organizar e refinar requisitos de forma prática e incremental, garantindo rastr
 
 **Classificação dos Requisitos:** 
 - Funcionais vs. Não-funcionais
-	- Um Cliente pode ter realizar Reservas.
+	- Um Cliente pode realizar Reservas.
 	- A Reserva deve ser realizada em 20s.
 - Requisitos do sistema vs. do usuário
 	- O sistema deve ser compatível com as versões mais recentes dos navegadores Chrome, Firefox e Safari.
