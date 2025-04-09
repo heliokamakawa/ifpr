@@ -58,7 +58,6 @@ class MyApp extends StatelessWidget {
 ```
 
 ### Diferença:
-- No Exemplo 1, o widget `Text` é criado **toda vez**.
 - No Exemplo 2, o widget `Text` é criado **uma vez só**, em tempo de compilação.
 
 ---
