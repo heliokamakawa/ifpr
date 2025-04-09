@@ -45,6 +45,27 @@ Responsabilidade: Configuração global.
 ## Adoção do Material Design
 MaterialApp aplica o Material Design da Google automaticamente, então tudo já vem com a carinha de app Android moderno.  
 
+
+## 🍎 CupertinoApp no lugar de MaterialApp
+✅ Exemplo básico:
+```dart
+void main() {
+  runApp(MyIOSApp());
+}
+
+class MyIOSApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return CupertinoApp(
+      title: 'Meu App iOS',
+      theme: CupertinoThemeData(
+        primaryColor: CupertinoColors.activeBlue,
+      ),
+      home: HomePage(),
+    );
+  }
+}
+```
 ---
 
 
