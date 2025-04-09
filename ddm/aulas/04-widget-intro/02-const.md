@@ -47,9 +47,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Exemplo com const',
-      home: const Center(
+      home: Center(
         child: Text('Bem-vindo!'),
       ),
     );
