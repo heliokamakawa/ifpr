@@ -64,12 +64,67 @@ class WidgetCorreto extends StatelessWidget {
 
 ---
 
+## 🤔 Se `Key` é tão importante, por que pode ser `null`?
+
+A `Key` **é importante**, mas **não obrigatória em todos os casos**.
+
+Ela é **opcional (`Key?`)** porque:
+- Nem todos os widgets precisam ser identificados individualmente.
+- Em muitos casos, o Flutter consegue gerenciar a árvore de widgets **com base na posição** dos elementos (sem `Key`).
+- Para **widgets estáticos** ou que não têm estado interno (`StatelessWidget`), muitas vezes a `Key` não faz diferença perceptível.
+
+O Flutter permite que você **escolha** quando ela é necessária, mantendo o código limpo quando não há necessidade de controle fino da árvore de widgets.
+
+### 🔍 O que acontece quando você **não passa uma `Key`**?
+
+Quando você **não passa uma `Key`**, o Flutter usa o **tipo do widget e a posição na árvore** para tentar identificar e reconciliar widgets durante o rebuild.
+
+#### Exemplo simples:
+```dart
+Column(
+  children: [
+    Text('A'),
+    Text('B'),
+  ],
+)
+```
+
+Se você troca a ordem dos widgets sem usar `Key`, o Flutter pode **ficar confuso** sobre quem é quem:
+
+```dart
+Column(
+  children: [
+    Text('B'),
+    Text('A'),
+  ],
+)
+```
+
+Sem `Key`, o Flutter pode:
+- Destruir o widget anterior e criar um novo, **mesmo que o conteúdo seja igual**.
+- Impactar performance e causar **perda de estado** em `StatefulWidgets`.
+
+### ✅ Quando a `Key` **faz diferença real**:
+- Em listas dinâmicas (`ListView.builder`)
+- Em formulários com campos reordenáveis
+- Em animações com troca de elementos
+- Em `StatefulWidgets` com mudanças frequentes na árvore
+
+| Situação                                   | `Key` é obrigatória? | Por quê?                                            |
+|--------------------------------------------|----------------------|-----------------------------------------------------|
+| Widget fixo, não muda posição              | ❌ Não               | O Flutter lida bem com base na posição             |
+| Lista dinâmica, widgets podem trocar       | ✅ Sim               | Para evitar recriação e manter o estado correto     |
+| StatefulWidgets com mudanças de posição    | ✅ Sim               | Para não perder o estado durante rebuilds          |
+
+---
+
 ## 🚀 Conclusão
 Adicionar o parâmetro `key` no construtor e passá-lo via `super.key` é:
 
 - Uma **boa prática recomendada pela documentação do Flutter**;
 - Essencial para **performance**, reaproveitamento e atualização inteligente da UI;
-- Necessário para **permitir o uso do construtor `const`** corretamente.
+- Necessário para **permitir o uso do construtor `const`** corretamente;
+- Flexível, pois pode ser omitido em casos onde não há ganho perceptível com sua utilização.
 
 ---
 
