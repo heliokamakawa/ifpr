@@ -43,10 +43,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: const Text('Seja bem-vindo!'),
+          child: Text('Seja bem-vindo!'),
         ),
       ),
     );
