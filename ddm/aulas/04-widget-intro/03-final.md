@@ -3,6 +3,18 @@
 A palavra-chave `final` em Dart é usada para declarar **variáveis que não mudam depois de inicializadas**. Diferente do `const`, o `final` é resolvido **em tempo de execução**, o que permite mais flexibilidade.
 
 ---
+## 🛡️ Por que usar final?
+
+Segurança: evita reatribuições acidentais, tornando o código mais previsível.
+
+Legibilidade: ao usar final, você comunica a outros devs que o valor não deve mudar.
+
+Boas práticas: ajuda o Dart Analyzer a otimizar seu código.
+
+Performance: embora não tão otimizado quanto const, ainda é melhor do que variáveis mutáveis.
+
+✨ Dica: o uso de final é preferido em quase todas as declarações, exceto quando a variável realmente precisa mudar.
+---
 
 ## 🧠 Diferença entre `final` e `const`
 
