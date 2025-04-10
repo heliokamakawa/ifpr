@@ -38,8 +38,7 @@ class WidgetBotaoNavegar extends StatelessWidget {
   const WidgetBotaoNavegar({
     super.key,
     required this.rota,
-    required this.rotulo,
-    required this.context,
+    required this.rotulo
   });
 
   @override
@@ -65,9 +64,9 @@ class WidgetMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        WidgetBotaoNavegar(context: context, rota: '/estado', rotulo: 'Estado'),
-        WidgetBotaoNavegar(context: context, rota: '/cidade', rotulo: 'Cidade'),
-        WidgetBotaoNavegar(context: context, rota: '/pessoa', rotulo: 'Pessoa'),
+        WidgetBotaoNavegar(rota: '/estado', rotulo: 'Estado'),
+        WidgetBotaoNavegar( rota: '/cidade', rotulo: 'Cidade'),
+        WidgetBotaoNavegar( rota: '/pessoa', rotulo: 'Pessoa'),
       ],
     );
   }
