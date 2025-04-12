@@ -87,3 +87,19 @@ Admin --> CU05
 Admin --> CU06
 Admin --> CU07
 @enduml
+```
+
+📝 Observações
+Use esse diagrama para comunicar as funcionalidades com clientes, professores ou colegas de equipe.
+
+Pode ser usado no início do projeto, durante o levantamento de requisitos.
+
+Ideal para documentar sistemas de forma simples e compreensível.
+
+📎 Dica
+Sempre comece o diagrama identificando os atores principais e os serviços essenciais que o sistema precisa oferecer. A partir disso, vá refinando os casos de uso e relacionamentos.
+
+css
+Copiar
+Editar
+
