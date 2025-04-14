@@ -81,6 +81,7 @@ A autoavaliação deve considerar três fatores:
 A entrega final isolada não possibilita uma avaliação eficaz, pois:  
 ✔ Não há tempo hábil para análise detalhada.  
 ✔ Contradiz a proposta de **entregas contínuas, qualidade e acompanhamento constante**.  
+✔ A periodiciodade é o segredo! Por isso é um diário. Com 3 invalidações, o diário não será considerado.  
 
 ---
 
