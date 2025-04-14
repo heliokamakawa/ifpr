@@ -1,3 +1,35 @@
+
+# IMPORTANTE
+- **Template de Documento**: Verificar se a revista ou conferência exige o uso de um template específico para o envio do artigo. Caso seja necessário, o template pode ser **obrigatório** ou **livre**. Certifique-se de que o trabalho esteja conforme as exigências para evitar problemas na submissão.
+- **Liberação da Banca**: Confirmar se a publicação do artigo pode **liberar** a obrigatoriedade de realizar a **2ª banca** do TCC. Algumas revistas podem oferecer essa possibilidade, o que pode ser um grande benefício. Consulte as regras da revista para entender como isso pode ser aproveitado.
+
+---
+
+# Avisos e Combinados
+
+- **Atendimento fora do horário**: Compreendo que todos estão atarefados, mas **não posso garantir** que farei correções ou ajustarei o trabalho durante os finais de semana ou em cima da hora. Para garantir a qualidade e evitar problemas, é importante que o material seja enviado com antecedência.
+  
+- **Trabalhos a Longo Prazo**: Projetos que forem desenvolvidos ao longo do semestre, com **validações periódicas**, terão o **total apoio e representatividade** por parte do orientador. A comunicação contínua e o acompanhamento garantirão que o trabalho siga o caminho certo.
+
+- **Trabalhos de Última Hora**: Entendo que imprevistos acontecem, mas **não posso defender** trabalhos entregues em cima da hora. Embora eu compreenda a situação, não vou **piorar** o cenário de última hora. A melhor estratégia é **adiantar o máximo possível** agora e entregar o que for possível até o prazo.
+
+- **Cenário Ideal**: O melhor caminho é **trabalhar toda semana** e validar o progresso **na aula**. Isso garante que os ajustes sejam feitos em tempo hábil, evitando surpresas. Fora disso, o trabalho se torna imprevisível.
+
+---
+
+# O TCC como um Conjunto
+
+O TCC é um **processo integrado**, que inclui as seguintes etapas:
+
+1. **Desenvolvimento do Aplicativo**: Criar e testar a aplicação conforme os requisitos definidos.
+   
+2. **Elaboração do Documento**: Escrever e documentar o projeto de forma clara e concisa, seguindo as normas acadêmicas estabelecidas.
+
+3. **Artigo para Publicação**: Caso a intenção seja submeter um artigo para publicação, a elaboração do artigo será uma parte do processo. Certifique-se de seguir as diretrizes da revista ou conferência escolhida.
+
+4. **Validação Periódica**: Realizar **validações regulares** ao longo do desenvolvimento para evitar retrabalho e garantir que o projeto esteja evoluindo conforme o esperado.
+
+
 # Cronograma de TCC para Alunos
 
 ## 1. Cronograma Rápido (para alunos com maior disponibilidade de tempo)
