@@ -42,8 +42,8 @@ Os alunos trabalham em equipes, mas cada um tem um projeto individual. A colabor
 
 Cada equipe tem um líder que interage com o professor, coordenando o grupo. A avaliação acontece em equipe, e o professor acompanha o desempenho de cada aluno. O líder repassa a autoavaliação dos integrantes ao professor, que valida ou rejeita o **Diário de Aula** da equipe. Três falhas descartam o **Diário** do trimestre.
 
-🚨 **Alerta Importante** 🚨
-Todas as autoavaliações devem estar corretas. Basta uma incoerente para invalidar o **Diário de Aula**.
+🚨 **Alerta Importante** 🚨  
+Todas as autoavaliações devem estar corretas. Basta uma incoerente para invalidar o **Diário de Aula**.  
 
 ---
 
@@ -77,10 +77,10 @@ A autoavaliação deve considerar três fatores:
 ✅ **Trabalho em equipe:** O líder define o valor final da equipe.
 ✅ **Destaque individual:** Mais fácil destacar-se em times fracos; em times fortes, é necessário desempenho excepcional.
 
-🚨 **Alerta Importante** 🚨
-A entrega final isolada não possibilita uma avaliação eficaz, pois:
-✔ Não há tempo hábil para análise detalhada.
-✔ Contradiz a proposta de **entregas contínuas, qualidade e acompanhamento constante**.
+🚨 **Alerta Importante** 🚨  
+A entrega final isolada não possibilita uma avaliação eficaz, pois:  
+✔ Não há tempo hábil para análise detalhada.  
+✔ Contradiz a proposta de **entregas contínuas, qualidade e acompanhamento constante**.  
 
 ---
 
