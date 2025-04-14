@@ -1,4 +1,4 @@
-**Diário de Aula**
+# Diário de Aula
 
 ### O que é?
 O **Diário de Aula** é um método ativo de aprendizagem que coloca o aluno no centro do processo, permitindo que ele demonstre e valide seu conhecimento de forma contínua, sem depender de uma única prova. Diferente de uma avaliação tradicional, que pode gerar pressão, ansiedade e depender da sorte de cair o que foi estudado, essa abordagem valoriza o planejamento e o esforço ao longo do tempo. O objetivo é proporcionar uma avaliação mais justa e alinhada com a realidade do mercado de TI, onde a melhoria contínua e a organização são fundamentais.
