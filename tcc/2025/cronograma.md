@@ -1,6 +1,6 @@
 
 # IMPORTANTE
-- **Template de Documento**: Verificar se a revista ou conferência exige o uso de um template específico para o envio do artigo. Caso seja necessário, o template pode ser **obrigatório** ou **livre**. Certifique-se de que o trabalho esteja conforme as exigências para evitar problemas na submissão.
+- **Template de Documento**: Verificar com a professora se exige o uso de um template específico para o envio do artigo. Caso seja necessário, o template pode ser **obrigatório** ou **livre**. Certifique-se de que o trabalho esteja conforme as exigências para evitar problemas na submissão.
 - **Liberação da Banca**: Confirmar se a publicação do artigo pode **liberar** a obrigatoriedade de realizar a **2ª banca** do TCC. Algumas revistas podem oferecer essa possibilidade, o que pode ser um grande benefício. Consulte as regras da revista para entender como isso pode ser aproveitado.
 - **Qualidade**: Erros genéricos irão gerar correções genéricas. 
 - **IA**: Permitido como ferramenta auxiliar - tem que ter o domínio e as correções/intervenções necessárias.
