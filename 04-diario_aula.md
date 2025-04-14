@@ -64,9 +64,9 @@ A autoavaliação deve considerar três fatores:
 3. **Produtividade**
 
 ### Princípios fundamentais
-✔ Facilidade de avaliação e entendimento
-✔ Alinhamento com os objetivos da disciplina
-✔ Influência positiva espontânea (proatividade, disciplina, ética e trabalho em equipe)
+✔ Facilidade de avaliação e entendimento  
+✔ Alinhamento com os objetivos da disciplina  
+✔ Influência positiva espontânea (proatividade, disciplina, ética e trabalho em equipe)  
 
 ---
 
