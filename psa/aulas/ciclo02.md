@@ -1,3 +1,31 @@
+# ✅ Atividade
+
+## 🎯 Etapas
+
+- Definir a **autoavaliação do 1º ciclo**.
+- Definir o **formato do fórum final**, considerando:
+
+  - Haverá **convidados externos**?  
+  - Evento será **presencial, online ou híbrido**?  
+  - Participação de **egressos**?  
+  - Será **somente com a turma**, com **coffee** ou outro formato?
+
+---
+
+## 👥 Por que convidar egressos?
+
+A presença de egressos pode ser extremamente enriquecedora para o grupo. Eles podem compartilhar:
+
+- **Suas trajetórias profissionais** após o curso.
+- **Dificuldades enfrentadas no início da carreira**.
+- **O que mais ajudou** na transição da faculdade para o mercado.
+- **Dicas valiosas** sobre comportamento, aprendizado e postura profissional.
+
+> Esse tipo de troca amplia a visão de futuro e fortalece o senso de comunidade profissional.
+
+
+**Escolham um formato que vocês realmente gostem e possam contribuir, e assim, engajados, aproveitem ao máximo.**
+
 # Ciclo de Conchecimento II
 ## Tema:
 Projetos de Software em Diferentes Paradigmas de Programação  
@@ -65,3 +93,6 @@ Esses conflitos, na maioria das vezes, vêm da **falta de empatia**:
 - A excelência (**conceito A**) exige **plenitude nos três critérios**.
 - **Destacar-se em apenas um deles não é suficiente** — mesmo que a diferença nos outros pareça pequena.
 
+----
+
+## Querem exemplo?
