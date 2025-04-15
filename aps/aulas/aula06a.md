@@ -6,7 +6,9 @@
 - Pensar a longo prazo e tentar inicar a documentação no overleaf.  
 - Organizar o diário de aula.  
 - Pensar em um estudo de caso único/individual e inicar.  
-- Auxiliar os colegas.  
+- Auxiliar os colegas.
+
+https://www.overleaf.com/read/bzqhzsvqkqkm#789f28
  
 # Diário de Aula 
 - Aproveitamento do tempo de aula.  
