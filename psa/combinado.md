@@ -8,3 +8,10 @@
 - apresetar plano de trabalho em concordância com a equipe;
   - O que ele vai fazer?
   - Como fazer? Histório (git, logs, outros) 
+
+
+## Definir o formato do fórum final, considerando:
+- Haverá convidados externos?
+- Evento será presencial, online ou híbrido?
+- Participação de egressos?
+- Será somente com a turma, com coffee ou outro formato?
