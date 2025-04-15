@@ -1,4 +1,4 @@
-# DataHoops: Aplicativo de Scout Eletrônico para Análise de Arremessos no Basquete
+# DataHoops: DataHoops – Aplicativo de Scout Eletrônico de Basquete para Análise de Arremessos
 
 **Acadêmico(a):** Rubens Matheus Batista da Silva  
 **Professor(a) Orientador(a):** Hélio Kamakawa
