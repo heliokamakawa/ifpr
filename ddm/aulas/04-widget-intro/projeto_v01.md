@@ -33,60 +33,50 @@ class Aplicacao extends StatelessWidget {
 
 ```
 ## 🧠 Conteúdos abordados na prática
-🔷 1. Importação
-import 'package:flutter/material.dart';
 
-Importa todas as classes do Material Design.
+### 🔷 1. Importação  
+```dart
+import 'package:flutter/material.dart'; //Importa todas as classes do Material Design.
+```
 
-A MaterialApp está dentro desse pacote.
-
+→ A MaterialApp está dentro desse pacote.  
 Atalho: Ctrl+clique (ou F12) para navegar até a definição da classe e explorar seus membros.
 
-🔷 2. Herança e POO
-class Aplicacao extends StatelessWidget
+### 🔷 2. Herança e POO
+```dart
+class Aplicacao extends StatelessWidget { //StatelessWidget é uma classe abstrata.
+```
+→ Requer a implementação do método build(BuildContext context).
+→ StatelessWidget herda de Widget, que é genérica: Widget<T> → ajuda a criar qualquer tipo de componente visual.
 
-StatelessWidget é uma classe abstrata.
+### 🔷 3. Construtores e parâmetros nomeados
+```dart
+const Aplicacao({super.key}); //key é um parâmetro nomeado que é repassado para o construtor pai (StatelessWidget).
+```
+→ Esse padrão se repete em praticamente todos os widgets Flutter.
 
-Requer a implementação do método build(BuildContext context).
-
-StatelessWidget herda de Widget, que é genérica: Widget<T> → ajuda a criar qualquer tipo de componente visual.
-
-🔷 3. Construtores e parâmetros nomeados
-const Aplicacao({super.key});
-
-key é um parâmetro nomeado que é repassado para o construtor pai (StatelessWidget).
-
-Esse padrão se repete em praticamente todos os widgets Flutter.
-
-🔷 4. Funções e parâmetros do tipo função
+### 🔷 4. Funções e parâmetros do tipo função
+```dart
 build() é uma função que recebe um parâmetro (BuildContext context) e retorna um Widget.
+```
+→ Widget refere a todo elemento que compõe a "tela".
 
-A prática de criar funções que retornam objetos (funções anônimas, arrow functions) será reforçada em outras fases.
+### 🧱 Dicas de fixação para alunos
+- Copiar é treino, repetir é aprendizado!  
+- Pode parecer simples agora, mas entender isso solidamente evita muito erro depois.  
+- A maioria dos widgets em Flutter seguem esse padrão: construtor com parâmetros nomeados + método build.  
+- Use Ctrl+Clique para ver a documentação e descobrir tipos e propriedades de qualquer classe.  
 
-🧱 Dicas de fixação para alunos
-Copiar é treino, repetir é aprendizado!
+### 📣 Reflexões para conversar com os alunos
+- O que acontece se esquecermos de implementar o build()?  
+- Por que é obrigatório retornar um Widget dentro dele?  
+- O que quer dizer Stateless?  
+- Quando usamos StatefulWidget?  
+- Por que ThemeData recebe um parâmetro nomeado? O que aconteceria se fosse posicional?  
 
-Pode parecer simples agora, mas entender isso solidamente evita muito erro depois.
+### 🧰 Sugestão de exercício complementar
+- Modifique o texto da tela inicial para mostrar uma Column com dois Text, uma Icon e um botão.  
+- Isso já prepara a base para objetos aninhados e composição de interface.  
 
-A maioria dos widgets em Flutter seguem esse padrão: construtor com parâmetros nomeados + método build.
-
-Use Ctrl+Clique para ver a documentação e descobrir tipos e propriedades de qualquer classe.
-
-📣 Reflexões para conversar com os alunos
-O que acontece se esquecermos de implementar o build()?
-
-Por que é obrigatório retornar um Widget dentro dele?
-
-O que quer dizer Stateless?
-
-Quando usamos StatefulWidget?
-
-Por que ThemeData recebe um parâmetro nomeado? O que aconteceria se fosse posicional?
-
-🧰 Sugestão de exercício complementar
-Modifique o texto da tela inicial para mostrar uma Column com dois Text, uma Icon e um botão.
-
-Isso já prepara a base para objetos aninhados e composição de interface.
----
 
 
