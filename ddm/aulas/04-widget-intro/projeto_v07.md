@@ -74,15 +74,16 @@ class WidgetMenu extends StatelessWidget {
 ```
 
 
-🔍 Diferença entre método e classe
-Critério	Método (Fase 06)	Classe (Fase 07)  
-Alcance	Local à classe	Reutilizável em todo o projeto  
-Flexibilidade	Limitado ao contexto do método	Mais versátil e modular  
-Organização	Mais simples para pequenos casos	Mais organizado para projetos maiores  
-POO	Uso parcial	Uso completo de orientação a objetos  
+## 🔍 Diferença entre método e classe
+- Critério	Método (Fase 06)	Classe (Fase 07).  
+- Alcance	Local à classe	Reutilizável em todo o projeto.  
+- Flexibilidade	Limitado ao contexto do método	Mais versátil e modular.  
+- Organização	Mais simples para pequenos casos	Mais organizado para projetos maiores.  
+- POO	Uso parcial	Uso completo de orientação a objetos.  
 
-💡 Dica para o aluno
-Copiar o código do professor pode parecer uma solução rápida, mas não ensina de verdade. A única forma de aprender é criar a sua própria solução, passar pelos desafios e erros. É nesse caminho que a compreensão real acontece.
+## 💡 Dica para o aluno
+- Copiar o código do professor pode parecer uma solução rápida, mas não ensina de verdade.  
+- A única forma de aprender é criar a sua própria solução, passar pelos desafios e erros. É nesse caminho que a compreensão real acontece.  
 
-🛠️ Exercício sugerido  
+## 🛠️ Exercício sugerido  
 Crie um novo botão de navegação com a rota /empresa e o texto Empresa. Utilize a mesma classe WidgetBotaoNavegar.  
