@@ -14,10 +14,16 @@
 
 ## 📁 Estrutura de Arquivos (exemplo)
 
-lib/ ├── aplicacao.dart └── aula/ ├── widget_menu.dart ├── widget_estado.dart ├── widget_cidade.dart ├── widget_pessoa.dart ├── widget_categoria.dart └── widget_produto.dart
+lib/   
+├── aplicacao.dart 
+└── aula/  
+  ├── widget_menu.dart   
+  ├── widget_estado.dart   
+  ├── widget_cidade.dart   
+  ├── widget_pessoa.dart   
+  ├── widget_categoria.dart   
+  └── widget_produto.dart  
 
-```dart
----
 
 ## 🧠 Conceitos Reforçados
 
@@ -26,7 +32,9 @@ lib/ ├── aplicacao.dart └── aula/ ├── widget_menu.dart ├─�
 - `const`: valor **imutável em tempo de compilação**. Otimiza performance e evita recriação desnecessária.
 - `final`: valor **imutável após atribuição**, útil para valores que só são conhecidos em tempo de execução.
 
----
+
+```dart
+
 
 ## 💡 Aplicação Principal
 
@@ -49,10 +57,11 @@ class Aplicacao extends StatelessWidget {
     );
   }
 }
-```dart
+```
 
-📦 Exemplos de Widgets
-🟦 WidgetMenu
+## 📦 Exemplos de Widgets - WidgetMenu
+
+
 ```dart
 
 import 'package:flutter/material.dart';
@@ -85,35 +94,31 @@ class WidgetEstado extends StatelessWidget {
 
 Faça o resto...
 
-🔄 Sugestão de prática em aula
-1. Troque manualmente o home: no MaterialApp por:
+## 🔄 Sugestão de prática em aula  
+1. Troque manualmente o home: no MaterialApp por:  
 ```dart
 home: const WidgetEstado(),
 ```
-2. Depois por:
+2. Depois por:  
 ```dart
 home: const WidgetCidade(),
 ```
-3. E assim por diante, para ver na prática o comportamento da aplicação.
-⚠️ Isso mostra como essa abordagem não escala – ótimo gancho para introduzir routes na próxima fase.
+3. E assim por diante, para ver na prática o comportamento da aplicação.  
 
-📚 Dicas e reflexões
-Criar objetos repetidamente ajuda a memorizar a sintaxe de composição da POO em Flutter.
+>>⚠️ Isso mostra como essa abordagem não escala – ótimo gancho para introduzir routes na próxima fase.  
 
-Copiar do professor é bom, repetir é melhor, ver o código dos colegas é excelente.
+## 📚 Dicas e reflexões
+- Criar objetos repetidamente ajuda a memorizar a sintaxe de composição da POO em Flutter.  
+- Copiar do professor é bom, repetir é melhor, ver o código dos colegas é excelente.  
+- Entenda como e por que usar const, e onde usar final.  
+- Observe o uso de parâmetros do tipo função nas próximas atividades (ex: onPressed).  
+- Treine a deduzir os tipos dos parâmetros, mesmo sem conhecer todas as bibliotecas.  
+- Acostume-se com objetos anônimos e composição de widgets.  
 
-Entenda como e por que usar const, e onde usar final.
-
-Observe o uso de parâmetros do tipo função nas próximas atividades (ex: onPressed).
-
-Treine a deduzir os tipos dos parâmetros, mesmo sem conhecer todas as bibliotecas.
-
-Acostume-se com objetos anônimos e composição de widgets.
-
-💬 Reforço pedagógico
-Repetição com propósito é essencial.
-O que realmente ensina é tentar fazer sozinho várias vezes.
-Flutter é POO: construtores, herança, métodos obrigatórios e composição de objetos.
-Mão na massa, sempre. 💪
+## 💬 Reforço pedagógico
+- Repetição com propósito é essencial.  
+- O que realmente ensina é tentar fazer sozinho várias vezes.  
+- Flutter é POO: construtores, herança, métodos obrigatórios e composição de objetos.  
+- Mão na massa, sempre. 💪  
 
 
