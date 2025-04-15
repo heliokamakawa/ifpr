@@ -107,7 +107,7 @@ O TCC é um **processo integrado**, que inclui as seguintes etapas:
 | **Submissão do Artigo**              | 6 - 10 de Novembro 2025                  | 10 de Novembro de 2025      |
 | **Resposta da Revista/Editor**      | 11 de Janeiro - 20 de Janeiro 2026      | 20 de Janeiro de 2026      |
 | **Entrega do TCC Final (e Artigo)**  | 21 - 31 de Janeiro 2026                 | 31 de Janeiro de 2026      |
-| **2ª Banca**                         | 1º - 10 de Fevereiro 2026                 | 10 de Fevereiro de 2026     |
+| **2ª Banca**                         | 1º - 10 de Dezembro 2025                 | 10 de Dezembro de 2025     |
 
 ---
 
