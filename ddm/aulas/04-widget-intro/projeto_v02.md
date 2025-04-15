@@ -33,9 +33,6 @@ lib/
 - `final`: valor **imutável após atribuição**, útil para valores que só são conhecidos em tempo de execução.
 
 
-```dart
-
-
 ## 💡 Aplicação Principal
 
 ```dart
