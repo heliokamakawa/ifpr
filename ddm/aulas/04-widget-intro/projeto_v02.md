@@ -15,7 +15,7 @@
 ## 📁 Estrutura de Arquivos (exemplo)
 
 lib/   
-├── aplicacao.dart 
+├── aplicacao.dart   
 └── aula/  
   ├── widget_menu.dart   
   ├── widget_estado.dart   
