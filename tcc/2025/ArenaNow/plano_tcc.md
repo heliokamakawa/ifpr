@@ -1,4 +1,4 @@
-# Plano de TCC: Aplicativo de Gestão e Reserva de Quadras Esportivas - ArenaNow
+# Plano de TCC: ArenaNow – conectando você à quadra
 
 ## 1. Descrição Geral do Projeto
 O **ArenaNow** é um aplicativo desenvolvido para facilitar a gestão e a reserva de quadras esportivas de **beach tennis** e **futebol society**. A plataforma permitirá que administradores de centros esportivos, clubes e academias gerenciem melhor seus espaços, otimizando o agendamento e evitando conflitos de horário.
