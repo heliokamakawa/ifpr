@@ -93,16 +93,14 @@ CampoTexto(label: 'Sigla', hint: 'Insira a sigla do estado - 2 letras'),
 
 ```
 
-✍️ Dica para o aluno
-Copiar o professor é bom. Repetir é ótimo. Olhar o colega também é bom.  
-Mas o que realmente ensina é a prática constante.  
-Mesmo parecendo tediosa, a repetição constrói o raciocínio.  
-Não pule a parte difícil: é nela que a aprendizagem acontece!  
+## ✍️ Dica para o aluno
+- Copiar o professor é bom. Repetir é ótimo. Olhar o colega também é bom.  
+- Mas o que realmente ensina é a prática constante.  
+- Mesmo parecendo tediosa, a repetição constrói o raciocínio.  
+- Não pule a parte difícil: é nela que a aprendizagem acontece!  
 
-🛠️ Exercício sugerido
-Componentize os campos de texto usando uma classe como CampoTexto.  
-
-Crie um terceiro campo chamado Código IBGE com dica: Insira o código do estado.  
-
-Use os três campos e um botão Salvar.  
+## 🛠️ Exercício sugerido
+- Componentize os campos de texto usando uma classe como CampoTexto.
+- Crie um terceiro campo chamado Código IBGE com dica: Insira o código do estado.
+- Use os três campos e um botão Salvar.  
 
