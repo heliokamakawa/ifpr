@@ -1,4 +1,4 @@
-# SpinFlow - Aplicativo para Gestão de Atividades de Spinning
+# SpinFlow – Gestão Inteligente e Gamificada para Aulas de Spinning
 
 ## 📌 Público-Alvo
 - **Professora de Educação Física** que ministra aulas de Spinning na KR Academia.
