@@ -57,12 +57,10 @@ class WidgetMenu extends StatelessWidget {
   }
 }
 ```
-🧭 Observações Importantes
-Esse tipo de componentização é local à classe. Se for necessário usar esse botão em outras telas, o ideal é transformá-lo em um widget separado.
+## 🧭 Observações Importantes
+- Esse tipo de componentização é local à classe. Se for necessário usar esse botão em outras telas, o ideal é transformá-lo em um widget separado. 
+- Essa prática melhora a organização e legibilidade do código.  
+- A componentização é uma das formas práticas de aplicar os princípios da programação orientada a objetos.  
 
-Essa prática melhora a organização e legibilidade do código.
-
-A componentização é uma das formas práticas de aplicar os princípios da programação orientada a objetos.
-
-💡 Dica para o aluno
-Copiar o código do professor ou do colega pode parecer ajudar, mas não gera aprendizado real. Tente criar a sua própria solução, mesmo que erre várias vezes. É nesse processo de tentativa e erro que a verdadeira aprendizagem acontece.
+## 💡 Dica para o aluno
+- Copiar o código do professor ou do colega pode parecer ajudar, mas não gera aprendizado real. Tente criar a sua própria solução, mesmo que erre várias vezes. É nesse processo de tentativa e erro que a verdadeira aprendizagem acontece.
