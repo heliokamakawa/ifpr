@@ -54,16 +54,8 @@ class TelaInicial extends StatelessWidget {
 - Facilita a adição de funcionalidades modernas (menus, FAB, navegação).   
 - Permite manter o layout consistente em várias telas.   
 
-
-📚 Materiais oficiais recomendados
-Documentação do Scaffold (Flutter Docs):
-🔗 https://api.flutter.dev/flutter/material/Scaffold-class.html
-
-Guia de layout Flutter (entender estrutura e containers):
-🔗 https://docs.flutter.dev/ui/layout
-
-Widgets estruturais (MaterialApp, Scaffold, etc):
-🔗 https://docs.flutter.dev/ui/widgets/material
-
-Playground interativo (Flutter Widget Catalog):
-🔗 https://flutter.dev/widgets
+### 📚 Materiais oficiais recomendados
+- Documentação do Scaffold (Flutter Docs): 🔗 clique [aqui](https://api.flutter.dev/flutter/material/Scaffold-class.html).  
+- Guia de layout Flutter (entender estrutura e containers): 🔗 clique [aqui](https://docs.flutter.dev/ui/layout).  
+- Widgets estruturais (MaterialApp, Scaffold, etc): 🔗 clique [aqui](https://docs.flutter.dev/ui/widgets/material).  
+- Playground interativo (Flutter Widget Catalog): 🔗 clique [aqui](https://flutter.dev/widgets).
