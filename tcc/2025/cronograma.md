@@ -34,6 +34,32 @@ O TCC é um **processo integrado**, que inclui as seguintes etapas:
 
 # Cronograma de TCC para Alunos
 
+
+## Previsão
+## CRONOGRAMA REGULAR
+
+| **Evento**                                           | **Data**          |
+|------------------------------------------------------|-------------------|
+| Entrega do plano para distribuição das orientações   | 07/03             |
+| 1ª entrega do plano para avaliação                   | 04/04             |
+| Entrega do volume para a pré-banca                   | 13/06             |
+| Pré-banca                                            | 25 a 27/06        |
+| Submissão do artigo/resumo para a SETIF              | 20 a 24/10        |
+| Entrega do volume para a banca final                 | 07/11             |
+| Banca Final                                          | 26 a 28/11        |
+
+## CRONOGRAMA DE RECUPERAÇÃO
+
+| **Evento**                                           | **Data**          |
+|------------------------------------------------------|-------------------|
+| 2ª entrega do plano para avaliação (recuperação)     | 25/04             |
+| Entrega do volume para a pré-banca (recuperação)     | 01/08             |
+| Pré-banca (recuperação)                              | 18 a 22/08        |
+| Entrega do volume para a banca final (recuperação)   | 05/12             |
+| Banca Final (recuperação)                            | 10 a 12/12        |
+| Entrega do Volume Final com as correções das bancas  | 19/12             |
+
+
 ## 1. Cronograma Rápido (para alunos com maior disponibilidade de tempo)
 
 | **Atividade**                        | **Período**                               | **Prazo Final**              |
