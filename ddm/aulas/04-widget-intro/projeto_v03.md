@@ -91,38 +91,28 @@ class WidgetMenu extends StatelessWidget {
 
 ```
 
-🛠️ Sugestão de prática em aula
-Criar primeiro apenas um botão.
+## 🛠️ Sugestão de prática em aula
+- Criar primeiro apenas um botão.  
+- Adicionar mais um botão e provocar erro proposital.  
 
-Adicionar mais um botão e provocar erro proposital.
+**Perguntar:**  
+- Por que deu erro?  
+- O que precisamos para empilhar widgets?  
+- Introduzir Column, mostrar a estrutura.  
+- Adicionar os demais botões e treinar repetição da sintaxe.  
+- Mudar nome dos botões para reforçar adaptação e familiarização com código.  
 
-Perguntar:
+## 💡 Dicas e reflexões
+- Copiar do professor é bom, repetir é ótimo, olhar o código dos colegas é excelente.  
+- O Flutter é feito de objetos compostos: widget dentro de widget, estrutura dentro de estrutura.  
+- Widgets estruturais como Column, Row, Stack organizam a interface e serão usados sempre.  
+- Funções anônimas são obrigatórias para onPressed, mesmo que estejam vazias por enquanto: onPressed: () {}.  
+- Pratique com botões que ainda não fazem nada – o foco aqui é estrutura e repetição.  
 
-Por que deu erro?
-
-O que precisamos para empilhar widgets?
-
-Introduzir Column, mostrar a estrutura.
-
-Adicionar os demais botões e treinar repetição da sintaxe.
-
-Mudar nome dos botões para reforçar adaptação e familiarização com código.
-
-📚 Dicas e reflexões
-Copiar do professor é bom, repetir é ótimo, olhar o código dos colegas é excelente.
-
-O Flutter é feito de objetos compostos: widget dentro de widget, estrutura dentro de estrutura.
-
-Widgets estruturais como Column, Row, Stack organizam a interface e serão usados sempre.
-
-Funções anônimas são obrigatórias para onPressed, mesmo que estejam vazias por enquanto: onPressed: () {}.
-
-Pratique com botões que ainda não fazem nada – o foco aqui é estrutura e repetição.
-
-💬 Reforço pedagógico
-Treinar estrutura antes da lógica é como montar o campo antes do jogo.
-Sem entender como colocar os widgets juntos, não dá pra ir pra parte divertida da navegação.
-Essa fase foca no olho clínico para a sintaxe e em repetir a construção de objetos.
-Flutter = POO em ação. 💡
+## 📚 Reforço pedagógico
+- Treinar estrutura antes da lógica é como montar o campo antes do jogo.  
+- Sem entender como colocar os widgets juntos, não dá pra ir pra parte divertida da navegação.  
+- Essa fase foca no olho clínico para a sintaxe e em repetir a construção de objetos.  
+- Flutter = POO em ação. 
 
 
