@@ -107,18 +107,15 @@ CampoDropdown(
 ),
 
 ```
-✍️ Dica para o aluno
-Copiar o professor é bom.  
-Repetir o código várias vezes é ótimo.  
-Olhar a solução do colega também ajuda muito.  
-Mas o que realmente ensina é criar sua própria solução, por mais simples que seja.  
-A prática leva à compreensão, e a compreensão leva à independência.  
+## ✍️ Dica para o aluno    
+- Copiar o professor é bom.    
+- Repetir o código várias vezes é ótimo.  
+- Olhar a solução do colega também ajuda muito.   
+- Mas o que realmente ensina é criar sua própria solução, por mais simples que seja.  
+- A prática leva à compreensão, e a compreensão leva à independência.   
 
-🛠️ Exercício sugerido
-Crie uma classe CampoTexto para o campo nome (caso ainda não tenha).  
-
-Crie uma classe CampoDropdown para o campo de estado.  
-
-Use essas classes para montar a tela de cadastro da cidade.  
-
-Adicione um campo de código da cidade como TextFormField.  
+## 🛠️ Exercício sugerido 
+- Crie uma classe CampoTexto para o campo nome (caso ainda não tenha).  
+- Crie uma classe CampoDropdown para o campo de estado.  
+- Use essas classes para montar a tela de cadastro da cidade.  
+- Adicione um campo de código da cidade como TextFormField.  
