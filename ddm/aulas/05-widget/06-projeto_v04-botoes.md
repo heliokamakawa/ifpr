@@ -104,7 +104,7 @@ O objetivo desta aula é praticar a **Programação Orientada a Objetos (POO)**.
 
 ---
 
-### 🔮 Olhando para a Próxima Versão
+### 🔮 DESAFIO
 
 Agora que criamos um painel de botões, é hora de pensar nas **ações** que esses botões devem executar. Para isso, vamos propor um desafio:
 
