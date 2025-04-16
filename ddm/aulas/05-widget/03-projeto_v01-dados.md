@@ -79,13 +79,13 @@ class WidgetPessoaLista extends StatelessWidget {
   }  
 }
 ```
----
 
 ## 📋 3. Definindo os dados temporários
 
 Agora vamos inserir uma lista de pessoas diretamente dentro do widget. Essa lista será usada para simular o conteúdo que virá de um banco de dados no futuro.
 
 **Código com dados temporários:**
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -129,7 +129,8 @@ class WidgetPessoaLista extends StatelessWidget {
   }  
 }
 ```
-##🔎 O que está acontecendo aqui?
+
+## 🔎 O que está acontecendo aqui?
 - Criamos uma lista chamada pessoas.  
 - Cada item da lista é um mapa (map) com quatro chaves:'nome','sobrenome','telefone','url' (link para uma imagem representando a pessoa).  
 
