@@ -1,4 +1,4 @@
-# Projeto v.5 - Definindo Painel de Botões
+# Definindo Painel de Botões
 
 ## Desafio: Definindo Painel de Botões com Ações de Excluir e Alterar para Cada Item
 
