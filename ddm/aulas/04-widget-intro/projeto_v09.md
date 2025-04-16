@@ -28,7 +28,7 @@ class WidgetCidade extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Cadastro de Estado'),
+        title: const Text('Cadastro de Cidade'),
       ),
       body: Form(
         child: Column(
