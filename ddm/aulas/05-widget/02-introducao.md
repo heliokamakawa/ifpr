@@ -10,7 +10,7 @@
 ### 🆕 Para quem NÃO tem o projeto:
 1. Crie um novo projeto Flutter.
 2. Exclua todos os arquivos dentro da pasta `lib`.
-3. Baixe a pasta `lib-inicial` disponível em: [aqui]([http://www.aqui.com.br](https://github.com/heliokamakawa/aula/tree/main/ddm/aulas/05-widget/01-lib_inicial))
+3. Baixe a pasta `lib-inicial` disponível em: [aqui](https://github.com/heliokamakawa/aula/tree/main/ddm/aulas/05-widget/01-lib_inicial)
 4. Copie todo o conteúdo da `lib-inicial` para a pasta `lib` do seu projeto.
 5. Execute no navegador e verifique se está tudo funcionando corretamente.
 
