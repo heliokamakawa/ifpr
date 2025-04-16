@@ -1,4 +1,4 @@
-# Projeto v.2 - Definindo ListView e POO no Dart
+# Definindo ListView e POO no Dart
 
 ## Criação de Widgets com Criatividade e Personalidade
 
