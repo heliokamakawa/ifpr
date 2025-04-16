@@ -1,4 +1,4 @@
-# Projeto v.3 - Definindo ListTile
+# Definindo ListTile
 
 ## Definindo ListTile de forma simples
 
