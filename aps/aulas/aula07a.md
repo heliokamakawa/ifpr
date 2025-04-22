@@ -90,7 +90,7 @@ Admin --> CU07
 @enduml
 ```
 
-## 📚 Exemplo 2 – <<include>> vs <<extend>>
+## 📚 Exemplo 2 – \<\<include\>\> vs \<\<extend\>\>
 📌 Situação:
 O usuário pode realizar uma reserva, mas isso sempre exige verificação de disponibilidade (<<include>>).  
 Se for uma reserva para horário fora do expediente, é necessário solicitar aprovação (<<extend>>).  
@@ -116,8 +116,8 @@ Usuario --> UC1
 ```
 
 ### 🧠 Explicação:
-  - <<include>>: "Verificar disponibilidade" sempre será executado quando o usuário quiser reservar.  
-  - <<extend>>: "Solicitar aprovação extra-horário" só acontece se o horário estiver fora do expediente padrão.
+  - \<\<include\>\>: "Verificar disponibilidade" sempre será executado quando o usuário quiser reservar.  
+  - \<\<extend\>\>: "Solicitar aprovação extra-horário" só acontece se o horário estiver fora do expediente padrão.
 
 ## 🧬 Exemplo 3 – Herança entre Atores no Sistema de Quadras
 📌 Situação:
