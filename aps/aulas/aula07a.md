@@ -73,13 +73,11 @@ Entidades que interagem com o sistema. Podem ser:
 - **Administrador**
 
 #### ✅ Casos de uso:
-- Realizar reserva de quadra
-- Cancelar reserva
-- Consultar disponibilidade
-- Confirmar presença
-- Gerenciar reservas
-- Cadastrar quadra
-- Visualizar calendário geral
+- Realizar reserva de quadra  
+- Cancelar reserva  
+- Consultar disponibilidade  
+- Gerenciar reservas  
+- Cadastrar quadra  
 
 #### 🔗 Relacionamentos:
 - O cliente pode realizar, cancelar e consultar reservas.
