@@ -50,8 +50,8 @@ São **funcionalidades observáveis** do sistema. Sempre devem ser nomeados com 
 ## 🔗 Relacionamentos
 
 - **Associação**: ator interage com um caso de uso.
-- **\<\<include\>\>**: um caso de uso sempre **invoca** outro. Ex: "Emitir boleto" sempre inclui "Calcular valor final".
-- **\<\<extend\>\>**: um caso de uso pode **opcionalmente** estender outro. Ex: "Fazer login" pode estender "Autenticar por biometria".
+- **\<\<include\>\>**: um caso de uso sempre **invoca** outro. Ex: "Realizar Reserva" sempre inclui "Verificar Disponibilidade".
+- **\<\<extend\>\>**: um caso de uso pode **opcionalmente** estender outro. Ex: "Cacelar Reserva" pode estender "Verificar disponibilidade".
 - **Generalização (herança)**: usada quando há **atores semelhantes** ou **casos de uso com comportamento comum**.
 
 ---
