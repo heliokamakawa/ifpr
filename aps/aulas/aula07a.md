@@ -94,37 +94,58 @@ Entidades que interagem com o sistema. Podem ser:
 Para visualizar o diagrama, você pode usar uma extensão no VS Code como **PlantUML** ou sites como [PlantUML Online Server](https://www.plantuml.com/plantuml).
 
 ```plantuml
-@startuml "Diagrama de Casos de Uso – Gestão de Reservas de Quadras"
+@startuml
+left to right direction 
+
 actor "Cliente" as Cliente
-actor "Administrador" as Admin
+actor "Administrador" as Administrador
 
-rectangle "Sistema de Reservas" {
-
-  usecase "Realizar reserva de quadra" as CU01
+rectangle "Sistema de Reserva de Quadra" {
+  usecase "Realizar reserva" as CU01
   usecase "Cancelar reserva" as CU02
   usecase "Consultar disponibilidade" as CU03
-  usecase "Confirmar presença" as CU04
-  
-  usecase "Gerenciar reservas" as CU05
-  usecase "Cadastrar quadra" as CU06
-  usecase "Visualizar calendário geral" as CU07
-
-  CU01 .> CU03 : <<include>>
-  CU02 .> CU03 : <<extend>>
+  usecase "Gerenciar reservas" as CU04
+  usecase "Cadastrar quadra" as CU05 
 }
 
 Cliente --> CU01
 Cliente --> CU02
 Cliente --> CU03
-Cliente --> CU04
-
-Admin --> CU03
-Admin --> CU05
-Admin --> CU06
-Admin --> CU07
+Administrador --> CU01
+Administrador --> CU02
+Administrador --> CU03
+Administrador --> CU04
+Administrador --> CU05
 @enduml
 ```
 
+### 🛠 Como usar PlantUML no VS Code
+
+1. **Instale o Java**
+   - Baixe e instale o JDK: [https://www.oracle.com/java/technologies/javase-jdk11-downloads.html](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+
+2. **Instale a extensão PlantUML**
+   - No VS Code, acesse a aba de extensões (`Ctrl+Shift+X`)
+   - Procure por `PlantUML` (autor: *jebbs*) e instale.
+
+3. **Crie um arquivo `.puml`**
+   - Exemplo: `reserva_quadras.puml`
+
+4. **Visualize o diagrama**
+   - Clique com o botão direito no arquivo e selecione **Preview Current Diagram** ou use o atalho `Alt+D`.
+
+---
+
+### 💡 Explicação das palavras-chave do PlantUML
+
+| Palavra-chave                          | Descrição                                                                 |
+|----------------------------------------|---------------------------------------------------------------------------|
+| `@startuml` / `@enduml`                | Delimitam o início e o fim do diagrama                                   |
+| `left to right direction`              | Define que o diagrama será desenhado na horizontal                        |
+| `actor "Nome" as Identificador`        | Cria um ator (usuário do sistema), com nome visível e identificador       |
+| `rectangle "Nome"`                     | Agrupa os casos de uso sob o nome do sistema                              |
+| `usecase "Ação" as Identificador`      | Define um caso de uso (ação realizada pelo ator no sistema)               |
+| `Ator --> CasoDeUso`                   | Conecta um ator ao caso de uso que ele executa (relação de interação)     |
 
 
 ## 🔗 Relacionamentos
@@ -136,103 +157,79 @@ Admin --> CU07
 
 ---
 
-## 🌐 Diagrama Simples: Sistema de Reservas de Quadras
-
-```plantuml
-@startuml "Diagrama de Casos de Uso – Sistema de Reservas"
-left to right direction
-
-actor "Cliente" as Cliente
-actor "Administrador" as Admin
-
-rectangle "Sistema de Reservas" {
-  usecase "Realizar reserva de quadra" as CU01
-  usecase "Cancelar reserva" as CU02
-  usecase "Consultar disponibilidade" as CU03
-  usecase "Confirmar presença" as CU04
-  usecase "Gerenciar reservas" as CU05
-  usecase "Cadastrar quadra" as CU06
-  usecase "Visualizar calendário geral" as CU07
-
-  CU01 .> CU03 : <<include>>
-  CU02 .> CU03 : <<extend>>
-}
-
-Cliente --> CU01
-Cliente --> CU02
-Cliente --> CU03
-Cliente --> CU04
-
-Admin --> CU03
-Admin --> CU05
-Admin --> CU06
-Admin --> CU07
-@enduml
-```
-
-## 📚 Exemplo – \<\<include\>\> vs \<\<extend\>\>
+## 📚 Exemplo 02 – Relacionamento \<\<include\>\> vs \<\<extend\>\>
 📌 Situação:
 O usuário pode realizar uma reserva, mas isso sempre exige verificação de disponibilidade (<<include>>).  
 Se for uma reserva para horário fora do expediente, é necessário solicitar aprovação (<<extend>>).  
 
 ```plantuml
 @startuml
-left to right direction
+left to right direction 
 
-actor "Usuário" as Usuario
+actor "Cliente" as Cliente
+actor "Administrador" as Administrador
 
-rectangle "Sistema de Reservas de Quadras" {
-  usecase "Realizar reserva" as UC1
-  usecase "Verificar disponibilidade" as UC2
-  usecase "Solicitar aprovação extra-horário" as UC3
+rectangle "Sistema de Reserva de Quadra" {
+  usecase "Realizar reserva" as CU01
+  usecase "Cancelar reserva" as CU02
+  usecase "Consultar disponibilidade" as CU03
+  usecase "Gerenciar reservas" as CU04
+  usecase "Cadastrar quadra" as CU05 
 
-  UC1 .> UC2 : <<include>>
-  UC1 .> UC3 : <<extend>>
+  CU01 .> CU03 : <<include>>
+  CU03 .> CU02 : <<extends>>
 }
 
-Usuario --> UC1
+Cliente --> CU01
+Cliente --> CU02
+Cliente --> CU03
+Administrador --> CU01
+Administrador --> CU02
+Administrador --> CU03
+Administrador --> CU04
+Administrador --> CU05
 @enduml
-
 ```
 
 ### 🧠 Explicação:
   - \<\<include\>\>: "Verificar disponibilidade" sempre será executado quando o usuário quiser reservar.  
   - \<\<extend\>\>: "Solicitar aprovação extra-horário" só acontece se o horário estiver fora do expediente padrão.
 
+---
+
 ## 🧬 Exemplo – Herança entre Atores no Sistema de Quadras
 📌 Situação:
-No sistema há vários tipos de usuários, como "Aluno", "Servidor" e "Visitante". Todos herdam de "Usuário", que tem funcionalidades básicas como "Realizar reserva".
-Mas alguns têm casos de uso exclusivos, como "Prioridade de agendamento" para servidores.
+No sistema há vários tipos de usuários, como "Cliente" e "Administrador". Administrador herda de "Cliente", que tem funcionalidades básicas como "Realizar reserva".
+Mas somente o Administrador têm casos de uso exclusivos, como "Gerenciar Reserva".
 
 ```plantuml
 @startuml
-left to right direction
+left to right direction 
 
-actor "Usuário" as User
-actor "Aluno" as Aluno
-actor "Servidor" as Servidor
-actor "Visitante" as Visitante
+actor "Cliente" as Cliente
+actor "Administrador" as Administrador
 
-rectangle "Sistema de Reservas de Quadras" {
-  usecase "Realizar reserva" as UC1
-  usecase "Cancelar reserva" as UC2
-  usecase "Solicitar prioridade de agendamento" as UC3
+rectangle "Sistema de Reserva de Quadra" {
+  usecase "Realizar reserva" as CU01
+  usecase "Cancelar reserva" as CU02
+  usecase "Consultar disponibilidade" as CU03
+  usecase "Gerenciar reservas" as CU04
+  usecase "Cadastrar quadra" as CU05 
+
+  CU01 .> CU03 : <<include>>
+  CU03 .> CU02 : <<extends>>
 }
 
-User --> UC1
-User --> UC2
-Servidor --> UC3
+Cliente --> CU01
+Cliente --> CU02
+Cliente --> CU03
 
-Aluno --|> User
-Servidor --|> User
-Visitante --|> User
+Administrador --|> Cliente
+Administrador --> CU04
+Administrador --> CU05
 @enduml
 
 ```
-### 🧠 Explicação:
-Todos os atores especializados herdam os direitos e interações do ator "Usuário".  
-Somente "Servidor" pode realizar ações específicas como solicitar prioridade de agendamento, o que reflete políticas institucionais, por exemplo.  
-
 
 
 ## Material de Estudo
