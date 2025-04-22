@@ -73,19 +73,14 @@ Entidades que interagem com o sistema. Podem ser:
 - **Administrador**
 
 #### ✅ Casos de uso:
-- Realizar reserva de quadra  
-- Cancelar reserva  
-- Consultar disponibilidade  
-- Gerenciar reservas  
+- Consultar calendário  
+- Buscar reserva  
+- Realizar reserva  
+- Verificar disponibilidade  
+- Cancelar reserva
+- Gerenciar todas reservas
 - Cadastrar quadra  
 
-#### 🔗 Relacionamentos:
-- O cliente pode realizar, cancelar e consultar reservas.
-- O administrador pode consultar disponibilidade, gerenciar reservas e cadastrar quadras.
-- "Realizar reserva" inclui "Consultar disponibilidade".
-- "Cancelar reserva" pode estender "Consultar disponibilidade".
-
----
 
 ## 🌐 Diagrama em PlantUML
 
@@ -93,27 +88,36 @@ Para visualizar o diagrama, você pode usar uma extensão no VS Code como **Plan
 
 ```plantuml
 @startuml
+skinparam actorPosition top 
 left to right direction 
 
 actor "Cliente" as Cliente
 actor "Administrador" as Administrador
 
 rectangle "Sistema de Reserva de Quadra" {
-  usecase "Realizar reserva" as CU01
-  usecase "Cancelar reserva" as CU02
-  usecase "Consultar disponibilidade" as CU03
-  usecase "Gerenciar reservas" as CU04
-  usecase "Cadastrar quadra" as CU05 
+  usecase "Consultar calendário" as CU01
+  usecase "Buscar reserva" as CU02
+  usecase "Realizar reserva" as CU03
+  usecase "Verificar disponibilidade" as CU04
+  usecase "Cancelar reserva" as CU05
+  usecase "Gerenciar todas reservas" as CU06
+  usecase "Cadastrar quadra" as CU07 
+
 }
 
 Cliente --> CU01
 Cliente --> CU02
 Cliente --> CU03
+Cliente --> CU04
+Cliente --> CU05
+
 Administrador --> CU01
 Administrador --> CU02
 Administrador --> CU03
 Administrador --> CU04
 Administrador --> CU05
+Administrador --> CU06
+Administrador --> CU07
 @enduml
 ```
 
@@ -153,6 +157,13 @@ Administrador --> CU05
 - **\<\<extend\>\>**: um caso de uso pode **opcionalmente** estender outro. Ex: "Cacelar Reserva" pode estender "Verificar disponibilidade".
 - **Generalização (herança)**: usada quando há **atores semelhantes** ou **casos de uso com comportamento comum**.
 
+
+#### 🔗 Relacionamentos:
+- O cliente pode realizar, cancelar e consultar reservas.
+- O administrador pode consultar disponibilidade, gerenciar reservas e cadastrar quadras.
+- "Realizar reserva" inclui "Consultar disponibilidade".
+- "Cancelar reserva" pode estender "Consultar disponibilidade".
+
 ---
 
 ## 📚 Exemplo 02 – Relacionamento \<\<include\>\> vs \<\<extend\>\>
@@ -162,30 +173,38 @@ Se for uma reserva para horário fora do expediente, é necessário solicitar ap
 
 ```plantuml
 @startuml
+skinparam actorPosition top 
 left to right direction 
 
 actor "Cliente" as Cliente
 actor "Administrador" as Administrador
 
 rectangle "Sistema de Reserva de Quadra" {
-  usecase "Realizar reserva" as CU01
-  usecase "Cancelar reserva" as CU02
-  usecase "Consultar disponibilidade" as CU03
-  usecase "Gerenciar reservas" as CU04
-  usecase "Cadastrar quadra" as CU05 
+  usecase "Consultar calendário" as CU01
+  usecase "Buscar reserva" as CU02
+  usecase "Realizar reserva" as CU03
+  usecase "Verificar disponibilidade" as CU04
+  usecase "Cancelar reserva" as CU05
+  usecase "Gerenciar todas reservas" as CU06
+  usecase "Cadastrar quadra" as CU07 
 
-  CU01 .> CU03 : <<include>>
-  CU03 .> CU02 : <<extends>>
+  CU05 .> CU02 : <<include>>
+  CU01 .> CU03 : <<extends>>
 }
 
 Cliente --> CU01
 Cliente --> CU02
 Cliente --> CU03
+Cliente --> CU04
+Cliente --> CU05
+
 Administrador --> CU01
 Administrador --> CU02
 Administrador --> CU03
 Administrador --> CU04
 Administrador --> CU05
+Administrador --> CU06
+Administrador --> CU07
 @enduml
 ```
 
@@ -202,29 +221,34 @@ Mas somente o Administrador têm casos de uso exclusivos, como "Gerenciar Reserv
 
 ```plantuml
 @startuml
+skinparam actorPosition top 
 left to right direction 
 
 actor "Cliente" as Cliente
 actor "Administrador" as Administrador
 
 rectangle "Sistema de Reserva de Quadra" {
-  usecase "Realizar reserva" as CU01
-  usecase "Cancelar reserva" as CU02
-  usecase "Consultar disponibilidade" as CU03
-  usecase "Gerenciar reservas" as CU04
-  usecase "Cadastrar quadra" as CU05 
+  usecase "Consultar calendário" as CU01
+  usecase "Buscar reserva" as CU02
+  usecase "Realizar reserva" as CU03
+  usecase "Verificar disponibilidade" as CU04
+  usecase "Cancelar reserva" as CU05
+  usecase "Gerenciar todas reservas" as CU06
+  usecase "Cadastrar quadra" as CU07 
 
-  CU01 .> CU03 : <<include>>
-  CU03 .> CU02 : <<extends>>
+  CU05 .> CU02 : <<include>>
+  CU01 .> CU03 : <<extends>>
 }
 
 Cliente --> CU01
 Cliente --> CU02
 Cliente --> CU03
+Cliente --> CU04
+Cliente --> CU05
 
 Administrador --|> Cliente
-Administrador --> CU04
-Administrador --> CU05
+Administrador --> CU06
+Administrador --> CU07
 @enduml
 
 ```
