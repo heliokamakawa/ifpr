@@ -212,6 +212,14 @@ Administrador --> CU07
   - \<\<include\>\>: "Verificar disponibilidade" sempre será executado quando o usuário quiser reservar.  
   - \<\<extend\>\>: "Solicitar aprovação extra-horário" só acontece se o horário estiver fora do expediente padrão.
 
+## 🔁 Resumo INCLUDE vs EXTEND
+
+| Tipo    | Ponto de vista        | Ação lógica                   | Direção da seta                     |
+|---------|-----------------------|-------------------------------|-------------------------------------|
+| include | Eu preciso de algo    | Eu vou até lá                 | De mim → para o necessário          |
+| extend  | Eu posso ter mais     | Eu aponto o que vou estender  | De opcional → para o base           |
+
+
 ---
 
 ## 🧬 Exemplo – Herança entre Atores no Sistema de Quadras
@@ -252,6 +260,8 @@ Administrador --> CU07
 @enduml
 
 ```
+
+---
 
 ## Atividade 
 - Identifique mais 2 casos de uso para cada autor.
