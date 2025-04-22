@@ -253,6 +253,14 @@ Administrador --> CU07
 
 ```
 
+## Atividade 
+- Identifique mais 2 casos de uso para cada autor.
+- Identifique mais 2 extends e 2 includes.
+- Defina mais um ator diferente dos demais e defina a hierarquia.
+- Aplique o que aprendeu no estudo de caso - em grupo.
+- Coloque e/ou melhore o seu diário de aula.
+- Faça o seu estudo de caso individual.
+
 
 ## Material de Estudo
 
