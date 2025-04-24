@@ -174,3 +174,115 @@ class _Formulario extends State<Formulario>{
   }
 }
 ```
+# Explicação do uso do GlobalKey no código
+
+No código fornecido, o `GlobalKey<FormState>` é utilizado para acessar o estado do formulário e realizar ações como validação. O processo funciona da seguinte forma:
+
+1. **Definição da chave (`_formKey`)**: A `GlobalKey<FormState>` é definida como uma variável privada (`_formKey`). Esta chave será usada para associar o `Form` ao seu estado, permitindo a interação direta com ele.
+
+2. **Vinculação da chave ao `Form`**: Dentro do widget `Form`, a chave é associada usando a propriedade `key`. Isso permite que o Flutter saiba que esse formulário estará sob o controle da chave `_formKey`, dando acesso ao estado do formulário.
+
+3. **Acesso ao estado para validação**: Quando o botão "Enviar" é pressionado, o método `validate()` é chamado para verificar se todos os campos do formulário atendem às condições definidas nas funções `validator` de cada `TextFormField`. O acesso à validação só é possível porque a chave `_formKey` está vinculada ao formulário. O método `validate()` retorna `true` se todos os campos forem válidos, e `false` caso contrário.
+
+### Clique do enviar
+
+A validação do formulário é realizada **somente ao clicar no botão**. Antes disso, o formulário não sabe se os campos são válidos ou não. A `GlobalKey<FormState>` nos permite acessar o estado do formulário e chamar a validação no momento em que o usuário interage com o botão de envio.
+
+--- 
+
+# Validação do formulário antes do envio
+
+Se você precisar que o formulário valide seus campos antes que o usuário pressione o botão de envio, pode usar a propriedade `autovalidateMode` dentro do widget `Form`.
+
+## Tipos de `AutovalidateMode`
+
+### 1. **`AutovalidateMode.onUserInteraction`**
+   - **Como funciona**: O formulário valida os campos automaticamente assim que o usuário começa a interagir com os campos. Ou seja, assim que o usuário começar a digitar em um `TextFormField`, a validação será disparada.
+   - **Exemplo de uso**: Esta opção é útil quando você quer que o feedback sobre a validade dos campos seja mostrado imediatamente ao usuário enquanto ele interage com o formulário.
+   - **Quando utilizar**: Ideal quando o formulário exige uma experiência de usuário interativa, fornecendo mensagens de erro assim que o campo for modificado.
+
+   Exemplo de código:
+```dart
+  Form(  
+   autovalidateMode: AutovalidateMode.onUserInteraction,
+```
+
+### 2. **`AutovalidateMode.always`**
+   - **Como funciona**: A validação será feita continuamente, ou seja, o Flutter tentará validar os campos do formulário o tempo todo, mesmo sem o usuário interagir com os campos.
+   - **Exemplo de uso**: Isso pode ser útil em casos em que você deseja verificar o estado dos campos sem que o usuário precise interagir diretamente com eles.
+   - **Quando utilizar**: Essa opção deve ser usada quando você quer garantir que a validação aconteça de forma contínua, independentemente da interação do usuário, o que pode ser útil para formulários mais complexos ou aqueles que exigem feedback constante.
+
+   Exemplo de código:
+```dart
+  Form(  
+   autovalidateMode: AutovalidateMode.always,
+```
+
+### 3. **`AutovalidateMode.disabled`**
+   - **Como funciona**: A validação automática é desativada. O formulário só será validado quando você explicitamente chamar o método `validate()` (por exemplo, ao pressionar o botão de envio).
+   - **Exemplo de uso**: Quando você deseja controle total sobre o momento em que a validação ocorre, evitando qualquer validação automática.
+   - **Quando utilizar**: Ideal para cenários em que você não quer que a validação aconteça antes do usuário clicar no botão, por exemplo, se você preferir que o usuário preencha o formulário sem interrupções, e só após o envio você realiza a validação.
+
+   Exemplo de código:
+```dart
+  Form(  
+   autovalidateMode: AutovalidateMode.disabled,
+```
+
+### Versão final do exemplo
+```dart
+
+
+import 'package:flutter/material.dart';
+
+class Formulario extends StatefulWidget{
+  @override
+  _Formulario createState() => _Formulario();
+}
+
+class _Formulario extends State<Formulario>{
+  final _formKey = GlobalKey<FormState>(); //definindo a chave
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Lista')),
+      body: Form(  
+        autovalidateMode: AutovalidateMode.onUserInteraction,
+        key: _formKey, //vinculando
+        child: Column(  
+          children: [
+            TextFormField(  
+              decoration: const InputDecoration(label: Text('nome:')),
+              validator: (value) {
+                if(value == null || value.length < 3){
+                  return 'Nome deve possuir 3 caracteres';
+                }
+                return null;
+              },
+            ),
+            TextFormField(  
+              decoration: const InputDecoration(label: Text('e-mail:')),
+              validator: (value) {
+                if(value == null || !value.contains('@')){
+                  return 'Nome deve possuir @';
+                }
+                return null;
+              },
+            ),
+            ElevatedButton(
+              onPressed: (){
+                if(_formKey.currentState!.validate()){ //com a chave, temos acesso ao validade
+                  print('deu certo');
+                }else{
+                  print('erro');
+                }
+                
+              }, 
+              child: const Text('Enviar'))
+          ],
+        ),
+      ),
+    );
+  }
+} 
+```
