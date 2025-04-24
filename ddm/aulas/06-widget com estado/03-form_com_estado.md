@@ -331,8 +331,5 @@ Para uma compreensão mais profunda de como usar tipos e funções no Flutter, v
 
 - [Dart: Funções e Tipos](https://dart.dev/guides/language/language-tour)
 
-## Conclusão
-
-A documentação oficial do Flutter oferece uma excelente base para aprender como implementar formulários e validação, e como usar `GlobalKey<FormState>` para acessar e manipular o estado de um formulário. Através dos links acima, você pode expandir seu conhecimento e experimentar com exemplos práticos. Aproveite os materiais e comece a implementar formulários eficazes em seus aplicativos Flutter!
 
 
