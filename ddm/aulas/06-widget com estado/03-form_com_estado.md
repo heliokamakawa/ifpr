@@ -286,3 +286,53 @@ class _Formulario extends State<Formulario>{
   }
 } 
 ```
+
+
+# Validação de Formulários no Flutter
+
+Este arquivo oferece uma visão geral sobre a validação de formulários no Flutter, usando o `Form` e o `TextFormField`, bem como a importância do uso de `GlobalKey` para validar os campos. Além disso, discutimos a configuração de `autovalidateMode` e como controlar a validação automática.
+
+## Materiais de Estudo Correlatos
+
+Aqui estão alguns links da documentação oficial do Flutter que aprofundam os tópicos discutidos:
+
+### 1. **Formulários no Flutter**
+A documentação oficial sobre como trabalhar com formulários no Flutter, incluindo exemplos e explicações sobre o uso de `Form` e `TextFormField`.
+
+- [Formulários no Flutter](https://flutter.dev/docs/cookbook/forms/validation) 
+
+### 2. **Validação de Formulários**
+Nesta seção, você encontrará informações detalhadas sobre a validação de entradas de formulários, como usar `validator`, `autovalidateMode`, e como lidar com erros de validação.
+
+- [Validação de Formulários](https://flutter.dev/docs/cookbook/forms/validation)
+
+### 3. **GlobalKey<FormState>**
+Aqui você aprende como usar `GlobalKey<FormState>` para acessar e controlar o estado do formulário, validar e salvar os dados. Este é um componente crucial para lidar com a validação de formulários em Flutter.
+
+- [GlobalKey<FormState>](https://api.flutter.dev/flutter/widgets/GlobalKey-class.html)
+
+### 4. **AutovalidateMode**
+Entenda como o `autovalidateMode` pode ser usado para controlar quando a validação é realizada no formulário. As opções incluem `AutovalidateMode.onUserInteraction`, `AutovalidateMode.always` e `AutovalidateMode.disabled`.
+
+- [AutovalidateMode](https://api.flutter.dev/flutter/widgets/AutovalidateMode-class.html)
+
+### 5. **TextFormField**
+A documentação sobre o `TextFormField` oferece uma visão aprofundada sobre como usar este widget para criar campos de entrada de texto no formulário e como configurar validadores personalizados.
+
+- [TextFormField](https://api.flutter.dev/flutter/material/TextFormField-class.html)
+
+### 6. **Exemplos e Cookbooks**
+Esta seção da documentação oficial do Flutter oferece exemplos práticos e guias que podem ser úteis para entender como implementar e personalizar formulários, incluindo a validação.
+
+- [Cookbook: Forms](https://flutter.dev/docs/cookbook/forms)
+
+### 7. **Dart: Funções e Tipos**
+Para uma compreensão mais profunda de como usar tipos e funções no Flutter, você pode explorar a documentação oficial do Dart.
+
+- [Dart: Funções e Tipos](https://dart.dev/guides/language/language-tour)
+
+## Conclusão
+
+A documentação oficial do Flutter oferece uma excelente base para aprender como implementar formulários e validação, e como usar `GlobalKey<FormState>` para acessar e manipular o estado de um formulário. Através dos links acima, você pode expandir seu conhecimento e experimentar com exemplos práticos. Aproveite os materiais e comece a implementar formulários eficazes em seus aplicativos Flutter!
+
+
