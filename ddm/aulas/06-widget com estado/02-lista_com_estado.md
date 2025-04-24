@@ -318,3 +318,69 @@ ListTile(
 );
 ```
 
+
+# 📚 Recursos de Estudo - Flutter: Widgets com Estado
+
+Este material complementa os conteúdos da aula e propõe fontes oficiais e confiáveis para aprofundar o aprendizado em Flutter, com foco em **StatefulWidget**, **gerenciamento de estado** e **boas práticas**.
+
+---
+
+## 🎯 Documentação Oficial do Flutter
+
+### 🧱 Introdução ao Flutter Widgets
+> Conheça a base do Flutter: tudo é widget!
+- 📄 https://docs.flutter.dev/development/ui/widgets
+
+---
+
+### 🔁 Stateful vs Stateless
+> Entenda a diferença entre widgets com e sem estado.
+- 📄 https://docs.flutter.dev/development/ui/interactive
+
+---
+
+### 🔧 StatefulWidget e setState()
+> Saiba como controlar e atualizar o estado da UI.
+- 📄 https://docs.flutter.dev/development/ui/interactive#stateful-and-stateless-widgets
+- 📄 https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html
+
+---
+
+## 💡 Boas Práticas
+
+### 📦 Gerenciamento de estado (overview)
+> Aprenda sobre as várias formas de gerenciar estado em Flutter.
+- 📄 https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro
+
+### 📌 setState() explicado
+> Quando e como usar o `setState()` corretamente.
+- 📄 https://docs.flutter.dev/development/ui/interactive#calling-setstate
+
+---
+
+## 🛠️ Exemplos e Guias
+
+### 📄 Cookbooks (receitas prontas)
+> Exemplos práticos e rápidos de como usar widgets com estado.
+- 📘 Adicionar e remover itens de uma lista:
+  - https://docs.flutter.dev/cookbook/forms/retrieve-input
+  - https://docs.flutter.dev/cookbook/list/remove-items
+
+---
+
+## 🎥 Vídeos recomendados (Flutter YouTube Oficial)
+
+- ▶️ [Flutter Widgets 101](https://www.youtube.com/watch?v=995iy7lZz8g)
+- ▶️ [Stateful vs Stateless Widgets](https://www.youtube.com/watch?v=IOyq-eTRhvo)
+
+---
+
+## ✅ Dica Final
+
+> **Pratique criando pequenas UIs e modificando o estado delas com `setState()`**. A prática é a melhor forma de fixar o uso de `StatefulWidget`.
+
+---
+
+📦 Atualize sempre seu Flutter SDK para garantir acesso às últimas funcionalidades e melhorias!
+
+
