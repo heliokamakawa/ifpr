@@ -17,7 +17,8 @@ Deixe tudo pronto para não se atrasar:
 - **Importante**: Não utilize IA ou qualquer outra ferramenta para gerar o código/projeto. A ideia é que o desenvolvimento seja feito de forma autêntica e manual.  
 
 ### 08/05 - Avaliação
-- **Avaliação dissertativa individual**, sem consulta.  
+- **Avaliação dissertativa individual**, sem consulta.
+- Conteúdo disponível no SUAP/git.  
 - Não se esqueça de trazer **caneta**.  
 
 ## Diário de Aula
