@@ -12,4 +12,4 @@ Tutoria de aplicativos e softwares para a melhor idade parceria: Instituto Gehle
 Carga horária: 150 ou 80 horas.   
 Segunda à sexta PRESENCIAL.  
 Por favor entrar em contato somente quem tem interesse, disponibilidade e condições de ir até o local todos os dias.  
-Informar nome, série e conhecimento em informática básica – atendendo os requisitos básicos, a seleção será por ordem de chegada (hélio.kamakawa@ifpr.edu.br).
+Informar nome, série e conhecimento em informática básica – atendendo os requisitos básicos, a seleção será por ordem de chegada (helio.kamakawa@ifpr.edu.br).
