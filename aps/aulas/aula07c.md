@@ -7,7 +7,7 @@ Cronograma
 20/05 Retomada do conteúdo; Correções; Definição do conceito parcial;  
 27/05 Recuperação/Avaliação dissertativa.  
 
-
+Projeto de Extensão
 Tutoria de aplicativos e softwares para a melhor idade parceria: Instituto Gehlen
 Carga horária: 150 ou 80 horas.  
 Segunda à sexta PRESENCIAL.  
