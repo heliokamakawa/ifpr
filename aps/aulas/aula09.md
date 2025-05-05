@@ -1,8 +1,8 @@
-## ✅ 1. Relevância Transformadora da Aprendizagem
+## ✅ 1. Relevância do Ciclo de Conhecimento
 
-> O trabalho deve demonstrar compreensão profunda do conteúdo e gerar conhecimento significativo.
+> O trabalho deve demonstrar compreensão profunda do conteúdo e gerar conhecimento SIGNIFICATIVO.
 
-- Evitar simplesmente copiar conteúdos encontrados na internet.  
+- Evitar simplesmente retransmitir conteúdos encontrados na internet.  
 - Não se limitar a utilizar textos gerados por inteligência artificial sem análise crítica.  
 - Demonstrar apropriação do conhecimento, com capacidade de reflexão e aplicação.  
 - Indicar como a pesquisa contribuiu para o desenvolvimento acadêmico e profissional do autor.  
