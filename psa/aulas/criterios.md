@@ -42,7 +42,38 @@ Transformação/Experiência
 
 ---
 
-## 📌 Observação Final
+## 📌 Observação
 
 O objetivo principal de um estudo técnico não é a simples entrega de um documento, mas sim a **produção de conhecimento com sentido**, que prepare o aluno para desafios reais da Engenharia de Software.
 
+
+---
+
+## ✅ Critérios de Avaliação
+
+| Conceito | Aproveitamento do Tempo | Prática Aplicada | Profundidade Técnica e Reflexiva |
+|----------|--------------------------|------------------|-----------------------------------|
+| **C (mínimo)** | Usou o tempo para desenvolver uma proposta prática replicada. | Executou algo funcional e coerente com o tema. | Conteúdo coeso, mesmo que baseado em fontes externas. |
+| **B (parcialmente pleno)** | Participação ativa com boa organização. | Aplicação consistente, com análise e domínio. | Análise crítica, contextualização profissional e uso adequado de fontes. |
+| **A (pleno)** | Uso protagonista do tempo com foco e propósito. | Prática relevante e contextualizada na área. | Conhecimento novo, útil ou transformador com contribuições técnicas claras. |
+
+---
+
+## 📚 Requisitos Fundamentais
+- **Entrega de resultados concretos**, com aplicação prática ou proposta estruturada.
+- **Reflexão sobre a experiência e o aprendizado**.
+- **Apresentação final clara e objetiva**, explicando o que foi feito, por quê e como isso impacta a formação profissional.
+
+---
+
+## 🛠️ Dicas para Alcançar o Conceito A
+
+- Busque **entender antes de escrever**.
+- Trabalhe em equipe com **colaboração verdadeira**.
+- Registre tudo: erros, testes, discussões.
+- Conecte o estudo à **realidade do mercado**.
+- Foque em gerar valor e não apenas em “replicar”.
+
+---
+
+> _"Não basta entregar um trabalho. É preciso aprender com ele e mostrar que isso fez diferença."_ 💡
