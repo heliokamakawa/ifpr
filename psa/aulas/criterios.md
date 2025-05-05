@@ -5,6 +5,18 @@
 - Somente vocês
   - 15 minutos cada equipe.
   - 5 minutos de discussão.
+ 
+26/05/2025 
+- Recuperação
+- Indicar responsável para permissão no git
+- um arquivo para cada equipe
+
+24/05/2025 - sábado letivo
+- vídeo
+
+19/06 
+- Retomada de conteúdo (Cada equipe iria apresentar seus materiais).
+- Pint Of Science - Deixar o material completo 
 
 
 ## ✅ Relevância do Ciclo de Conhecimento
