@@ -18,12 +18,17 @@ Organiza widgets **verticalmente**, um embaixo do outro.
 ```dart
 Column(
   children: [
-    Text('Título'),
-    Text('Subtítulo'),
-    ElevatedButton(onPressed: () {}, child: Text('Ação')),
+    Text('Título'), // Primeiro item no topo
+    Text('Subtítulo'), // Segundo item abaixo
+    ElevatedButton( // Terceiro item abaixo
+      onPressed: () {}, 
+      child: Text('Ação')
+    ),
   ],
 )
 ```
+
+▶️ Neste layout, os três widgets aparecem **empilhados verticalmente**: o título no topo, o subtítulo abaixo e o botão ao final.
 
 ---
 
@@ -34,11 +39,13 @@ Organiza widgets **horizontalmente**, um ao lado do outro.
 ```dart
 Row(
   children: [
-    Icon(Icons.star),
-    Text('Favorito'),
+    Icon(Icons.star), // Aparece à esquerda
+    Text('Favorito'), // Aparece à direita do ícone
   ],
 )
 ```
+
+▶️ O ícone aparece à esquerda e o texto **"Favorito"** logo ao lado, **na mesma linha horizontal**.
 
 ---
 
@@ -49,15 +56,21 @@ Empilha widgets uns **sobre os outros**, como camadas.
 ```dart
 Stack(
   children: [
-    Container(color: Colors.blue, width: 100, height: 100),
+    Container(
+      color: Colors.blue, 
+      width: 100, 
+      height: 100
+    ), // Fica como fundo
     Positioned(
       top: 10,
       left: 10,
-      child: Icon(Icons.star, color: Colors.white),
+      child: Icon(Icons.star, color: Colors.white), // Fica sobre o container azul
     ),
   ],
 )
 ```
+
+▶️ O `Container` azul serve de base e o ícone branco aparece **sobreposto no canto superior esquerdo**, com `top` e `left` de 10 pixels.
 
 ---
 
@@ -68,14 +81,17 @@ Controlam como os widgets ocupam **espaço disponível** dentro de `Row` ou `Col
 ```dart
 Row(
   children: [
-    Expanded(child: Container(color: Colors.red)),
-    Expanded(child: Container(color: Colors.green)),
+    Expanded( // Ocupa metade da largura
+      child: Container(color: Colors.red),
+    ),
+    Expanded( // Ocupa a outra metade
+      child: Container(color: Colors.green),
+    ),
   ],
 )
 ```
 
-- `Expanded`: ocupa todo o espaço restante disponível.
-- `Flexible`: permite ajustar o espaço conforme o conteúdo.
+▶️ A tela é dividida em duas partes **iguais** horizontalmente: metade vermelha e metade verde.
 
 ---
 
@@ -85,8 +101,8 @@ Quebra widgets em **múltiplas linhas** ou colunas quando o espaço é insuficie
 
 ```dart
 Wrap(
-  spacing: 8,
-  runSpacing: 4,
+  spacing: 8, // Espaço horizontal entre os chips
+  runSpacing: 4, // Espaço vertical entre as linhas
   children: [
     Chip(label: Text('Flutter')),
     Chip(label: Text('Dart')),
@@ -95,6 +111,8 @@ Wrap(
 )
 ```
 
+▶️ Os chips aparecem **lado a lado** até não caberem mais na linha, então **quebram para a próxima linha** com espaçamento definido.
+
 ---
 
 ## 🔸 6. Flow (Avançado)
@@ -102,6 +120,8 @@ Wrap(
 Mais complexo, oferece controle **manual e performático** do layout.
 
 > ⚠️ Pouco usado no dia a dia. Requer criação de uma `FlowDelegate`.
+
+▶️ Usado em casos muito específicos, como animações customizadas ou interfaces altamente performáticas.
 
 ---
 
