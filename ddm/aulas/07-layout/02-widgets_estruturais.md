@@ -144,6 +144,6 @@ Crie um layout com:
 
 ## 📚 Próximo Tema
 
-Widgets de espaçamento e alinhamento: `Padding`, `Align`, `SizedBox`...
+[Widgets de espaçamento e alinhamento: `Padding`, `Align`, `SizedBox`...](https://github.com/heliokamakawa/aula/blob/main/ddm/aulas/07-layout/03-espacamento_alinhamento.md)
 
 ---
