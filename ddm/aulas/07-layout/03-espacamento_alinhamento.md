@@ -1,5 +1,3 @@
-.
-
 # 📐 Flutter — Espaçamento e Alinhamento
 ## 🧭 Objetivo
 Explorar widgets que controlam o espaçamento interno e externo, o alinhamento de conteúdo e a organização visual em layouts Flutter.
