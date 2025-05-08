@@ -90,19 +90,6 @@ Ferramentas:
 
 ---
 
-## 💡 Estratégia de Ensino
-
-1. **Demonstrações práticas**:
-   - Exemplo: criar uma página de perfil com imagem, nome e botão de ação.
-
-2. **Desafios com pares**:
-   - Propor layout para replicar com base em uma imagem de app.
-
-3. **Aplicação em projeto autoral**:
-   - Cada aluno deve aplicar os conceitos aprendidos no seu próprio app Flutter.
-
----
-
 ## ✅ Requisitos
 
 - Conhecimentos básicos de Dart.
