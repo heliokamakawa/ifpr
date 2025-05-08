@@ -12,12 +12,14 @@ O `Container` é um dos widgets mais usados no Flutter. Ele é um **contêiner g
 
 ### Exemplo:
 
-`Container(  
+```dart
+Container(  
  width: 200,  
  height: 100,  
  color: Colors.blue,  
  child: Center(child: Text('Dentro do Container'))  
-)`
+)
+```
 
 ### Explicação:  
 Neste exemplo, temos um `Container` com largura de **200 pixels** e altura de **100 pixels**. A cor de fundo é azul e o texto está centralizado dentro do contêiner.
@@ -34,14 +36,16 @@ O `Card` é um tipo específico de **contêiner com bordas arredondadas e sombra
 
 ### Exemplo:
 
-`Card(  
+```dart
+Card(  
  elevation: 4,  
  margin: EdgeInsets.all(8),  
  child: Padding(  
   padding: EdgeInsets.all(16),  
   child: Text('Este é um Card')  
  ),  
-)`
+)
+```
 
 ### Explicação:  
 O `Card` tem uma **sombra leve** (definida pela propriedade `elevation`) e uma **margem de 8 pixels** ao redor. O texto dentro do `Card` está com **padding de 16 pixels** para garantir que não fique colado nas bordas.
@@ -58,7 +62,8 @@ Use o `Card` quando precisar de um **widget visualmente destacado**, que pode co
 
 ### Exemplo:
 
-`Container(  
+```dart
+Container(  
  width: 200,  
  height: 100,  
  decoration: BoxDecoration(  
@@ -73,7 +78,8 @@ Use o `Card` quando precisar de um **widget visualmente destacado**, que pode co
   ],  
  ),  
  child: Center(child: Text('Com BoxDecoration'))  
-)`
+)
+```
 
 ### Explicação:  
 Neste exemplo, o `Container` tem a cor de fundo verde, **bordas arredondadas** com raio de **12 pixels**, e uma **sombra** com desfoque de **8 pixels**. O texto é centralizado.
@@ -90,7 +96,8 @@ O `ConstrainedBox` é utilizado para impor **restrições de tamanho** a um widg
 
 ### Exemplo:
 
-`ConstrainedBox(  
+```dart
+ConstrainedBox(  
  constraints: BoxConstraints(  
   minWidth: 150,  
   maxWidth: 250,  
@@ -101,7 +108,8 @@ O `ConstrainedBox` é utilizado para impor **restrições de tamanho** a um widg
   color: Colors.purple,  
   child: Center(child: Text('Dentro do ConstrainedBox')),  
  ),  
-)`
+)
+```
 
 ### Explicação:  
 O `ConstrainedBox` impõe que o widget filho (um `Container` neste caso) tenha um **tamanho mínimo** de **150 pixels de largura** e **50 pixels de altura**, e um **tamanho máximo** de **250 pixels de largura** e **100 pixels de altura**.
@@ -118,13 +126,15 @@ O `AspectRatio` é um widget que permite definir uma **proporção de aspecto fi
 
 ### Exemplo:
 
-`AspectRatio(  
+```dart
+AspectRatio(  
  aspectRatio: 16 / 9,  
  child: Container(  
   color: Colors.orange,  
   child: Center(child: Text('AspectRatio 16:9')),  
  ),  
-)`
+)
+```
 
 ### Explicação:  
 O `AspectRatio` garante que o `Container` tenha uma proporção de **16:9** (16 unidades de largura para cada 9 unidades de altura), independentemente do tamanho disponível. O texto está centralizado dentro do `Container`.
