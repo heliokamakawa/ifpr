@@ -1,3 +1,10 @@
+# Atividade 08/05
+- Realizar leitura e estudo da aula 07 - Layout
+- Implementar no projeto
+
+Estarei na avaliação até as 21h.
+- apresentação do projeto
+
 # Validação em Flutter - Widgets
 
 Instrumento: Desenvolvimento do código utilizando papel e caneta.
