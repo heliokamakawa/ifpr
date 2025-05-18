@@ -25,8 +25,8 @@ Você poderá utilizar **folhas manuscritas de estudo (como consulta)** durante 
 
 ### ✅ 1 folha manuscrita (frente e verso)
 Entregar um **projeto com 7 telas (widgets)** contendo:
-- Pelo menos **uma associação** entre entidades;
-- Pelo menos **uma entidade associativa funcional**.
+- Pelo menos **um campo de opções** → dependência de outra tela;
+- Pelo menos **uma tabela** dependência de mais de uma tela (exemplo venda e itens de venda).
 
 ### ✅ 2 folhas manuscritas (frente e verso)
 Além dos critérios acima, o projeto deve apresentar:
