@@ -34,27 +34,19 @@ Formar e identificar talentos em Engenharia de Software, conectando alunos do IF
 - Caso necessário, turmas matriculadas em Ambiente Virtual de Aprendizagem (AVA).
 
 ### 2º Fase - Formação e Desenvolvimento
-- Desenvolvimento dos projetos em equipes, com orientação e suporte de professores do IFPR e profissionais da empresa.
+- Cursos e estudos de materiais com ou sem avaliação... PRECISA??? É INTERESSANTE?
+- Desenvolvimento dos projetos em equipes, com orientação e suporte da empresa e/ou professores.
 - Execução preferencialmente remota, devido à disponibilidade da empresa e perfil dos alunos, podendo ser presencial ou híbrida.
-- A empresa pode optar por conduzir a formação seguindo sua metodologia ou adotar a estrutura do IFPR, ou ainda um modelo misto.
-- Indicação e disponibilização de materiais de estudo, aulas, dicas e orientações pontuais.
+- A empresa pode optar por conduzir a formação seguindo sua metodologia ou delegar a estrutura do IFPR, ou ainda um modelo misto.
+- CONFIGURAR COMO ESTÁGIO OBRIGATÓRIO? Definir filtro?
 
 ### 3º Fase - Avaliação e Reconhecimento
 - Apresentação dos projetos em banca avaliadora, que pode ser realizada na empresa ou no IFPR.
 - Seleção dos talentos que melhor se destacarem.
 - Experimentação prática de 1 mês na empresa, configurada como estágio obrigatório e não remunerado.
-- Possibilidade de premiação, estágio remunerado ou contratação conforme interesse e necessidade da empresa.
+- Possibilidade de premiação, lembranças e/ou conforme interesse da empresa estágio renumerado ou contratação.
 
 ---
-
-## Benefícios para a Empresa e para a Comunidade
-- Contribuição social ao ajudar a desenvolver talentos locais.
-- Formação de profissionais alinhados às demandas reais da empresa.
-- Identificação precoce de potenciais colaboradores.
-- Apoio ao desenvolvimento de soluções práticas para pequenos comerciantes e para a comunidade local.
-
----
-
 ## Contatos e Próximos Passos
 Estamos à disposição para apresentar detalhes, alinhar expectativas e ajustar o programa para que seja uma parceria de sucesso.
 
