@@ -66,12 +66,4 @@ Por exemplo: criar um site paranavaí-aciap com subdomínio de divulgação e av
 --- 
 
 ### Caça talentos
-- Espaço, mentoria e infraestrutura (servidores, subdomínio, mentoria técnica)
-    - encontros pontuais de orietnação, validar o trabalho.
-
-Por exemplo: criar um site paranavaí-aciap com subdomínio de divulgação e avaliação dos comerciantes
-
->>>benefícios
-- cunho social a comunidade;
-- formação e desenvolvimento dos profissionais; 
-- identificação de talentos.
+[descrição](https://github.com/heliokamakawa/aula/tree/main/extensao)
