@@ -23,7 +23,7 @@ Criar um programa de extensão para conectar alunos do curso de Engenharia de So
 - Ferramentas de produtividade (Google Docs, Planilhas, Agenda, etc.)
 - Suporte personal online após o curso.
 
-### 4. Suporte Digital Remoto
+### Suporte Digital Remoto
 - Atendimento via WhatsApp, vídeo ou e-mail
 - Foco em ações simples e úteis para os comerciantes
 
