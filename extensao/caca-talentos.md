@@ -3,20 +3,6 @@
 
 ---
 
-## ✅ Pontos a Definir com a Empresa (customizável conforme interesse e disponibilidade)
-
-| Item                 | Descrição                                                                                 | Definido pela Empresa? |
-|----------------------|-------------------------------------------------------------------------------------------|-----------------------|
-| 📍 Local de execução   | Pode ser remoto, presencial ou híbrido. Caso não tenha estrutura, o IFPR pode apoiar.      | ⬜                     |
-| 🧑‍🏫 Participação na formação | A empresa pode fornecer materiais, mentores, encontros ou utilizar o modelo do IFPR.         | ⬜                     |
-| 🛠 Projeto a ser desenvolvido | Pode ser definido pela empresa ou proposto pelos alunos com validação da empresa.           | ⬜                     |
-| 🎯 Critérios de avaliação | A empresa pode indicar critérios ou apenas participar como banca avaliadora.                   | ⬜                     |
-| 🧪 Estágio obrigatório | A experiência prática pode ser configurada como estágio obrigatório (não remunerado).       | ⬜                     |
-| 🏆 Premiações / oportunidades | A empresa pode oferecer prêmios simbólicos, mentorias, estágios remunerados ou contratação. | ⬜                     |
-| 💬 Encontros de alinhamento | Disponibilidade para breves reuniões de acompanhamento e feedback com alunos.                 | ⬜                     |
-
----
-
 ## Descrição do Programa
 
 **Duração:** 3 meses
@@ -33,12 +19,15 @@ Formar e identificar talentos em Engenharia de Software, conectando alunos do IF
 - Definição do formato e da estrutura do programa em alinhamento com a empresa.
 - Caso necessário, turmas matriculadas em Ambiente Virtual de Aprendizagem (AVA).
 
-### 2º Fase - Formação e Desenvolvimento
-- Cursos e estudos de materiais com ou sem avaliação... PRECISA??? É INTERESSANTE?
-- Desenvolvimento dos projetos em equipes, com orientação e suporte da empresa e/ou professores.
-- Execução preferencialmente remota, devido à disponibilidade da empresa e perfil dos alunos, podendo ser presencial ou híbrida.
-- A empresa pode optar por conduzir a formação seguindo sua metodologia ou delegar a estrutura do IFPR, ou ainda um modelo misto.
-- CONFIGURAR COMO ESTÁGIO OBRIGATÓRIO? Definir filtro?
+### 2ª Fase – Formação, Desenvolvimento e Desafio Prático
+A proposta pode ser ajustada conforme a realidade da empresa, com total apoio do IFPR na viabilização e execução.
+
+- Opcionalmente, a empresa pode fornecer materiais, cursos para os participantes (atividade de filtro).  
+- É possível aplicar testes para avaliar o engajamento e conhecimento dos candidatos.  
+- **Desafio prático**: desenvolvimento de projetos individuais ou em equipe, dependendo do número de participantes.  
+  - A tecnologia e o formato (presencial, remoto ou híbrido) podem ser definidos pela empresa.  
+  - A formação pode seguir a metodologia da empresa, a estrutura do IFPR ou um modelo híbrido.  
+  - Caso haja interesse, esta fase pode ser configurada como estágio obrigatório (não remunerado), proporcionando uma experiência real de trabalho.  
 
 ### 3º Fase - Avaliação e Reconhecimento
 - Apresentação dos projetos em banca avaliadora, que pode ser realizada na empresa ou no IFPR.
@@ -51,4 +40,16 @@ Formar e identificar talentos em Engenharia de Software, conectando alunos do IF
 Estamos à disposição para apresentar detalhes, alinhar expectativas e ajustar o programa para que seja uma parceria de sucesso.
 
 ---
+## ✅ Pontos a Definir com a Empresa (customizável conforme interesse e disponibilidade)
 
+| Item                 | Descrição                                                                                 | Definido pela Empresa? |
+|----------------------|-------------------------------------------------------------------------------------------|-----------------------|
+| 📍 Local de execução   | Pode ser remoto, presencial ou híbrido. Caso não tenha estrutura, o IFPR pode apoiar.      | ⬜                     |
+| 🧑‍🏫 Participação na formação | A empresa pode fornecer materiais, mentores, encontros ou utilizar o modelo do IFPR.         | ⬜                     |
+| 🛠 Projeto a ser desenvolvido | Pode ser definido pela empresa ou proposto pelos alunos com validação da empresa.           | ⬜                     |
+| 🎯 Critérios de avaliação | A empresa pode indicar critérios ou apenas participar como banca avaliadora.                   | ⬜                     |
+| 🧪 Estágio obrigatório | A experiência prática pode ser configurada como estágio obrigatório (não remunerado).       | ⬜                     |
+| 🏆 Premiações / oportunidades | A empresa pode oferecer prêmios simbólicos, mentorias, estágios remunerados ou contratação. | ⬜                     |
+| 💬 Encontros de alinhamento | Disponibilidade para breves reuniões de acompanhamento e feedback com alunos.                 | ⬜                     |
+
+---
