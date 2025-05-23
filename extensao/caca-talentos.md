@@ -32,7 +32,6 @@ A proposta pode ser ajustada conforme a realidade da empresa, com total apoio do
 ### 3º Fase - Avaliação e Reconhecimento
 - Apresentação dos projetos em banca avaliadora, que pode ser realizada na empresa ou no IFPR.
 - Seleção dos talentos que melhor se destacarem.
-- Experimentação prática de 1 mês na empresa, configurada como estágio obrigatório e não remunerado.
 - Possibilidade de premiação, lembranças e/ou conforme interesse da empresa estágio renumerado ou contratação.
 
 ---
