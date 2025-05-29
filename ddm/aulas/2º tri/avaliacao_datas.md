@@ -44,11 +44,11 @@ Critério essencial para garantir o conceito **C** (produtividade e autoria clar
 - Final: **14/08/2025**  
 > *Você pode escolher fazer apenas uma das duas, mas é permitido realizar ambas.*
 
-> 🧠 Será avaliado seu nível de conhecimento, grau de autoria e domínio sobre o projeto. Algumas questões será feita com base no **projeto de estudo de caso do professor**.
-> 2 Questôes com teor préviamente fornecidades;
-> 1 Questôes escolhidas pela turma;
-> 1 Questão da atividade da aula;
-> 1 Questão da surpresa;
+> 🧠 Será avaliado seu nível de conhecimento, grau de autoria e domínio sobre o projeto. Algumas questões serão feitas com base no **projeto de estudo de caso do professor**.
+> 2 questões com conteúdo previamente divulgado;
+> 1 questão escolhida pela turma;
+> 1 questão baseada em atividade de aula;
+> 1 questão surpresa;
 
 
 ---
