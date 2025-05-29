@@ -8,11 +8,11 @@
 
 ---
 
-## 📚 Conteúdo da Aula
+## 📚 Responder em grupos as seguintes questões:
 
 ### 💡 Temas abordados:
 - **Uso da Inteligência Artificial (IA) no desenvolvimento de software**
-  - Quando e como utilizar a IA como aliada  
+  - Quando e como utilizar a IA como aliada?  
 - **Perfil do profissional de TI no contexto da IA**  
   - Reflexão: com ou sem IA, qual é o diferencial do bom profissional?  
 - **Cenário atual: o que a IA consegue fazer?**  
