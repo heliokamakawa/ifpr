@@ -1,4 +1,4 @@
-# 📚 Avaliações do 2º Trimestre – Engenharia de Software
+# 📚 Avaliações do 2º Trimestre 
 
 ## 🎯 Foco do Trimestre
 **Tema central:** Persistência de dados com boas práticas e padrões de desenvolvimento.
@@ -39,12 +39,17 @@ Critério essencial para garantir o conceito **C** (produtividade e autoria clar
   - Indicação clara de **se e como foi usada a IA**
 - **Imagens ou GIFs** do app em funcionamento (opcional, mas recomendado)
 
-### 📌 Verificações do Diário:
+### 📌 Check do Projeto:
 - Primeira: **03/07/2025**
 - Final: **14/08/2025**  
 > *Você pode escolher fazer apenas uma das duas, mas é permitido realizar ambas.*
 
-> 🧠 Será avaliado seu nível de conhecimento, grau de autoria e domínio sobre o projeto. A validação será feita com base no **projeto de estudo de caso do professor**.
+> 🧠 Será avaliado seu nível de conhecimento, grau de autoria e domínio sobre o projeto. Algumas questões será feita com base no **projeto de estudo de caso do professor**.
+> 2 Questôes com teor préviamente fornecidades;
+> 1 Questôes escolhidas pela turma;
+> 1 Questão da atividade da aula;
+> 1 Questão da surpresa;
+
 
 ---
 
@@ -62,7 +67,7 @@ Critério essencial para garantir o conceito **C** (produtividade e autoria clar
 
 ## 📆 Cronograma de Entregas do Projeto
 
-| Data         | Entrega                                                                 | Pontuação Estimada |
+| Data         | Entrega                                                                 | Pontuação Mínima |
 |--------------|-------------------------------------------------------------------------|---------------------|
 | **05/06**    | Commits de todos os **widgets/componentes**                             | até 10 pt           |
 | **12/06**    | Cadastro **simples** funcionando                                        | até 6 pt            |
