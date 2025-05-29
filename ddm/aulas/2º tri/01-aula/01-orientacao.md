@@ -3,7 +3,7 @@
 ## 🕓 Início da Aula: Enquanto Esperamos
 - Retomar o projeto individual;  
 - Garantir que o projeto esteja rodando corretamente;  
-- Realizar a leitura completa do sistema de avaliação do 2º trimestre - acesse (aqui)[https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/2%C2%BA%20tri/avaliacao_datas.md]
+- Realizar a leitura completa do sistema de avaliação do 2º trimestre - acesse [aqui](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/2%C2%BA%20tri/avaliacao_datas.md)
 - Tirar dúvidas com o professor e organizar o planejamento das entregas
 
 ---
