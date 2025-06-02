@@ -3,6 +3,9 @@
 Este documento apresenta as diretrizes de participação e avaliação para a disciplina, com base na metodologia ativa "Ciclo de Conhecimento". 
 O objetivo é promover uma aprendizagem significativa, autoral, colaborativa e contínua.
 
+
+https://forms.gle/dvR3MfeZYPtzP8z59
+
 ---
 
 ## ✨ Objetivo Geral
