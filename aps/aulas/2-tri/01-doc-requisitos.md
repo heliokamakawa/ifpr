@@ -211,11 +211,12 @@ O termo **"Manutenir"** refere-se ao conjunto completo de operações de gerenci
 
 Padrão utilizado: IEEE 830.
 
-| ID      | Descrição                                                                                                           | Prioridade | Origem       | Critérios de Aceitação                                                                                                  |
-| ------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| REQ-001 | Manutenir Materiais de Consumo — Campos: `Nome*` (texto livre), `Status&` (Disponível, Em Utilização, Danificado, Aguardando Manutenção) | Alta       | LRE001-001   | Permitir criar, consultar, atualizar e excluir materiais; `Nome` obrigatório; `Status` deve ser uma opção válida.       |
-| REQ-002 | Manutenir Empréstimos — Campos: `Material#` (ligado a REQ-001, apenas materiais Disponíveis), `Usuário*`, `@Data Empréstimo` (≥ data atual), `@Data Devolução Prevista` (≥ `@Data Empréstimo`) | Alta       | LRE001-002   | Permitir registrar empréstimos e devoluções; validar disponibilidade do material; datas com máscaras e validações corretas.|
-| REQ-003 | Manutenir Usuários — Campos: `Nome*`, `Perfil&` (Admin, Funcionário), `CPF*` (validar dígitos verificadores CPF)    | Alta       | LRE002       | Permitir criar, consultar, atualizar e excluir usuários; `Nome` e `CPF` obrigatórios; validar CPF com algoritmo padrão.  |
+| ID      | Descrição                                                                                                               | Prioridade | Origem  | Critérios de Aceitação                                                                                                                                                                             |
+| ------- | ----------------------------------------------------------------------------------------------------------------------- | ---------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| REQ-001 | Manutenir Materiais de Consumo — campos: Nome, Status (&: Disponível, Em Utilização, Danificado, Aguardando Manutenção) | Alta       | LRE-001 | - Permitir cadastro de novos materiais. <br> - Permitir edição dos materiais existentes. <br> - Permitir exclusão apenas se não houver empréstimos vinculados. <br> - Validar campos obrigatórios. |
+| REQ-002 | Manutenir Usuários — campos: Nome, Perfil (&: Admin, Funcionário)                                                       | Alta       | LRE-002 | - Cadastro deve validar perfis corretamente. <br> - Usuários só acessam funções permitidas pelo perfil. <br> - Permitir desativação de usuários sem exclusão.                                      |
+| REQ-003 | Emissão de relatórios de uso semanal/mensal                                                                             | Média      | LRE-003 | - Relatórios devem ser exportáveis em PDF. <br> - Deve filtrar por período. <br> - Incluir gráficos com resumo estatístico.                                                                        |
+
 
 ---
 
