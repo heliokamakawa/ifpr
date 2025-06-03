@@ -1,3 +1,10 @@
+Aula 03/06
+- Curso Virtus  
+- Sábado Letivo  
+- Redefinição de grupos (se quiserem)  
+- Correções gerais - afinamento.
+
+
 ## 1. Visão Geral do Sistema
 
 Apresentar de forma **breve e objetiva**, o *problema ou necessidade* que o sistema se propõe a resolver, **contextualizando o ambiente** e os **desafios enfrentados**.
