@@ -113,30 +113,114 @@ Apresentação das técnicas utilizadas para levantamento de requisitos, bem com
 ---
 
 ### 3.1 Levantamento de Requisitos
+Esta seção apresenta os requisitos levantados junto aos stakeholders e fontes documentais, organizados hierarquicamente para facilitar o entendimento e a rastreabilidade.
 
-Sistema de identificação:
+Sistema de identificação:  
 
-* **LRP###**: Requisitos principais (ex: LRP001)
-* **LRE###**: Requisitos específicos (módulos do sistema, ex: LRE001)
-* **LRE###-###**: Detalhamento dos requisitos específicos (ex: LRE001-001)
+- **LRP (Levantamento Requisito Principal):**  
+  Representa o objetivo geral do sistema, a necessidade central que ele deve atender.   
+  Exemplo: LRP001 - Controle de empréstimo e devolução de materiais e achados e perdidos.  
 
-📌 Cada requisito deve apresentar:
+- **LRE (Levantamento Requisito Específico):**  
+  Representa os módulos ou funcionalidades principais que compõem o sistema, derivados do requisito principal.   
+  Exemplo:  
+  - LRE001 - Controle de empréstimos e devolução de materiais  
+  - LRE002 - Controle de achados e perdidos  
 
-* **Descrição fiel** do que foi dito/origem.
-* **Complemento técnico**, se necessário, mantendo a declaração original + validação.
-* **Origem** (ex: entrevista, observação, documento).
+- **LRE Sub-itens:**  
+  Divisão técnica e interpretativa dos módulos em funcionalidades específicas ou agrupamentos de requisitos menores.  
+  Exemplo:  
+  - LRE001-001 - Cadastro de materiais  
+  - LRE001-002 - Registro de empréstimo de material  
+
+Siglas para facilitar a rastreabilidade:  
+- E = Entrevista  
+- Q = Questionário  
+- D = Documento analisado  
+- O = Observação direta
+
+**Exemplo:**
+- **LRP001 - Controle de empréstimo e devolução de materiais e achados e perdidos**  
+  Objetivo geral do sistema: controlar o fluxo de empréstimos e devoluções de materiais, assim como gerenciar itens achados e perdidos no ambiente da organização.  
+  Origem: E (Entrevista)
+
+  - **LRE001 - Controle de empréstimos e devolução de materiais**  
+    Módulo responsável pelo cadastro e movimentação dos materiais emprestados.  
+    Origem: E (Entrevista)
+
+    - **LRE001-001 - Cadastro de materiais**  
+      Funcionalidade para registro dos materiais disponíveis para empréstimo.  
+      Campos principais:  
+        - Nome: identificador do material, campo essencial para busca e organização.  
+        - Descrição: detalhes adicionais sobre o material, como características e estado.  
+        - Status: indica se o material está disponível, em uso, danificado, ou aguardando manutenção.
+
+    - **LRE001-002 - Registro de empréstimo de material**  
+      Permite registrar o empréstimo de um material a um usuário.  
+      Campos principais:  
+        - Material: referência ao material emprestado (associação com cadastro de materiais).  
+        - Usuário: quem está recebendo o material.  
+        - Data de Empréstimo: data do início do empréstimo.  
+        - Data de Devolução Prevista: data estimada para devolução do material.
+
+    - **LRE001-003 -...**  
+
+  - **LRE002 - Controle de achados e perdidos**  
+    Gerenciamento dos itens encontrados e que aguardam identificação ou devolução.  
+    Origem: E (Entrevista)
+
+    - **LRE002-001 - Registro de item achado**  
+      Cadastro de itens encontrados no ambiente, para controle e eventual devolução.  
+      Campos principais:  
+        - Descrição do item: informações que permitam identificar o objeto.  
+        - Local onde foi encontrado: registro do local do achado.  
+        - Data do registro: data em que o item foi registrado no sistema.
+
+    - **LRE002-002 - ...**  
+
+> **Observação:** 
+- capturar fielmente as necessidades e expectativas dos stakeholders;
+- sem detalhamento técnico não mencionado;
+- esta validação cabe validação/verificação
+- em caso da descrição fiel dito precisar de mais especificação, indica-se a manutenção da descrição original com o complemento da validação
+
 
 ---
 
 ### 3.2 Requisitos Identificados
 
-A tabela abaixo segue a estrutura do padrão IEEE 830.
+Para garantir uniformidade na especificação dos requisitos, adotamos as seguintes siglas e padrões para os campos:
 
-| ID      | Descrição                                                                                   | Prioridade | Origem | Critérios de Aceitação                                    |
-| ------- | ------------------------------------------------------------------------------------------- | ---------- | ------ | --------------------------------------------------------- |
-| REQ-001 | Manutenir Materiais de Consumo — campos: *Nome*, *Status* (Disponível, Em Utilização, etc.) | Alta       | LRE001 | Permitir o cadastro e manutenção dos materiais de consumo |
-| REQ-002 | Cadastro de Usuários com perfil de acesso diferenciado (Admin, Funcionário)                 | Alta       | LRE002 | Usuário só acessa funções permitidas por seu perfil       |
-| REQ-003 | Emissão de relatórios de uso semanal/mensal                                                 | Média      | LRE003 | Relatórios exportáveis em PDF                             |
+- `*` **Campo Obrigatório:** informação essencial, não pode ficar vazia.  
+  Exemplo: `Nome*` — identifica o item, é obrigatório.
+
+- `&` **Campo Enum (opções definidas):** campo com conjunto fixo de valores possíveis.  
+  Exemplo: `Status&` — valores: `Disponível`, `Em Utilização`, `Danificado`, `Aguardando Manutenção`.
+
+- `#` **Campo Associado:** campo relacionado a outro cadastro ou requisito.  
+  Exemplo: `Material#` — relacionado ao cadastro de materiais (REQ-001).
+
+- `@` **Campo Data (máscara e validações):**  
+  - Máscara: `DD/MM/AAAA`  
+  - Validações comuns:  
+    - `@Data Empréstimo` não pode ser anterior à data atual.  
+    - `@Data Devolução Prevista` deve ser igual ou posterior à `@Data Empréstimo`.
+
+> ⚠️**Validações específicas:** devem ser claras e específicas para evitar ambiguidades.  
+>  Exemplo negativo: “Validar CPF correto.”  
+>  Exemplo positivo: “Validar dígitos verificadores do CPF segundo algoritmo padrão.”
+> Sempre descreva detalhadamente as validações para facilitar testes e implementação, evitando retrabalho e dúvidas.
+
+---
+
+Padrão utilizado: IEEE 830.
+
+| ID      | Descrição                                                                                                          | Prioridade | Origem       | Critérios de Aceitação                                                                                                  |
+| ------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| REQ-001 | Manutenção de Materiais de Consumo — Campos: `Nome*` (texto livre), `Status&` (Disponível, Em Utilização, Danificado, Aguardando Manutenção) | Alta       | LRE001-001   | `Nome` não pode ficar vazio; `Status` deve ser uma das opções definidas; alterações refletidas em tempo real.           |
+| REQ-002 | Registro de Empréstimo — Campos: `Material#` (ligado a REQ-001, apenas materiais Disponíveis), `Usuário*`, `@Data Empréstimo` (≥ data atual), `@Data Devolução Prevista` (≥ `@Data Empréstimo`) | Alta       | LRE001-002   | Validar disponibilidade do material; validar máscaras e coerência das datas; usuário ativo.                             |
+| REQ-003 | Cadastro de Usuários — Campos: `Nome*`, `Perfil&` (Admin, Funcionário), `CPF*` (validar dígitos verificadores CPF)   | Alta       | LRE002       | `Nome` obrigatório; `Perfil` deve ser um dos valores válidos; CPF validado segundo algoritmo oficial.                    |
+
 
 ---
 
