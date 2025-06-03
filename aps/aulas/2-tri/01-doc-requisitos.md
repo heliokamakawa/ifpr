@@ -199,6 +199,9 @@ Para garantir uniformidade na especificação dos requisitos, adotamos as seguin
     - `@Data Empréstimo` não pode ser anterior à data atual.  
     - `@Data Devolução Prevista` deve ser igual ou posterior à `@Data Empréstimo`.
 
+O termo **"Manutenir"** refere-se ao conjunto completo de operações de gerenciamento de uma entidade do sistema, incluindo **criar, consultar, atualizar e excluir** (CRUD). 
+
+
 > ⚠️**Validações específicas:** devem ser claras e específicas para evitar ambiguidades.  
 >  Exemplo negativo: “Validar CPF correto.”  
 >  Exemplo positivo: “Validar dígitos verificadores do CPF segundo algoritmo padrão.”
@@ -208,12 +211,11 @@ Para garantir uniformidade na especificação dos requisitos, adotamos as seguin
 
 Padrão utilizado: IEEE 830.
 
-| ID      | Descrição                                                                                                          | Prioridade | Origem       | Critérios de Aceitação                                                                                                  |
+| ID      | Descrição                                                                                                           | Prioridade | Origem       | Critérios de Aceitação                                                                                                  |
 | ------- | ------------------------------------------------------------------------------------------------------------------ | ---------- | ------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| REQ-001 | Manutenção de Materiais de Consumo — Campos: `Nome*` (texto livre), `Status&` (Disponível, Em Utilização, Danificado, Aguardando Manutenção) | Alta       | LRE001-001   | `Nome` não pode ficar vazio; `Status` deve ser uma das opções definidas; alterações refletidas em tempo real.           |
-| REQ-002 | Registro de Empréstimo — Campos: `Material#` (ligado a REQ-001, apenas materiais Disponíveis), `Usuário*`, `@Data Empréstimo` (≥ data atual), `@Data Devolução Prevista` (≥ `@Data Empréstimo`) | Alta       | LRE001-002   | Validar disponibilidade do material; validar máscaras e coerência das datas; usuário ativo.                             |
-| REQ-003 | Cadastro de Usuários — Campos: `Nome*`, `Perfil&` (Admin, Funcionário), `CPF*` (validar dígitos verificadores CPF)   | Alta       | LRE002       | `Nome` obrigatório; `Perfil` deve ser um dos valores válidos; CPF validado segundo algoritmo oficial.                    |
-
+| REQ-001 | Manutenir Materiais de Consumo — Campos: `Nome*` (texto livre), `Status&` (Disponível, Em Utilização, Danificado, Aguardando Manutenção) | Alta       | LRE001-001   | Permitir criar, consultar, atualizar e excluir materiais; `Nome` obrigatório; `Status` deve ser uma opção válida.       |
+| REQ-002 | Manutenir Empréstimos — Campos: `Material#` (ligado a REQ-001, apenas materiais Disponíveis), `Usuário*`, `@Data Empréstimo` (≥ data atual), `@Data Devolução Prevista` (≥ `@Data Empréstimo`) | Alta       | LRE001-002   | Permitir registrar empréstimos e devoluções; validar disponibilidade do material; datas com máscaras e validações corretas.|
+| REQ-003 | Manutenir Usuários — Campos: `Nome*`, `Perfil&` (Admin, Funcionário), `CPF*` (validar dígitos verificadores CPF)    | Alta       | LRE002       | Permitir criar, consultar, atualizar e excluir usuários; `Nome` e `CPF` obrigatórios; validar CPF com algoritmo padrão.  |
 
 ---
 
