@@ -119,19 +119,12 @@ Sistema de identificação:
 
 - **LRP (Levantamento Requisito Principal):**  
   Representa o objetivo geral do sistema, a necessidade central que ele deve atender.   
-  Exemplo: LRP001 - Controle de empréstimo e devolução de materiais e achados e perdidos.  
 
 - **LRE (Levantamento Requisito Específico):**  
   Representa os módulos ou funcionalidades principais que compõem o sistema, derivados do requisito principal.   
-  Exemplo:  
-  - LRE001 - Controle de empréstimos e devolução de materiais  
-  - LRE002 - Controle de achados e perdidos  
 
 - **LRE Sub-itens:**  
-  Divisão técnica e interpretativa dos módulos em funcionalidades específicas ou agrupamentos de requisitos menores.  
-  Exemplo:  
-  - LRE001-001 - Cadastro de materiais  
-  - LRE001-002 - Registro de empréstimo de material  
+  Divisão técnica e interpretativa dos módulos em funcionalidades específicas ou agrupamentos de requisitos menores.   
 
 Siglas para facilitar a rastreabilidade:  
 - E = Entrevista  
