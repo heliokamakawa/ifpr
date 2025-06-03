@@ -13,7 +13,10 @@ Apresentar de forma **breve e objetiva**, o *problema ou necessidade* que o sist
 
 ### 1.1 Introdução (Análise de Requisitos)
 
-Apresenta o **objetivo deste documento**, que é consolidar e organizar as informações levantadas na fase de análise de requisitos, servindo de referência para todas as partes interessadas durante o desenvolvimento do sistema.
+Problematização, contextualização do projeto, objetivo do documento/projeto - serve como apoio aos outros tópicos, servindo de referência para todas as partes interessadas durante o desenvolvimento do sistema.
+
+Exemplo: 
+Este documento apresenta a análise de requisitos para o desenvolvimento de um Sistema de Controle de Empréstimo de Materiais e Achados e Perdidos (SCEAP) para o Instituto Federal do Paraná (IFPR), Campus Paranavaí. Seu objetivo é detalhar as necessidades dos usuários, os requisitos funcionais e não funcionais, e o escopo do sistema proposto, servindo como base para as fases subsequentes de design, desenvolvimento e implantação do software.
 
 ---
 
