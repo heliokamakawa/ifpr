@@ -172,10 +172,10 @@ Siglas para facilitar a rastreabilidade:
     - **LRE002-002 - ...**  
 
 > **Observação:** 
-- capturar fielmente as necessidades e expectativas dos stakeholders;
-- sem detalhamento técnico não mencionado;
-- esta validação cabe validação/verificação
-- em caso da descrição fiel dito precisar de mais especificação, indica-se a manutenção da descrição original com o complemento da validação
+>> - capturar fielmente as necessidades e expectativas dos stakeholders;
+>> - sem detalhamento técnico não mencionado;
+>> - esta validação cabe validação/verificação
+>> - em caso da descrição fiel dito precisar de mais especificação, indica-se a manutenção da descrição original com o complemento da validação
 
 
 ---
