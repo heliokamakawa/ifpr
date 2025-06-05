@@ -11,7 +11,7 @@
 
 ## Projeto – Desenvolvimento Flutter com IA
 
-**Pontuação de Complexidade**
+**Pontuação de Complexidade mínima: 26 pontos**
 - **Cadastro simples** – 1 ponto cada (máximo de 5 pts)
 - **Cadastro com associação (1:N)** – 3 pontos cada
 - **Cadastro associativa (N:N)** – 6 pontos cada  
