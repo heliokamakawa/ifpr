@@ -36,22 +36,28 @@ Foco em produtividade e validação objetiva de habilidades essenciais para um *
 
 ### Checks Obrigatórios
 Os checks funcionam como validação final de que sabe o que ocorre no projeto. Cada aluno deverá realizar **2 checks técnicos**:
+  
 **Widgets (1:1 ou 1:N)**
 - Localização e alteração eficiente e rápida de um código simples;    
 - Refatoração signficativa com tempo limitado.    
+  
 **Persistência (1:1 ou 1:N)** 
 - Localização e alteração eficiente e rápida de um código simples;    
 - Refatoração signficativa com tempo limitado.      
+  
 **Salvar os resultados em:**  
 - `lib-descricao/check`
 - O professor fará a verificação com **reação via Git**
+  
 **Prazos**
 - **Check de Widgets**: até **03/07/2025**  
 - **Check de Persistência**: até **02/08/2025**  
+  
 **Os commits são pré-requisitos para os checks.**  
 - A entrega contínua incentiva estudo periódico e organização.  
 - Somente os commits não serão suficientes.
 - Alunos que precisarem faltar podem antecipar suas entregas em casa.
+  
 **Calendário**
 - Não será possível aplicar os checks a todos os alunos no mesmo dia.  
 - Caso não haja organização espontânea entre os alunos, será definido um **calendário de atendimento**.
