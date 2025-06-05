@@ -1,6 +1,6 @@
-# 📚 Avaliação – 2º Trimestre
+# Avaliação – 2º Trimestre
 
-## 🗓️ Cronograma
+## Cronograma
 
 - **14/08/2025** – Avaliação Trimestral *(Dissertativa)*
 - **21/08/2025** – Retomada de conteúdos  
@@ -8,7 +8,7 @@
 
 ---
 
-## 💡 Projeto – Desenvolvimento Flutter com IA
+## Projeto – Desenvolvimento Flutter com IA
 
 Foco em produtividade e validação objetiva de habilidades essenciais para um **Dev Júnior**, com ênfase na capacidade de:
 
@@ -16,7 +16,7 @@ Foco em produtividade e validação objetiva de habilidades essenciais para um *
 - Realizar manutenções eficientes
 - Evoluir projetos com clareza e responsabilidade
 
-### 🔸 Dois Projetos
+### Dois Projetos
 **Demonstração** (Projeto em Equipe com o Professor)
 - Praticar em grupo e consolidar aprendizagens  
 - 1 projeto por equipe → commit até o intervalo   
@@ -26,7 +26,7 @@ Foco em produtividade e validação objetiva de habilidades essenciais para um *
 - 1 projeto por aluno → commit até o final da aula  
 - Entregas contínuas e autorais sem ajuda  
 
-### ✅ Checks Obrigatórios
+### Checks Obrigatórios
 Os checks funcionam como validação final de que sabe o que ocorre no projeto. Cada aluno deverá realizar **2 checks técnicos**:
 **Widgets**
 - Localização e alteração eficiente e rápida de um código simples;    
