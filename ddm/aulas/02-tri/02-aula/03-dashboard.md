@@ -23,5 +23,7 @@ A aba `_cadastros` deve listar as seguintes opções de cadastro:
 
 Todas as rotas para estas opções devem ser definidas temporariamente como uma string vazia (`''`).
 
+A componentização dos elementos como _InfoCard e _CadastroTile dverão ser componentes locais gerados por métodos, e não classes separadas.
+
 - **Descrição geral**:
 Widget Flutter para a tela 'Visão Geral' (o conteúdo do `_visaoGeral`) da `TelaDashboard`. Ele deve ser um `GridView` com duas colunas, contendo 5 `_InfoCards`. Cada `_InfoCard` deve ter um ícone (`Icons.message`, `Icons.person`, `Icons.schedule`, `Icons.music_note`, `Icons.directions_bike`), um valor numérico (ex: '3', '82', '12', '4', '18') e um título correspondente ('Recados', 'Alunos Ativos', 'Aulas Agendadas', 'Mix de Músicas', 'Bikes OK'). O layout deve ser responsivo e os cartões devem ter uma elevação sutil e bordas arredondadas.

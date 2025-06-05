@@ -1,4 +1,5 @@
 # Avaliação – 2º Trimestre
+**Tema central:** Persistência de dados com boas práticas e padrões de desenvolvimento.
 
 ## Cronograma
 
@@ -9,6 +10,12 @@
 ---
 
 ## Projeto – Desenvolvimento Flutter com IA
+
+**Pontuação de Complexidade**
+- **Cadastro simples** – 1 ponto cada (máximo de 5 pts)
+- **Cadastro com associação (1:N)** – 3 pontos cada
+- **Cadastro associativa (N:N)** – 6 pontos cada  
+  > ⚠️ É obrigatório ter pelo menos **uma funcionalidade** com persistência associativa.
 
 Foco em produtividade e validação objetiva de habilidades essenciais para um **Dev Júnior**, com ênfase na capacidade de:
 
@@ -28,10 +35,10 @@ Foco em produtividade e validação objetiva de habilidades essenciais para um *
 
 ### Checks Obrigatórios
 Os checks funcionam como validação final de que sabe o que ocorre no projeto. Cada aluno deverá realizar **2 checks técnicos**:
-**Widgets**
+**Widgets (1:1 ou 1:N)**
 - Localização e alteração eficiente e rápida de um código simples;    
 - Refatoração signficativa com tempo limitado.    
-**Persistência**
+**Persistência (1:1 ou 1:N)** 
 - Localização e alteração eficiente e rápida de um código simples;    
 - Refatoração signficativa com tempo limitado.      
 **Salvar os resultados em:**  
