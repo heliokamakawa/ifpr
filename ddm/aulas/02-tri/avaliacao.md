@@ -28,6 +28,7 @@ Foco em produtividade e validação objetiva de habilidades essenciais para um *
 - Praticar em grupo e consolidar aprendizagens  
 - 1 projeto por equipe → commit até o intervalo   
 - Desenvolvimento com acompanhamento e tira-dúvidas em aula   
+  
 **Personal**
 - Principal evidência de autoria e aprendizagem. Como um avaliação, necessário realizar sozinho sem ajuda  
 - 1 projeto por aluno → commit até o final da aula  
