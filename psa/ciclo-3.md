@@ -4,7 +4,7 @@
 A avaliação da qualidade do artigo e sua relevância para o evento ou revista externa segue a seguinte classificação:  
 - **C**: Aceite de artigo no evento local (SETIF).  
 - **B**: Aceite de artigo no evento local e **ministrar um curso correlato à disciplina**.  
-- **A**: Aceite na **revista externa**, preferencialmente correlato a TI.  
+- **A**: Aceite na **revista externa** e **ministrar um curso correlato à disciplina**.    
 
 ## Pré-requisitos para Submissão do Artigo
 - O grupo deve ser formado por **2 a 3 pessoas**.
