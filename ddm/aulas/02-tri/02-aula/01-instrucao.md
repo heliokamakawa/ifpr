@@ -1,6 +1,5 @@
 # 📅 Aula – 05/06
 
-
 ## Horas complementares - Grupo 01
 - [Curso Virtus - Banco de Talentos](https://dontpad.com/ifprpsa) 
 **Formulário para cadastro:** https://forms.office.com/r/6ce90cAXfE
@@ -12,7 +11,6 @@
 - Tirar dúvidas com o professor e organizar o planejamento das entregas
 
 ---
-
 
 ## 🛠️ Atividade em Aula
 
