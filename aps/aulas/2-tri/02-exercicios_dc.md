@@ -65,7 +65,7 @@ Filial_Maringá(id, endereço, nome_fantasia, telefone)
 Filial_Paranavaí(id, endereço, nome_fantasia, telefone)  
 Filial_Cianorte(id, endereço, nome_fantasia, telefone)  
 
-7. 🎓 Modelagem de Classe - Correções
+## 7. 🎓 Modelagem de Classe - Correções
 Analise os exemplos abaixo. Indique se estão CORRETOS ou INCORRETOS e proponha uma modelagem adequada da classe.
 
 a) Controle Escolar
