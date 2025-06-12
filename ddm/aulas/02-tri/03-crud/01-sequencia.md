@@ -2,7 +2,7 @@
 
 ## Orientações iniciais
 - Deixe o projeto Spin_Flow **FUNCIONANDO**
-- adicione as bibliotecas: 
+- adicione as bibliotecas:   
   sqflite:   
   path:  
   sqflite_common_ffi:  
