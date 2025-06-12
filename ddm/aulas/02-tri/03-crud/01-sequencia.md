@@ -23,13 +23,13 @@ Configurações:
 https://pub.dev/packages/sqflite_common_ffi_web
 - dart run sqflite_common_ffi_web:setup
 
-### PASSO 02: Bibliotecas necessárias (já foi solicitado)
-pubspec
-  mask_text_input_formatter:
-  sqflite: 
-  path:
-  sqflite_common_ffi:
-  sqflite_common_ffi_web:
+### PASSO 02: Bibliotecas necessárias (já foi solicitado)  
+pubspec  
+  mask_text_input_formatter:  
+  sqflite:   
+  path:  
+  sqflite_common_ffi:  
+  sqflite_common_ffi_web:  
 
 ### PASSO 03:definir widget (lista)
 - [descrição do widget lista](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/02-tri/03-crud/03-descricao_script_tabela.md)
