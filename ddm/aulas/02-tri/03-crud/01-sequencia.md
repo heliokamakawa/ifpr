@@ -32,20 +32,36 @@ pubspec
   sqflite_common_ffi_web:
 
 ### PASSO 03:definir widget (lista)
-- [descrição do widget lista]()
+- [descrição do widget lista](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/02-tri/03-crud/03-descricao_script_tabela.md)
 
-definir script 
-- tabela
-- inserções
+### PASSO 04: definir script 
+- tabela: acesse [aqui](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/02-tri/03-crud/03-descricao_script_tabela.md)  
+- inserções: acesse [aqui](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/02-tri/03-crud/04-descricao_script_insert.md)  
 
-conexão
+### PASSO 05: definir classe conexão
+- [descrição do widget lista](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/02-tri/03-crud/05-descricao_conexao.md)
 
-dao
+### PASSO 06: definir classe DAO
+- [descrição do widget lista](https://github.com/heliokamakawa/ifpr/blob/main/ddm/aulas/02-tri/03-crud/06-descricao_dao.md)
 
-implementar dao na lista - consulta
-implementar dao na lista - excluir
-implementar dao no form - incluir
-implementar dao no form/lista - alterar
+### PASSO 07: implementar DAO - consulta
+- No widget lista retirar mock
+- deifinir dao
+
+### PASSO 08: implementar DAO - excluir
+- No widget lista localixar excluir
+- deifinir dao.excluir
+
+### PASSO 09: implementar DAO - insert
+- No widget form localixar salvar
+- deifinir dao.incluir
+
+### PASSO 10: implementar DAO - insert
+- No widget lista definir pop 
+- No pop definir o retorno 
+- No widget form receber o item da lista
+- preencher os campos
+- definir a lógica de alterar
 
 
 

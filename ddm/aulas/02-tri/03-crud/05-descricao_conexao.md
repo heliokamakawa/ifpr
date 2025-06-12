@@ -1,0 +1,12 @@
+Para um projeto flutter que utilize sqflite  
+- defina a classe conexao    
+- nome da classe deve ser Conexao  
+- deve ter o método static get que retorne a conexão única (database)  
+- incluir lógica condicional para execução em ambiente web (usando sqflite_common_ffi_web)  
+- implementar corretamente o tratamento de erros  
+- não coloque comentários  
+- Não utilize o padrão Singleton com construtor privado, mas garanta que a conexão seja instanciada apenas uma vez  
+- considere que já tenha uma variável top level nomeado de criarTabelas (não precisa criar e nem por) que seria um array de string com os comandos para criar as tabelas  
+- considere que já tenha uma variável top level nomeado de inserirFabricantes  (não precisa criar e nem por) que seria um array de string com os comandos para inserir registros  
+- use o join await getDatabasesPath() da biblioteca path apra definir o caminho
+- implemente o deleteDatabase logo em seguida da definição do path para resetar o banco.
