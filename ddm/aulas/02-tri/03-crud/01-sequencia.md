@@ -23,8 +23,8 @@ Configurações:
 https://pub.dev/packages/sqflite_common_ffi_web
 - dart run sqflite_common_ffi_web:setup
 
-### PASSO 02: Bibliotecas necessárias (já foi solicitado)  
-pubspec  
+### PASSO 02: Bibliotecas necessárias em pubspec  (já foi solicitado)  
+
   mask_text_input_formatter:  
   sqflite:   
   path:  
