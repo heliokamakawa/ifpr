@@ -13,7 +13,7 @@
 (1) crie um projeto spin_flow;  
 (2) baixe o projeto;  
 (3) substitue a pasta lib;  
-(4) adicione as bibliotecas; 
+(4) adicione as bibliotecas;   
 (5) execute o comando: "dart run sqflite_common_ffi_web:setup" no terminal.  
 
 ## Passos necessários:
