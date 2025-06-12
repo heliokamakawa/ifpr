@@ -3,10 +3,10 @@
 ## Orientações iniciais
 - Deixe o projeto Spin_Flow **FUNCIONANDO**
 - adicione as bibliotecas: 
-  sqflite: 
-  path:
-  sqflite_common_ffi:
-  sqflite_common_ffi_web:
+  sqflite:   
+  path:  
+  sqflite_common_ffi:  
+  sqflite_common_ffi_web:  
 - execute o comando: "dart run sqflite_common_ffi_web:setup" no terminal  
 
 ## Para quem não tem o porjeto: 
