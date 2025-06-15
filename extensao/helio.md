@@ -17,11 +17,10 @@
 - Programação para Web  
 - Desenvolvimento para Dispositivos Móveis  
 - Projeto de Software Avançado  
-- Análise e Projeto de Sistemas  
+- Análise e Projeto de Sistemas
+  - Engenharia de Software 
 - **Extensão**
-
-- Pesquisa (5 artigos, 20 resumos)
-- Engenharia de Software 
+  - Pesquisa (5 artigos, 20 resumos)
 
 ## Fatos
 - **Graduação:** Único da turma a apresentar o TCC na pré-banca na graduação  
