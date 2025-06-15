@@ -1,4 +1,4 @@
-**Hélio Toshio Kamakawa** -  1976 — 49
+## **Hélio Toshio Kamakawa** -  1976 — 49
 - **Graduação** — Unipar Umuarama (2011–2015)  
 - **Especializações (3)** — Web, Banco de Dados, II
 - **Aperfeiçoamento (1)** — Ensino
