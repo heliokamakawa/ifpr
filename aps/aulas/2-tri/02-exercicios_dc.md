@@ -37,9 +37,9 @@ Modele, utilizando os padrões da UML:
 
 Modele um sistema básico de locação de carros com UML, incluindo:
 
-- ✅ 3 classes com associações corretas (e.g., `Cliente`, `Carro`, `Locação`)
+- ✅ 3 classes com associações corretas 
 - ✍️ Atributos e métodos relevantes para cada classe
-- 🚫 **Desafio Extra:** Para a classe `Carro`, liste **3 atributos e 3 métodos incoerentes ou desnecessários** no contexto de um sistema de locação de veículos.
+- 🚫 **Desafio Extra:** Para a classe `Carro`, liste **3 atributos e 3 métodos, aparentemente no contexto, mas que seja incoerentes ou desnecessários**.
 
 ---
 
@@ -47,32 +47,32 @@ Modele um sistema básico de locação de carros com UML, incluindo:
 
 Analise os seguintes cenários. Diga se a modelagem da **classe Cliente** está **CORRETA** ou **INCORRETA**. Se estiver INCORRETA, justifique e proponha a modelagem adequada da classe (apenas atributos).
 
-a) Carrinho de Lanche (Presencial)
+a) Carrinho de Lanche - Presencial  
 Cliente(id, nome, endereço, número, complemento, referência, bairro, cep, cpf, identidade, registro_acadêmico)
-b) Lanche (Delivery)
+b) Lanche - Delivery    
 Cliente(id, nome, endereço, número, complemento, referência, bairro, cep, cpf, identidade, registro_acadêmico)
 
-## 6. Análise de Modelagem - Estrutura de Classes
-Analise os casos abaixo. Indique se estão CORRETOS ou INCORRETOS. Em caso de erro, explique o problema e proponha uma modelagem correta (classe(s) e atributos).
+## 6. Análise de Modelagem - Estrutura de Classes  
+Analise os casos abaixo. Indique se estão CORRETOS ou INCORRETOS. Em caso de erro, explique o problema e proponha uma modelagem correta (classe(s) e atributos).  
 
 a) Sorveteria com as seguintes classes:  
 baunilha(id, data_vencimento, lote, fornecedor)  
 chocolate(id, data_vencimento, lote, fornecedor)  
 limão(id, data_vencimento, lote, fornecedor)  
 
-b) Fábrica de Peças 
-Filial_Maringá(id, endereço, nome_fantasia, telefone)  
-Filial_Paranavaí(id, endereço, nome_fantasia, telefone)  
-Filial_Cianorte(id, endereço, nome_fantasia, telefone)  
+b) Fábrica de Peças   
+Filial_Maringá(id, razão_social, inscrição estadual)    
+Filial_Paranavaí(id, endereço, nome_fantasia, telefone)   
+Filial_Cianorte(id, nome, atividade_economica, clientes)   
 
 ## 7. 🎓 Modelagem de Classe - Correções
-Analise os exemplos abaixo. Indique se estão CORRETOS ou INCORRETOS e proponha uma modelagem adequada da classe.
+Analise os exemplos abaixo. Indique se estão CORRETOS ou INCORRETOS e proponha uma modelagem adequada da classe.  
 
-a) Controle Escolar
-Aluno(id, nome, endereço, número, complemento, referência, bairro, cep, cpf, identidade, registro_acadêmico)   
+a) Gestão de notas escolar  
+Aluno(id, nome, endereço, número, complemento, referência, bairro, cep, cpf, identidade, registro_acadêmico)     
 
-b) Loja de Roupas - Cliente  
-Cliente(id, nome_completo, idade, cpf)  
+b) Loja de Roupas   
+Cliente(id, nome_completo, idade, cpf, preferências)   
 
 c) Agendamento de Serviços  
 Serviço(id, descrição, hora_inicial, hora_final, tempo_de_serviço)  
@@ -80,28 +80,17 @@ Serviço(id, descrição, hora_inicial, hora_final, tempo_de_serviço)
 
 ## 8. Analise as associações abaixo. Estão CORRETAS ou INCORRETAS?
 * indica associação
-a) Jogador e Time  
-Jogador(nome)  
+a) Time de Futebol  
+Jogador(nome, data_nascimento)  
 Time(nome, descricao, lista<Jogador>*)  
 
-b) Produto, Cliente e Venda
-Produto(nome, preço)  
+b) Lanche de cachorro quente
+Produto(descricao, preço)  
 Cliente(nome, cpf)  
-Venda(data, cliente*, lista<Produto>*)  
+Pedido(data, Cliente*, lista<Produto>*)  
 
-## 9. Analise o modelo abaixo. Ele está adequado para um Diagrama de Classe UML?  
-Cliente
-id: 1
-Nome: Pedro Silva
-cpf: 187.564.698-85
-endereço: Rua Dom Pedro, 8942 - Jardim Olimplo, 87702-584
-telefone: (44) 98854-8547
-cidade: Paranavaí, Paraná-PR
-
-## 10. Analise os exemplos abaixo e verifique a conformidade com UML. Em caso de erro, proponha a modelagem correta da CLASSE.
-
-a) Pizza Delivery 
-Cliente  
+## 9. Os atributos definidos abaixo com exemplificações dos valores necessários estão adequados para um Diagrama de Classe UML? Em caso de erro, proponha a modelagem correta da CLASSE.
+a) Pessoa:  
 id: 1  
 Nome: Pedro Silva  
 cpf: 187.564.698-85  
@@ -109,30 +98,39 @@ endereço: Rua Dom Pedro, 8942 - Jardim Olimplo, 87702-584
 telefone: (44) 98854-8547  
 cidade: Paranavaí, Paraná-PR  
 
-b) Escola
-Aluno  
+b) Cliente Pizza Delivery:     
+id: 1  
+Nome: Pedro Silva  
+cpf: 187.564.698-85  
+endereço: Rua Dom Pedro, 8942 - Jardim Olimplo, 87702-584  
+telefone: (44) 98854-8547  
+cidade: Paranavaí, Paraná-PR  
+
+c) Aluno de escola  
 id: 1  
 Nome: Marcos Gold  
 cpf: 287.564.698-85  
 série: 2  
 curso: engenharia de software  
 
-## 11. Dê exemplos de erros comuns relacionados ao uso de associação e herança. Adote exmplos em que os conceitos parecem estar corretos à primeira vista.  
+## 10. Dê exemplos de erros comuns relacionados ao uso de associação e herança. Adote exemplos em que os conceitos parecem estar corretos à primeira vista.  
 
-## 12. Análise Crítica de Herança em Modelagem de Classes
-Nesta atividade, analise criticamente o uso de herança em dois cenários distintos. Para cada caso, argumente se a herança proposta é correta, coerente e justificável do ponto de vista da modelagem orientada a objetos.
-a) Considere as seguintes classes: 
+## 11. Análise Crítica de Herança em Modelagem de Classes  
+Nesta atividade, analise criticamente o uso de herança em dois cenários distintos. Para cada caso, argumente se a herança proposta é correta, coerente e justificável do ponto de vista da modelagem orientada a objetos.  
+a) Considere as seguintes classes:  
 - Produto(id, nome, sku, preço)  
 - Cliente(id, nome, endereço, cpf)  
 Pergunta:  
-Seria adequado criar uma classe pai abstrata para reaproveitar os atributos id e nome?  
+Para o reaproveitar e evitar repetição de código, seria adequado criar uma classe pai abstrata para reaproveitar os atributos id e nome?    
 
 b) Herança entre calculadoras   
 Considere a seguinte hierarquia:  
 - CalculadoraCientifica extends Calculadora  
 - CalculadoraFinanceira extends CalculadoraCientifica  
 Pergunta:  
-Essa estrutura de herança é válida e coerente?
+Essa estrutura de herança é válida e coerente?  
 
+## 12. Modele, utilizando UML, um sistema escolar no qual seja necessário representar as seguintes informações sobre o professor: Quantidade de horas de aula ministradas; Número de disciplinas que leciona; Média de alunos por disciplina. Identifique as classes envolvidas, os atributos e métodos relevantes, além das associações com multiplicidades adequadas.
 
-## 13. Modele, utilizando UML, um sistema escolar no qual seja necessário representar as seguintes informações sobre o professor: Quantidade de horas de aula ministradas; Número de disciplinas que leciona; Média de alunos por disciplin. Identifique as classes envolvidas, os atributos e métodos relevantes, além das associações com multiplicidades adequadas.
+## 13. Faça as correções do projeto em equipe.
+
