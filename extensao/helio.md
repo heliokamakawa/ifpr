@@ -1,4 +1,4 @@
-## **Hélio Toshio Kamakawa** -  1976 — 49
+## Hélio Toshio Kamakawa 
 - **Graduação** — Sistemas de Informação  
 - **Especializações (3)** — Web, Banco de Dados, II
 - **Aperfeiçoamento (1)** — Ensino
