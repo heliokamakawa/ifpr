@@ -24,6 +24,6 @@
 
 ## Fatos
 - **Graduação:** Único da turma a apresentar o TCC na pré-banca  
-- **Web:** Único da turma a completar a especialização em Web com 1 ano de antecedência  
+- **Web:** Único da turma a completar com 1 ano de antecedência  
 - **BD:** Conclusão 6 meses de antecedência  
 - **Mestrado:** Conclusão de 10 meses de antecedência
