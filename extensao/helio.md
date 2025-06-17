@@ -22,7 +22,7 @@
 - **Extensão**
   - Pesquisa (5 artigos, 20 resumos)
 
-## Fatos
+## Formação
 - **Graduação:** Único da turma a apresentar o TCC na pré-banca  
 - **Web:** Único da turma a completar com 1 ano de antecedência  
 - **BD:** Conclusão 6 meses de antecedência  
