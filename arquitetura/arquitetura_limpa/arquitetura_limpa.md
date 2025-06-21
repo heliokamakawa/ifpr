@@ -28,6 +28,13 @@
 → repository trabalha com interface do dao e não a sua implementação (inversão de dependência).  
 → em arquiteturas mais simples,o repositório pode conter a lógica de query sem o DAO.  
 
+## DTO x MODEL
+→ ambas são burras.  
+→ em determinados contextos podem possuir os mesmos atributos.  
+→ DAO: dados de comunicação externa (redes, api, banco de dados). Geralmente precisam ser convertidas em JSON.  
+→ MODEL: representação interna de um modelo de dados.  
+→ DAO/MODEL: quando são as duas. Exemplo: parâmetro de um DAO (é um modelo de dados e representam dados externos do banco de dados).  
+
 
 
 
