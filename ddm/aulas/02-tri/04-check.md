@@ -64,7 +64,7 @@ Escolha um cadastro do seu projeto que envolva associação obrigatória (por ex
 
 ## Próxima semana - pode ser online/entrega via commit
 
-### Desafio 6
+### Desafio 5
 
 **Descrição:**
 Implemente três CRUDs completos de cadastros com associação, escolhendo entidades relevantes do seu próprio projeto. Lembre-se de que cada projeto é único, então selecione cadastros que façam sentido para o seu contexto e que envolvam relacionamentos obrigatórios entre entidades.
