@@ -7,6 +7,7 @@
   path:  
   sqflite_common_ffi:  
   sqflite_common_ffi_web:  
+  mask_text_input_formatter:  
 - execute o comando: "dart run sqflite_common_ffi_web:setup" no terminal  
 
 ## Para quem não tem o porjeto: 
