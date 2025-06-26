@@ -16,13 +16,13 @@ Atualmente, a tela de lista de vídeo-aulas utiliza apenas dados mockados (em me
 
 ---
 
-## Desafio 2: Corrigir Link de Salas nas Abas de Cadastros e Listas
+## Desafio 2: Corrigir Link relacionado a Salas 
 
 **Descrição:**
 Na aba de cadastros e listas há a opção para Salas. Os formulários e a lista já estão prontos, mas é necessário garantir que o link funcione corretamente, permitindo a navegação entre as telas.
 
 - **O que fazer:**
-  - Verificar e corrigir a navegação para a tela de Salas nas abas de cadastros e listas.
+  - Fazer todas rotas relacionadas ao CRUD sala.
 - **Objetivo de aprendizagem:**
   - Identificar e executar os passos necessários para garantir a navegação.
   - Explorar e conhecer a estrutura do projeto.
