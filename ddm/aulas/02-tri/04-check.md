@@ -1,3 +1,18 @@
+# Atividade em Duplas
+
+## Orientações iniciais
+- Baixe o projeto atual - Spin_Flow e deixe FUNCIONANDO
+- adicione as bibliotecas:
+  sqflite:
+  path:
+  sqflite_common_ffi:
+  sqflite_common_ffi_web:
+  mask_text_input_formatter:
+- execute o comando: "dart run sqflite_common_ffi_web:setup" no terminal
+- comente o comento deleteDatabase na clsase conexão
+
+
+
 # Check 01 em 2 fases
 
 ## Desafio 1: Implementar CRUD Real com SQLite para Vídeo-aula
