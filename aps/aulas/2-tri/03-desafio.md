@@ -1,7 +1,11 @@
 # Atividade de Análise e Projeto de Sistemas  
-## Biblioteca Universitária - Modelagem de Diagrama de Classes
+
+A lista de exercício deve ser entregue no suap com as devidas identificações. 
+- no diário de aula, para cada aluno, será marcada o número de acerto pleno - então revisem.
+- Lista de Exercício - Diagrama de Classe 05/08
 
 ---
+## Biblioteca Universitária - Modelagem de Diagrama de Classes
 
 ### Contexto da Atividade
 
