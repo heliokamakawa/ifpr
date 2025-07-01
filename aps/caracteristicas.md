@@ -1,7 +1,7 @@
 # Características do Curso
 
 - **Curso:** Bacharelado em Engenharia de Software
-- **Série:** 3º ano
+- **Série:** 2º ano
 - **Período:** Noturno
 - **Disciplina:** Análise e Projeto de Sistemas
 - **Carga Horária Total:** 80 horas/aula (66,67 horas de relógio)
