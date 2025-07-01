@@ -25,7 +25,7 @@
 | **Dashboard com gráficos dinâmicos** | 3 pontos | Gráficos que representam dados atualizados. <br>Ex.: `fl_chart`, `syncfusion_flutter_charts`. |
 | **Relatórios com filtros e agrupamentos** | 2 pontos | Relatórios interativos com filtros por data, categoria etc. |
 | **Componentização com campo de opções inteligentes** | 2 pontos | Campos com busca otimizada, cadastro rápido e atualização automática. <br>Ex.: `DropdownSearch`, `autocomplete`, `TextFormField` + `showDialog`. |
-| **CI/CD – Integração e entrega contínua** | 8 pontos | Testes automatizados, uso de GitHub Actions (CI) e distribuição com Firebase App Distribution (CD). |
+| **CI/CD – Integração e entrega contínua** | 8 pontos | Integração contínua com GitHub Actions e distribuição contínua com Firebase App Distribution. |
 
 ---
   > ⚠️ É obrigatório ter pelo menos **uma funcionalidade** com persistência associativa.
