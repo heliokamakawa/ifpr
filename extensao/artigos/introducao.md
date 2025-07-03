@@ -5,18 +5,17 @@ Uma introdução eficaz é a porta de entrada do seu artigo. Ela não apenas apr
 ## Estrutura da Introdução
 Organize sua introdução em 6 parágrafos, cada um com um propósito claro:
 
-**Contextualização da Extensão:** Comece definindo o que é extensão universitária no Brasil. Enfatize sua natureza indissociável do ensino e da pesquisa e seu papel transformador na sociedade, usando as referências múltiplas para fundamentar (ex: BRASIL, 2018; IFPR, 2021).
+- **Contextualização da Extensão:** Comece definindo o que é extensão universitária no Brasil. Enfatize sua natureza indissociável do ensino e da pesquisa e seu papel transformador na sociedade, usando as referências múltiplas para fundamentar (ex: BRASIL, 2018; IFPR, 2021).
 
-**Seu Projeto no IFPR:** Posicione o projeto PADIE dentro do contexto do IFPR Paranavaí. Descreva-o brevemente, conectando-o à sua experiência e ao trabalho realizado.
+- **Seu Projeto no IFPR:** Posicione o projeto PADIE dentro do contexto do IFPR Paranavaí. Descreva-o brevemente, conectando-o à sua experiência e ao trabalho realizado.
 
-**A Instituição Parceira:** Apresente a relevância da instituição parceira e seu público-alvo, destacando a natureza colaborativa da extensão. Mantenha a descrição geral para preservar a privacidade - não cite nomes.
+- **A Instituição Parceira:** Apresente a relevância da instituição parceira e seu público-alvo, destacando a natureza colaborativa da extensão. Mantenha a descrição geral para preservar a privacidade - não cite nomes.
 
-**O Problema (O "Gap"):** Este é o **coração** da sua introdução. Descreva o problema ou a necessidade social que motivou sua atividade de extensão. Por que esse projeto era crucial para a comunidade? Definir claramente esse "gap" justifica a existência e o valor do seu trabalho.
+- **O Problema (O "Gap"):** Este é o **coração** da sua introdução. Descreva o problema ou a necessidade social que motivou sua atividade de extensão. Por que esse projeto era crucial para a comunidade? Definir claramente esse "gap" justifica a existência e o valor do seu trabalho.
 
-**Breve Descrição da Atividade:** Após apresentar o problema, explique de forma concisa o que foi feito no projeto para endereçá-lo. Conecte a solução à necessidade identificada.
+- **Breve Descrição da Atividade:** Após apresentar o problema, explique de forma concisa o que foi feito no projeto para endereçá-lo. Conecte a solução à necessidade identificada.
 
-**Objetivo do Artigo e Estrutura:** Finalize declarando o objetivo principal do seu artigo e como ele estará organizado (ex: "Este artigo busca analisar... Para tanto, a metodologia, os resultados e as conclusões serão apresentados nas seções seguintes."). Considere também qual a contribuição do seu artigo para a área.
-→ pense na contribuição que o próprio artigo trará à literatura acadêmica, não apenas nos objetivos do projeto. Por exemplo: "...e busca contribuir para a literatura existente ao analisar [aspecto específico do projeto/impacto]."
+- **Objetivo do Artigo e Estrutura:** Finalize declarando o objetivo principal do seu artigo e como ele estará organizado (ex: "Este artigo busca analisar... Para tanto, a metodologia, os resultados e as conclusões serão apresentados nas seções seguintes."). Considere também qual a contribuição do seu artigo para a área. → pense na contribuição que o próprio artigo trará à literatura acadêmica, não apenas nos objetivos do projeto. Por exemplo: "...e busca contribuir para a literatura existente ao analisar [aspecto específico do projeto/impacto]."
 
 ## Como Construir Sua Introdução (Passo a Passo)
 
