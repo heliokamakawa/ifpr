@@ -6,8 +6,10 @@ Escrever uma boa introdução é o primeiro passo para que seu artigo seja compr
 
 Sua introdução deve conter **6 parágrafos** com objetivos distintos:
 
-### 1. Contextualização da Extensão
-Defina o que é a extensão universitária no Brasil. Destaque sua natureza **indissociável do ensino e da pesquisa** e seu papel **transformador na sociedade**. Utilize múltiplas referências (ex: BRASIL, 2018; IFPR, 2021; BRASIL, 2023).
+### 1. Contextualização da Extensão (até 2 parágrafos)
+Parágrafo 1: Defina o que é a extensão universitária no Brasil, destacando sua natureza indissociável do ensino e da pesquisa e seu papel transformador na sociedade. Fundamente com múltiplas referências (ex: BRASIL, 2018; IFPR, 2021; BRASIL, 2023).
+
+Parágrafo 2 (opcional): Apresente o gap geral que justifica a existência da extensão universitária: desconexão com a realidade social, limitação da formação tradicional, acesso desigual ao conhecimento, etc. Relacione com as consequências esperadas da ação extensionista. Escolha as que a sua atividade atingiu - isso facilitará a retomada dos resultados no fim do artigo.
 
 ### 2. Seu Projeto no IFPR
 Descreva brevemente o **Projeto PADIE** e sua atuação no IFPR Paranavaí. Posicione-se como agente da ação, conectando sua experiência com a prática extensionista.
