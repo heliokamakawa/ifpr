@@ -63,4 +63,4 @@ Gaps na Literatura: Poderá identificar lacunas que seu artigo pode preencher, t
 Ao citar e dialogar com artigos da própria revista, você demonstra familiaridade com a publicação, o que pode aumentar suas chances de aceite.
 
 ## INICIE A ESCRITA - INTRODUÇÃO
-orientação: acesse (aqui.)[https://github.com/heliokamakawa/ifpr/blob/main/extensao/artigos/introducao.md]
+orientação: acesse [aqui.](https://github.com/heliokamakawa/ifpr/blob/main/extensao/artigos/introducao.md)
