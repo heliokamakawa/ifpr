@@ -21,7 +21,7 @@ Organize sua introdução em 6 parágrafos, cada um com um propósito claro:
 
 Siga esta sequência para facilitar a escrita:
 
-**Entenda a Extensão:**
+### Entenda a Extensão:
 
 Leitura essencial: Dedique-se ao arquivo 03-resumo_referencia_geral.md para uma compreensão aprofundada dos conceitos e princípios da extensão.
 
@@ -29,7 +29,7 @@ Anote: Faça anotações dos pontos mais importantes e comece a separar ideias e
 
 Explore: Se tiver tempo, leia outros arquivos da pasta de referências e complemente com artigos recentes sobre extensão.
 
-## Defina o Problema (O "Gap"):
+### Defina o Problema (O "Gap"):
 
 Releia a seção "A Necessidade da Extensão: Gaps e Motivações" no 03-resumo_referencia_geral.md.
 
@@ -43,7 +43,7 @@ Com o gap em mente, reflita como o seu projeto se encaixa na definição geral d
 
 Escreva o 1º parágrafo, contextualizando a extensão de forma ampla e aplicando-a ao seu projeto específico, usando as referências múltiplas.
 
-## Detalhe o Projeto e o Parceiro:
+### Detalhe o Projeto e o Parceiro:
 
 Revise o arquivo padie.md para entender bem o Projeto PADIE.
 
@@ -51,7 +51,7 @@ Escreva o 2º parágrafo, contextualizando sua participação e as ações reali
 
 Busque informações sobre a instituição parceira (relevância, público-alvo) e escreva o 3º parágrafo, lembrando de proteger a privacidade.
 
-## Finalize e Refine:
+### Finalize e Refine:
 
 Harmonize os parágrafos já escritos.
 
@@ -59,7 +59,7 @@ Escreva o 5º parágrafo, descrevendo brevemente a atividade em si, conectando-a
 
 Escreva o 6º parágrafo, definindo o objetivo do seu artigo e sua estrutura.
 
-## Recomendações Finais
+### Recomendações Finais
 Uso de Referências: Utilize todas as referências sugeridas na pasta. Elas são a base legal e teórica do seu trabalho.
 
 Originalidade: Os textos na pasta de referências servem como base. NUNCA os copie e cole. Use suas próprias palavras para reorganizar, alterar, contextualizar e modularizar as informações, integrando-as de forma única em sua escrita.
