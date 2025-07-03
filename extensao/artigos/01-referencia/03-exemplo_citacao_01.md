@@ -42,3 +42,29 @@ Para assegurar a qualidade e a efetividade da extensão, as atividades estão su
 
 **Impactos da Extensão Universitária**
 A extensão é intrinsecamente direcionada à geração de impactos significativos em diversas esferas da sociedade. Ela busca a efetividade na solução de problemas, apresentando resultados que reverberam social, tecnológica, econômica, educacional e culturalmente (BRASIL, 2018b; BRASIL, 2023). Mais do que simplesmente oferecer conhecimento, a extensão visa à transformação social, atuando diretamente no enfrentamento dos problemas brasileiros e contribuindo para o desenvolvimento econômico, social e cultural (BRASIL, 2018b; IFPR, [2018]). O processo de curricularização da extensão é desenhado para ampliar o impacto social e acadêmico dos cursos, fortalecendo o compromisso da instituição com a produção de saberes atualizados e coerentes com a realidade nacional, que promovam um desenvolvimento equitativo e sustentável (IFPR, 2021).
+
+**GAP - Por que a extensão é necessária**
+A extensão universitária, conforme consolidada na legislação brasileira, é um processo fundamental e indissociável das funções de ensino e pesquisa, promovendo uma interação transformadora entre a instituição e a sociedade (BRASIL, 2018a; IFPR, 2021; BRASIL, 2023). Essa concepção se manifesta em ações diversas que buscam integrar a formação de pessoas e a geração de conhecimento às demandas da comunidade, atuando como uma via de mão dupla para a troca de saberes e experiências (IFPR, 2021).
+
+A extensão emerge para suprir importantes lacunas no sistema educacional e na sociedade:
+
+Déficit de Conexão com a Realidade Social: Historicamente, as universidades por vezes foram percebidas como "torres de marfim", distantes dos problemas reais da população. A extensão preenche esse gap de conexão, forçando a instituição a engajar-se diretamente com as comunidades externas (BRASIL, 2018a; IFPR, 2021).
+
+Limitação da Formação em Sala de Aula: O ensino formal, por si só, pode não ser suficiente para preparar o estudante para a complexidade do mundo real. A extensão complementa essa formação ao proporcionar uma prática vivencial (BRASIL, 2023), permitindo a aplicação de conhecimentos em contextos reais e complexos, o que seria um gap na formação puramente teórica (IFPR, 2021).
+
+Acesso Desigual ao Conhecimento: Grande parte do conhecimento produzido nas universidades fica restrita ao ambiente acadêmico. A extensão age para mitigar esse gap de acesso, atuando na socialização e democratização do saber, difundindo os benefícios da pesquisa e da cultura para a população que, de outra forma, não teria contato com eles (IFPR, [2018]).
+
+Problemas Sociais Complexos: A sociedade enfrenta desafios multifacetados (desigualdade, questões ambientais, saúde pública, etc.) que exigem soluções colaborativas. A extensão se posiciona para preencher o gap de respostas qualificadas, conectando a capacidade técnica e científica da academia à busca por soluções para essas questões do meio social (IFPR, 2021).
+
+**GAP - motivos para extensão universitária**
+Além de preencher lacunas, a extensão é impulsionada por motivos intrínsecos e extrínsecos que reforçam sua importância:
+
+Compromisso Social da IES: A extensão é a principal ferramenta que demonstra o compromisso social das Instituições de Ensino Superior (IES), incentivando a atuação acadêmica no enfrentamento dos problemas brasileiros e contribuindo para o desenvolvimento econômico, social e cultural (BRASIL, 2018b; IFPR, 2021).
+
+Formação Integral e Cidadã do Estudante: Um dos motivos mais potentes é o desenvolvimento do estudante. A extensão não só capacita o aluno com habilidades técnicas, mas o forma como cidadão crítico e responsável, capaz de atuar como protagonista na transformação social (BRASIL, 2018a; IFPR, 2021).
+
+Ressignificação e Fortalecimento do Ensino e da Pesquisa: A interação com a sociedade e a vivência de problemas reais trazem novas perspectivas e dados para o ensino e a pesquisa. Essa "via de mão dupla" enriquece o processo acadêmico como um todo, garantindo que o conhecimento gerado seja mais relevante e contextualizado (BRASIL, 2018a; IFPR, 2021).
+
+Indução do Desenvolvimento Sustentável: A extensão age como um catalisador para o desenvolvimento regional sustentável, especialmente em arranjos produtivos, sociais e culturais locais, alinhando a produção de conhecimento com as necessidades de um futuro equitativo e viável (IFPR, 2021).
+
+Mandato Legal e Regulatório: Finalmente, a existência da extensão e sua obrigatoriedade (10% da carga horária curricular para graduação) são um mandato da política educacional brasileira, fundamentado na Constituição Federal (BRASIL, 2018a), na Lei de Diretrizes e Bases da Educação (LDB) e no Plano Nacional de Educação (PNE 2014-2024), garantindo sua institucionalização (BRASIL, 2018a; BRASIL, 2023).
