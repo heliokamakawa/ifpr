@@ -31,9 +31,9 @@
 ## DTO x MODEL
 → ambas são burras.  
 → em determinados contextos podem possuir os mesmos atributos.  
-→ DAO: dados de comunicação externa (redes, api, banco de dados). Geralmente precisam ser convertidas em JSON.  
+→ DTO: dados de comunicação externa (redes, api, banco de dados). Geralmente precisam ser convertidas em JSON.  
 → MODEL: representação interna de um modelo de dados.  
-→ DAO/MODEL: quando são as duas. Exemplo: parâmetro de um DAO (é um modelo de dados e representam dados externos do banco de dados).  
+→ DTO/MODEL: quando são as duas. Exemplo: parâmetro de um DAO (é um modelo de dados e representam dados externos do banco de dados).  
 
 
 
