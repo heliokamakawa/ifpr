@@ -16,7 +16,7 @@ Aula 05/08
 Aula 12/08 - Avaliação Trimestral 
 - Individual e sem consulta;
 - Questões do Moodle;
-- Conteúdo do Trimestre;
+- Conteúdo do Trimestre; >>ESTUDAR SINTAXE MERMAID<<
 - Já tem simulados para estudarem (tentativas livres);
 
 Aula 19/08 - Retomada
