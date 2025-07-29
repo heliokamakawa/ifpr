@@ -27,7 +27,14 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Gestão perfeira 10 pontos.  
 - Gestão parcialmente plena 5 pontos.  
 - Gestão suficiente 3 pontos.
-- 
+
+## Boas Práticas para Correção e Validação
+- Abordagem respeitosa e profissional: críticas devem ser direcionadas ao modelo e não às pessoas.
+- Escuta ativa e diálogo técnico: a equipe revisora deve ouvir os argumentos da equipe original, mesmo quando houver discordância.
+- Postura colaborativa: o objetivo é o aprendizado mútuo, não “ganhar a discussão”.
+- Justificativas embasadas: todas as sugestões devem ser acompanhadas de explicações claras e fundamentadas nos princípios da modelagem.
+- Abertura para autocrítica: a equipe também reconhece seus próprios equívocos, se identificados.
+- Validação documentada: os principais pontos acordados entre as equipes devem ser registrados com clareza.
 
 ## Gestão Plena
 - Aproveitamento pleno do tempo de aula.  
@@ -37,7 +44,8 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Clima de harmonia, cooperação, transparência e motivação.   
 - Trabalho distribuído de forma justa e com participação relevante.  
 - Comunicação clara e eficiente, sem atrapalhar o andamento das outras equipes.
-- A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.  
+- A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.
+- Boas Práticas para Correção e Validação.  
 
 ## Gestão Parcialmente Plena  
 - A maior parte da equipe participa ativamente.  
@@ -47,6 +55,7 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - A equipe se comunica bem, mas há ruídos ocasionais.  
 - O professor precisou intervir brevemente.
 - A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.  
+- Boas Práticas para Correção e Validação.  
 
 ## Gestão Suficiente
 - A equipe realiza parte da atividade, mas com baixa organização ou engajamento.  
@@ -56,6 +65,7 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Distribuição do trabalho ineficaz.  
 - Intervenções do professor foram necessárias para retomada do foco.
 - A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.  
+- Boas Práticas para Correção e Validação.  
 
 ## Equipes que não entregam o DC 
 - Penalidade de 10 pontos.
