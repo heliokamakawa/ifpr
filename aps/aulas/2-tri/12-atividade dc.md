@@ -72,7 +72,7 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
   
 Mauro → [Gustavo](https://drive.google.com/file/d/1q2s2TDIY3B8KCMTGdYfrVKBcb5HpWqJ1/view?usp=sharing)  
 Gustavo → [Gabriel](https://drive.google.com/file/d/1tjyHoIeR46rJ6ab0vx2xBbH1bDEwnL40/view?usp=sharing)  
-Gabriel → [Felipe](https://drive.google.com/file/d/1tjyHoIeR46rJ6ab0vx2xBbH1bDEwnL40/view?usp=sharing)  
+Gabriel → [Felipe](https://drive.google.com/file/d/1LHHkaxTQbmZJlgGSrmUuNuMFtGMNCNhP/view?usp=sharing)  
 Felipe → [Eliandro](https://drive.google.com/file/d/13PFbpzC7CyFeCV2-2vM72S69TuGQh7fe/view?usp=sharing)  
 Eliandro → [Diego](https://drive.google.com/file/d/15yU6J5Ehz7HqkDajYv1_fuWncDewc2j-/view?usp=sharing)  
 Diego → [Brayan](https://drive.google.com/file/d/1HMXoMb234UMCOTybHzsv6S3MUXLGmOdI/view?usp=sharing)  
