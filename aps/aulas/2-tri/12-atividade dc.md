@@ -26,7 +26,8 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Interferência do professor 1 pontos.  
 - Gestão perfeira 10 pontos.  
 - Gestão parcialmente plena 5 pontos.  
-- Gestão suficiente 3 pontos.  
+- Gestão suficiente 3 pontos.
+- 
 
 ## Gestão Plena
 - Aproveitamento pleno do tempo de aula.  
@@ -35,7 +36,8 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Todos os membros da equipe envolvidos de forma ativa, sem uso de celular, IA ou recursos inadequados.  
 - Clima de harmonia, cooperação, transparência e motivação.   
 - Trabalho distribuído de forma justa e com participação relevante.  
-- Comunicação clara e eficiente, sem atrapalhar o andamento das outras equipes.   
+- Comunicação clara e eficiente, sem atrapalhar o andamento das outras equipes.
+- A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.  
 
 ## Gestão Parcialmente Plena  
 - A maior parte da equipe participa ativamente.  
@@ -43,7 +45,8 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Diário de Aula devidamente validade e preenchida.  
 - O trabalho é distribuído, mas há desigualdade na contribuição.  
 - A equipe se comunica bem, mas há ruídos ocasionais.  
-- O professor precisou intervir brevemente.  
+- O professor precisou intervir brevemente.
+- A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.  
 
 ## Gestão Suficiente
 - A equipe realiza parte da atividade, mas com baixa organização ou engajamento.  
@@ -52,6 +55,7 @@ Outros – quaisquer outros pontos que comprometam a qualidade do diagrama.
 - Validação com a outra equipe incompleta ou superficial.  
 - Distribuição do trabalho ineficaz.  
 - Intervenções do professor foram necessárias para retomada do foco.
+- A equipe resolve dúvidas e impasses com autonomia, mantendo o professor apenas como observador ou avaliador.  
 
 ## Equipes que não entregam o DC 
 - Penalidade de 10 pontos.
