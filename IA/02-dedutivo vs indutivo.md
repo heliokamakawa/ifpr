@@ -57,3 +57,80 @@ public class SpamDetectorDedutivo {
         System.out.println("É spam? " + resultado);
     }
 }
+```
+
+## 🤖 Abordagem 2: Indutiva (baseada em aprendizado e pesos)
+### 💡 Como funciona?
+
+Simulamos uma IA simples, treinada com dados reais. O modelo aprendeu que:
+
+A presença da palavra "promoção" tem peso 2.0
+
+Cada link tem peso 0.5
+
+O modelo aplica um bias de -3.5 como ajuste
+
+Ele calcula um "score" com a fórmula:
+
+    score = (x1 * w1) + (x2 * w2) + bias
+
+Se score >= 0, é SPAM.
+
+```java
+public class SpamDetectorIndutivo {
+
+    // Pesos aprendidos durante o treinamento
+    static double w1 = 2.0;    // peso para presença de "promoção"
+    static double w2 = 0.5;    // peso para número de links
+    static double bias = -3.5; // ajuste base
+
+    public static boolean ehSpam(String textoEmail) {
+        // Transforma os dados em entradas (features)
+        int x1 = textoEmail.toLowerCase().contains("promoção") ? 1 : 0;
+        int x2 = contarOcorrencias(textoEmail.toLowerCase(), "http");
+
+        // Aplica a fórmula do modelo
+        double score = (x1 * w1) + (x2 * w2) + bias;
+
+        // Retorna se o e-mail é spam com base no score
+        return score >= 0;
+    }
+
+    // Função auxiliar para contar quantas vezes uma palavra aparece no texto
+    public static int contarOcorrencias(String texto, String palavra) {
+        int count = 0;
+        int index = 0;
+
+        while ((index = texto.indexOf(palavra, index)) != -1) {
+            count++;
+            index += palavra.length();
+        }
+
+        return count;
+    }
+
+    public static void main(String[] args) {
+        String email = "Promoção especial! http://link1.com http://link2.com http://link3.com http://link4.com";
+        boolean resultado = ehSpam(email);
+
+        System.out.println("É spam? " + resultado);
+    }
+}
+```
+
+## 📊 Comparação Didática Final
+
+| Aspecto                    | Dedutivo (Regras fixas)           | Indutivo (Modelo aprendido)         |
+|---------------------------|----------------------------------|------------------------------------|
+| Quem define as decisões?   | O programador                    | O modelo treinado                  |
+| Estrutura usada            | if/else                         | Matrizes de pesos + equações       |
+| Transparência (explicável)?| Alta (totalmente rastreável)    | Média/baixa (depende do modelo)    |
+| Flexibilidade              | Baixa (não aprende)              | Alta (adapta-se com dados novos)   |
+| Uso ideal                  | Sistemas críticos e previsíveis  | Tarefas com ambiguidade e padrões  |
+
+
+## ✅ Conclusão
+Dedutivo: fácil de entender, previsível, ótimo para tarefas onde o erro é inaceitável.
+
+Indutivo: mais próximo do cérebro humano — aprende com exemplos, se adapta, mas pode cometer erros com confiança.
+
