@@ -3,9 +3,12 @@
 
 ## Cronograma
 
+- **07/08/2025** – Fechamento Projeto (AVALIAÇÃO PRINCIPAL)
 - **14/08/2025** – Avaliação Trimestral *(Dissertativa)*
 - **21/08/2025** – Retomada de conteúdos  
 - **28/08/2025** – Recuperação *(Codelab)*
+
+- Conforme o combinado: Projeto Pleno garante o C no trimestre, mesmo que não faça a avaliação dissertativa. A dissertativa plena sem o projeto será necessário fazer a recuperação.  
 
 ---
 
