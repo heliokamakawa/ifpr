@@ -40,7 +40,7 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 
 | Equipe | Feedback                                  |
 |--------|-------------------------------------------|
-| **A**  | 1 OK<br>2 ?<br>1 D<br>01 - 08F - P        |
+| **A**  | 1 OK<br>2 ?<br>1 D<br>01 - 08F<br>P       |
 | **B**  | 01 - 12F<br>03 - 08F<br>?           |
 | **C**  | 01 - 06F<br>2/3 I<br>T A            | 
 | **D**  | ?                                       |
