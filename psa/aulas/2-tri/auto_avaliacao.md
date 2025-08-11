@@ -32,6 +32,7 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 | **T**          | Fuga do tema                                                        |
 | **A**          | Falta de personalidade no projeto (pouca aplicação prática/aprendizagem) |
 | **I**          | Insuficiente (realiza outras atividades, falta de participação ou baixa produtividade) |
+| PR | Indica que um dos integrantes tem boa probabilidade de precisar realizar a prova final |
 | **nF**         | Número de faltas (exemplo: 08F = 8 faltas)                         |
 
 ---
@@ -42,9 +43,18 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 |--------|-------------------------------------------|
 | **A**  | 2 ?<br>1 D<br>01 - 08F<br>P       |
 | **B**  | 01 - 12F<br>03 - 08F<br>?           |
-| **C**  | 01 - 06F<br>2/3 I<br>T A            | 
-| **D**  | ?                                       |
-| **F**  | I<br>?<br>A T                           | 
+| **C**  | 01 - 06F<br>2/3 I<br>T A<br>PR           | 
+| **D**  | ?<br>PR                                       |
+| **F**  | I<br>?<br>A T<br>PR                           | 
+
+
+## Orientação Final para os Líderes
+
+- **Tempo máximo da reunião:** 5 minutos  -  A IDEIA é que venha preparado     
+- **Participação:** Somente o líder deve comparecer  
+- **Sugestão:** Traga já a autoavaliação de todos os membros da equipe  
+- **Critério:** Defina uma autoavaliação justa e equitativa, que reflita o desempenho real e não demonstre privilégios ou favorecimentos  
+
 
 ---
 
