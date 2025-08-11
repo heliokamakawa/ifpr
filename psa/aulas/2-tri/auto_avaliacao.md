@@ -81,7 +81,7 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 
   - **Feedback do Líder de Equipe**: O retorno do líder de equipe pode ser considerado para avaliar a dinâmica de trabalho, a colaboração e a eficácia de cada integrante dentro do grupo. Esse feedback deve ser bem fundamentado e construtivo.
 
-- **Apresentação e Vídeo**: Indicativo do que o aluno realizou e a complexidade envolvida. O foco não está em uma apresentação convincente (venda), mas em como/quais informações foram produzidas. A aprendizagem deve ser bem trabalhada, compreendida e personalizada, contextualizada de forma prática e aplicável – o produto do que foi feito para aprender ao longo de 8 dias de 4 aulas. Mais uma vez: se a sua parte não for destacada durante a apresentação, isso pode indicar que a sua contribuição não foi suficientemente relevante ou impactante.
+  - **Apresentação e Vídeo**: Indicativo do que o aluno realizou e a complexidade envolvida. O foco não está em uma apresentação convincente (venda), mas em como/quais informações foram produzidas. A aprendizagem deve ser bem trabalhada, compreendida e personalizada, contextualizada de forma prática e aplicável – o produto do que foi feito para aprender ao longo de 8 dias de 4 aulas. Mais uma vez: se a sua parte não for destacada durante a apresentação, isso pode indicar que a sua contribuição não foi suficientemente relevante ou impactante.
 
 ---
 
