@@ -1,10 +1,8 @@
-# Atividade OPCIONAL de hoje
+# Atividade de hoje
+Cada equipe, conforme o andamento do projeto, tem total autonomia de participar das atividades do dia do estudante.
 
----
-
-## Equipes!
-
-Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e aspectos que precisam ser melhorados.
+## Atividade OPCIONAL - autoavaliação
+**Equipes!** Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e aspectos que precisam ser melhorados.
 
 > Este feedback parcial tem o objetivo de **ajudá-los a alcançar o conceito desejado pela equipe**.  
 > Não se trata de criticar ou desmotivar, mas sim de apontar pontos que podem ser aprimorados para que todos tenham a melhor experiência possível e obtenham um resultado satisfatório na apresentação final.
@@ -28,10 +26,10 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 | **?**   | Não apresentou resultados ou dúvidas                              |
 | **D**   | Desconcentrado                                                    |
 | **T**   | Fuga do tema                                                    |
-| **A**   | Falta de personalidade no projeto (pouca aplicação prática/aprendizagem) |
+| **A**   | Falta de personalidade no projeto (pouca aplicação prática, compelxidade, aprendizagem) |
 | **I**   | Insuficiente (realiza outras atividades, falta de participação ou baixa produtividade) |
 | **PR**  | Indica que um dos integrantes tem boa probabilidade de precisar realizar a prova final |
-| **nF**  | Número de faltas (exemplo: 08F = 8 faltas)                       |
+| **F**  | Pessoas que faltarm sem o plano de trabalho                      |
 
 ---
 
@@ -39,11 +37,11 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 
 | Equipe | Feedback                         |
 |--------|----------------------------------|
-| **A**  | 2 ?<br>1 D<br>01 - 08F<br>P    |
-| **B**  | 01 - 12F<br>03 - 08F<br>?      |
-| **C**  | 01 - 06F<br>2/3 I<br>T A<br>PR |
-| **D**  | ?<br>PR                        |
-| **F**  | I<br>?<br>A T<br>PR            |
+| **A**  | ?<br>D<br>F<br>P    |
+| **B**  | ?<br>F<br>03 - 08F      |
+| **C**  | ?<br>I<br>D<br>F<br>T<br>A<br>PR |
+| **D**  | ?<br>I<br>D<br>F<br>T<br>A<br>PR |
+| **F**  | ?<br>I<br>F<br>T<br>A<br>PR |
 
 ---
 
@@ -56,9 +54,15 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 - **Critério:** A autoavaliação deve ser justa e equitativa, refletindo honestamente o desempenho de cada integrante, evitando privilégios ou favorecimentos pessoais.  
 - Cada equipe poderá decidir se o conceito final será atribuído individualmente (conceito para cada membro) ou coletivamente (média da equipe).  
 - **Importante:** Essa decisão deve levar em conta o que é justo para a "empresa" (equipe), evitando distribuir "pagamentos" que satisfaçam um membro em prejuízo da "empresa ou do cliente".  
-- Em casos de integrantes com desempenho insuficiente que reconheçam a situação e demonstrem vontade real de melhorar, esperamos que a equipe proponha soluções concretas para o desenvolvimento e inclusão desse membro, considerando o prazo disponível.  
+- Em casos de integrantes com desempenho insuficiente que reconheçam a situação e demonstrem vontade real de melhorar, esperamos que a equipe proponha soluções concretas para o desenvolvimento e inclusão desse membro, considerando o prazo disponível.
 
-# Orientações para a Apresentação
+## Exemplo de Recuperação Prática
+**Demonstrar aprendizado e aplicação prática (aplicar melhorias significativas)** dos temas do trimestre por meio de melhorias no projeto desenvolvido durante o curso.
+- A complexidade deve refletir/justificar 8 dias de 4 aulas e ser desenvolvido até a entrega do vídeo;
+- **Vídeo Explicativo**: O aluno deverá incluir no vídeo da equipe e deixar bem claro a compelxidade e a aprendizagem desenvolvida.
+
+
+## Orientações para a Apresentação
 
 - **Tempo máximo total**: 20 minutos.
 - Considere o tempo necessário para trocas de apresentadores, configurações, testes e outros ajustes.
@@ -69,7 +73,7 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 
 ## Como abribuoir o Conceito?
 
-## Compreensão do que cada aluno fez
+### Compreensão do que cada aluno fez
 
 - **Feedback contínuo individual**: Prática fundamental em qualquer projeto de software, garantindo que todos se mantenham no caminho certo e com percepção clara do progresso (o mais seguro e perceptivo). Uma oportunidade de abrir discussão e ao mesmo tempo indicar o seu trabalho (complexidade, conhecimento, projeto, outros).
   
