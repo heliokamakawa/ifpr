@@ -58,7 +58,31 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 - **Importante:** Essa decisão deve levar em conta o que é justo para a "empresa" (equipe), evitando distribuir "pagamentos" que satisfaçam um membro em prejuízo da "empresa ou do cliente".  
 - Em casos de integrantes com desempenho insuficiente que reconheçam a situação e demonstrem vontade real de melhorar, esperamos que a equipe proponha soluções concretas para o desenvolvimento e inclusão desse membro, considerando o prazo disponível.  
 
+# Orientações para a Apresentação
 
+- **Tempo máximo total**: 20 minutos.
+- Considere o tempo necessário para trocas de apresentadores, configurações, testes e outros ajustes.
+- Insira ao menos um slide logo no início para detalhar a complexidade das tarefas de cada membro da equipe, destacando as contribuições de forma clara e objetiva.
+- Se a sua parte não for destacada durante a apresentação, isso pode indicar que a sua contribuição não foi suficientemente relevante ou impactante.
 
 ---
+
+## Como abribuoir o Conceito?
+
+## Compreensão do que cada aluno fez
+
+- **Feedback contínuo individual**: Prática fundamental em qualquer projeto de software, garantindo que todos se mantenham no caminho certo e com percepção clara do progresso (o mais seguro e perceptivo). Uma oportunidade de abrir discussão e ao mesmo tempo indicar o seu trabalho (complexidade, conhecimento, projeto, outros).
+  
+  - **Feedback periódico da equipe**: Feedback fornecido pela equipe ao longo do trimestre. Estre trimestre foi opcional e livre de modo que cada equipe teve a liberdade e a RESPONSABILIDADE de ter este feedback parcial e as respectivas ações para reverter erros ou melhorar processo.
+
+  - **Logs de Acesso e Interações Fora da Disciplina (ex: Lanschool)**: Atividade ou comportamento fora do escopo (TCC, futeboal, músicas, outros) direto do projeto.
+
+  - **Concentração e Foco Durante as Aulas**: Embora o ambiente possa ser descontraído, é importante que o foco esteja principalmente no projeto. A atenção dedicada à atividade e à execução das tarefas é o que justifica o "salário". É essencial que o aluno equilibre o clima informal com a produtividade.
+
+  - **Feedback do Líder de Equipe**: O retorno do líder de equipe pode ser considerado para avaliar a dinâmica de trabalho, a colaboração e a eficácia de cada integrante dentro do grupo. Esse feedback deve ser bem fundamentado e construtivo.
+
+- **Apresentação e Vídeo**: Indicativo do que o aluno realizou e a complexidade envolvida. O foco não está em uma apresentação convincente (venda), mas em como/quais informações foram produzidas. A aprendizagem deve ser bem trabalhada, compreendida e personalizada, contextualizada de forma prática e aplicável – o produto do que foi feito para aprender ao longo de 8 dias de 4 aulas. Mais uma vez: se a sua parte não for destacada durante a apresentação, isso pode indicar que a sua contribuição não foi suficientemente relevante ou impactante.
+
+---
+
 
