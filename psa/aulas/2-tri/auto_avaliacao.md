@@ -1,4 +1,4 @@
-# Feedback Parcial do Projeto – 2º Trimestre
+# Atividade OPCIONAL de hoje
 
 ---
 
@@ -14,8 +14,8 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 
 **Importante:**  
 - **Não será revelado quem corresponde a cada código**.  
-- O papel de vocês como líderes é **identificar internamente na equipe quem está representado em cada feedback**.  
-- Conversem com seus colegas sobre os pontos apresentados e busquem soluções para ajustar o projeto.  
+- O líder deve identificar o feedback da equipe.  
+- Conversem com seus colegas sobre os pontos apresentados e busquem soluções de melhoria.  
 - (**Opcional**) Após essa conversa, tragam para mim um **retorno sobre o que acharam e quais medidas pretendem tomar até a apresentação para os egressos**.
 
 ---
@@ -49,12 +49,16 @@ Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e a
 
 ## Orientação Final para os Líderes
 
-- **Tempo máximo da reunião:** 5 minutos – a ideia é que você venha preparado  
-- **Participação:** Somente o líder deve comparecer  
-- **Sugestão:** Traga já a autoavaliação de todos os membros da equipe  
-- **Critério:** Defina uma autoavaliação justa e equitativa, que reflita o desempenho real e não demonstre privilégios ou favorecimentos  
-- Cada equipe poderá definir se o conceito será individual (com o respectivo conceito) ou coletivo (soma e divisão entre todos),  
-  - o que **não pode** acontecer é prejudicar a "empresa" por decisões individuais.
+- **Tempo máximo da reunião:** 5 minutos – a ideia é que venha preparado.  
+- Aproveite o momento: valorize **praticidade, resultados e propostas** do que justificativas.  
+- **Participação:** Apenas o líder deve comparecer à reunião.  
+- **Sugestão:** Traga a autoavaliação de todos os membros da equipe para facilitar a discussão.  
+- **Critério:** A autoavaliação deve ser justa e equitativa, refletindo honestamente o desempenho de cada integrante, evitando privilégios ou favorecimentos pessoais.  
+- Cada equipe poderá decidir se o conceito final será atribuído individualmente (conceito para cada membro) ou coletivamente (média da equipe).  
+- **Importante:** Essa decisão deve levar em conta o que é justo para a "empresa" (equipe), evitando distribuir "pagamentos" que satisfaçam um membro em prejuízo da "empresa ou do cliente".  
+- Em casos de integrantes com desempenho insuficiente que reconheçam a situação e demonstrem vontade real de melhorar, esperamos que a equipe proponha soluções concretas para o desenvolvimento e inclusão desse membro, considerando o prazo disponível.  
+
+
 
 ---
 
