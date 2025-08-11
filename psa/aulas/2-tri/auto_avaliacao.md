@@ -7,7 +7,9 @@
 Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e aspectos que precisam ser melhorados.
 
 > Este feedback parcial tem o objetivo de **ajudá-los a alcançar o conceito desejado pela equipe**.  
-> Não se trata de criticar ou desmotivar, mas sim de apontar pontos que podem ser aprimorados para que todos tenham a melhor experiência possível e obtenham um resultado satisfatório na apresentação final.  
+> Não se trata de criticar ou desmotivar, mas sim de apontar pontos que podem ser aprimorados para que todos tenham a melhor experiência possível e obtenham um resultado satisfatório na apresentação final.
+> Se vocês estão alinhados e conscientes do próprio desempenho, isso não é problema — o importante é que haja coerência.
+> O que não pode acontecer é querer muito sem relação com resultado mas sem relação com resultados concretos ou baseado apenas em achismos.  
 > Aproveitem essa oportunidade para refletir, ajustar e fortalecer o trabalho em equipe!
 
 **Importante:**  
