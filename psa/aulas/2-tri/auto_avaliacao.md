@@ -2,9 +2,7 @@
 
 ---
 
-## Orientações para os Líderes
-
-Equipes!
+## Equipes!
 
 Vocês receberam uma avaliação parcial das equipes, que traz pontos fortes e aspectos que precisam ser melhorados.
 
