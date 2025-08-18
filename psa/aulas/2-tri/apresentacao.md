@@ -12,6 +12,14 @@ Digitaliza Ai
 - **Importante**: faltas sem justificativa e sem plano de trabalho antecipado, conforme combinado, **comprometerão o conceito final**.  
 - Se você utilizou o tempo das aulas para outras atividades (inclusive TCC) → terá que realizar a prova.  
   - Foi apenas uma aula? → Conforme combinado, **independente da quantidade**, será necessário realizar a prova.
+ 
+## Cronograma 
+19h20 - Aprsentação dos convidados.  
+20h00 - VYCKE.  
+20h20 - Los Bandoleiros.   
+20h40 - V.E.C. 
+21h00 - CREVS.  
+21h20 - The Rapazes.  
     
 ---
 
