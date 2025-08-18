@@ -1,5 +1,12 @@
 # Avisos  
+Digitaliza Ai 
+- Projeto de Extenção na modalidade >>REMOTA<<
+- Serve como equivalência para estágio obrigatório!
+- Desenvolvimento e apoio de TI para pequenas empresas.
+- https://forms.gle/Xh3zB2yzddDyhTjt8
+- Inscreve somente se de fato tiver interesse e tempo para realizar.
 
+2º Trimestre
 - Os **conceitos finais** serão definidos após o envio dos vídeos.  
 - Até a próxima **sexta-feira** informarei quem precisará realizar a avaliação.  
 - **Importante**: faltas sem justificativa e sem plano de trabalho antecipado, conforme combinado, **comprometerão o conceito final**.  
