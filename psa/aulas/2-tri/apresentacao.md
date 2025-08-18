@@ -1,6 +1,6 @@
 # Avisos  
 Digitaliza Ai 
-- Projeto de Extenção na modalidade >>REMOTA<<
+- Projeto de Extensão na modalidade >>REMOTA<<
 - Serve como equivalência para estágio obrigatório!
 - Desenvolvimento e apoio de TI para pequenas empresas.
 - https://forms.gle/Xh3zB2yzddDyhTjt8
