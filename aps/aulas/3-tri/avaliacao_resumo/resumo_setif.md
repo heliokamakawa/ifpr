@@ -206,7 +206,7 @@ Explorar como requisitos não funcionais influenciam a qualidade e usabilidade d
 
 ---
 
-## Tema 8: Ferramentas de Modelagem — Experiência e Produtividade no Projeto
+## Tema 8: Ferramentas de Modelagem — Experiência e Produtividade no Projeto >>Java<<
 
 ### Objetivo do tema:
 Relatar a experiência de uso de uma ferramenta de modelagem UML no projeto.
