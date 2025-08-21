@@ -37,27 +37,28 @@
 
 ---
 
-### 🔹 Segunda hora (1h – 2h): inserções e listagem
-- Implementar método de **inserção**.  
-- Criar tela simples que insira **dados fixos** (sem formulário ainda).  
+### 🔹 Segunda hora (1h – 2h): inserções e listagem  
 - Implementar **listagem** com `ListView.builder` e `ListTile`.  
-- **Teste parcial:** inserir dados fixos e ver listados na tela.  
-  - Feedback visual rápido → motiva o aluno.  
+- **Teste parcial:** listar os dados inseridos via script.  
+  - Feedback visual rápido → motiva.  
+- Implementar método de **exclusão** - é mais sobre widget.
+  
+- Implementar método de **inserção**.  
+- Criar tela simples que insira **dados fixos** (sem formulário ainda).
+- Implementar **atualização** (edição simples).  
 
 ---
 
 ### 🔹 Terceira hora (2h – 3h): exclusão e atualização
-- Implementar **exclusão** (ícone no `ListTile`).  
-- Implementar **atualização** (edição simples).  
-- **Teste parcial:** excluir e editar registros.  
-
+- Substituir inserções fixas por **formulário com `Form`, `FormKey`, `TextFormField`**.  
+- Adicionar **validações mínimas** (ex: campo não vazio).  
+- Usar **ElevatedButton** para salvar.
+- **Teste final:** fluxo completo → cadastrar via formulário, listar, editar e excluir.  
 ---
 
 ### 🔹 Quarta hora (3h – 4h): formulários e validações
-- Substituir inserções fixas por **formulário com `Form`, `FormKey`, `TextFormField`**.  
-- Adicionar **validações mínimas** (ex: campo não vazio).  
-- Usar **ElevatedButton** para salvar.  
-- **Teste final:** fluxo completo → cadastrar via formulário, listar, editar e excluir.  
+Elaborar o documento técnico e criar um plano de estudo.
+
 
 ---
 
@@ -76,14 +77,8 @@
 
 ## 📢 Avaliação de Recuperação (semana que vem)
 - **Formato:** individual, sem internet, 4h.  
-- **Exigência:** CRUD básico com `sqflite` e `path`.  
-  - **Create e Read obrigatórios.**  
-  - Update/Delete opcionais se houver tempo.  
-- **Critérios de avaliação:**  
-  - Funcionalidade mínima entregue (50%)  
-  - Organização do código (20%)  
-  - Documento técnico (20%)  
-  - Postura/produtividade (10%)  
+- **Exigência:** CRUD com interfaces.  
+ 
 
 ### O que NÃO será flexibilizado
 - Durante o trimestre, muitos **não entregaram projeto**, **não participaram das discussões** e **não estudaram os pontos críticos no Moodle**.  
