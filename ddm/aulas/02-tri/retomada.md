@@ -1,5 +1,7 @@
 # 📘 Aula de Retomada – Desenvolvimento para Dispositivos Móveis
 
+## AOS QUE NÃO IRÃO FAZER A RECUPERAÇÃO CONFERIR CONCEITOS E FALTAS
+- REALIZAR A ATIVIDADE
 
 ## Equipes
 - Reeodenação/definição.
