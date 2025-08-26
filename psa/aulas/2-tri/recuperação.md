@@ -1,3 +1,11 @@
+# Informações sobre cronograma e avaliações
+
+- **Entrega do vídeo:** Sábado, 30/08  
+- **Horário para correção:** O vídeo será avaliado no sábado às 11h da manhã; após isso, somente na segunda-feira à noite.  
+- **Duração:** Sem limite de tempo — priorize qualidade e conteúdo relevante.  
+- **Para quem precisa de conceito:** Capriche na elaboração de conteúdo prático e relevante, coerente com o tempo de estudo (3 meses).  
+- **Avaliação para recuperação:** Segunda-feira, 01/09.
+
 # Material de Estudo: Padrões de Projeto (Gang of Four)
 
 Este guia apresenta um resumo dos **23 Padrões de Projeto** do livro *"Design Patterns: Elements of Reusable Object-Oriented Software"*, conhecido como **Gang of Four (GoF)**. Esses padrões oferecem soluções comprovadas para problemas recorrentes no design de software orientado a objetos, promovendo um código mais flexível, reutilizável e de fácil manutenção.
@@ -84,6 +92,3 @@ Focam na comunicação entre objetos e na atribuição de responsabilidades.
   Canal em português com explicações didáticas sobre padrões de projeto.  
   [Padrões de Projeto - Curso em Vídeo](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ4gS9Z0aA_8jpC0Jc8VJu)
 
----
-
-Se desejar, posso ajudar a criar um resumo de cada padrão ou exemplos de código para facilitar o estudo. Quer?
