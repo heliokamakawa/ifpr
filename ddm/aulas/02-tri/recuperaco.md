@@ -7,7 +7,8 @@ Esta prova de recuperação tem como finalidade verificar a capacidade do aluno 
 - **Validação de formulários** com regras de negócio;  
 - **Salvar uma entidade**;  
 - **Listar todos os registros de uma entidade** (a inserção pode ser feita via SQL diretamente no banco) e realizar a operação **excluir**;  
-- **Editar uma entidade**: seleção do registro, exibição dos dados antigos nos campos e atualização correta no banco e na listagem.  
+- **Editar uma entidade**: seleção do registro, exibição dos dados antigos nos campos e atualização correta no banco e na listagem.
+
 
 O aluno deverá demonstrar domínio suficiente para comprovar que pode acompanhar a disciplina nos próximos trimestres.  
 
@@ -31,6 +32,7 @@ Não é permitido portar o aparelho no bolso ou sobre a mesa.
 ## 📌 Contexto Geral  
 
 O aplicativo a ser desenvolvido será um **CRUD simples com persistência em SQLite**.  
+Inserir comentários pontuais e específicos no código que indique e explique a diferença entre Widget State Less e Full.
 A entidade a ser utilizada depende do último dígito do RA do aluno:  
 
 - **RA ímpar → Categoria**  
