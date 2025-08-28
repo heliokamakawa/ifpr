@@ -19,9 +19,7 @@ O aluno deverá demonstrar domínio suficiente para comprovar que pode acompanha
 
 - **Opcionalmente**, o aluno poderá utilizar seu **computador pessoal** com IDE, autocomplemento e bibliotecas para consulta e apoio.  
 
-- Caso escolha apresentar diretamente no computador:  
-  - Não será necessário transcrever o código para o papel;  
-  - O aluno deverá garantir, por conta própria, que seu ambiente esteja funcionando corretamente durante a prova;  
+- Caso escolha apresentar diretamente no computador:    
   - O registro no papel é recomendado como segurança, mas a opção de não fazê-lo é uma decisão do aluno, que deverá assumir essa escolha.  
 
 ### 📵 Uso de Celulares  
