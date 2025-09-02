@@ -131,7 +131,7 @@ Mostrar como o Diagrama de Classes foi usado para representar as entidades e seu
 
 ---
 
-## Tema 5: Desafios de Comunicação e Validação no Estudo de Caso
+## Tema 5 (Equipe VolCarona): Desafios de Comunicação e Validação no Estudo de Caso
 
 ### Objetivo do tema:
 Relatar dificuldades de comunicação com o usuário e como foram superadas durante a validação de requisitos.
