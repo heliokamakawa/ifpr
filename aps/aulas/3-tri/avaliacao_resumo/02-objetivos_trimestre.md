@@ -8,7 +8,7 @@
 
 ## 🔹 Objetivos Principais do Trimestre  
 
-1. **Prototipação de Telas Navegáveis com Validações**  
+1. **Prototipação de Telas Navegáveis com Validações - teste de aceite do requisito**  
    - Desenvolver todas as telas do sistema proposto (controle de empréstimos de materiais), de forma **navegável** e com **validações mínimas** (campos obrigatórios, formatos, feedback ao usuário).  
    - O foco é a **validação de requisitos**: cada requisito funcional deve estar representado em pelo menos uma tela e validado por meio de critérios de aceitação.  
 
