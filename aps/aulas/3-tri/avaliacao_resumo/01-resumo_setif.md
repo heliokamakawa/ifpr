@@ -256,7 +256,7 @@ Apresentar a trajetória completa do projeto, do entendimento inicial do problem
 
 ---
 
-## Tema 10: Semântica da Análise para Sintaxe da POO — Uma Base Sólida para o Desenvolvimento
+## Tema 10 (equipe Rust): Semântica da Análise para Sintaxe da POO — Uma Base Sólida para o Desenvolvimento
 
 ### Objetivo do tema:
 Demonstrar como os diagramas e requisitos definidos na análise influenciaram diretamente na estrutura do código.
