@@ -156,7 +156,7 @@ Relatar dificuldades de comunicação com o usuário e como foram superadas dura
 
 ---
 
-## Tema 6: Reflexões sobre a Aplicação de Boas Práticas de Engenharia de Software
+## Tema 6 (Equipe C#): Reflexões sobre a Aplicação de Boas Práticas de Engenharia de Software
 
 ### Objetivo do tema:
 Discutir como boas práticas da disciplina foram aplicadas no projeto e quais impactos geraram.
