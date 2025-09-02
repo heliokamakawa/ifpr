@@ -231,7 +231,7 @@ Relatar a experiência de uso de uma ferramenta de modelagem UML no projeto.
 
 ---
 
-## Tema 9: Do Problema à Solução — Visão Geral do Estudo de Caso Aplicando Engenharia de Software
+## Tema 9 (Equipe Java): Do Problema à Solução — Visão Geral do Estudo de Caso Aplicando Engenharia de Software
 
 ### Objetivo do tema:
 Apresentar a trajetória completa do projeto, do entendimento inicial do problema à entrega do documento.
