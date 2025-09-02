@@ -2,7 +2,7 @@
 
 ## 🔹 Organização das Equipes  
 - Diante das desistências ocorridas, **as equipes podem se reorganizar**, respeitando o limite máximo de **4 integrantes por grupo**.  
-- Cada equipe deve confirmar sua nova composição até a próxima aula.  
+- Cada equipe deve confirmar sua nova composição até o final da aula.  
 
 ---
 
