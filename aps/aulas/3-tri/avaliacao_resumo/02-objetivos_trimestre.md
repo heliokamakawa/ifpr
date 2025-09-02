@@ -9,18 +9,19 @@
 ## 🔹 Objetivos Principais do Trimestre  
 
 1. **Prototipação de Telas Navegáveis com Validações – Teste de Aceite do Requisito**  
-   - Desenvolver todas as telas do sistema proposto (controle de empréstimos de materiais), de forma **navegável** e com **validações mínimas**.  
+   - Utilizar ferramentas de prototipação (ex.: **Figma, Penpot, MockFlow, Moqups**) para desenvolver **todas as telas do sistema proposto** (controle de empréstimos de materiais).  
+   - As telas devem ser **navegáveis** e conter **validações mínimas** representadas na interação (mensagens de erro, restrições, feedbacks).  
    - Cada requisito funcional deve estar representado e validado por meio de **critérios de aceitação**.  
    - **Validações mínimas esperadas (exemplos):**  
      - Campo de justificativa não pode ser vazio e deve ter pelo menos 10 caracteres.  
      - Data prevista de devolução não pode ser anterior à data atual.  
      - Campos obrigatórios devem exibir mensagem clara ao usuário quando não preenchidos.  
-   - O objetivo é validar **se o requisito realmente foi atendido** na interação com a interface.  
+   - O objetivo é validar **se o requisito realmente foi atendido** na interação com o protótipo.  
 
 2. **Correção do Documento de Software**  
    - Revisão do documento já produzido (requisitos, casos de uso, diagramas, testes de aceitação).  
    - Ajustar inconsistências encontradas durante a prototipação e a validação.  
-   - Garantir **rastreabilidade**: Requisito ↔ Tela ↔ Evidência (screenshot/teste).  
+   - Garantir **rastreabilidade**: Requisito ↔ Tela ↔ Evidência (screenshot ou link de protótipo).  
    - **Gerência de requisitos:** implementar novas validações ou ajustes identificados na prototipação.  
 
 3. **Elaboração do Resumo da SETIF**  
@@ -52,31 +53,29 @@
 
 A IA pode e deve ser utilizada como **copiloto**, mas com regras claras:  
 
-1. **Prompt ≠ Código final**  
-   - Todo trecho gerado deve passar por revisão:  
-     - Acessibilidade básica.  
-     - Nomes claros e consistentes.  
+1. **Prompt ≠ Resultado final**  
+   - Todo material gerado deve passar por revisão:  
+     - Consistência visual.  
+     - Nomes claros e coerentes.  
      - Estados previstos: *loading*, *empty*, *error*.  
-     - Remoção de lógica desnecessária.  
+     - Remoção de elementos desnecessários.  
 
-2. **Padrão de projeto**  
-   - Manter a **estrutura de pastas e nomenclatura fornecidas**.  
-   - Não aceitar arquiteturas inventadas ou complexidades desnecessárias.  
+2. **Padrão de prototipação**  
+   - Manter a **estrutura de telas e fluxos definida pela equipe**.  
+   - Não aceitar propostas de telas fora do escopo ou incoerentes com os requisitos.  
 
-3. **Checklist de Pull Request (PR)**  
-   Cada PR deve incluir obrigatoriamente:  
+3. **Checklist de Entrega**  
+   Cada entrega deve incluir obrigatoriamente:  
    - Requisito/critério atendido.  
-   - Screenshots das telas/fluxos.  
+   - Screenshot ou link da tela/fluxo.  
    - Explicação do que foi aceito, editado ou rejeitado da sugestão da IA.  
-   - `dart analyze` sem erros.  
-   - Pelo menos **1 teste passando** (widget ou golden test).  
 
 4. **Uso legítimo da IA**  
-   - A IA deve apoiar a geração de **esqueletos de widgets, formulários e validações repetitivas**.  
+   - A IA deve apoiar a geração de **esboços de telas, textos, microinterações e mensagens de validação**.  
    - O ganho está em reduzir esforço mecânico e liberar tempo para **reflexão crítica**: verificar se a tela realmente cumpre o requisito.  
 
 ---
 
 ## 💡 Observação Final  
 O objetivo deste trimestre não é construir o sistema completo, mas **validar se os requisitos levantados realmente fazem sentido na prática**.  
-Para isso, o protótipo e a correção do documento serão fundamentais, além do resumo que consolida a experiência para apresentação externa.  
+Para isso, o protótipo navegável e a correção do documento serão fundamentais, além do resumo que consolida a experiência para apresentação externa.  
