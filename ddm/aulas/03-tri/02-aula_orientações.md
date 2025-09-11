@@ -1,7 +1,7 @@
 # Orientações Gerais
 
 ## Corrigir Diário
-- Definir nome
+- Definir nomes
 
 ## Quem é o Cliente?
 - Quem irá Pagar?
