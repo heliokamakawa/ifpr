@@ -82,4 +82,10 @@ Se for a mesma equipe com a mesmo líder.
 - Plano de mitigação de riscos validado;
 - Análise, modelagem e divisão de tarefas.
 
+## Sábado letivo 13/09
+Plano de Ataque – plano estratégico de desenvolvimento, pensado para começar pelo simples e deixar o difícil preparado.
+Diagrama de Classe do projeto (mermaid).
+Descrição da divisão das tarefas.
+Todos os modelos  com as devidas validações do projeto.
+
 
