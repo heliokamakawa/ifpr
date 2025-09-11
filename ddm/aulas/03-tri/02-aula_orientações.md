@@ -2,6 +2,7 @@
 
 ## Corrigir Diário
 - Definir nomes
+- Limite de 4 pessoas
 
 ## Quem é o Cliente?
 - Quem irá Pagar?
