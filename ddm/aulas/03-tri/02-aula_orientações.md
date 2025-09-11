@@ -77,4 +77,8 @@ Se for a mesma equipe com a mesmo líder.
 - Inversão de dependência;
 - Arquitetura de Software;
 
+## Entrega HJ
+- Plano de mitigação de riscos validado;
+- Análise, modelagem e divisão de tarefas.
+
 
