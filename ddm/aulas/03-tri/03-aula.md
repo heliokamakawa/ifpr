@@ -10,9 +10,22 @@ Equipes podem atender à disciplina ou a ambos, mas nunca apenas à requisitos f
 ## Check - avaliação periódica (opcional)
 - 4 equipes por dia de aula - 2 equipes por período (antes e depois do intervalo).
 - 5 minutos por aluno de cada equipe.
-- Avaliação técnica de aprendizagem.
-- Fase 1 - mostrar produtividade técnica. Se tiver relevância e correlação, fase 2: perguntas simples de conhecimento/autoria.
-- Lançar no diário, o conceito e objetivamente de aula o que foi entregue (exemplo: crud usuário). Azul: ok, laranja: incoerência no conceito, branco: não entendi.
-- Dúvidas sobre o feedback podem e devem ser tiradas duarnte as aulas no no tempo adequado.
-- A recuperação é sempre bem vinda, basta entender e de FATO fazer o que deve ser feito e entregue nos atendimentos (segunda). Pode-se arriscar por conta e risco na aula seguinte, caso haja tempo, visto que, estarei em check de outras equipes.
+- Avaliação focada na aprendizagem técnica.
+- Fase 1 - mostrar produtividade técnica.
+- Fase 2 - (se tiver relevância e correlação): perguntas simples de conhecimento/autoria.
+- Registrar no diário o o que foi entregue (exemplo: crud usuário).
+  - Azul: ok
+  - Laranja: incoerência no conceito
+  - Branco: não entendi
+- Dúvidas sobre o feedback podem e devem ser tiradas duarnte as aulas, no no tempo adequado.
+- Recuperação é sempre bem vinda: basta compreender e de fato corrigir/entregar nos atendimentos (segunda-feira).
+- Também é possível tentar novamente na aula seguinte, SE HOUVER TEMPO DISPONÍVEL — lembrando que estarei avaliando outras equipes.
 
+## Avaliação Parcial (opcional)
+- Reduz a dependência de uma única avaliação final para a formação do conceito.  
+- Gera múltiplos feedbacks ao longo do processo, ajudando na correção de rota.  
+- O feedback pode ser positivo ou negativo — especialmente útil para quem está com dificuldades.  
+- Feedback negativo não é punição: é uma oportunidade para reagir e melhorar na semana seguinte.  
+- O aluno precisa querer e se dedicar: sem engajamento, a parcial não traz resultados.  
+- O objetivo é dar mais chances de recuperação, estudo e evolução contínua.  
+Aviso: não adianta tentar enrolar. O foco está na aprendizagem real, e isso será percebido na avaliação.
