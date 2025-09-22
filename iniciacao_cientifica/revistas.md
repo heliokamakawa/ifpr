@@ -31,9 +31,31 @@ O objetivo é orientar artigos de **prática aplicada**, com fundamentação te�
 ### [Revista de Sistemas e Computação (UESC)](http://periodicos.uesc.br/index.php/resic)
 - **Foco:** Sistemas de computação, engenharia de software, algoritmos e aplicações práticas.  
 - **Qualis (2017-2020):** B4 em Ciência da Computação.  
-- **ISSN:** 2317-5079.  
+- **ISSN:** 2317-5079.
 
 ---
+
+### Abakós
+- **Foco:** Área de Ciências Exatas e Informática; aceita trabalhos em Ciência da Computação, Engenharia de Software, Sistemas de Informação, etc.  
+---
+
+### Ciência & Engenharia (UFU)
+- **Foco:** Várias engenharias, computação inclusa; trabalhos técnicos científicos, inclusive práticos.
+  
+---
+
+### RE3C – Revista Eletrônica Científica de Ciência da Computação
+- **Foco:** Ciência da Computação em geral; aceita artigos teóricos e práticos; bom para quem está começando.
+  
+---
+
+
+### RECeT – Revista de Engenharia, Computação e Tecnologia
+- **Foco:** Publica artigos científicos, revisões e estudos práticos em engenharia e computação; textos em português, espanhol, inglês.
+  
+---
+
+
 
 ## 🌍 Revistas Internacionais
 
@@ -83,4 +105,5 @@ O objetivo é orientar artigos de **prática aplicada**, com fundamentação te�
 - Para a disciplina, recomenda-se mirar primeiro em **revistas nacionais/intermediárias** (iSys, Cadernos de Informática, RENOTE, Revista de Sistemas e Computação).  
 
 ---
+
 
