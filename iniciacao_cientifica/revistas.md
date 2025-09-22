@@ -5,7 +5,7 @@ O objetivo é orientar artigos de **prática aplicada**, com fundamentação te�
 
 ---
 
-## 🇧🇷 Revistas Brasileiras
+## Revistas Brasileiras
 
 ### [iSys – Revista Brasileira de Sistemas de Informação (SBC)](https://journals-sol.sbc.org.br/index.php/isys)
 - **Foco:** Sistemas de Informação, desenvolvimento, gestão e infraestrutura. Aceita trabalhos conceituais, estudos empíricos e aplicações práticas.  
@@ -83,3 +83,4 @@ O objetivo é orientar artigos de **prática aplicada**, com fundamentação te�
 - Para a disciplina, recomenda-se mirar primeiro em **revistas nacionais/intermediárias** (iSys, Cadernos de Informática, RENOTE, Revista de Sistemas e Computação).  
 
 ---
+
