@@ -29,15 +29,13 @@ O aluno que optar por **não participar dos checks parciais** poderá realizar a
 
 ---
 
-## 🔹 Módulo 1 — Navegação e Rotas
+## 🔹 Navegação e Rotas
 - Uso do **Navigator** (push, pop) e rotas nomeadas.
 - Passagem de **argumentos entre telas**.
 - Padrão de navegação **Lista → Formulário → Detalhe** (master–detail).
 - Estrutura básica para CRUD em múltiplas telas.
 
----
-
-## 🔹 Módulo 2 — Formulários e Validações
+## 🔹 Formulários e Validações
 - Estrutura de formulário com **Form** e **GlobalKey\<FormState>**.
 - Uso de **TextFormField** com **TextEditingController**.
 - Implementação de **validações** por campo (`validator`).
@@ -45,46 +43,34 @@ O aluno que optar por **não participar dos checks parciais** poderá realizar a
 - Tratamento de foco e teclado.
 - Feedback ao usuário: mensagens de erro e **SnackBar** para sucesso/erro.
 
----
-
-## 🔹 Módulo 3 — Controle de Estado
+## 🔹  Controle de Estado
 - Diferença entre **StatelessWidget** e **StatefulWidget**.
 - Uso do **setState** para atualizar a interface.
 - Controle de estados comuns: **loading**, **erro**, **vazio**.
 - Comunicação entre widgets (callbacks e elevação de estado).
 - Introdução ao conceito de **gerenciamento de estado** (Provider/ValueNotifier — opcional).
 
----
-
-## 🔹 Módulo 4 — Modelagem de Banco de Dados e Associações
+## 🔹 Banco de Dados e Associações
 - Revisão de conceitos SQL: **tabelas, chaves primárias, estrangeiras, índices, constraints**.
 - Associação **1–N** (ex.: Categoria 1—N Produto).
-- Estruturação de esquema com normalização básica.
-- Ativação de chaves estrangeiras: `PRAGMA foreign_keys = ON`.
-- Uso de **transactions** para operações atômicas.
+- Comandos DDL, DML e de consultas.
 
----
-
-## 🔹 Módulo 5 — Camada de Dados (Conexão e DAO)
+## 🔹 Camada de Dados (Conexão e DAO)
 - Criação de classe de **conexão com SQLite** utilizando **sqflite** + **path_provider**.
 - Configuração de **onCreate**, **onUpgrade** e **onConfigure**.
 - **Criação manual de tabelas** com SQL (`CREATE TABLE`, índices e FKs).
 - Implementação do padrão **DAO** (Data Access Object) com métodos **CRUD**.
-- Estrutura recomendada de pacotes: `data/`, `models/`, `daos/`.
 
----
-
-## 🔹 Módulo 6 — CRUD Completo com Associação
+## 🔹 CRUD Completo com Associação
 - **Create/Insert**: cadastrar Categoria e Produtos vinculados.
 - **Read/Query**: listar registros com filtros e **JOIN** (Produto + Categoria).
 - **Update**: editar dados mantendo integridade referencial.
 - **Delete**: remoção com tratamento de dependências (**ON DELETE RESTRICT/CASCADE**).
+- Mapeamento OR via dao (manualmente).
 - Funcionalidades adicionais: **busca, ordenação e paginação**.
 - Tratamento de exceções e feedback ao usuário.
 
----
-
-## 🔹 Módulo 7 — Interface de Usuário do CRUD
+## 🔹 Interface de Usuário do CRUD
 - Tela de **lista** com **ListView**, **Card** e **FloatingActionButton**.
 - Tela de **formulário** (criação/edição) com validações.
 - Tela de **detalhes** (opcional) com dados estendidos e ações rápidas.
@@ -92,6 +78,3 @@ O aluno que optar por **não participar dos checks parciais** poderá realizar a
 - Inclusão de indicadores de **loading** e mensagens de erro.
 - Integração entre UI ↔ DAO com atualização em tempo real do estado.
 
----
-
-📌 **Observação:** Os módulos foram organizados para que cada etapa complemente a anterior, conduzindo o aluno de conceitos básicos de UI até a integração com banco de dados relacional e construção de um CRUD funcional com associação.
