@@ -27,6 +27,13 @@ Cada grupo apresenta em **semanas alternadas**, subdividido em **dois turnos**:
 
 ---
 
+## 🤖 Diário de aula
+- Registrar o conceito e que foi entregue  
+  - seja bem objetivo e claro
+
+
+---
+
 ## 🎤 Protagonismo nas Apresentações
 - Cada grupo tem um **momento definido de apresentação** (pré e pós-intervalo).  
 - **Apresentar no início** do turno, não deixe para o final.  
