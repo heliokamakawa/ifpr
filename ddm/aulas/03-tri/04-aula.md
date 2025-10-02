@@ -12,14 +12,14 @@ Cada grupo apresenta em **semanas alternadas**, subdividido em **dois turnos**:
 
 ---
 
-## ⏳ Uso do Tempo em Sala e Presença
+## Uso do Tempo em Sala e Presença
 - **Apresentar não libera da aula.** O trabalho deve ser desenvolvido em sala, aproveitando equipe e professor.  
 - Sair após apresentar apenas “porque já apresentou” = **falta registrada**.  
 - Equipes mistas (alunos com mais e menos domínio) **devem produzir em sala**. Caso contrário, colegas com dificuldade ficam prejudicados.  
 
 ---
 
-## 🤖 Uso de Inteligência Artificial (IA)
+## Uso de Inteligência Artificial (IA)
 - **Permitido como apoio**, mas com regras claras:  
   - “**A IA pode apoiar, mas não substituir a compreensão e autoria da equipe.**”  
 - **Todos da equipe devem conhecer o projeto.**  
@@ -27,7 +27,7 @@ Cada grupo apresenta em **semanas alternadas**, subdividido em **dois turnos**:
 
 ---
 
-## 🤖 Diário de aula
+## Diário de aula
 - Registrar o conceito e que foi entregue  
   - seja bem objetivo e claro
 
@@ -49,7 +49,7 @@ Cada grupo apresenta em **semanas alternadas**, subdividido em **dois turnos**:
 
 ---
 
-## 🧑‍🎓 Alunos com Dificuldades
+## Alunos com Dificuldades
 - Dedicar mais tempo à aprendizagem.  
 - Tirar dúvidas e aproveitar o professor.  
 - Trabalhar junto à equipe.  
@@ -64,7 +64,7 @@ Cada grupo apresenta em **semanas alternadas**, subdividido em **dois turnos**:
 
 ---
 
-## 🧾 Validação Individual de Autoria
+## Validação Individual de Autoria
 Cada integrante tem **5 minutos de apresentação** com **validação prática**, incluindo:  
 - Inserção/ajuste de **widgets em Flutter**.  
 - Alterações em **validações/regras de negócio**.  
@@ -83,7 +83,7 @@ Até a proxima semana as equipes deverão entregar o projeto funcional encaminha
 
 ---
 
-📌 **Resumo:**  
+**Resumo:**  
 - A IA pode apoiar, mas a **autoria é obrigatória**.  
 - Cada aluno deve **dominar e validar sua parte**.  
 - O projeto é coletivo, mas a **responsabilidade é individual**.
