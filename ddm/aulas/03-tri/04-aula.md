@@ -68,11 +68,17 @@ Cada integrante tem **5 minutos de apresentação** com **validação prática**
 1. **Entendimento** (sabe explicar o que fez e por quê).  
 2. **Execução sob demanda** (consegue alterar em tempo real).  
 3. **Clareza** (comunica de forma objetiva em 5 minutos).  
-4. **Tempo** (em checks básicos com alterações muito simples e óbvias).  
+4. **Tempo** (em checks básicos com alterações muito simples e óbvias).
+
+
+## Entrega
+Até a proxima semana as equipes deverão entregar o projeto funcional encaminhando para finalização.
 
 ---
 
 📌 **Resumo:**  
 - A IA pode apoiar, mas a **autoria é obrigatória**.  
 - Cada aluno deve **dominar e validar sua parte**.  
-- O projeto é coletivo, mas a **responsabilidade é individual**.  
+- O projeto é coletivo, mas a **responsabilidade é individual**.
+
+ 
