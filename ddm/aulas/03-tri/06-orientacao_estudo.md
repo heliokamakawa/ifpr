@@ -108,20 +108,38 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ### 🔹 Referência oficial (principal)
 
-- Flutter Documentation (Widgets, API, guia de design) — **docs.flutter.dev** :contentReference[oaicite:0]{index=0}  
-- Persist data with SQLite — Flutter Cookbook (persistência local) :contentReference[oaicite:1]{index=1}  
-- Persistent storage architecture: SQL (para dados relacionais / complexos) :contentReference[oaicite:2]{index=2}  
+- [📘 Documentação principal do Flutter](https://docs.flutter.dev/?utm_source=chatgpt.com)  
+- [🧱 Catálogo oficial de Widgets](https://docs.flutter.dev/ui/widgets?utm_source=chatgpt.com)  
+- [📄 Layout Tutorial — aprendendo a organizar widgets](https://docs.flutter.dev/ui/layout/tutorial?utm_source=chatgpt.com)  
+- [🧩 Cookbook: formulários com validação](https://docs.flutter.dev/cookbook/forms/validation?utm_source=chatgpt.com)  
+- [💾 Cookbook: persistência com SQLite (sqflite)](https://docs.flutter.dev/cookbook/persistence/sqlite?utm_source=chatgpt.com)  
+- [🏗 Arquitetura com SQL e dados persistentes](https://docs.flutter.dev/app-architecture/design-patterns/sql?utm_source=chatgpt.com)  
+- [🎓 Flutter Learning Resources (Codelabs e exemplos oficiais)](https://docs.flutter.dev/reference/learning-resources?utm_source=chatgpt.com)
 
-### 🔹 Complementares (exemplos, tutoriais práticos)
+### 🔹 Tutoriais e Guias Complementares
 
-- GeeksforGeeks: SQLite em Flutter — exemplo passo a passo :contentReference[oaicite:3]{index=3}  
-- Dev.to: guia completo de SQLite no Flutter :contentReference[oaicite:4]{index=4}  
-- Medium: “Using SQLite in Flutter” (conceitos e implementação) :contentReference[oaicite:5]{index=5}  
-- Medium: “Building a Flutter To-Do List with SQLite Database” (projeto real de exemplo) :contentReference[oaicite:6]{index=6}  
-- Medium: “Guide for SQFlite in Flutter” (práticas recomendadas) :contentReference[oaicite:7]{index=7}  
-- SQLTutorial.net — guia geral de SQLite (quando quiser reforçar SQL puro) :contentReference[oaicite:8]{index=8}  
+#### 🧩 Widgets / Layout / Interface
 
----
+- [📘 What are Widgets in Flutter? (GeeksforGeeks)](https://www.geeksforgeeks.org/flutter/what-is-widgets-in-flutter/?utm_source=chatgpt.com)  
+- [🎥 Flutter Layout Tutorial (YouTube — oficial Flutter)](https://www.youtube.com/watch?v=R2hLgysH6JA&utm_source=chatgpt.com)  
 
-> *Use este README como checklist de revisão. Para cada tópico, certifique-se de poder explicar, demonstrar e codificar a solução correspondente. O simulado
-::contentReference[oaicite:9]{index=9}
+#### 💾 SQLite / Persistência Local
+
+- [📗 SQLite in Flutter (GeeksforGeeks)](https://www.geeksforgeeks.org/sqlite-in-flutter/?utm_source=chatgpt.com)  
+- [🧠 Flutter SQFLite Tutorial Example (Dbestech)](https://www.dbestech.com/tutorials/flutter-sqflite-tutorial-example?utm_source=chatgpt.com)  
+- [🧩 Guide for SQFlite in Flutter (Medium)](https://medium.com/@dpatel312002/guide-for-sqflite-in-flutter-59e429db1088?utm_source=chatgpt.com)  
+- [🧱 Building a Flutter To-Do List with SQLite (Medium)](https://medium.com/@gopikaprabhu020/building-a-sqlite-flutter-to-do-list-app-35e8313d0d49?utm_source=chatgpt.com)  
+- [💡 How to Use SQFlite on Windows (Dev.to)](https://dev.to/ayoubzulfiqar/how-to-use-sqflite-on-windows-flutter-ggm?utm_source=chatgpt.com)  
+- [📚 SQLTutorial.net — fundamentos de SQL puro](https://www.sqlitetutorial.net/?utm_source=chatgpt.com)  
+
+#### 🧠 Formulários e Validação
+
+- [📄 Build a Form with Validation (Flutter Cookbook)](https://docs.flutter.dev/cookbook/forms/validation?utm_source=chatgpt.com)  
+- [🧩 Form Validation in Flutter (GeeksforGeeks)](https://www.geeksforgeeks.org/form-validation-in-flutter/?utm_source=chatgpt.com)  
+- [💡 Handling Forms and Input Validation (Medium)](https://medium.com/flutter-community/flutter-form-validation-b874fb53e248?utm_source=chatgpt.com)  
+
+#### 🧱 Boas Práticas / Arquitetura / Clean Code
+
+- [🧭 Clean Architecture in Flutter (Medium)](https://medium.com/flutter-community/clean-architecture-with-flutter-2e1e4da5e9f9?utm_source=chatgpt.com)  
+- [🧩 Folder Structure Best Practices (Dev.to)](https://dev.to/flutterdevs/flutter-folder-structure-best-practices-4j6b?utm_source=chatgpt.com)  
+- [📘 Effective Dart: Style Guide (oficial)](https://dart.dev/guides/language/effective-dart/style?utm_source=chatgpt.com)  
