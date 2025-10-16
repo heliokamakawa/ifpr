@@ -138,8 +138,4 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 - [Form Validation in Flutter (GeeksforGeeks)](https://www.geeksforgeeks.org/form-validation-in-flutter/?utm_source=chatgpt.com)  
 - [Handling Forms and Input Validation (Medium)](https://medium.com/flutter-community/flutter-form-validation-b874fb53e248?utm_source=chatgpt.com)  
 
-#### 🧱 Boas Práticas / Arquitetura / Clean Code
 
-- [Clean Architecture in Flutter (Medium)](https://medium.com/flutter-community/clean-architecture-with-flutter-2e1e4da5e9f9?utm_source=chatgpt.com)  
-- [Folder Structure Best Practices (Dev.to)](https://dev.to/flutterdevs/flutter-folder-structure-best-practices-4j6b?utm_source=chatgpt.com)  
-- [Effective Dart: Style Guide (oficial)](https://dart.dev/guides/language/effective-dart/style?utm_source=chatgpt.com)  
