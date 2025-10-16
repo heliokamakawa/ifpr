@@ -2,7 +2,7 @@
 
 ## Contexto
 
-Estamos entrando na reta final da disciplina, consolidando o aprendizado em **Flutter, SQLite, Firebase e Supabase**.  
+Estamos entrando na reta final da disciplina, consolidando o aprendizado em **Flutter - Persistência**.  
 A proposta deste trimestre é **reforçar fundamentos essenciais** — com foco em **CRUD com associação** — e garantir que todos consigam desenvolver com segurança, clareza e autonomia.
 
 O objetivo não é correr com novos conteúdos, mas **garantir que a base esteja sólida**.  
