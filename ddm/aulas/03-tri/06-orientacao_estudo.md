@@ -1,12 +1,12 @@
-# 📚 Conteúdo Mínimo — Persistência de Entidade com Associação
+# Conteúdo Mínimo — Persistência de Entidade com Associação
 
 Este documento reúne os tópicos fundamentais que todo aluno deve dominar para aplicar **persistência de entidade com associação** em Flutter + SQLite (nível mínimo para simulado/avaliação).
 
 ---
 
-## 🧩 Widgets
+## Widgets
 
-### 🖼 Visual (exemplos principais)
+### Visual (exemplos principais)
 - `Text`  
 - `Icon`  
 - `Image`  
@@ -18,7 +18,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 - `Card`  
 - `ListTile`  
 
-### 🏗 Estrutural (layout e organização)
+### Estrutural (layout e organização)
 - `Column`  
 - `Row`  
 - `Container`  
@@ -30,7 +30,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ---
 
-## 📦 Estado e Gerência de Dados
+## Estado e Gerência de Dados
 
 - **Comunicação entre widgets via `setState()`**  
   Permite atualizar o estado interno do widget e refazer `build()` com novas informações.
@@ -43,7 +43,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ---
 
-## 📝 Formulários e Validação
+## Formulários e Validação
 
 - **Criação de formulários com `Form` e `TextFormField`**  
   Estrutura padrão para capturar múltiplos campos com validação.
@@ -59,7 +59,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ---
 
-## 🧩 Componentização e Interface
+## Componentização e Interface
 
 - **Widgets básicos** → `Text`, `Column`, `Row`, `Container`, etc.  
 - **Widgets de layout** → `ListView`, `GridView`, `Stack`, etc.  
@@ -69,7 +69,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ---
 
-## 💾 Persistência (SQLite / Persistência local)
+## Persistência (SQLite / Persistência local)
 
 - **Banco de Dados Local e Persistência**  
   Uso do pacote `sqflite` ou similar para persistência local.
@@ -91,12 +91,12 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ## 🛠 Boas Práticas e Arquitetura
 
-### 🧼 Código limpo  
+### Código limpo  
 - Nomenclatura clara e coerente (funções e variáveis com nomes significativos)  
 - Legibilidade do código (idealmente evitar funções longas, lógica excessiva em widgets)  
 - Boas práticas Dart/Flutter (uso de `const`, evitar duplicação, manter simplicidade)
 
-### 🗂 Estrutura de pastas organizada & separação de responsabilidades  
+### Estrutura de pastas organizada & separação de responsabilidades  
 - **models/** → definição das entidades / classes de domínio  
 - **views/** → telas, widgets de interface  
 - **controllers / services / repositories** → lógica de negócio, acesso a dados, regras de integração  
@@ -104,7 +104,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ---
 
-## 📖 Recursos de Estudo
+## Recursos de Estudo
 
 ### 🔹 Referência oficial (principal)
 
