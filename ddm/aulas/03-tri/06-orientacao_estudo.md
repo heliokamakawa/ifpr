@@ -89,7 +89,7 @@ Este documento reúne os tópicos fundamentais que todo aluno deve dominar para 
 
 ---
 
-## 🛠 Boas Práticas e Arquitetura
+## Boas Práticas e Arquitetura
 
 ### Código limpo  
 - Nomenclatura clara e coerente (funções e variáveis com nomes significativos)  
