@@ -26,7 +26,7 @@ não basta entregar, é preciso **entender, explicar e evoluir** o próprio cód
 ## Situação Atual da Turma
 
 De forma geral, o desempenho da turma é **bom**.  
-A maioria tem mostrado evolução, dedicação e responsabilidade — o que merece **reconhecimento e parabéns** 👏.  
+A maioria tem mostrado evolução, dedicação e responsabilidade — o que merece **reconhecimento e parabéns**.  
 Esses alunos estão conseguindo transformar esforço em resultado e demonstram **postura profissional** compatível com o mercado.
 
 Entretanto, há um **pequeno grupo** que ainda **não está acompanhando o ritmo**.  
