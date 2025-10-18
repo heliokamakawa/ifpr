@@ -11,14 +11,14 @@
 
 
 ## A validade externa é a que mais se fortalece por replicação e referência a estudos anteriores.
+
+
 ---
 
-# Exemplo Didático Integrado — As Quatro Validades no Mesmo Contexto
+## As Quatro Validades no Mesmo Contexto
 
 Contexto único:  
 Um aluno quer descobrir se usar um aplicativo educativo ajuda no aprendizado de matemática.
-
----
 
 ## 1. Validade de Construto  
 Pergunta: O que estou medindo realmente representa o que quero estudar?
