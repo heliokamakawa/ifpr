@@ -1,10 +1,10 @@
-# 🧭 Controle de Vieses em Engenharia de Software
+# Controle de Vieses em Engenharia de Software
 
 A qualidade metodológica de um artigo não está em “descrever o que foi feito” — está em demonstrar que o que se fez **gera evidências válidas, confiáveis e generalizáveis**, isto é, **livres (ou minimamente impactadas) por vieses**.
 
 ---
 
-## 🧩 O que é “viés” em Engenharia de Software
+## O que é “viés” em Engenharia de Software
 
 Em termos simples, **viés** é qualquer distorção sistemática que afeta a coleta, interpretação ou generalização dos resultados.  
 Ele **não é apenas erro**, mas uma **tendência sistemática** que faz o resultado se afastar da realidade.
@@ -14,7 +14,7 @@ Ele **não é apenas erro**, mas uma **tendência sistemática** que faz o resul
 
 ---
 
-## ⚖️ Por que o controle de vieses define a validade
+## Por que o controle de vieses define a validade
 
 Detalhar e descrever como uma metodologia foi feita **não é suficiente** para torná-la boa ou válida.  
 A **validade da metodologia** está na **ausência de viés** — um texto detalhado, porém enviesado, apenas disfarça um problema estrutural que geralmente favorece o resultado esperado.
@@ -37,7 +37,7 @@ A validade de um artigo (isto é, o quão confiáveis são suas conclusões) dep
 
 ---
 
-## 🧠 Onde o viés aparece (por fase do estudo)
+## Onde o viés aparece (por fase do estudo)
 
 | Etapa do estudo | Principais fontes de viés | Como mitigar |
 |-----------------|---------------------------|---------------|
@@ -49,7 +49,7 @@ A validade de um artigo (isto é, o quão confiáveis são suas conclusões) dep
 
 ---
 
-## 🧩 Estratégias formais de mitigação (com base em literatura de ES)
+## Estratégias formais de mitigação (com base em literatura de ES)
 
 ### 🔹 Planejamento
 - Protocolo prévio documentado (Kitchenham, 2007): define perguntas, métodos e critérios antes da coleta.  
@@ -78,12 +78,12 @@ A validade de um artigo (isto é, o quão confiáveis são suas conclusões) dep
 
 ---
 
-## 🧮 Como um avaliador pensa sobre viés
+## Como um avaliador pensa sobre viés
 
 Um bom revisor de ES **não penaliza** o artigo por “ter viés” (todo estudo tem),  
 mas sim por **não demonstrar consciência e controle sobre ele**.
 
-> 💭 **Pensamento típico de avaliador:**  
+> **Pensamento típico de avaliador:**  
 > “O autor identificou onde o estudo poderia falhar, e mostrou como tentou reduzir isso?  
 > Mesmo que o viés exista, está sob controle e reconhecido?”
 
@@ -92,7 +92,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-## 📋 Guia de Avaliação de Vieses em Engenharia de Software
+## Guia de Avaliação de Vieses em Engenharia de Software
 
 | Dimensão de Validade | Pergunta central do avaliador | Exemplos típicos de viés | Estratégias de mitigação esperadas | Indicador de maturidade metodológica |
 |----------------------|--------------------------------|---------------------------|------------------------------------|--------------------------------------|
@@ -102,19 +102,19 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 | **Validade de Conclusão** | “A inferência estatística e lógica é sólida?” | Uso incorreto de testes estatísticos; falta de verificação de pressupostos; interpretações causais indevidas. | Testes apropriados; análise de sensibilidade; reporte de p-valores e intervalos de confiança; transparência nos dados. | Coerência entre método analítico e objetivos. |
 | **Validade Ética (em expansão)** | “O estudo respeita a integridade e confidencialidade dos dados e participantes?” | Falta de consentimento; anonimização ausente; uso de dados privados sem permissão. | Parecer de ética; anonimização rigorosa; políticas de privacidade documentadas. | Clareza sobre tratamento ético e sigilo dos dados. |
 
-> 💡 **Uso prático:**  
+> **Uso prático:**  
 > Como avaliador, pontue cada linha como *Adequado / Parcial / Fraco / Ausente* e registre uma nota explicativa.
 
 ---
 
-## 🧭 Guia para Descrever “Ameaças à Validade” no Artigo  
+## Guia para Descrever “Ameaças à Validade” no Artigo  
 *(Visão de autor — como demonstrar controle de viés)*
 
-🎯 **Objetivo:** Mostrar que o pesquisador entende onde o estudo pode falhar e como tentou minimizar cada limitação.
+**Objetivo:** Mostrar que o pesquisador entende onde o estudo pode falhar e como tentou minimizar cada limitação.
 
 ---
 
-### 1️⃣ Validade de Construto
+### Validade de Construto
 **O que avaliar:**
 - Se as métricas realmente representam os conceitos teóricos (ex: qualidade, produtividade, satisfação).  
 - Se os instrumentos medem o que se propõem.  
@@ -126,7 +126,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-### 2️⃣ Validade Interna
+### Validade Interna
 **O que avaliar:**
 - Se há fatores de confusão ou interferências externas.  
 - Se as relações observadas são genuínas.  
@@ -138,7 +138,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-### 3️⃣ Validade Externa
+### Validade Externa
 **O que avaliar:**
 - Se os resultados podem ser generalizados.  
 
@@ -149,7 +149,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-### 4️⃣ Validade de Conclusão
+### Validade de Conclusão
 **O que avaliar:**
 - Se as inferências são consistentes com os dados.  
 
@@ -160,7 +160,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-### 5️⃣ (Opcional) Validade Ética e de Reprodutibilidade
+### (Opcional) Validade Ética e de Reprodutibilidade
 **O que avaliar:**
 - Transparência, abertura de dados, anonimização e consentimento.  
 
@@ -169,7 +169,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-### 📘 Exemplo de fechamento da seção (modelo editorial)
+### Exemplo de fechamento da seção (modelo editorial)
 
 > “Reconhecemos ameaças às validades de construto e externa, principalmente pela limitação da amostra e pela natureza das métricas.  
 > Para mitigá-las, seguimos recomendações de Runeson & Höst (2009) e Wohlin et al. (2012), aplicando triangulação de dados e validação cruzada entre múltiplos revisores.  
@@ -177,7 +177,7 @@ isso distingue um artigo **maduro e científico** de um **ingênuo e descritivo*
 
 ---
 
-## 💡 Recomendações adicionais
+## Recomendações adicionais
 - A seção deve ser **honesta e explícita** — evitar frases genéricas (“podem haver limitações”).  
 - Revisores valorizam **autocrítica técnica**: reconhecer limitação **aumenta credibilidade**.  
 - Sempre incluir **referências metodológicas** na própria seção de validade.  
