@@ -35,6 +35,65 @@ A validade de um artigo (isto é, o quão confiáveis são suas conclusões) dep
 
 > Essas dimensões são **complementares** — negligenciar uma pode comprometer todas.
 
+
+## 1. Validade de Construto
+
+| **Aspecto** | **Descrição e exemplos orientativos** |
+|--------------|--------------------------------------|
+| **Propósito da validade** | Avaliar se **o que está sendo medido realmente representa o conceito teórico** que o estudo afirma investigar. Em Engenharia de Software, significa verificar se métricas, instrumentos e critérios de observação **capturam o fenômeno real** sem distorções conceituais. |
+| **Perguntas de reflexão (para orientar o aluno)** | • A métrica usada mede realmente o fenômeno estudado?<br>• O conceito foi operacionalizado de forma coerente com a teoria?<br>• O instrumento usado (questionário, script, log) foi validado?<br>• Se outro pesquisador aplicasse o mesmo método, interpretaria o mesmo fenômeno?<br>• Há referências que sustentam a adequação da métrica? |
+| **Exemplos práticos (de diferentes tipos de pesquisa)** | 🔹 *Experimento:* usar “tempo de compilação” como indicador de produtividade — pode não refletir eficiência de desenvolvimento.<br>🔹 *Survey:* aplicar questionário sobre “satisfação com DevOps” sem testar a clareza das perguntas.<br>🔹 *Estudo de caso:* considerar “quantidade de reuniões” como evidência de colaboração, sem avaliar a qualidade dessas interações.<br>🔹 *Mapeamento sistemático:* classificar artigos como “ágil” apenas por conter a palavra “Scrum”. |
+| **Risco de viés típico (descrição)** | Ocorre quando há **inconsistência entre o construto teórico e a medida empírica**. O pesquisador acredita medir um fenômeno, mas mede outro. |
+| **Exemplo negativo e explicação do erro** | *Exemplo:* “Medi a produtividade dos desenvolvedores pelo número de commits por semana.”<br>❌ **Erro:** confunde *atividade* com *produtividade real*.<br>⚙️ **Por quê:** commits podem incluir correções triviais, refatorações ou testes — não refletem entrega de valor. |
+| **Como corrigir / boa prática** | • Escolher métricas com **base teórica ou validação prévia** (ex: DORA Metrics, ISO/IEC 25010).<br>• Justificar por que a métrica representa o fenômeno.<br>• Fazer **pré-teste de instrumentos** (questionários, logs).<br>• Utilizar **triangulação de medidas** (quantitativas + qualitativas).<br>• Citar **fontes metodológicas** que reforcem a validade do construto. |
+
+---
+
+## 2. Validade Interna
+
+| **Aspecto** | **Descrição e exemplos orientativos** |
+|--------------|--------------------------------------|
+| **Propósito da validade** | Avaliar se **as relações observadas são genuínas**, ou se foram influenciadas por fatores externos. Busca garantir que **as conclusões sobre causa e efeito** sejam sustentáveis. |
+| **Perguntas de reflexão (para orientar o aluno)** | • Os resultados podem ter sido causados por outro fator não controlado?<br>• Houve mudanças no contexto (equipe, ferramenta, política) durante o estudo?<br>• A coleta e análise foram consistentes em todos os casos?<br>• As variáveis foram medidas no mesmo momento e condições?<br>• Há possibilidade de viés do pesquisador ou participante? |
+| **Exemplos práticos (de diferentes tipos de pesquisa)** | 🔹 *Experimento:* aumento de produtividade coincidindo com a chegada de um novo líder técnico.<br>🔹 *Estudo de caso:* adoção de metodologia ágil junto com um bônus de desempenho — difícil separar efeitos.<br>🔹 *Survey:* respostas enviesadas por interesse do participante em agradar o pesquisador.<br>🔹 *Pesquisa-ação:* melhorias causadas por acompanhamento mais próximo, não pela intervenção em si. |
+| **Risco de viés típico (descrição)** | Ocorre quando **fatores externos ou não controlados interferem nos resultados**, gerando falsas relações de causa e efeito. |
+| **Exemplo negativo e explicação do erro** | *Exemplo:* “Após adotar integração contínua, o time passou a entregar mais rápido.”<br>❌ **Erro:** não houve controle sobre outros fatores (mudança de membros, aumento de experiência, novas metas).<br>⚙️ **Por quê:** não se pode atribuir o efeito exclusivamente à ferramenta. |
+| **Como corrigir / boa prática** | • Definir variáveis de controle.<br>• Documentar o contexto de forma completa.<br>• Aplicar **triangulação de dados** (entrevistas, logs, observações).<br>• Usar **grupos de comparação** (quando possível).<br>• Relatar claramente fatores externos que possam ter influenciado. |
+
+---
+
+## 3. Validade Externa
+
+| **Aspecto** | **Descrição e exemplos orientativos** |
+|--------------|--------------------------------------|
+| **Propósito da validade** | Avaliar se os resultados **podem ser generalizados** para outros contextos, organizações, tecnologias ou equipes. Trata-se da **transferibilidade dos achados**. |
+| **Perguntas de reflexão (para orientar o aluno)** | • Os resultados seriam semelhantes em outro tipo de empresa, país ou tecnologia?<br>• A amostra representa a diversidade do contexto real?<br>• Houve replicação em mais de um ambiente?<br>• As condições do estudo são específicas demais?<br>• O estudo discute suas limitações de generalização? |
+| **Exemplos práticos (de diferentes tipos de pesquisa)** | 🔹 *Estudo de caso:* resultados obtidos em uma startup aplicados indevidamente a empresas de grande porte.<br>🔹 *Survey:* coleta de respostas apenas de desenvolvedores web e generalização para toda a indústria.<br>🔹 *Mapeamento sistemático:* base de busca restrita a uma ou duas bases (ex: IEEE e Scopus), excluindo outras áreas. |
+| **Risco de viés típico (descrição)** | Ocorre quando o pesquisador **extrapola indevidamente os resultados** para contextos que não compartilham as mesmas características. |
+| **Exemplo negativo e explicação do erro** | *Exemplo:* “Os resultados indicam que qualquer empresa que adote DevOps terá ganhos semelhantes.”<br>❌ **Erro:** generalização sem considerar diferenças de tamanho, cultura e maturidade técnica.<br>⚙️ **Por quê:** estudo restrito a startups com forte autonomia de equipe. |
+| **Como corrigir / boa prática** | • Discutir **limitações de generalização** explicitamente.<br>• Usar **amostras diversas ou replicações em múltiplos contextos**.<br>• Apresentar **descrição detalhada do ambiente** para permitir avaliação da transferibilidade.<br>• Evitar linguagem universalizante (“todas as empresas”, “sempre”, “em geral”). |
+
+---
+
+## 4. Validade de Conclusão
+
+| **Aspecto** | **Descrição e exemplos orientativos** |
+|--------------|--------------------------------------|
+| **Propósito da validade** | Avaliar se **as inferências e relações entre variáveis** são estatística e logicamente sólidas. Trata-se de verificar se as conclusões são sustentadas pelos dados. |
+| **Perguntas de reflexão (para orientar o aluno)** | • Os testes estatísticos usados são apropriados ao tipo de dado?<br>• Há correlação sem causalidade?<br>• Foram verificadas as suposições dos testes (normalidade, independência)?<br>• O tamanho da amostra é suficiente para dar confiança?<br>• Resultados negativos foram reportados? |
+| **Exemplos práticos (de diferentes tipos de pesquisa)** | 🔹 *Experimento:* aplicação de ANOVA com amostra pequena, violando suposições estatísticas.<br>🔹 *Survey:* cálculo de médias sem verificar distribuição dos dados.<br>🔹 *Estudo de caso qualitativo:* afirmar conclusões gerais com base em uma única observação.<br>🔹 *Mapeamento sistemático:* contar artigos sem avaliar relevância e evidência. |
+| **Risco de viés típico (descrição)** | Ocorre quando **as inferências não são sustentadas pelos dados**, seja por erro estatístico, análise superficial ou falta de triangulação. |
+| **Exemplo negativo e explicação do erro** | *Exemplo:* “Houve correlação de 0,6 entre commits e bugs, logo aumentar commits reduz defeitos.”<br>❌ **Erro:** inferência causal indevida.<br>⚙️ **Por quê:** correlação não implica causalidade; outras variáveis podem interferir. |
+| **Como corrigir / boa prática** | • Utilizar testes estatísticos adequados e reportar pressupostos.<br>• Informar **p-valores, intervalos de confiança e tamanho de efeito**.<br>• Incluir **análise de sensibilidade** (testar resultados sob diferentes condições).<br>• Em estudos qualitativos, aplicar **validação cruzada** e **triangulação**.<br>• Reportar resultados neutros ou negativos — eles também têm valor científico. |
+
+---
+
+## 🧠 Dica geral aos alunos
+
+> Nenhum estudo é “sem viés”.  
+> O que define qualidade é **reconhecer onde os vieses podem ocorrer** e **demonstrar como foram mitigados**.  
+> Um bom pesquisador não esconde limitações — ele as explica, controla e aprende com elas.
+
 ---
 
 ## Onde o viés aparece (por fase do estudo)
