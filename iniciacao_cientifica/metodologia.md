@@ -10,12 +10,12 @@
 | Validade de conclusão | As inferências e análises são logicamente e estatisticamente sólidas? | Solidez das inferências baseadas nos dados. | A inferência é sólida e sustentada pelos dados? |
 
 
-## A validade externa é a que mais se fortalece por replicação e referência a estudos anteriores.
+**A validade externa é a que mais se fortalece por replicação e referência a estudos anteriores.**  
 → Quando você replica um estudo (total ou parcialmente) em outro contexto — por exemplo, em outra empresa, turma, cidade ou tecnologia —, está testando se o mesmo fenômeno ocorre em condições diferentes.  
 → Cada replicação bem documentada reforça a confiança de que o resultado não depende apenas de um ambiente específico, mas representa algo mais geral.  
 → Da mesma forma, seguir o desenho de um estudo anterior (citando e adaptando o método) de **QUALIDADE** aumenta a credibilidade metodológica, pois demonstra que o novo trabalho não começou do zero e respeita padrões já testados.
 
-## Qualidade
+**Qualidade**  
 Seguir o desenho de um estudo anterior não significa copiar o método, mas ancorar-se em evidências já validadas e reproduzíveis, principalmente quando o estudo original é:
 - Publicado em revistas especializadas e revisadas por pares (peer-reviewed).  
 - Reconhecido por rigor metodológico e clareza na descrição experimental.  
