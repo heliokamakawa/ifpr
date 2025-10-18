@@ -23,7 +23,7 @@ A validade de um artigo (isto é, o quão confiáveis são suas conclusões) dep
 
 ---
 
-## 🔬 Modelo clássico das quatro validades  
+## Modelo clássico das quatro validades  
 *(Runeson & Höst, 2009; Wohlin et al., 2012)*
 
 | Tipo de validade | Questão central | Exemplo prático em ES | Risco de viés típico |
