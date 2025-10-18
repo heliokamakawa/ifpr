@@ -9,6 +9,8 @@
 | Validade externa | Esses resultados podem ser reproduzidos em outros contextos? | Generalização e replicabilidade do método e do contexto. | O processo é replicável (amostra, contexto, ferramentas)? |
 | Validade de conclusão | As inferências e análises são logicamente e estatisticamente sólidas? | Solidez das inferências baseadas nos dados. | A inferência é sólida e sustentada pelos dados? |
 
+
+## A validade externa é a que mais se fortalece por replicação e referência a estudos anteriores.
 ---
 
 # Exemplo Didático Integrado — As Quatro Validades no Mesmo Contexto
