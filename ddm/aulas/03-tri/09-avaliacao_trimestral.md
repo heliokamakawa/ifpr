@@ -28,7 +28,7 @@ O objetivo é **comprovar a aprendizagem individual** nos principais conteúdos 
 - Entregar via **GitHub**, anexando o link no **SUAP**.
 - Soluções idênticas entre alunos **serão invalidadas**.
 
-> ⏱ **Prazo:** até 04/10/2025  
+> ⏱ **Prazo:** até 04/11/2025  
 > 💬 O professor estará disponível para atendimento e dúvidas durante todo o período.
 
 ---
@@ -71,9 +71,9 @@ O objetivo é **comprovar a aprendizagem individual** nos principais conteúdos 
 
 | Etapa | Descrição | Entrega / Execução |
 |--------|------------|--------------------|
-| 1 | Estudo Prático de Widgets | até 04/10/2025 |
-| 2 | Análise de Código e CRUD com SQLite | até 04/10/2025 |
-| 3 | Avaliação presencial (sem consulta) | 04/10/2025 |
+| 1 | Estudo Prático de Widgets | até 04/11/2025 |
+| 2 | Análise de Código e CRUD com SQLite | até 04/11/2025 |
+| 3 | Avaliação presencial (sem consulta) | 04/11/2025 |
 
 > O professor estará disponível **todas as semanas** para orientações presenciais e dúvidas.
 
