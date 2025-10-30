@@ -37,6 +37,48 @@ Códigos prontos ou adaptados impedem esse processo e não serão aceitos.
 
 ---
 
+## Etapa Preparatória — O que deve ser feito (30/10 → 27/11)
+
+1. **Simulado — Estudo Prático de Widgets (Simulado 1)**  
+   - Escolha **3 widgets** da lista proposta.  
+   - Responda as **9 questões** para **cada** widget (total: **27 respostas**).  
+   - Inclua exemplos mínimos funcionais (trechos de código) e justificativas técnicas.
+
+2. **Simulado — Análise do Código Base (Formulário Stateless) (Simulado 2)**  
+   - Responder **uma vez** o questionário sobre o formulário `Stateless` (conforme enunciado).  
+   - Explique papel de `BuildContext`, `GlobalKey<FormState>`, `controller`, validação e limites do `Stateless`.
+
+3. **Simulado — Banco de Dados e Persistência (Flutter + SQLite) (Simulado 3)**  
+   - Responder **uma vez** o questionário de modelagem (Estado/Cidade), mapeamento DTO, DAO, transações simples, erros comuns e integração com UI (Dropdown dependente).  
+   - Referencie seu próprio CRUD quando pertinente.
+
+4. **CRUD com associação (Cidade–Estado) + SQLite**  
+   - CRUD funcional e autoral (inserir/editar/listar/excluir).  
+   - Associação via `estado_id` e **Dropdown** de Estado no formulário de Cidade.  
+   - Validação básica (`Form`, `TextFormField`, `validator`) e consistência de dados.  
+   - Persistência com `sqflite`.  
+
+**Formato de entrega:**  
+- Repositório no **GitHub** (um único repo com pastas `simulado_widgets/`, `simulado_form/`, `simulado_bd/`, `app_crud/`).  
+- Enviar o **link no SUAP**.  
+- Commits **frequentes e progressivos** (serão verificados).
+
+### Prazos e marcos
+
+- **06/11 — Supervisão 1 (Widgets e Estado)**  
+  - Entregar e discutir: **Simulado 1 (mínimo 1 widget concluído + estrutura dos demais)**.  
+  - Benefício: poderá **escolher 3 questões** do Teste de Conhecimento (04/12).
+
+- **13/11 — Supervisão 2 (Banco de Dados)**  
+  - Entregar e discutir: **Simulado 2 concluído** + **rascunho do Simulado 3** + **CRUD com inserção/listagem funcionando**.  
+  - Benefício: poderá **escolher o 3º widget** nas questões genéricas do Teste de Conhecimento.
+
+- **27/11 — Prazo final da Etapa Preparatória**  
+  - Entregar: **3 simulados completos** + **CRUD com associação totalmente funcional**.  
+  - Observação: esta etapa **não atribui nota**, mas é **pré-requisito** para realizar o Teste de Conhecimento.
+ 
+---
+
 ### Supervisões e Benefícios
 
 | Supervisão | Foco Principal | Recompensa / Benefício | Data | Modalidade |
