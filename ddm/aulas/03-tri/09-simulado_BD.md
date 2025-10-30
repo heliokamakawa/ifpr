@@ -1,4 +1,4 @@
-# 📝 Simulado 2 — Banco de Dados e Persistência (Flutter + SQLite)
+# Simulado — Banco de Dados e Persistência (Flutter + SQLite)
 
 **Contexto**
 
