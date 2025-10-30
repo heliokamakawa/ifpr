@@ -3,8 +3,8 @@
 Este desafio foi criado para oferecer uma oportunidade de consolidação e comprovação individual de aprendizagem na disciplina.  
 O objetivo é garantir que cada estudante consiga **demonstrar domínio real sobre o conteúdo trabalhado**, especialmente na criação de aplicativos Flutter com **persistência local em SQLite** e **uso de widgets com controle de estado**.
 
-Durante o trimestre, foi mantido o mesmo conteúdo já estudado nos períodos anteriores, concentrando todas as aulas em **prática e desenvolvimento de projetos reais** com a **parceria de uma empresa**.  
-Quem perdeu essa oportunidade, o DCAP oportuniza avaliar não apenas o produto final, mas a autonomia, autoria e compreensão técnica de cada aluno.
+Durante o trimestre, está sendo mantido o mesmo conteúdo já estudado nos períodos anteriores, concentrando todas as aulas em **prática e desenvolvimento de projetos reais** com a **parceria de uma empresa**.  
+Quem não conseguiu aproveitar esta oportunidade, o DCAP permitirá avaliar a autonomia, autoria e compreensão técnica de cada aluno.
 
 ---
 
@@ -127,7 +127,7 @@ Para apoiar o estudo e garantir condições de aprendizagem, os seguintes materi
 
 O conteúdo foi mantido exatamente como já estudado, sem novos tópicos, e as aulas foram dedicadas integralmente à prática, para que todos tivessem tempo e tranquilidade de aprender dentro do próprio ritmo.
 
-Agora, o resultado depende exclusivamente de você.  
-Não está difícil — basta querer, estudar e praticar.  
+Agora, o resultado está nas suas mãos.
+O desafio é acessível: basta estudar, praticar e aplicar o que já foi aprendido.  
 Tudo o que precisa para evoluir já está disponível.  
 A aprovação será consequência natural da sua dedicação.
