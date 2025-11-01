@@ -1,4 +1,9 @@
 # Fundamentação Teórica
+Elementos:
+- Domínio conceitual;
+- Encadeamento lógico;
+- Consistência terminológica;
+- Amarra teórico-metodológica.
 
 A fundamentação teórica deve construir a **base conceitual e histórica** que sustenta a pesquisa, explicando:
 
