@@ -5,6 +5,15 @@ O objetivo é orientar artigos de **prática aplicada**, com fundamentação te�
 
 ---
 
+Research, Society and Development
+https://rsdjournal.org/index.php/rsd
+
+Educação Profissional e Tecnológica em Revista
+https://ojs.ifes.edu.br/
+
+Brazilian Journal of Development  
+https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/index
+
 ## Revistas Brasileiras
 
 ### [iSys – Revista Brasileira de Sistemas de Informação (SBC)](https://journals-sol.sbc.org.br/index.php/isys)
@@ -83,5 +92,6 @@ O objetivo é orientar artigos de **prática aplicada**, com fundamentação te�
 - Para a disciplina, recomenda-se mirar primeiro em **revistas nacionais/intermediárias** (iSys, Cadernos de Informática, RENOTE, Revista de Sistemas e Computação).  
 
 ---
+
 
 
