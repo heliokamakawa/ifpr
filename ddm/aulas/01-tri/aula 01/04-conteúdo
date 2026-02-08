@@ -1,0 +1,49 @@
+# Conteúdo
+Reafirmar Programação Orientada a Objetos, já vista em Java, aplicando diretamente em Flutter/Dart, usando widgets como principal instrumento de prática, enquanto um aplicativo vai sendo construído continuamente.
+
+
+## Conteúdos específicos
+- Classe x Objeto
+- Elementos de uma classe: construtor, atributos, métodos
+- Encapsulamento
+- Responsabilidade (coesão x acoplamento)
+
+## Base/fundamento 
+- Variáveis
+    - (1) Tipos de variáveis; 
+    - (1) Variáveis declarativas; 
+    - (1) Variáveis por inferência;
+    - (1) Quando usar cada uma;
+    - (2) Dynamic, contante e final;
+    - (3) Conversão de dados.
+- (4) Null Safery;
+- Funções e métodos;
+    - (5) Funções nomeadas com/sem retorno; com/sem parâmetros;
+    - (5) Funções anônimas;
+    - (6) Parâmetros opcionais, nomeados e posicionais (padrões e sintaxe);
+    - (7) Parâmetro do tipo função;
+
+## Projeto 
+
+### Widgets Visual 
+- `Text`  
+- `Icon`  
+- `Image`  
+- `CircleAvatar`  
+- `TextField` / `TextFormField`  
+- `DropdownButton` / `DropdownMenu` (essencial para seleção de entidades associadas)  
+- `ElevatedButton`  
+- `FloatingActionButton`  
+- `Card`  
+- `ListTile`  
+
+### Widget Estrutural (layout e organização)
+- `Form`  
+- `Column`  
+- `Row`  
+- `Container`  
+- `Padding`  
+- `Align`  
+- `Center`  
+- `ListView`  
+- `Scaffold`  

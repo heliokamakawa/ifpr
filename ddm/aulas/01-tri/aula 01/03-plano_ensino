@@ -1,0 +1,45 @@
+# Plano de Ensino
+
+Curso:  BACHARELADO EM ENGENHARIA DE SOFTWARE
+
+Disciplina: DESENVOLVIMENTO PARA DISPOSITIVOS MÓVEIS - Graduação
+
+CH: 133 h/160 horas Aulas
+
+## Ementa
+
+Características dos dispositivos móveis. Arquiteturas de aplicação móvel. Projeto de interfaces para dispositivos móveis. Manipulação de arquivo e dados. Integração entre dispositivo móvel e a Internet. Uso de APIs para dispositivos móveis. Disponibilização de aplicação desenvolvida para o usuário.
+
+## Objetivo Geral
+
+Desenvolver competências básicas para desenvolver aplicativos móveis com persistência de dados adotando boas práticas de programação.
+
+## Objetivos Específicos
+- Identificar semelhanças e diferenças entre o aplicativo nativo e híbrido;
+- Integrar e adaptar conhecimentos anteriores à tecnologia escolhida (algoritmos, estrutura de dados, boas práticas de programação e POO);
+- Aprender recursos fundamentais específicos da linguagem e plataforma (bibliotecas, estrutura da plataforma e projeto);
+- Estudar boas práticas de programação – código limpo;
+- Compreender a importância e estuar os fundamentos para o tratamento de erros e aplicação de testes;
+- Revisar os princípios da POO e realizar a prática no desenvolvimento de um aplicativo.
+- Dominar os fundamentos para o desenvolvimento de interfaces (componentes, widgets, navegação e usabilidade);
+- Estudar técnicas para a componentização dos elementos da interface;
+- Realizar estudos introdutórios a respeito de Design Patterns;
+- Aplicar os conhecimentos adquiridos para integrar a persistência de dados no desenvolvimento de um aplicativo móvel;
+- Compreender a diferença entre persistência local e remota, bem como a sincronização dos dados.
+- Estudar a comunicação entre aplicativos – APIs;
+- Estudar técnicas, formas e plataformas para disponibilizar aplicativos móveis ao usuário.
+
+
+## Referencia Bibliografica Básica
+- LECHETA, Ricardo R. Google Android: aprenda a criar aplicações para dispositivos móveis com o android sdk. 2. ed. São Paulo: Novatec: 2010.
+- LEE, Wei-Meng. Introdução ao desenvolvimento de aplicativos para o android. Rio de Janeiro: Ciência Moderna, c 2011.
+- GHATOL, Rohit; PATEL, Yogesh. Beginning PhoneGap: mobile web framework for JavaScript and HTML5. New York: Apress, 2012. 332 p. ISBN 9781430239031 (broch.).
+- BORGES JÚNIOR, Maurício Pereira. Desenvolvendo de sistema para celular. Rio de Janeiro: Ciência Moderna, 2010. 146 p. ISBN 9788573938944 (broch.).
+- JORDAN, Lucas L.; GREYLING, Pieter. Practical Android projects. New York: Apress, 2011. 404 p. ISBN 9781430232438 (broch.).
+
+##  Referencia Bibliografica Complementar
+- ROGERS, Yvonne; SHARP, Helen; PREECE, Jennifer. Design de interação: além da interação humanocomputador. 3. ed. Porto Alegre: Bookman, 2013.
+- MARZULLO, Fabio. iPhone na prática: aprenda passo a passo a desenvolver soluções para ios. São Paulo: Novatec, 2012. 269 p. ISBN 9788575222973 (broch.).
+- DEITEL, Paul J. et al. Android para programadores: uma abordagem baseada em aplicativos. Porto Alegre: Bookman, 2013.
+- SMITH, Dave; FRIESEN, Geoff. Receitas Android: uma abordagem para resolução de problemas. Rio de Janeiro: Ciência Moderna, 2012.
+- MEDNIEKS, Zigurd et al. Programando o android. São Paulo: Novatec, 2012. 519 p. ISBN 9788575222843 (broch.)
