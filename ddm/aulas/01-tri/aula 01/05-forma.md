@@ -1,27 +1,23 @@
-# Diário de Aula (Forma)
-
+# Formação Ativa (diário de aula)
 
 ## Projeto
 - Teremos um projeto base que servirá de exemplo para todos; Tema: Agenda de Tarefas.
 - O projeto será individual - cada um com um domínio/contexto/abordagem diferente. A equipe servirá para dar apoio, tirar dúvidas e facilitar a logística;
 
-
-## Apresentação 
+## Protagonismo Técnico
 Cada equipe deverá apresentar conteúdos de base e projeto. 
 - Prepando uma apresentação prática; 
 - Indicar materiais de estudo e apoio (somente documentos oficiais, públicos e acessíveis - outros materiais devem ser previamente aprovado).
 - A equipe poderá ou não elaborar dinâmicas, atividades, materiais ou exercícios de fixação;
 
-## Avaliação
+## Reconhecimento de Aprendizagem
 - Apresentação (apresentação, participação)
     - 1 Check de base (Moodle)
 - Projeto desenvolvido
     - 1 Check de Projeto (Moodle)
 
-## IA
-- Pode ser usado com a devida responsabilidade. O aluno deverá ter o domínio do que foi feito.
+## Uso Responsável de Ferramentas (IA)
+Ferramentas de IA podem e devem ser utilizadas, desde que tenha domínio completo sobre o que foi desenvolvido e consiga explicar suas decisões.
 
-## Suporte
-- O professor estará totalmente a disposição para o preparo, execução, feedback e possíveis recuperações.
-
-
+## Acompanhamento Ativo
+O professor estará disponível para orientação, validação prévia, execução, feedback contínuo e possíveis recuperações.

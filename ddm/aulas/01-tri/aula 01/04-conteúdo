@@ -14,14 +14,15 @@ Reafirmar Programação Orientada a Objetos, já vista em Java, aplicando direta
     - (1) Variáveis declarativas; 
     - (1) Variáveis por inferência;
     - (1) Quando usar cada uma;
-    - (2) Dynamic, contante e final;
-    - (3) Conversão de dados.
-- (4) Null Safery;
+    - (1) Conversão de dados.
+    - (2) Dynamic, constante e final;
+- (3) Null Safery;
 - Funções e métodos;
-    - (5) Funções nomeadas com/sem retorno; com/sem parâmetros;
+    - (3) Funções nomeadas com/sem retorno; com/sem parâmetros;
+    - (4) Parâmetros opcionais, nomeados e posicionais (padrões e sintaxe);
     - (5) Funções anônimas;
-    - (6) Parâmetros opcionais, nomeados e posicionais (padrões e sintaxe);
-    - (7) Parâmetro do tipo função;
+    - (6) Parâmetro do tipo função;
+    - (7) Sintaxe classes, elementos de uma classe, objetos;
 
 ## Projeto 
 
