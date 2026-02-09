@@ -10,7 +10,7 @@ Cada equipe deverá apresentar conteúdos de base e projeto.
 - Indicar materiais de estudo e apoio (somente documentos oficiais, públicos e acessíveis - outros materiais devem ser previamente aprovado).
 - A equipe poderá ou não elaborar dinâmicas, atividades, materiais ou exercícios de fixação;
 
-## Reconhecimento de Aprendizagem
+## Reconhecimento de Aprendizagem (RA)
 - Apresentação (apresentação, participação)
     - 1 Check de base (Moodle)
 - Projeto desenvolvido

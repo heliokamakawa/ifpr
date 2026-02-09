@@ -7,8 +7,8 @@
 5) Executar o aplicativo na Web (Chrome simulando celular);
 6) Executar o aplicativo em celular físico via USB (modo desenvolvedor);
 7) Criar um repositório público no GitHub, organizar o projeto e incluir no README.md uma breve descrição da atividade e o link do vídeo;
-8) DESAFIO (OPACIONAL): Abrir um projeto de um colega e rodar no seu computador e resolver os possíveis conflitos;
-9) DESAFIO (OPACIONAL): Abrir um projeto antigo (https://github.com/heliokamakawa/flutter_curso_agenda_2024) e resolver os conflitos;
+8) DESAFIO (OPCIONAL): Abrir um projeto de um colega e rodar no seu computador e resolver os possíveis conflitos;
+9) DESAFIO (OPCIONAL): Abrir um projeto antigo (https://github.com/heliokamakawa/flutter_curso_agenda_2024) e resolver os conflitos;
 10) Gravar um vídeo técnico individual (5 a 8 minutos) apresentando todas as atividades;
 
 
