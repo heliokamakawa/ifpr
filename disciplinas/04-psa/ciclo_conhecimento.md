@@ -34,7 +34,7 @@ A atividade será dividida nas seguintes etapas:
    - Avaliação dos ganhos e perdas das modificações.
    - Comparação de diferentes abordagens e definição de contextos para a aplicação de cada solução.
    - Justificação técnica das decisões tomadas e documentação do processo.
-   - Produto a ser gerado: código fonte, exmplificações, comparação crítica.
+   - Produto a ser gerado: código fonte, exemplificações, comparação crítica.
 
 3. **Fórum de Discussão (1 dia)**: 
    - Cada equipe coordenará um Fórum Técnico para:
