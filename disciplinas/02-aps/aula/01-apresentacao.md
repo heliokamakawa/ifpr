@@ -1,4 +1,4 @@
-# Desenvolvimento para Dispositivos Móveis 
+# Análise e Projeto de Sistemas (APS)
 
 ## Bem vindos! 
 Esta disciplina não é apenas sobre aprender uma tecnologia.  
@@ -9,7 +9,7 @@ Ela é sobre aproveitar melhor o tempo, entender o **ecossistema** no qual você
 ## Informes
 - Coordenação do Curso → Prof. Marcelo  
 - Coordenação de Estágio → Prof. Daniela  
-- Coordenação de Extensão / Horas Complementares → Prof. Frank  
+- Coordenação de Creditação da Extensão / Horas Complementares → Prof. Frank  
 - Horário de Atendimento: [aqui](https://docs.google.com/spreadsheets/d/1JueZrEYPPX5_ef2vExfk4OQpNCGICHeAt1dx5wdypww/edit?gid=716042935#gid=716042935)  
 - Calendário Acadêmico: [aqui](https://ifpr.edu.br/paranavai/wp-content/uploads/sites/21/2025/12/Calendario-academico-e-administrativo-2026-aprovado-pela-PROENS.pdf)  
 - Aulas (SUAP): [aqui](https://suap.ifpr.edu.br/edu/meu_diario/33664/1/?tab=aulas)  
@@ -20,10 +20,9 @@ Ela é sobre aproveitar melhor o tempo, entender o **ecossistema** no qual você
 ## Apresentação (Professor)
 - Apresentação do professor;
 - Disciplina e plano de ensino;
-- Atendimento Acadêmico;
+- Organização dos materiais (SUAP e GitHub);
 - Calendário/Avaliações;
-- Organização dos materiais (SUAP e GitHub).
-- Dinâmica das aulas, metodologias e critérios de avaliação;
+- Dinâmica das aulas, metodologias e critérios de avaliação.
 
 ---
 
