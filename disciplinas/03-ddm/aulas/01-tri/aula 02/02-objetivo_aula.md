@@ -26,7 +26,6 @@ A prática e o domínio do código são fundamentais.
 Utilize o professor para validar dúvidas e demonstrar domínio técnico.
 
 
-
 ## Sobre as Apresentações
 
 As apresentações não são apenas expositivas.  

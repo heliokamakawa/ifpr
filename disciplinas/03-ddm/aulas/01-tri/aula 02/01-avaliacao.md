@@ -10,8 +10,12 @@
 
 Domínio de: Widget → POO → Algoritmo → Análise
 
-Como? (1) Apresentações; (2) Checks Moodle; (3) Validações Técnicas;
-- O conceito será definido pelo nível de autonomia técnica demonstrado ao longo do processo. 
+
+### Quando?
+- 2 apresentações;
+- 2 checks com domínio pleno;
+- Validações técnicas presenciais durante as aulas.
+>> O conceito será definido pelo nível de autonomia técnica demonstrado ao longo do processo. 
 Obs: Todas as datas disponíveis no diário de aula/Moodle.
 
 ### O que preciso demonstrar?
@@ -20,13 +24,9 @@ Obs: Todas as datas disponíveis no diário de aula/Moodle.
 - Organizar corretamente classes (coesão e acoplamento);
 - Explicar tecnicamente o que está fazendo de forma objetiva e clara.
 
-### Quando?
-- 2 apresentações;
-- 2 checks com domínio pleno;
-- Validações técnicas presenciais.
-
 ### Validações Técnicas
 Desenvolver 
+- Fundamentos dart (estrutura de decisão, repetição, métodos, classes, outros);
 - Widgets visuais básicos (Scaffold, Form, TextField, Buttons, Actions);
 - Widgets estruturais básicos (Column, Row, Container, SizedBox);
 - Estrutura de navegação (rotas);
