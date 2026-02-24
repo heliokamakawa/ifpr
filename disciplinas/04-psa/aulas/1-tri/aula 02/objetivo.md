@@ -22,3 +22,14 @@ Sair com escopo definido, decisões técnicas claras e divisão formal de respon
 - As atividades são integradas ou fragmentadas/isoladas?
 - Todos estão integrados? Sabem o que fazer? Abordagem de construção em equipe? 
 
+
+---
+
+## 3. MATERIAL
+
+- Postar material de estudo (até às 21h)
+    - 1 principal (validar com professor);
+    - outras complementares.
+- Validar e aprovar os materiais de estudo (até às 22h)
+    - verificar os materiais de estudos para avaliação.
+
