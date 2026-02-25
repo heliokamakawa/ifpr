@@ -1,15 +1,9 @@
-# 🎯 Scrum ou Kanban? — Resumo Estratégico
-
-Este documento sintetiza a discussão sobre **Scrum e Kanban**, destacando diferenças, aplicações e quando utilizar cada abordagem.
-
----
-
-# 📌 O que é Scrum?
+# O que é Scrum?
 
 **Scrum é um framework (não uma metodologia completa).**  
 Ele é propositalmente incompleto e define uma estrutura básica para ciclos de trabalho.
 
-## 🔁 Estrutura Principal
+## Estrutura Principal
 
 - **Sprint (2 a 4 semanas)** → ciclo fechado de trabalho (timebox)
 - **Sprint Planning** → planejamento do ciclo
@@ -17,26 +11,26 @@ Ele é propositalmente incompleto e define uma estrutura básica para ciclos de 
 - **Sprint Review** → inspeção do produto
 - **Retrospectiva** → melhoria do processo
 
-## 👥 Papéis
+## Papéis
 
 - **Scrum Master** → cuida do processo
 - **Product Owner** → priorização e visão de negócio
 - **Time** → desenvolvimento
 
-## 🏛️ Pilares
+## Pilares
 
 - Transparência  
 - Inspeção  
 - Adaptação  
 
-## ✅ Pontos Fortes
+## Pontos Fortes
 
 - Ciclos curtos de feedback
 - Entregas frequentes
 - Foco em produto
 - Estímulo à melhoria contínua
 
-## ⚠️ Limitações
+## Limitações
 
 Pode apresentar dificuldades em ambientes com:
 - Demandas imprevisíveis
@@ -45,20 +39,20 @@ Pode apresentar dificuldades em ambientes com:
 
 ---
 
-# 📌 O que é Kanban?
+# O que é Kanban?
 
 **Kanban é um método de gestão de mudanças e melhoria evolutiva.**
 
 Ele não substitui seu processo atual — ele o evolui.
 
-## 🧠 Fundamentos
+## Fundamentos
 
 - Visualização do fluxo de trabalho
 - Gestão de capacidade
 - Evolução contínua
 - Respeito ao processo existente
 
-## 🔎 Características
+## Características
 
 - Altamente flexível
 - Aplicável em qualquer área (TI, jurídico, marketing, RH etc.)
@@ -66,7 +60,7 @@ Ele não substitui seu processo atual — ele o evolui.
 - Não exige rituais específicos
 - Trabalha com fluxo contínuo
 
-## 🎯 Foco Principal
+## Foco Principal
 
 - Tornar o trabalho visível
 - Identificar gargalos
@@ -74,7 +68,7 @@ Ele não substitui seu processo atual — ele o evolui.
 
 ---
 
-# 🔄 Scrum vs Kanban — A Verdade Estratégica
+# Scrum vs Kanban — A Verdade Estratégica
 
 A pergunta **“qual é melhor?”** é inadequada.
 
@@ -85,7 +79,7 @@ A pergunta **“qual é melhor?”** é inadequada.
 
 ---
 
-# ⚙️ Diferença Estrutural
+# Diferença Estrutural
 
 | Scrum | Kanban |
 |--------|----------|
@@ -96,7 +90,7 @@ A pergunta **“qual é melhor?”** é inadequada.
 
 ---
 
-# 🧩 Insight Importante
+# Insight Importante
 
 - Toda organização possui um fluxo.
 - Se existe entrega, existe fluxo.
@@ -108,7 +102,7 @@ Até ambientes caóticos possuem fluxo.
 
 ---
 
-# 🚀 Quando Mudar?
+# Quando Mudar?
 
 Mudança só ocorre quando existem:
 
@@ -120,7 +114,7 @@ Sem dor, não há evolução.
 
 ---
 
-# ✅ Conclusão
+# Conclusão
 
 - **Scrum** é excelente para ciclos estruturados e foco em produto.
 - **Kanban** é poderoso para evolução contínua e ambientes dinâmicos.
