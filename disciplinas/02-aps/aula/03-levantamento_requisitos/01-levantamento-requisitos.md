@@ -1,9 +1,4 @@
-# Plano de Atividades — Levantamento de Requisitos
-**Disciplina:** Análise e Projeto de Sistemas  
-**Curso:** Engenharia de Software  
-**Estudo de Caso:** Sistema de Biblioteca  
-
----
+# Análise e Projeto de Sistemas — Levantamento de Requisitos
 
 ## Retomada
 - SDCL
@@ -11,6 +6,18 @@
 - Manifesto Ágil 
   - Metodologia, Framework e Método
 - Diário de Aula
+
+## Objetivo
+04/03/2026 Levantamento de Dados
+- Quadro comparativo das técnicas 
+- Boas práticas e cuidados no processo
+
+11/03/2026
+- Plano de Levantamento de Requisitos
+
+18/03/2026
+- Estudo de caso prático - Biblioteca;
+- Visita Biblioteca (21h10 às 22h)
 ---
 
 ## Visão Geral do Cronograma
