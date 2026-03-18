@@ -3,6 +3,18 @@
 
 ---
 
+## Objetivo/Entrega para hoje
+- Refinamento do Levantamento (até as 22h40)
+    - Formato md;
+    - Questionário; 
+    - Observações/considerações para Lu;
+- Planejamento e prepara para Atividade 03 (entrevista síncrona)
+    - Formato md;
+    - Questionário, estratégia; 
+    - Observações/considerações para Lu;
+
+---
+
 ## Panorama Geral
 
 | Equipe | Entrega | Destaque |
@@ -65,8 +77,6 @@ O caminho não é refazer o que ficou para trás: é entrar na atividade 02 com 
 
 ---
 
----
-
 ## Atividade 02 — Hoje: Refinamento do Levantamento
 
 ### O que é essa atividade
@@ -89,11 +99,6 @@ O material que vocês têm é um ponto de partida, não uma conclusão. Antes de
 
 Cada resposta "sim" a essas perguntas é uma oportunidade de refinamento real.
 
-### Para quem não entregou a atividade 01
-
-A atividade 01 ficou para trás — mas o levantamento não acabou. A atividade 02 é a chance de entrar no jogo com força. O caminho não é lamentar o que não foi feito; é construir agora o que precisava ter sido feito antes.
-
-Na vida real, cliente que não foi entrevistado na primeira rodada não te dá uma segunda chance com as perguntas que você deixou de fazer. Aqui, a atividade 02 ainda está aberta — mas sem o insumo da primeira rodada, o ponto de partida é mais frágil. O caminho é ler o briefing do projeto com atenção, pensar nos processos de uma biblioteca do zero, e formular perguntas específicas o suficiente para extrair o que importa. Não é o cenário ideal — mas é o cenário real de quem precisa dar a volta por cima.
 
 ---
 
