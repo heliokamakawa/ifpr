@@ -5,11 +5,11 @@
 
 ## Objetivo/Entrega para hoje
 - Refinamento do Levantamento (até as 22h40)
-    - Formato md;
+    - Formato ".md";
     - Questionário; 
     - Observações/considerações para Lu;
-- Planejamento e prepara para Atividade 03 (entrevista síncrona)
-    - Formato md;
+- Planejamento e preparo para Atividade 03 (entrevista síncrona)
+    - Formato ".md";
     - Questionário, estratégia; 
     - Observações/considerações para Lu;
 
