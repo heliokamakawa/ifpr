@@ -121,9 +121,11 @@ class Produto {
   TipoProduto tipo;
   CategoriaProduto categoria;
   UnidadeMedida unidadeMedida;
+  Fornecedor fornecedor;
   void Function() ajustarPreco;
 
-  Produto(this.nome, this.preco, this.tipo, this.categoria, {required this.unidadeMedida, required this.fornecedor, required this.ajustarPreco});
+  Produto(this.nome, this.preco, this.tipo, this.categoria,
+      {required this.unidadeMedida, required this.fornecedor, required this.ajustarPreco});
 }
 
 // Classe de ProdutoEstoque
@@ -353,7 +355,66 @@ class PedidoCompraPagamento {
   PedidoCompraPagamento(this.pedidoCompra, this.valorPago, this.dataPagamento, {required this.realizarPagamentoCompra});
 }
 
-// Nova Classe Armazem
+// Classe de PedidoVendaDesconto
+class PedidoVendaDesconto {
+  PedidoVenda pedidoVenda;
+  double percentualDesconto;
+  void Function() aplicarDesconto;
+
+  PedidoVendaDesconto(this.pedidoVenda, this.percentualDesconto, {required this.aplicarDesconto});
+}
+
+// Classe de FornecedorCondicaoPagamento
+class FornecedorCondicaoPagamento {
+  Fornecedor fornecedor;
+  int numeroParcelas;
+  double valorParcela;
+  void Function() registrarCondicao;
+
+  FornecedorCondicaoPagamento(this.fornecedor, this.numeroParcelas, this.valorParcela, {required this.registrarCondicao});
+}
+
+// Classe de PedidoCompraAtraso
+class PedidoCompraAtraso {
+  PedidoCompra pedidoCompra;
+  DateTime dataPrevisao;
+  DateTime dataReal;
+  void Function() verificarAtraso;
+
+  PedidoCompraAtraso(this.pedidoCompra, this.dataPrevisao, this.dataReal, {required this.verificarAtraso});
+}
+
+// Classe de PedidoVendaFreteExpresso
+class PedidoVendaFreteExpresso {
+  PedidoVenda pedidoVenda;
+  double taxaExpresso;
+  DateTime prazoEntrega;
+  void Function() calcularFreteExpresso;
+
+  PedidoVendaFreteExpresso(this.pedidoVenda, this.taxaExpresso, this.prazoEntrega, {required this.calcularFreteExpresso});
+}
+
+// Classe de ProdutoRestricaoIdade
+class ProdutoRestricaoIdade {
+  Produto produto;
+  int idadeMinima;
+  void Function() verificarRestricao;
+
+  ProdutoRestricaoIdade(this.produto, this.idadeMinima, {required this.verificarRestricao});
+}
+
+// Classe de ClientePreferencias
+class ClientePreferencias {
+  Cliente cliente;
+  List<String> categoriasFavoritas;
+  List<String> metodosPagamento;
+  void Function() atualizarPreferencias;
+
+  ClientePreferencias(this.cliente,
+      {required this.categoriasFavoritas, required this.metodosPagamento, required this.atualizarPreferencias});
+}
+
+// Classe Armazem
 class Armazem {
   String nome;
   Endereco endereco;
@@ -361,7 +422,7 @@ class Armazem {
   Armazem({required this.nome, required this.endereco});
 }
 
-// Nova Classe ArmazemEstoque
+// Classe ArmazemEstoque
 class ArmazemEstoque {
   Armazem armazem;
   List<ProdutoEstoque> produtosEstoque;
@@ -370,7 +431,7 @@ class ArmazemEstoque {
   ArmazemEstoque({required this.armazem, required this.produtosEstoque, required this.historicoAlteracoes});
 }
 
-// Nova Classe Empresa
+// Classe Empresa
 class Empresa {
   String nome;
   Endereco endereco;
@@ -379,7 +440,7 @@ class Empresa {
   Empresa({required this.nome, required this.endereco, required this.departamentos});
 }
 
-// Nova Classe FolhaPagamento
+// Classe FolhaPagamento
 class FolhaPagamento {
   Empresa empresa;
   DateTime dataPagamento;
@@ -397,11 +458,12 @@ class FolhaPagamento {
   }
 }
 
-// Nova Classe RotaEntrega
+// Classe RotaEntrega
 class RotaEntrega {
   Endereco origem;
   Endereco destino;
   double distancia;
+
   double calcularFrete() {
     return distancia * 10;
   }
@@ -409,7 +471,7 @@ class RotaEntrega {
   RotaEntrega({required this.origem, required this.destino, required this.distancia});
 }
 
-// Nova Classe SistemaIntegrado
+// Classe SistemaIntegrado
 class SistemaIntegrado {
   List<Compra> compras;
   List<Venda> vendas;
@@ -420,7 +482,7 @@ class SistemaIntegrado {
       {required this.compras, required this.vendas, required this.armazemEstoque, required this.rotaEntrega});
 }
 
-// Nova Classe ItemVenda
+// Classe ItemVenda
 class ItemVenda {
   Produto produto;
   int quantidade;
@@ -429,7 +491,7 @@ class ItemVenda {
   ItemVenda({required this.produto, required this.quantidade, required this.precoUnitario});
 }
 
-// Nova Classe ItemCompra
+// Classe ItemCompra
 class ItemCompra {
   Produto produto;
   int quantidade;
@@ -438,7 +500,32 @@ class ItemCompra {
   ItemCompra({required this.produto, required this.quantidade, required this.precoUnitario});
 }
 
+// Classe Telefone
+class Telefone {
+  String ddd;
+  String numero;
+
+  Telefone(this.ddd, this.numero);
+}
+
+// Classe Dimensao
+class Dimensao {
+  double largura;
+  double altura;
+  double profundidade;
+
+  Dimensao(this.largura, this.altura, this.profundidade);
+}
+
+// Classe Periodo
+class Periodo {
+  DateTime inicio;
+  DateTime fim;
+
+  Periodo(this.inicio, this.fim);
+}
 ```
+
 Exemplos de exercícios:
 
 
@@ -470,12 +557,11 @@ void main() {
   print("Fornecedor: ${fornecedor.nome}");
   fornecedor.acaoFornecedor();
 }
-
 ```
 
 ### Exercício 2 – Nível Fácil: Criar um Produto com Referência Anônima
 Enunciado:
-Crie um objeto do tipo Produto com referência anônima, utilizando classes auxiliares para tipo, categoria e unidade de medida. Em seguida, exiba o nome e o preço do produto e execute a função de ajuste de preço.
+Crie um objeto do tipo Produto com referência anônima, utilizando classes auxiliares para tipo, categoria, unidade de medida e fornecedor. Em seguida, exiba o nome e o preço do produto e execute a função de ajuste de preço.
 
 ```dart
 void main() {
@@ -483,24 +569,42 @@ void main() {
     "Notebook",
     3500.00,
     TipoProduto(
-	"Eletrônico", 
-	exibirTipo: () {
-      		print("Tipo: Eletrônico");
-    	}
+      "Eletrônico",
+      exibirTipo: () {
+        print("Tipo: Eletrônico");
+      },
     ),
     CategoriaProduto(
-	"Informática", 
-	"Produtos de TI", 
-	exibirCategoria: () {
-      		print("Categoria: Informática");
-    	}
+      "Informática",
+      "Produtos de TI",
+      exibirCategoria: () {
+        print("Categoria: Informática");
+      },
     ),
     unidadeMedida: UnidadeMedida(
-	"Unidade", 
-	simbolo: "UN", 
-	atualizarUnidade: () {
-      		print("Unidade atualizada");
-        }
+      "Unidade",
+      simbolo: "UN",
+      atualizarUnidade: () {
+        print("Unidade atualizada");
+      },
+    ),
+    fornecedor: Fornecedor(
+      "Fornecedor A",
+      "00.000.000/0001-00",
+      Endereco(
+        rua: "Rua dos Fornecedores, 123",
+        cep: "00000-000",
+        cidade: Cidade(
+          nome: "São Paulo",
+          estado: Estado(
+            nome: "São Paulo",
+            pais: Pais(nome: "Brasil"),
+          ),
+        ),
+      ),
+      acaoFornecedor: () {
+        print("Ação do Fornecedor A executada!");
+      },
     ),
     ajustarPreco: () {
       print("Preço do Notebook ajustado!");
@@ -514,7 +618,7 @@ void main() {
 
 ### Exercício 3 – Nível Médio: Criar um Pedido de Venda com Referência Anônima
 Enunciado:
-Crie um objeto PedidoVenda com referência anônima, que contenha um objeto Cliente e um objeto Produto. Utilize funções anônimas para concluir a venda. Exiba os detalhes do pedido e execute a função de conclusão.
+Crie um objeto PedidoVenda com referência anônima, que contenha um Cliente e uma lista de ItemVenda com um Produto. Utilize funções anônimas para concluir a venda. Exiba os detalhes do pedido e execute a função de conclusão.
 
 ```dart
 void main() {
@@ -536,34 +640,57 @@ void main() {
         print("Endereço do Cliente B atualizado");
       },
     ),
-    Produto(
-      "Geladeira",
-      2500.00,
-      TipoProduto(
-	"Eletrodoméstico", 
-	exibirTipo: () {
-        	print("Tipo: Eletrodoméstico");
-        }
+    itens: [
+      ItemVenda(
+        produto: Produto(
+          "Geladeira",
+          2500.00,
+          TipoProduto(
+            "Eletrodoméstico",
+            exibirTipo: () {
+              print("Tipo: Eletrodoméstico");
+            },
+          ),
+          CategoriaProduto(
+            "Cozinha",
+            "Produtos para cozinha",
+            exibirCategoria: () {
+              print("Categoria: Cozinha");
+            },
+          ),
+          unidadeMedida: UnidadeMedida(
+            "Unidade",
+            simbolo: "UN",
+            atualizarUnidade: () {
+              print("Unidade atualizada");
+            },
+          ),
+          fornecedor: Fornecedor(
+            "Fornecedor B",
+            "11.111.111/0001-11",
+            Endereco(
+              rua: "Rua dos Fornecedores, 456",
+              cep: "00000-000",
+              cidade: Cidade(
+                nome: "Belo Horizonte",
+                estado: Estado(
+                  nome: "Minas Gerais",
+                  pais: Pais(nome: "Brasil"),
+                ),
+              ),
+            ),
+            acaoFornecedor: () {
+              print("Ação do Fornecedor B executada!");
+            },
+          ),
+          ajustarPreco: () {
+            print("Preço da Geladeira ajustado!");
+          },
+        ),
+        quantidade: 1,
+        precoUnitario: 2500.00,
       ),
-      CategoriaProduto(
-	"Cozinha", 
-	"Produtos para cozinha", 
-	exibirCategoria: () {
-        	print("Categoria: Cozinha");
-        }
-      ),
-      unidadeMedida: UnidadeMedida(
-	"Unidade", 
-	simbolo: "UN", 
-	atualizarUnidade: () {
-        	print("Unidade atualizada");
-        }
-      ),
-      ajustarPreco: () {
-        print("Preço da Geladeira ajustado!");
-      },
-    ),
-    1,
+    ],
     concluirVenda: () {
       print("Venda concluída com sucesso!");
     },
@@ -571,16 +698,16 @@ void main() {
 
   print("Pedido de Venda:");
   print("Cliente: ${pedidoVenda.cliente.nome}");
-  print("Produto: ${pedidoVenda.produto.nome}");
-  print("Quantidade: ${pedidoVenda.quantidade}");
+  print("Produto: ${pedidoVenda.itens[0].produto.nome}");
+  print("Quantidade: ${pedidoVenda.itens[0].quantidade}");
 
   pedidoVenda.concluirVenda();
 }
 ```
 
-Exercício 4 – Nível Avançado: Criar um Pedido de Compra com Frete e Pagamento
+### Exercício 4 – Nível Avançado: Criar um Pedido de Compra com Frete e Pagamento
 Enunciado:
-Crie um objeto PedidoCompraFrete que contenha um objeto PedidoCompra, com um Fornecedor e Produto, e inclua uma função anônima para calcular o frete. Em seguida, crie um objeto PedidoCompraPagamento para simular o pagamento do pedido. Exiba as informações e execute as funções anônimas.
+Crie um objeto PedidoCompraFrete que contenha um PedidoCompra com Fornecedor e uma lista de ItemCompra com Produto. Inclua uma função anônima para calcular o frete. Em seguida, crie um objeto PedidoCompraPagamento para simular o pagamento do pedido. Exiba as informações e execute as funções anônimas.
 
 ```dart
 void main() {
@@ -604,23 +731,46 @@ void main() {
           print("Fornecedor Z acionado");
         },
       ),
-      Produto(
-        "Mesa de Escritório",
-        800.00,
-        TipoProduto("Móvel", exibirTipo: () {
-          print("Tipo: Móvel");
-        }),
-        CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
-          print("Categoria: Escritório");
-        }),
-        unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-          print("Unidade atualizada");
-        }),
-        ajustarPreco: () {
-          print("Preço da Mesa de Escritório ajustado!");
-        },
-      ),
-      5,
+      itens: [
+        ItemCompra(
+          produto: Produto(
+            "Mesa de Escritório",
+            800.00,
+            TipoProduto("Móvel", exibirTipo: () {
+              print("Tipo: Móvel");
+            }),
+            CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
+              print("Categoria: Escritório");
+            }),
+            unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+              print("Unidade atualizada");
+            }),
+            fornecedor: Fornecedor(
+              "Fornecedor Z",
+              "33.333.333/0001-33",
+              Endereco(
+                rua: "Rua dos Fornecedores, 202",
+                cep: "00000-000",
+                cidade: Cidade(
+                  nome: "Curitiba",
+                  estado: Estado(
+                    nome: "Paraná",
+                    pais: Pais(nome: "Brasil"),
+                  ),
+                ),
+              ),
+              acaoFornecedor: () {
+                print("Fornecedor Z acionado");
+              },
+            ),
+            ajustarPreco: () {
+              print("Preço da Mesa de Escritório ajustado!");
+            },
+          ),
+          quantidade: 5,
+          precoUnitario: 800.00,
+        ),
+      ],
       realizarCompra: () {
         print("Pedido de Compra realizado com sucesso!");
       },
@@ -652,23 +802,46 @@ void main() {
           print("Fornecedor Z acionado");
         },
       ),
-      Produto(
-        "Mesa de Escritório",
-        800.00,
-        TipoProduto("Móvel", exibirTipo: () {
-          print("Tipo: Móvel");
-        }),
-        CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
-          print("Categoria: Escritório");
-        }),
-        unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-          print("Unidade atualizada");
-        }),
-        ajustarPreco: () {
-          print("Preço da Mesa de Escritório ajustado!");
-        },
-      ),
-      5,
+      itens: [
+        ItemCompra(
+          produto: Produto(
+            "Mesa de Escritório",
+            800.00,
+            TipoProduto("Móvel", exibirTipo: () {
+              print("Tipo: Móvel");
+            }),
+            CategoriaProduto("Escritório", "Móveis para escritório", exibirCategoria: () {
+              print("Categoria: Escritório");
+            }),
+            unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+              print("Unidade atualizada");
+            }),
+            fornecedor: Fornecedor(
+              "Fornecedor Z",
+              "33.333.333/0001-33",
+              Endereco(
+                rua: "Rua dos Fornecedores, 202",
+                cep: "00000-000",
+                cidade: Cidade(
+                  nome: "Curitiba",
+                  estado: Estado(
+                    nome: "Paraná",
+                    pais: Pais(nome: "Brasil"),
+                  ),
+                ),
+              ),
+              acaoFornecedor: () {
+                print("Fornecedor Z acionado");
+              },
+            ),
+            ajustarPreco: () {
+              print("Preço da Mesa de Escritório ajustado!");
+            },
+          ),
+          quantidade: 5,
+          precoUnitario: 800.00,
+        ),
+      ],
       realizarCompra: () {
         print("Pedido de Compra realizado com sucesso!");
       },
@@ -682,20 +855,19 @@ void main() {
 
   print("Pedido de Compra com Frete:");
   print("Fornecedor: ${pedidoCompraFrete.pedidoCompra.fornecedor.nome}");
-  print("Produto: ${pedidoCompraFrete.pedidoCompra.produto.nome}");
-  print("Quantidade: ${pedidoCompraFrete.pedidoCompra.quantidade}");
+  print("Produto: ${pedidoCompraFrete.pedidoCompra.itens[0].produto.nome}");
+  print("Quantidade: ${pedidoCompraFrete.pedidoCompra.itens[0].quantidade}");
 
   pedidoCompraFrete.calcularFrete();
   pedidoCompraPagamento.realizarPagamentoCompra();
 }
 ```
 
-Exercício 5 – Nível Avançado: Criar um Pedido de Venda com Entrega e Ações Compostas
+### Exercício 5 – Nível Avançado: Criar um Pedido de Venda com Entrega e Ações Compostas
 Enunciado:
-Crie um objeto PedidoVendaEntrega que contenha um PedidoVenda, que por sua vez contém um Cliente com endereço completo e um Produto. Inclua funções anônimas para organizar a entrega e concluir a venda. Exiba o cenário completo e execute as funções anônimas para simular o fluxo de entrega.
+Crie um objeto PedidoVendaEntrega que contenha um PedidoVenda, que por sua vez contém um Cliente com endereço completo e uma lista de ItemVenda com Produto. Inclua funções anônimas para organizar a entrega e concluir a venda. Exiba o cenário completo e execute as funções anônimas para simular o fluxo de entrega.
 
 ```dart
-
 void main() {
   var pedidoVendaEntrega = PedidoVendaEntrega(
     PedidoVenda(
@@ -716,23 +888,46 @@ void main() {
           print("Endereço do Cliente C atualizado!");
         },
       ),
-      Produto(
-        "Caixa de Som",
-        299.99,
-        TipoProduto("Eletrônico", exibirTipo: () {
-          print("Tipo: Eletrônico");
-        }),
-        CategoriaProduto("Áudio", "Aparelhos de som", exibirCategoria: () {
-          print("Categoria: Áudio");
-        }),
-        unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
-          print("Unidade atualizada");
-        }),
-        ajustarPreco: () {
-          print("Preço da Caixa de Som ajustado!");
-        },
-      ),
-      2,
+      itens: [
+        ItemVenda(
+          produto: Produto(
+            "Caixa de Som",
+            299.99,
+            TipoProduto("Eletrônico", exibirTipo: () {
+              print("Tipo: Eletrônico");
+            }),
+            CategoriaProduto("Áudio", "Aparelhos de som", exibirCategoria: () {
+              print("Categoria: Áudio");
+            }),
+            unidadeMedida: UnidadeMedida("Unidade", simbolo: "UN", atualizarUnidade: () {
+              print("Unidade atualizada");
+            }),
+            fornecedor: Fornecedor(
+              "Fornecedor C",
+              "22.222.222/0001-22",
+              Endereco(
+                rua: "Rua dos Fornecedores, 789",
+                cep: "00000-000",
+                cidade: Cidade(
+                  nome: "Salvador",
+                  estado: Estado(
+                    nome: "Bahia",
+                    pais: Pais(nome: "Brasil"),
+                  ),
+                ),
+              ),
+              acaoFornecedor: () {
+                print("Ação do Fornecedor C executada!");
+              },
+            ),
+            ajustarPreco: () {
+              print("Preço da Caixa de Som ajustado!");
+            },
+          ),
+          quantidade: 2,
+          precoUnitario: 299.99,
+        ),
+      ],
       concluirVenda: () {
         print("Venda concluída com sucesso!");
       },
@@ -756,82 +951,85 @@ void main() {
 
   print("Pedido de Venda:");
   print("Cliente: ${pedidoVendaEntrega.pedidoVenda.cliente.nome}");
-  print("Produto: ${pedidoVendaEntrega.pedidoVenda.produto.nome}");
-  print("Quantidade: ${pedidoVendaEntrega.pedidoVenda.quantidade}");
+  print("Produto: ${pedidoVendaEntrega.pedidoVenda.itens[0].produto.nome}");
+  print("Quantidade: ${pedidoVendaEntrega.pedidoVenda.itens[0].quantidade}");
   print("Data de Entrega: ${pedidoVendaEntrega.dataEntrega}");
   print("Endereço de Entrega: ${pedidoVendaEntrega.enderecoEntrega.rua}");
 
   pedidoVendaEntrega.pedidoVenda.concluirVenda();
   pedidoVendaEntrega.organizarEntrega();
 }
-}
 ```
+
 ---
 
 ### Exercícios
 
-Exercício 1: Criando um Fornecedor com Referência Anônima
-Crie um objeto de Fornecedor usando referência anônima. Utilize parâmetros nomeados no construtor.
+Exercício 1: Cadastrando um Fornecedor
+Uma distribuidora precisa ser cadastrada no sistema com seu nome, CNPJ, endereço completo e uma ação que será executada quando o fornecedor for acionado. Ao final, exiba o nome do fornecedor e execute a ação.
 
-Exercício 2: Criando um Produto com Referência Anônima
-Crie um objeto de Produto com referência anônima. Defina o preço e categoria de forma simples.
+Exercício 2: Cadastrando um Produto
+Cadastre um produto no sistema com todas as suas informações: nome, preço, tipo, categoria, unidade de medida e fornecedor responsável. O produto deve ter uma ação de ajuste de preço associada. Ao final, exiba o nome e o preço do produto e execute o ajuste.
 
-Exercício 3: Criando um Pedido de Venda
-Crie um objeto de PedidoVenda com referência anônima, utilizando parâmetros nomeados.
+Exercício 3: Registrando um Pedido de Venda
+Um cliente realizou uma compra. Registre o pedido de venda com os dados do cliente e ao menos um produto na lista de itens. O pedido deve poder ser concluído ao final. Exiba o nome do cliente, o produto e a quantidade, e execute a conclusão da venda.
 
-Exercício 4: Criando um Funcionario com Referência Anônima
-Crie um objeto de Funcionario com uma função anônima no parâmetro calculaSalarioBonus.
+Exercício 4: Cadastrando um Funcionário
+Cadastre um funcionário com seu nome, cargo e salário base. O sistema deve permitir calcular o bônus salarial a partir de um tipo de bônus informado na chamada. Exiba os dados do funcionário e execute o cálculo passando um tipo de bônus.
 
-Exercício 5: Criando um Produto com Referência Anônima e Lote
-Crie um objeto de ProdutoLote com referência anônima e parâmetros nomeados.
+Exercício 5: Registrando um Lote de Produto
+Um produto chegou ao estoque em lote com número de identificação e datas de fabricação e validade. Registre esse lote no sistema e implemente a lógica de verificação. Exiba as informações do lote e execute a verificação.
 
-Exercício 6: Criando um Pedido de Compra
-Crie um objeto de PedidoCompra com função anônima para realizar a compra.
+Exercício 6: Registrando um Pedido de Compra
+O setor de compras realizou um pedido a um fornecedor com ao menos um produto na lista de itens. Registre esse pedido no sistema. O pedido deve poder ser efetivado ao final. Exiba o nome do fornecedor e os produtos e execute a compra.
 
-Exercício 7: Criando um Estoque de Produto
-Crie um objeto de Estoque com função anônima para atualizar a quantidade.
+Exercício 7: Controlando o Estoque de um Produto
+Registre a entrada de um produto no estoque com a quantidade disponível. O sistema deve permitir atualizar essa quantidade. Exiba o nome do produto e a quantidade atual, e execute a atualização.
 
-Exercício 8: Criando um Produto com Avaliação
-Crie um objeto de AvaliacaoProduto com referência anônima.
+Exercício 8: Registrando uma Avaliação de Produto
+Um cliente avaliou um produto com uma nota de estrelas e deixou um comentário. Registre essa avaliação no sistema e execute o registro. Exiba o nome do produto, a nota e o comentário.
 
-Exercício 9: Criando um Produto com Desconto
-Crie um objeto de ProdutoDesconto com função anônima para aplicar o desconto.
+Exercício 9: Aplicando Desconto em um Produto
+Um produto receberá um desconto percentual com data de início e fim definidos. Registre esse desconto no sistema. Exiba o nome do produto e o percentual e execute a aplicação do desconto.
 
-Exercício 10: Criando um Pedido de Compra com Frete
-Crie um objeto de PedidoCompraFrete com função anônima para calcular o frete.
+Exercício 10: Calculando Frete de um Pedido de Compra
+Associe um valor de frete e uma data de envio a um pedido de compra. O sistema deve permitir calcular o frete. Exiba o nome do fornecedor, o produto e o valor do frete, e execute o cálculo.
 
-Exercício 11: Criando um Pedido de Venda com Entrega
-Crie um objeto de PedidoVendaEntrega com função anônima para organizar a entrega.
+Exercício 11: Organizando a Entrega de um Pedido de Venda
+Um pedido de venda precisa ser entregue em um endereço diferente do cadastrado, com data prevista definida. Registre essa entrega no sistema. Exiba o nome do cliente, o endereço e a data, e execute a organização da entrega.
 
-Exercício 12: Criando um Produto com Garantia
-Crie um objeto de ProdutoGarantia com referência anônima e função para ativar a garantia.
+Exercício 12: Registrando a Garantia de um Produto
+Cadastre a garantia de um produto informando a duração em anos e o tipo de cobertura. O sistema deve permitir ativar a garantia. Exiba o nome do produto, os anos e o tipo, e execute a ativação.
 
-Exercício 13: Criando um Pedido de Venda com Desconto
-Crie um objeto de PedidoVendaDesconto com referência anônima para aplicar um desconto no pedido.
+Exercício 13: Aplicando Desconto em um Pedido de Venda
+Aplique um desconto percentual a um pedido de venda já registrado. O sistema deve executar a aplicação e informar o valor descontado. Exiba o nome do cliente, o produto e o percentual, e execute a aplicação.
 
-Exercício 14: Criando um Produto com Status
-Crie um objeto de ProdutoStatus com referência anônima, onde a função altera o status do produto.
+Exercício 14: Registrando a Disponibilidade de um Produto
+Registre no catálogo se um produto está disponível para venda e qual o seu status atual. O sistema deve permitir atualizar esse status. Exiba o nome do produto e o status, e execute a atualização.
 
-Exercício 15: Criando um Fornecedor com Condições de Pagamento
-Crie um objeto de FornecedorCondicaoPagamento com referência anônima, incluindo parâmetros para o número de parcelas e valor da parcela.
+Exercício 15: Definindo Condições de Pagamento com um Fornecedor
+O setor financeiro acordou condições de pagamento com um fornecedor: número de parcelas e valor de cada parcela. Registre essas condições no sistema. Exiba o nome do fornecedor, as parcelas e o valor, e execute o registro.
 
-Exercício 16: Criando um Pedido de Compra com Atraso
-Crie um objeto de PedidoCompraAtraso com referência anônima e função para verificar o atraso na entrega.
+Exercício 16: Monitorando Atraso em Pedido de Compra
+Um pedido de compra chegou após a data prevista. Registre a data de previsão e a data real de chegada, e implemente a lógica de verificação de atraso. Exiba as datas e execute a verificação.
 
-Exercício 17: Criando um Produto com Data de Validade
-Crie um objeto de ProdutoValidade com referência anônima e função para verificar a validade do produto.
+Exercício 17: Registrando a Alteração de Preço de um Produto
+O preço de um produto foi reajustado. Registre no histórico a data da alteração, o valor anterior e o novo valor, e implemente o registro da mudança. Exiba os dois preços e execute o registro.
 
-Exercício 18: Criando um Pedido de Venda com Frete Expresso
-Crie um objeto de PedidoVendaFreteExpresso com referência anônima para calcular o custo do frete expresso.
+Exercício 18: Calculando Frete Expresso de um Pedido de Venda
+Um cliente solicitou entrega expressa. Associe a taxa do frete expresso e o prazo de entrega ao pedido de venda. O sistema deve permitir calcular o custo. Exiba o nome do cliente, a taxa e o prazo, e execute o cálculo.
 
-Exercício 19: Criando um Produto com Restrição de Idade
-Crie um objeto de ProdutoRestricaoIdade com referência anônima, incluindo um parâmetro para a faixa etária mínima.
+Exercício 19: Cadastrando Restrição de Idade em Produto
+Um produto possui restrição de venda por faixa etária. Cadastre essa restrição no sistema informando a idade mínima exigida. O sistema deve permitir verificar se a restrição é atendida. Exiba o nome do produto e a restrição, e execute a verificação.
 
-Exercício 20: Criando um Cliente com Preferências
-Crie um objeto de ClientePreferencias com referência anônima, incluindo um parâmetro para preferências de produtos e métodos de pagamento.
+Exercício 20: Registrando Preferências de um Cliente
+Registre as preferências de um cliente no sistema, incluindo suas categorias de produtos favoritas e os métodos de pagamento aceitos. O sistema deve permitir atualizar essas preferências. Exiba o nome do cliente e execute a atualização.
 
+Exercício 21: Cadastrando o Telefone de um Fornecedor
+O setor de compras precisa registrar o telefone de contato de um fornecedor, com DDD e número. Exiba o telefone formatado.
 
+Exercício 22: Registrando as Dimensões de um Produto
+Para fins de cálculo logístico, registre as dimensões físicas de um produto: largura, altura e profundidade em centímetros. Exiba as medidas do produto.
 
-
-
-
+Exercício 23: Definindo o Período de uma Campanha Promocional
+Uma campanha promocional tem prazo definido de início e fim. Registre o período da campanha no sistema. Exiba as datas de início e fim da campanha.
