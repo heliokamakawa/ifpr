@@ -5,11 +5,11 @@
 
 ## Objetivo/Entrega para hoje
 - Refinamento do Levantamento (até as 22h40)
-    - Formato md;
+    - Formato ".md";
     - Questionário; 
     - Observações/considerações para Lu;
-- Planejamento e prepara para Atividade 03 (entrevista síncrona)
-    - Formato md;
+- Planejamento e preparo para Atividade 03 (entrevista síncrona)
+    - Formato ".md";
     - Questionário, estratégia; 
     - Observações/considerações para Lu;
 
@@ -55,9 +55,6 @@ Dentro de um questionário mais longo e disperso, há perguntas muito boas: dife
 
 ### Foco e especificidade nas perguntas
 Algumas equipes fizeram perguntas amplas demais — o tipo que recebe uma resposta vaga porque a pergunta não aponta para lugar nenhum. "Como funciona o sistema?" não é uma pergunta de levantamento; "quantos livros um professor pode emprestar simultaneamente?" é. **Perguntas específicas geram respostas aproveitáveis.**
-
-### Separar o que é requisito do que é curiosidade
-Perguntas sobre preferência de design, acessibilidade para PCDs, integração com outros sistemas, funcionamento 24/7 — podem ter relevância, mas entram no questionário misturadas com o essencial, sem estratégia. **O tempo das personas é limitado. Cada pergunta precisa justificar sua presença.**
 
 ### Solicitação de documentos
 Pedir "todos os regulamentos" é genérico demais. NorthStar e Matrix mostraram como fazer: identificar o documento e dizer o que se quer extrair dele. Isso aumenta a chance de receber o material certo e de verdade.
