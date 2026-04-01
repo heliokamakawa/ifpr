@@ -31,10 +31,6 @@ O JAD pressupõe **preparo prévio**. Os participantes chegam com material, com 
 
 Vocês terão **10 minutos de sessão regular** com Julia, Rosa e Ana na mesma mesa. A contagem começa no momento em que vocês enviarem a primeira pergunta.
 
-- Não há cronômetro visível na tela.
-- Ao final do tempo regular, Lu avisará e abrirá espaço para **uma última pergunta bônus**.
-- Após a resposta da pergunta bônus, a sessão é encerrada automaticamente.
-- No encerramento, Lu emite o parecer metodológico consolidado da sessão.
 
 ### Diferença em relação à Atividade 03
 
@@ -61,6 +57,13 @@ O JAD **não é para reiniciar o levantamento**. É para:
 - Checar se o entendimento que vocês têm está correto — ou se precisa ser corrigido.
 
 Uma equipe bem preparada chega com uma lista priorizada de pontos em aberto e uma estratégia de como usar os 10 minutos. Uma equipe mal preparada chega sem saber o que já tem e desperdiça a sessão em perguntas que poderiam ter sido respondidas lendo o histórico anterior.
+
+---
+
+## Entrega do relatório
+
+Relatório do que foi feito com as observações da Lu até o final da aula.
+
 
 ---
 
