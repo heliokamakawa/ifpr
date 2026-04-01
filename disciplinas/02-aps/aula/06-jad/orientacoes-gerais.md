@@ -66,10 +66,14 @@ Júlia é simpática, entusiasta e domina bem o fluxo operacional do dia a dia. 
 
 **Como aproveitar:**
 
-Perguntas detalhadas sobre o que ela vive no dia a dia funcionam bem. Por exemplo:
-- "Júlia, quando um aluno devolve um livro com atraso, como você calcula exatamente os dias de multa? Conta sábado e domingo?"
-- "Quando alguém quer renovar, você verifica alguma coisa antes de renovar ou renova direto?"
-- "Se o aluno quer pegar um livro que está marcado como referência, o que acontece?"
+O melhor uso da Júlia é aprofundar bem aquilo que ela realmente executa todos os dias, porque aí aparecem os processos principais do sistema em funcionamento real. Não basta perguntar "como funciona o empréstimo" ou "como funciona a devolução". O ideal é pedir os detalhes operacionais que fazem diferença no comportamento do sistema.
+
+Por exemplo:
+- "Júlia, quando você faz um empréstimo, quais dados você confere antes de liberar o livro? O sistema bloqueia alguma situação ou é você quem percebe isso?"
+- "Quando um aluno chega para renovar, o que você olha primeiro na tela ou no cadastro antes de confirmar a renovação?"
+- "Se houver atraso na devolução, como você identifica a multa: o sistema calcula sozinho, você confere manualmente, e em que momento esse valor aparece?"
+- "Quando um livro está reservado para outra pessoa, o que muda no atendimento? Você consegue renovar mesmo assim ou o sistema impede?"
+- "No caso de exemplar de referência, o que exatamente acontece quando alguém tenta levar esse livro? O sistema bloqueia, aparece aviso, ou você precisa saber disso antes?"
 
 O que não funciona: pedir para Júlia confirmar regras institucionais ou exceções administrativas. Ela vai responder com confiança — e pode estar errada.
 
@@ -83,11 +87,15 @@ Isso não é falta de conhecimento. É cautela. Rosa sabe mais do que entrega em
 
 **Como aproveitar:**
 
-A chave é não colocar Rosa na reta. Em vez de perguntar "Qual é a regra de renovação quando tem reserva ativa?", o que a pressiona a dar uma posição oficial, tente:
+A chave é não colocar Rosa na reta. A abordagem funciona melhor quando deixa claro que vocês ainda vão confirmar a regra com precisão, mas gostariam de ouvir a leitura dela porque ela tem experiência prática e costuma perceber nuances que os outros não percebem. Também ajuda contextualizar a dúvida, oferecer cenários possíveis e abordar com cuidado, respeitando a hierarquia sem desperdiçar o que ela sabe.
 
-- "Rosa, você já teve algum caso em que alguém veio renovar e você percebeu que tinha uma reserva ativa? O que aconteceu?"
-- "Como você normalmente lida quando um usuário quer renovar e você não tem certeza se pode?"
-- "Tem alguma situação de devoluição ou renovação que você sempre precisa confirmar com alguém antes de fazer?"
+Em vez de perguntar "Qual é a regra de renovação quando tem reserva ativa?", o que a pressiona a dar uma posição oficial, tente algo como:
+
+- "Rosa, nós ainda vamos confirmar isso com precisão, mas a Júlia comentou que você costuma entender bem esses casos mais delicados. Quando aparece renovação com reserva ativa, o que normalmente acontece na prática?"
+- "Com base na sua experiência de atendimento do que como decisão oficial: quando surge uma situação dessas, você costuma tratar como bloqueio direto ou depende de algum detalhe?"
+- "Pelo que vimos até agora, parece haver duas possibilidades: ou a renovação é impedida quando já existe reserva, ou ainda existe alguma exceção. Pelo que você já acompanhou, qual cenário parece mais próximo do que acontece?"
+- "Tem algum tipo de renovação ou devolução em que você já percebe de antemão que vale confirmar com a Ana antes de concluir? O que te faz identificar esse tipo de caso?"
+- "A Júlia não soube explicar esse ponto e comentou que você conhece melhor esse tipo de situação. Sem te comprometer com a regra final, como isso costuma ser tratado no dia a dia?"
 
 Esse tipo de pergunta deixa Rosa contar o processo sem precisar assinar embaixo. E o processo muitas vezes revela a regra.
 
