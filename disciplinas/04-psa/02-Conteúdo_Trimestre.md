@@ -9,7 +9,7 @@ A avaliação será dissertativa e abrangerá todo o conteúdo disponível no re
 
 
 
-### Subcategorias de IA
+###  Inteligência Artificial no Desenvolvimento de Software
 - Automação de tarefas de desenvolvimento
 (código, testes, documentação e análise de código)
 - Limitações, dependência de contexto e validação da IA
