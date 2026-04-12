@@ -41,14 +41,9 @@ Revisem os processos com cuidado. O fechamento do diário é individual e o prof
 
 ### Etapa 1 — Repositório do trimestre (individual)
 
-Cada aluno deve garantir que o repositório pessoal no GitHub está completo e organizado com todos os conteúdos produzidos ao longo do trimestre:
+Cada aluno posta no repositório pessoal do GitHub **quais foram os conteúdos trabalhados no trimestre** — com suas próprias palavras, de forma organizada.
 
-- diário de aula atualizado
-- registros das atividades de levantamento (rodadas assíncronas, sessão síncrona, JAD)
-- histórias de usuário produzidas e revisadas
-- protótipos e validações
-
-> Entrega individual. O repositório precisa refletir a participação real do aluno — não apenas o material da equipe.
+> O objetivo é simples: demonstrar que o aluno sabe o que foi estudado. Ter ciência do que foi ministrado.
 
 ---
 
