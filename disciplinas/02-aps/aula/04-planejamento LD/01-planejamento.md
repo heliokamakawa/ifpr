@@ -1,5 +1,7 @@
 # Guia de Planejamento — Levantamento de Requisitos
 
+> Este é o guia operacional a ser usado na execução da **Aula 2** descrita em `03-levantamento_requisitos/01-levantamento-requisitos.md`. Enquanto aquele arquivo descreve a sequência de aulas e os entregáveis esperados, este guia detalha *como* executar cada etapa do planejamento em campo.
+
 > Antes de ir a campo, planeje. Um levantamento mal planejado gera dados inúteis.
 
 ---

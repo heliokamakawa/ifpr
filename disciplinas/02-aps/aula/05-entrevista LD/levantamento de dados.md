@@ -1,5 +1,11 @@
-# Resultados — Atividade 01: Questionário Assíncrono
+# Retomada e Acompanhamento do Levantamento de Requisitos
 **Aula:** 18/03/2026
+
+> Esta aula tem papel de retomada: apresenta o panorama da Atividade 01, orienta o refinamento na Atividade 02 e prepara as equipes para a sessão síncrona (Atividade 03). O conteúdo sobre entrevista e levantamento foi ensinado nas aulas anteriores — este momento existe para acompanhar como ele está sendo colocado em prática.
+
+---
+
+# Resultados — Atividade 01: Questionário Assíncrono
 
 ---
 

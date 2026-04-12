@@ -100,6 +100,14 @@ Para cada história, a dupla deve registrar:
 
 ---
 
+## Sobre os exemplos disponíveis
+
+Os arquivos `03-exemplo-consulta-horarios.md`, `04-exemplo-agendamento.md` e `05-exemplo-reagendamento-com-prioridade.md` usam um domínio diferente do projeto da turma — uma clínica de agendamento, não uma biblioteca.
+
+Isso é intencional. Exemplos no domínio da biblioteca induziriam respostas e comprometeriam o trabalho que cada equipe está construindo com base no próprio levantamento. Os exemplos existem para mostrar estrutura, nível de detalhe e padrão de validação — não para servir de modelo de conteúdo a ser copiado.
+
+---
+
 ## Como escolher o fluxo
 
 Escolham um fluxo relevante do projeto e com base real no levantamento da equipe.

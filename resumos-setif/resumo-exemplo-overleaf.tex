@@ -1,0 +1,292 @@
+\documentclass[12pt]{article}
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+
+\sloppy
+
+% -----------------------------------------------------------------------------
+% ARQUIVO DE EXEMPLO -- RESUMO EXPANDIDO (SETIF)
+%
+% Tema de referencia: Tema 7 -- Validacao de entendimento
+%                     (com elementos do Tema 6 -- Perfis de usuario)
+%
+% Quem escolheu outro tema deve usar este exemplo para entender o nivel de
+% detalhe, a logica de cada paragrafo e como a literatura e usada --
+% nao para replicar o conteudo.
+%
+% Sobre o volume: este exemplo tem mais paragrafos do que o produto final
+% tera espaco. Em 3 paginas SBC cabem 6 a 7 paragrafos densos.
+% Use as orientacoes nos comentarios para entender o que priorizar.
+% -----------------------------------------------------------------------------
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] TITULO
+% Um bom titulo indica: (1) o que foi analisado, (2) em que contexto,
+% (3) o recorte tematico. Evite titulos genericos como
+% "Um Estudo de Caso sobre Requisitos".
+% -----------------------------------------------------------------------------
+\title{Validacao de Entendimento e Alinhamento em um Estudo de Caso Didatico de Requisitos}
+
+\author{Aluno A\inst{1}, Aluno B\inst{1}}
+
+\address{Instituto Federal do Parana (IFPR)\\
+  Analise e Projeto de Sistemas -- Campus Paranavai\\
+  \email{aluno.a@ifpr.edu.br, aluno.b@ifpr.edu.br}
+}
+
+\begin{document}
+\maketitle
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 1 -- INTRODUCAO
+% Quatro elementos obrigatorios, nesta ordem:
+%   1. Contexto geral do problema (o que motivou o trabalho)
+%   2. O estudo de caso (o que foi feito, onde, com quem)
+%   3. Recorte tematico (o angulo deste resumo)
+%   4. Objetivo em 1 frase + delimitacao do que sera e do que nao sera coberto
+%
+% Se o resumo foi escrito em dupla sobre uma experiencia vivida por uma
+% equipe maior, esclareca esse recorte aqui mesmo.
+% Tamanho ideal: ~150--180 palavras.
+%
+% Sinal de que esta bom: o leitor sabe exatamente o que vai ler
+% sem precisar passar do primeiro paragrafo.
+% -----------------------------------------------------------------------------
+Este resumo apresenta um relato analitico da experiencia da equipe E3 no levantamento e na validacao de requisitos de um sistema de gestao de biblioteca, em estudo de caso da disciplina de Analise e Projeto de Sistemas. As equipes atuaram como analistas responsaveis por compreender o funcionamento da biblioteca, identificar regras de emprestimo, reserva, renovacao, multa e perfis de usuario e produzir artefatos para a evolucao de um sistema legado. A atividade ocorreu em equipes de quatro integrantes e envolveu entrevistas assincronas e sincrona, uma sessao de \textit{Joint Application Design} (JAD), historias de usuario, criterios de aceite e prototipacao de baixa fidelidade. Sob o recorte de validacao de entendimento e alinhamento de expectativas, este resumo analisa como leitura cruzada, criterios de aceite e prototipacao transformaram entendimentos parciais ou contraditorios em requisitos mais claros, rastreaveis e verificaveis. Por questao didatica e de viabilidade de autoria, a escrita foi organizada em dupla e registra a visao de dois integrantes sobre o percurso coletivo da equipe E3.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 2 -- LITERATURA E PROBLEMA DE PESQUISA
+% Duas funcoes: mostrar o que a literatura sabe sobre o tema e justificar
+% por que o caso e relevante para discuti-lo. Nao e revisao generica --
+% cada afirmacao deve conectar com algo que aconteceu no caso.
+%
+% Estrutura: 3 a 5 afirmacoes fundamentadas -> 1 frase ligando literatura
+% ao caso -> pergunta de pesquisa.
+%
+% A pergunta e a peca mais importante. Ela ancora tudo o que vem depois.
+% Se for vaga, o texto inteiro fica solto.
+%
+% Numero de citacoes: maximo 5 a 6. Mais do que isso vira lista.
+%
+% Sinal de que esta bom: a pergunta final e especifica o suficiente para
+% que so este caso possa responde-la.
+% -----------------------------------------------------------------------------
+Este projeto se fundamenta na compreensao de que, em Engenharia de Requisitos, o sucesso depende de entendimento compartilhado entre analista e cliente, e nao apenas da producao do artefato final \cite{hofmann2001re}. Tambem se apoia na ideia de que elicitacao, analise e validacao compoem um mesmo processo, pois respostas aparentemente suficientes podem manter lacunas, ambiguidades e contradicoes que so emergem quando o requisito e revisto, reescrito e testado em outros artefatos \cite{hickey2004unified,nuseibeh2000roadmap}. No caso da equipe E3, isso apareceu quando respostas das entrevistas precisaram ser consolidadas no JAD, convertidas em historias de usuario, confrontadas por leitura cruzada e verificadas por criterios de aceite e prototipacao. Esse encadeamento converge com a literatura sobre contexto e canal nas tecnicas, papel do JAD na explicitacao de conflitos e importancia de criterios de qualidade para tornar o entendimento verificavel \cite{carrizo2017context,davidson1999jad,sakthivel1991verification,lucassen2016qus}. Nesse cenario, a questao que orienta este resumo e: como os mecanismos de validacao aplicados pela equipe E3 contribuiram para reduzir ambiguidades e alinhar expectativas no caso analisado?
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 3 -- METODO
+% Responda claramente: que tipo de pesquisa e esta, quem participou,
+% quais atividades geraram as evidencias, o que foi analisado e com
+% qual referencial.
+%
+% Elementos obrigatorios:
+%   - tipo de pesquisa (relato de experiencia / estudo de caso descritivo)
+%   - contexto e participantes
+%   - procedimentos: quais atividades geraram as evidencias
+%   - fontes de dados: o que foi analisado
+%   - referencial analitico: qual autor orienta a leitura do caso
+%   - cuidados: leitura cruzada, anonimização
+%
+% O que NAO fazer: nao afirme "analise sistematica com alta confiabilidade"
+% se nao houver multiplos avaliadores com metricas de concordancia.
+% Seja honesto sobre o que foi feito.
+% Tamanho ideal: ~120--150 palavras.
+%
+% Sinal de que esta bom: qualquer leitor entende exatamente o que foi feito
+% sem precisar fazer suposicoes.
+% -----------------------------------------------------------------------------
+Trata-se de relato de experiencia com caracteristicas de estudo de caso descritivo, conduzido em contexto educacional e organizado conforme recomendacoes de relato em Engenharia de Software \cite{runeson2009guidelines}. As evidencias consideradas foram roteiros de perguntas, respostas de entrevistas, versoes de historias de usuario, anotacoes de validacao cruzada, criterios de aceite em linguagem natural e prototipos de baixa fidelidade. Interagiu-se com tres fontes da rotina da biblioteca: uma estagiaria de atendimento, uma atendente senior com dominio das regras recorrentes e uma bibliotecaria chefe responsavel por decisoes institucionais e excecoes. A analise mobilizou duas lentes: verificacao e validacao de requisitos \cite{sakthivel1991verification} e criterios de clareza, completude e testabilidade de historias de usuario \cite{lucassen2016qus}. A partir desse conjunto, analisaram-se as mudancas nos artefatos para compreender o que revelam sobre o entendimento construido.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 4 -- PREPARACAO DO LEVANTAMENTO
+% Mostre que o levantamento nao foi aleatorio: houve preparacao, divisao
+% de temas e criterio para direcionar perguntas a cada fonte.
+% Isso diferencia um processo de elicitacao de uma conversa informal.
+% Conecte a preparacao a literatura -- planejamento como fase do processo.
+% Este paragrafo e mais curto que os demais. Sua funcao e dar coerencia
+% ao que vem depois, nao ser exaustivo.
+%
+% Sinal de que esta bom: o leitor entende que houve intencao e metodo
+% antes de qualquer interacao com os stakeholders.
+% -----------------------------------------------------------------------------
+Antes das interacoes, revisou-se o briefing do sistema e organizaram-se os pontos em aberto em emprestimo, reserva, renovacao e multa. Esse preparo separou duvidas operacionais, regras recorrentes e excecoes institucionais, alem de orientar as perguntas dirigidas a cada fonte nas rodadas assincronas, na entrevista sincrona e no JAD. Esse planejamento previo integra um processo de elicitacao bem conduzido: define o escopo das questoes, reduz redundancias e aumenta a probabilidade de respostas uteis \cite{hickey2004unified}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 5 -- DIFERENCA ENTRE AS FONTES
+% O foco ja e analitico: nao basta dizer quem respondeu -- mostre o que
+% a diferenca entre perfis produziu no levantamento e como isso dialoga
+% com a literatura.
+% Cada stakeholder revelou um tipo diferente de informacao. Use isso como
+% argumento, nao como curiosidade.
+%
+% Sinal de que esta bom: o leitor entende por que consultar Julia antes
+% de Ana nao foi um erro, foi uma escolha com logica.
+% -----------------------------------------------------------------------------
+A diferenca entre as fontes afetou diretamente o levantamento. Julia, embora limitada para fechar regras formais, mostrou alta disponibilidade e bom dominio do atendimento cotidiano, ajudando a mapear requisitos essenciais do sistema, como a sequencia de emprestimo, devolucao e consulta no balcao. Rosa oferecia respostas mais estaveis sobre reserva, renovacao, multa e outras regras recorrentes, enquanto Ana era necessaria diante de excecoes, conflitos de interpretacao ou decisoes institucionais. O caso mostrou que stakeholders com menor autoridade decisoria nao sao menos relevantes: eles revelam detalhes operacionais do trabalho real, enquanto fontes com maior autoridade consolidam regras e excecoes, em linha com estudos sobre identificacao de stakeholders e atributos contextuais da elicitacao \cite{sharp1999stakeholder,carrizo2017context}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 6 -- EPISODIO CONCRETO (PERGUNTA + FONTE + RESULTADO)
+% Apresente um episodio real em que a escolha da fonte e a formulacao da
+% pergunta alteraram o entendimento. Mostre o antes e o depois.
+%
+% Este e o paragrafo mais autoral do resumo: nenhuma IA consegue escrever
+% isso por voce porque ela nao sabe o que aconteceu. Se o paragrafo for
+% generico, esta faltando a historia real.
+% Tamanho ideal: ~120--150 palavras, com pelo menos 1 citacao.
+%
+% Sinal de que esta bom: o leitor ve o que estava incerto, o que foi
+% ajustado e o que ficou claro -- nao apenas "fizemos uma pergunta".
+% -----------------------------------------------------------------------------
+O primeiro erro ocorreu nas perguntas sobre reserva, renovacao e prazo de retirada. A escolha inicial de Julia foi util para recuperar o fluxo cotidiano do atendimento, mas insuficiente para fechar a politica formal de reservas: o prazo de retirada oscilou, e a resposta deixou em aberto se a regra apresentada era institucional ou apenas costume operacional. Com o refinamento das perguntas e a mudanca da fonte consultada, Rosa esclareceu pontos mais estaveis, como a validade da reserva por dois dias uteis, o cancelamento automatico quando o usuario nao retira o exemplar e a necessidade de observar o perfil de uso do item antes de autorizar nova operacao. O episodio sugere que perguntas especificas produzem melhor resultado quando dirigidas a quem combina conhecimento do tema e posicao adequada no processo, enquanto fontes mais disponiveis e operacionais sao valiosas para revelar requisitos essenciais do trabalho diario, em linha com Lloyd, Rosson e Arthur (2002) e Carrizo, Dieste e Juristo (2017) \cite{lloyd2002distributed,carrizo2017context}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 7 -- CONTRADICAO E JAD
+% Descreva um momento de contradicao ou consolidacao forte. Mostre por que a
+% contradicao foi produtiva -- nao um problema a esconder, mas uma evidencia
+% de que o conhecimento estava distribuido e precisava ser explicitado.
+% O JAD tem papel metodologico aqui: e o espaco onde tensoes emergem e sao
+% fechadas com participacao simultanea das fontes. Conecte isso a literatura.
+%
+% Sinal de que esta bom: o leitor entende que contradicao != erro do
+% levantamento.
+% -----------------------------------------------------------------------------
+A entrevista sincrona e o JAD aprofundaram esse problema ao confrontar respostas que, isoladamente, pareciam suficientes. Divergencias sobre calculo de multa, bloqueio por reserva e limite de renovacao passaram a funcionar como evidencia de que o conhecimento do dominio estava distribuido entre niveis distintos da organizacao. Julia expressava a percepcao do atendimento cotidiano; Rosa diferenciava melhor as regras recorrentes; Ana consolidava a regra institucional quando havia conflito ou excecao. Esse movimento mostrou que a contradicao entre relatos nao invalida o levantamento; ao contrario, indica pontos que ainda precisam de consolidacao. O JAD permitiu que essas tensoes emergissem e fossem fechadas com participacao simultanea das fontes, em linha com Davidson (1999) \cite{davidson1999jad}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 8 -- HISTORIA DE USUARIO: TRADUCAO E FALHA
+% Mostre como a equipe traduziu o que ouviu para um artefato e onde essa
+% traducao falhou. O objetivo nao e mostrar erro -- e mostrar que a distancia
+% entre "ouvir" e "entender o suficiente para especificar" e real e tem nome
+% na literatura.
+% Use um fragmento concreto de antes/depois da historia. Duas linhas ja mudam
+% o peso analitico do paragrafo -- sem isso, a analise fica generica e
+% qualquer equipe poderia ter escrito.
+%
+% Sinal de que esta bom: o leitor consegue ver a diferenca entre a versao 1 e a
+% versao 2 e entender por que ela importa.
+% -----------------------------------------------------------------------------
+Essa distancia tornou-se mais evidente quando o levantamento foi convertido em historia de usuario. A primeira formulacao era: \textit{``Como atendente, quero registrar um emprestimo para o usuario.''} Parecia correta no nivel superficial, mas deixava de fora bloqueios por multa vencida, restricao por reserva ativa, distincoes por perfil e rastreabilidade da operacao. Apos leitura cruzada e revisao, a versao consolidada ficou: \textit{``Como atendente, quero registrar um emprestimo para qualquer usuario sem pendencia ativa, com bloqueio automatico em caso de multa em dias uteis ou reserva de terceiro, registrando data prevista de devolucao ao concluir.''}
+
+\begin{table}[ht]
+\centering
+\caption{Pontos em aberto, mecanismo e resultado}
+\label{tab:levantamento}
+\scriptsize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{0.92}
+\begin{tabular}{p{2.45cm}p{1.55cm}p{4.05cm}p{4.0cm}}
+\hline
+\textbf{Ponto em aberto} & \textbf{Natureza} & \textbf{Como foi esclarecido} & \textbf{Resultado} \\
+\hline
+Calculo de multa (corridos vs.\ uteis) &
+  Contradicao &
+  JAD: confronto entre fontes; Ana consolidou &
+  RN: multa em dias uteis \\
+\hline
+Limite de renovacao (ilimitada, 2x ou 1x) &
+  Contradicao &
+  JAD: divergencias confrontadas; excecao confirmada &
+  RN: 1 renovacao; professor tem excecao \\
+\hline
+Material de referencia: pode reservar? &
+  Contradicao &
+  Pergunta direta a Ana &
+  RN: nao pode ser emprestado nem reservado \\
+\hline
+Prazo de devolucao nao especificado &
+  Imprecisao &
+  Rosa na sincrona: 7 dias (comum), 15 (professor) &
+  RN: prazo varia por perfil \\
+\hline
+Bloqueio por pendencia sem criterio definido &
+  Imprecisao &
+  Criterio de aceite definiu pendencia bloqueante &
+  RN: multa ou atraso bloqueiam \\
+\hline
+Reserva cancelada: prazo sem retirada indefinido &
+  Imprecisao &
+  Rosa (sincrona) + criterio de aceite &
+  RN: cancela em 2 dias uteis \\
+\hline
+\end{tabular}
+\end{table}
+
+A tabela mostra que nenhum dos pontos se resolveu por uma unica interacao: contradicoes exigiram JAD; imprecisoes, cruzamento entre artefatos. Quando a historia revisada foi submetida novamente a leitura cruzada, outro par da equipe E3 conseguiu recontar o fluxo principal e definir com seguranca o que o sistema deveria fazer diante de pendencia ou situacao excepcional. Nesse ponto, a validacao se mostrou menos como correcao de texto e mais como teste de transferibilidade do entendimento \cite{sakthivel1991verification,lucassen2016qus}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 9 -- CRITERIOS DE ACEITE
+% Use os criterios de aceite para mostrar que entendimento bom e
+% entendimento verificavel. O criterio nao e enfeite -- e o ponto onde
+% o que "parecia claro" precisa se tornar demonstravel.
+%
+% Sinal de que esta bom: o leitor entende que escrever um criterio de
+% aceite e um ato de verificacao, nao de formatacao.
+% -----------------------------------------------------------------------------
+Os criterios de aceite tornaram esse desalinhamento ainda mais visivel. Em cenarios dado/quando/entao, percebeu-se que a historia so se tornava aceitavel quando descrevia, de modo verificavel, bloqueio por multa em dias uteis, impedimento por reserva de terceiro e registro da data prevista de devolucao. O que parecia detalhe secundario voltou ao centro da analise porque, sem essas condicoes, nao havia como saber se o entendimento estava alinhado com a regra levantada. Os criterios nao acrescentaram ``enfeite'' ao texto; funcionaram como filtro entre o que estava apenas plausivel e o que ja estava claro o bastante para ser validado \cite{hickey2004unified,lucassen2016qus}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] PARAGRAFO 10 -- PROTOTIPACAO COMO TESTE DE ENTENDIMENTO
+% Apresente a prototipacao como instrumento analitico, nao estetico.
+% O prototipo nao serve para mostrar como a tela vai ficar -- serve para
+% revelar o que ainda nao foi entendido.
+%
+% Sinal de que esta bom: o leitor percebe que o prototipo gerou uma
+% descoberta, nao apenas uma representacao.
+% -----------------------------------------------------------------------------
+A prototipacao de baixa fidelidade reforcou esse movimento de validacao. Ao se desenharem a tela de emprestimo e o fluxo de renovacao, percebeu-se que a historia revista ainda nao resolvia sozinha todas as decisoes necessarias para orientar a interface: faltavam indicacao do status do exemplar, mensagem de bloqueio por pendencia, distincao entre emprestimo permitido e renovacao impedida por reserva e geracao explicita da data de devolucao. O prototipo funcionou como teste adicional de entendimento, porque revelou incoerencias entre o que estava escrito na historia e o que seria necessario para executar o fluxo de forma consistente. Em vez de servir apenas como representacao visual, passou a atuar como instrumento de exploracao e refinamento do requisito \cite{filipovic2021mockups}.
+
+% -----------------------------------------------------------------------------
+% [ORIENTACAO] CONCLUSAO
+% Quatro elementos obrigatorios:
+%   1. Retomada do objetivo (1 frase -- baseada no P1)
+%   2. Principais resultados em texto corrido (sem lista)
+%   3. Conexao com a literatura (confirmou / contrastou o que?)
+%   4. Limite claro + continuidade em 1 frase
+%
+% A conclusao nao traz informacao nova. Ela sintetiza e fecha.
+%
+% Sinal de que esta boa: o leitor entende o que foi feito, o que foi
+% encontrado e o que fica em aberto sem precisar reler o texto inteiro.
+% -----------------------------------------------------------------------------
+Os resultados indicam que a parte mais formativa do caso nao foi a acumulacao de respostas, mas a passagem entre levantamento, consolidacao, validacao e representacao. Fontes mais operacionais e disponiveis explicitaram requisitos essenciais do fluxo cotidiano, enquanto fontes com maior autoridade deram estabilidade as regras recorrentes e fechamento as excecoes, confirmando a importancia do perfil do stakeholder no processo de elicitacao. A leitura cruzada expos o que parecia claro apenas para seus autores, e a prototipacao mostrou que entendimento funcional e representacao visual precisam permanecer coerentes. Como limite, trata-se de estudo situado em contexto educacional e baseado em artefatos produzidos pela propria equipe, o que impede generalizacoes diretas para ambientes industriais. Ainda assim, o caso evidencia, com rastreabilidade, que alinhamento de expectativas se constroi por ciclos sucessivos de revisao, e nao pela simples producao de artefatos. Conclui-se que leitura cruzada, criterios de aceite e prototipacao funcionaram como mecanismos centrais de validacao do entendimento da equipe E3.
+
+\begin{thebibliography}{99}
+
+\bibitem{carrizo2017context}
+Carrizo, D.; Dieste, O.; Juristo, N. Contextual attributes impacting the effectiveness of requirements elicitation techniques: Mapping theoretical and empirical research. \textit{Information and Software Technology}, v.~92, p.~194--221, 2017. doi: 10.1016/j.infsof.2017.08.003.
+
+\bibitem{davidson1999jad}
+Davidson, E. J. Joint application design (JAD) in practice. \textit{Journal of Systems and Software}, v.~45, n.~3, p.~215--223, 1999. doi: 10.1016/S0164-1212(98)10080-8.
+
+\bibitem{filipovic2021mockups}
+Filipovic, M.; Vukovic, Z.; Dejanovic, I.; Milosavljevic, G. Rapid Requirements Elicitation of Enterprise Applications Based on Executable Mockups. \textit{Applied Sciences}, v.~11, n.~16, p.~7684, 2021. doi: 10.3390/app11167684.
+
+\bibitem{hickey2004unified}
+Hickey, A. M.; Davis, A. M. A Unified Model of Requirements Elicitation. \textit{Journal of Management Information Systems}, v.~20, n.~4, p.~65--84, 2004. doi: 10.1080/07421222.2004.11045786.
+
+\bibitem{hofmann2001re}
+Hofmann, H. F.; Lehner, F. Requirements Engineering as a Success Factor in Software Projects. \textit{IEEE Software}, v.~18, n.~4, p.~58--66, 2001. doi: 10.1109/MS.2001.936219.
+
+\bibitem{lloyd2002distributed}
+Lloyd, W. J.; Rosson, M. B.; Arthur, J. D. Effectiveness of elicitation techniques in distributed requirements engineering. In: \textit{Proceedings of the IEEE Joint International Conference on Requirements Engineering}. p.~311--318, 2002. doi: 10.1109/ICRE.2002.1048544.
+
+\bibitem{lucassen2016qus}
+Lucassen, G.; Dalpiaz, F.; van der Werf, J. M. E. M.; Brinkkemper, S. Improving agile requirements: the Quality User Story framework and tool. \textit{Requirements Engineering}, v.~21, p.~383--403, 2016. doi: 10.1007/s00766-016-0250-x.
+
+\bibitem{nuseibeh2000roadmap}
+Nuseibeh, B.; Easterbrook, S. Requirements Engineering: A Roadmap. In: \textit{Proceedings of the Conference on the Future of Software Engineering (ICSE/FOSE)}. 2000. doi: 10.1145/336512.336523.
+
+\bibitem{runeson2009guidelines}
+Runeson, P.; H{\"o}st, M. Guidelines for conducting and reporting case study research in software engineering. \textit{Empirical Software Engineering}, v.~14, n.~2, p.~131--164, 2009. doi: 10.1007/s10664-008-9102-8.
+
+\bibitem{sakthivel1991verification}
+Sakthivel, S. A Survey of Requirements Verification Techniques. \textit{Journal of Information Technology}, v.~6, n.~2, p.~68--79, 1991. doi: 10.1177/026839629100600203.
+
+\bibitem{sharp1999stakeholder}
+Sharp, H.; Finkelstein, A.; Galal, G. Stakeholder identification in the requirements engineering process. In: \textit{Proceedings of DEXA'99}. p.~387--391, 1999. doi: 10.1109/DEXA.1999.795198.
+
+\end{thebibliography}
+
+\end{document}
