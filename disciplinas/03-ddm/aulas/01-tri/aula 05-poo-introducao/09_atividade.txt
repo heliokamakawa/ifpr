@@ -1,0 +1,28 @@
+*********************
+1)Em um atributo, para atribuir um valor, qual a diferença quando realizamos: (i) na definição da classe; e (ii) ao solicitar o seu valor via parâmetro do 
+
+rutor?
+2)O que é para que ser construtor? Qual código pode-se definir nele?
+3)Para que serve "final"? Em que caso utilizamos? Para coletar dados, qual a vantagem e desvantagem?
+4) Defina as classes abaixo. Em seguida, instancie um objeto da classe e para cada atri buto, atribua um valor, altere e imprima.
+  Considere:
+    * → obrigatório
+    = valor (valor padrão)
+    ? pode ser nulo
+  Caso não esteja implícito, de acordo com o contexto, defina se os atributos podem ser nulos ou não e se podem ser privado ou não. 
+  
+  a) Bola{cor=branco,tamanho=7, categoria?}
+  b) Camiseta{cor?,tamanho*}
+  c) Professor{ id, nome, cpf, e-mail} >> inicialize todos os atributos no contrutor
+  d) Aluno{ ra, nome, cpf, telefone} >> com todos os atributos final, inicialize todos os atributos no construtor utilizando parâmetros nomeados
+  e) Peça{código, nome, descrição, preço de custo} 
+    → get nome e descição, get preço de venda (30% sobre o preço de custo)
+    → set código - somente números positivos 
+    → set preço de custo - somente valore positivos
+  f) Carro{nome, ano fabricação} 
+    → get tempo de uso, get nome e ano fabricação
+    → set ano fabricação - somente ano positivo e coerente
+  g) Cidade{nome,Estado{nome,sigla}}
+  h) Funcionario{nome, cpf, telefone, Cidade{nome,Estado{nome,sigla}}}
+  i) Peca{nome,Tipo{nome,Categoria{nome, descirção}},Unidade de Medida{sigla, descricao}, Fabricante{nome,Cidade{nome,Estado{nome,sigla}} }}
+  j) Faça 4 classes do seu estudo de caso utilizando tudo que aprendeu hoje.

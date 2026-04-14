@@ -1,0 +1,17 @@
+01) O que é e para que serve o tratamento de erros?
+02) Quais são as formas de tratamentos de erros?
+03) Qual a diferença entre erro e exceção? 
+04) Qual a diferença entre exceção implícita (contornável) e explícita (incontornável)? 
+05) O que são: (1) throwables; (2) Checked Exception; e (3) Unchecked (Runtime)?
+06) Quais são os tratamentos de erros existentes no Dart?
+07) Quais são as principais exceções existentes no Dart?
+08) O que é e como funciona o try/catch? Em que caso devemos utilizar? Há uma camada da aplicação correta em utilizá-lo? Exemplifique.
+09) O que é e como funciona o on e final no tratamento de erros? Em que caso devemos utilizar? Há uma camada da aplicação correta em utilizá-lo? Exemplifique.
+10) O que é e como funciona o rethrow? Em que caso devemos utilizar? Exemplifique.
+11) No try/catch, o que é captura de erros? Como é realizada - sintaxe? Quais são os tipos de capturas possíveis? Quais são as diferenças? 
+12) Explique e exemplifique o uso das cláusulas on e finally no bloco try-cath. 
+13) É possível criar exceções específicas? Se sim, em que caso podem ser utilizas? Quais são os cuidados que devemos ter. Exemplifique.
+14) Implemente o try-catch (com relevância) nas funções do seu projeto – pelo menos 5 funções. Faça o tratamento de erro específico e geral. 
+15) Analise o seu projeto e crie exceções específicas que facilite a localização e a manutenção do projeto.
+16) O que é e para que serve o Either? Qual a relação e qual a diferença com o try-cath? Faça um exemplo no contexto do seu projeto.
+

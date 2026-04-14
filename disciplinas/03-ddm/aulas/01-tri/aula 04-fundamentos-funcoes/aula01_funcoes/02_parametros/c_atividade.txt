@@ -1,0 +1,22 @@
+Exercício I
+Em relação ao conteúdo estudado, aplique-as na:
+→ função calularSalario - precisa do (i) valor salario e o (ii) valor do desconto. Fazer o desconto somente se haver saldo. No final informar o saldo.
+
+Exercício II
+Pensar em um projeto único - quanto maior o escopo melhor - possibilita pensar em vários exemplos
+Elabroar funções no escopo do projeto (autêntico)
+Fazer comentários de tudo que entendeu
+Elabore: 
+1) Duas funções com parâmetros posicionais opcionais (valor padrão);
+2) Uma função com parâmetros nomeados obrigatórios;
+3) Uma função com parâmetros nomeados opcionais;
+4) Uma função com parâmetros nomeados obrigatórios e opcionais;
+5) Uma única função com parâmetros nomeados e posicionais;
+
+Exercício III
+1) Em que caso os parâmetros nomeados são úteis? 
+2) Por padrão os parâmetros nomeados são opcionais ou obrigatórios? Caso sejam opcionais, como torná-los obrigatórios?
+3) Qual a sintaxe para fazer a chamada de uma função com os parâmetros nomeados? 
+4) É possível definir uma única função com parâmetros nomeados e posicionais?
+5) Quais são as vantagens em utilizar parâmetros nomeados? 
+6) Quais são as diferenças entre parâmetros nomeados e posicionais?

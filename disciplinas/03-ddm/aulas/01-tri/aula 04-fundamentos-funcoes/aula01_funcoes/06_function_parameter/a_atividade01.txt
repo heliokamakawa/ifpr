@@ -1,0 +1,6 @@
+/*
+(1) Criar um projeto chamado de funções anônimas;
+(2) Criar 4 arquivos: funcoes, parâmetros do tipo função, funções anônimas, arrow functions;
+(3) Para cada arquivo, criar o  método show - sem retorno, sem parâmetro com um print de teste;e
+(4) Chamar o método show de cada aquivo no método main.
+*/
