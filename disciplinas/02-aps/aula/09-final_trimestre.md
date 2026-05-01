@@ -39,7 +39,7 @@ Revisem os processos com cuidado. O fechamento do diário é individual e o prof
 
 
 
-### Etapa 1 — Repositório do trimestre (individual)
+### Etapa 1 — Repositório do trimestre (individual) - 20 mintuos
 
 Cada aluno posta no repositório pessoal do GitHub **quais foram os conteúdos trabalhados no trimestre** — com suas próprias palavras, de forma organizada.
 
@@ -47,7 +47,7 @@ Cada aluno posta no repositório pessoal do GitHub **quais foram os conteúdos t
 
 ---
 
-### Etapa 2 — Principais dificuldades e aprendizagens (individual)
+### Etapa 2 — Principais dificuldades e aprendizagens (individual) - 20 mintuos
 
 Cada aluno registra no repositório um texto curto e honesto respondendo:
 
@@ -57,7 +57,7 @@ Cada aluno registra no repositório um texto curto e honesto respondendo:
 
 > O que se espera é que o aluno demonstre ciência do que ocorreu na disciplina. É uma obrigação do aluno e, ao mesmo tempo, uma validação do que foi ensinado e cobrado no trimestre.
 
-Após o commit no repositório Git com todas as atividades do trimestre, o professor fechará o conceito por equipe, com acesso liberado para os integrantes consultarem.
+Após o commit no repositório Git com todas as atividades do trimestre, avisar o professor para o fechamento do conceito (por equipe).
 
 > **Atenção:** a substituição da prova pelo diário de aula é opcional. Caso o aluno não concorde com o conceito atribuído ou queira tentar melhorá-lo, basta seguir o fluxo tradicional e realizar a avaliação trimestral (29/04).
 
