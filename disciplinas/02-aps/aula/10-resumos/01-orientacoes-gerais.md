@@ -123,7 +123,10 @@ Inserir os nomes nessa ordem no cabeçalho do documento.
 
 1. Este arquivo (`01-orientacoes-gerais.md`) — contexto geral
 2. `02-temas.md` — escolher o ângulo do resumo
-3. `03-cronograma.md` — o que produzir em cada encontro
-4. `resumos-setif/template-resumo-expandido.md` — estrutura detalhada por parágrafos
-5. `resumos-setif/01-orientacao.md` — antes de começar a escrever
-6. `resumos-setif/temas-e-abordagens.md` — artigos sugeridos por tema
+3. `resumos-setif/README.md` — visão geral dos materiais de escrita
+4. `resumos-setif/01-orientacao.md` — antes de começar a escrever
+5. `resumos-setif/temas-e-abordagens.md` — palavras-chave, referências e caminhos de busca
+6. `resumos-setif/template-resumo-expandido.md` — estrutura detalhada por parágrafos
+7. `resumos-setif/resumo-exemplo-leitura-rapida.md` — exemplo comentado em texto corrido
+8. `resumos-setif/resumo-exemplo-overleaf.tex` — exemplo em LaTeX/Overleaf
+9. `03-cronograma.md` — o que produzir em cada encontro
