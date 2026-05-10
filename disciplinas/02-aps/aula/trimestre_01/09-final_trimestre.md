@@ -74,7 +74,7 @@ Cada dupla deve formular uma resposta com base no que foi vivido no trimestre �
 **Formação de duplas e escolha do tema:**
 
 - Formar duplas para a atividade do 2º trimestre
-- Escolher o tema do resumo — ver opções em `10-resumos/02-temas.md`
+- Escolher o tema do resumo — ver opções em `../trimestre_02/01_resumos/02-temas-e-abordagens.md`
 - Registrar: dupla formada + tema escolhido + pergunta central (pode ser provisória)
 
 ---
@@ -88,6 +88,6 @@ A dupla sai desta aula sabendo exatamente o que precisa produzir na semana e no 
 - **Parágrafo 3:** método — tipo de pesquisa, participantes, dados usados, como será analisado
 
 Para chegar preparado no 13/05:
-- Ler `10-resumos/01-orientacoes-gerais.md` e `10-resumos/02-temas.md`
+- Ler `../trimestre_02/01_resumos/00-sentido-da-atividade.md`, `../trimestre_02/01_resumos/01-orientacoes-gerais.md` e `../trimestre_02/01_resumos/02-temas-e-abordagens.md`
 - Selecionar ao menos 4 artigos alinhados ao tema escolhido
 - Ter em mente quais artefatos do trimestre (histórias, critérios de aceite, protótipos, registros de validação) serão usados como evidência

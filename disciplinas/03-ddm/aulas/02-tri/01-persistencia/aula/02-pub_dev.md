@@ -51,8 +51,10 @@ Verificar:
 
 No terminal:
 
+```bash
 flutter pub add sqflite
 flutter pub add path
+```
 
 Ou diretamente no arquivo pubspec.yaml.
 
@@ -87,3 +89,11 @@ Ou diretamente no arquivo pubspec.yaml.
 https://docs.flutter.dev/packages-and-plugins/using-packages
 https://pub.dev
 https://pub.dev/packages/sqflite
+
+## Ligação com o próximo assunto
+
+Na persistência, vamos usar bibliotecas para acessar banco de dados.
+
+Mas usar biblioteca não basta.
+
+Também precisamos entender o motivo técnico de estudar conexão, SQL, model e DAO.

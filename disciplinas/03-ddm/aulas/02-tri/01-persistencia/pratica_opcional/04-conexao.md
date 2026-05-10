@@ -1,4 +1,4 @@
-# Conexão com o banco (sqflite)
+# Conexão com o banco de dados (sqflite)
 
 ## O que é
 
@@ -17,7 +17,7 @@ Exemplos de uso podem ser encontrados em:
 * aba **"Example"** do pacote:
   https://pub.dev/packages/sqflite/example
 
-* documentação oficial (cookbook Flutter):
+* documentação oficial (cookbook do Flutter):
   https://docs.flutter.dev/cookbook/persistence/sqlite
 
 ## Para que serve

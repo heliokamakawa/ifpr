@@ -1,4 +1,4 @@
-# Path
+# Pacote path
 
 ## O que é
 
@@ -12,7 +12,9 @@ https://pub.dev/packages/path
 
 No terminal:
 
+```bash
 flutter pub add path
+```
 
 ## Para que serve
 
@@ -20,7 +22,9 @@ Definir o caminho do banco sem erro entre diferentes plataformas.
 
 ## Exemplo
 
-join(diretorio, 'app.db')
+```dart
+join(diretorio, 'app.db');
+```
 
 ## Onde aparece
 

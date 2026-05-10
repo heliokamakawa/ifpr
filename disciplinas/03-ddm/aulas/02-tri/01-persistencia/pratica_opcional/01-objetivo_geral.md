@@ -10,15 +10,15 @@ Desenvolver a capacidade de trabalhar com persistência de dados em aplicações
 * aplicação de padrões estruturais (classe de conexão, DAO, model, DTO)
 * uso de programação assíncrona (async/await)
 
-## Objetivo final do perído
+## Objetivo final do período
 
 Dominar CRUD de uma entidade com associação.
 
 ## Motivação
 
-* Usar frameworks com base técnica - otimização, consciência custo, decisões técnicas.
-* Usar IA com base técnica: não apenas gerar código - validar e corrigir o código gerado
-* Atuar em projetos sem Frameworks de ORM: maior controle e entendimento do banco, facilitando diagnóstico e otimização; frameworks ajudam no início, mas exigem conhecimento adicional em cenários mais complexos.
+* Usar frameworks com base técnica: otimização, consciência de custos e decisões técnicas.
+* Usar IA com base técnica: não apenas gerar código, mas validar e corrigir o código gerado.
+* Atuar em projetos sem frameworks de ORM: maior controle e entendimento do banco, facilitando diagnóstico e otimização. Frameworks ajudam no início, mas exigem conhecimento adicional em cenários mais complexos.
 
 ## Como vamos trabalhar
 
