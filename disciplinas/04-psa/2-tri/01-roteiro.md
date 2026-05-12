@@ -2,7 +2,6 @@
 
 ## Organizacao inicial
 
-
 Estou participando de um edital de afastamento para capacitacao e fui classificado em primeiro lugar. A previsao e que eu fique com a turma por aproximadamente mais um mes. Depois disso, outro professor assumira a disciplina.
 
 Por isso, esta primeira etapa do 2o trimestre sera curta, bem documentada e com entrega parcial ate **09/06**.
@@ -15,8 +14,7 @@ Neste comeco de trimestre, o trabalho sera em **duplas**.
 - **12/05** - organizacao das duplas e escolha da trilha
 - **19/05** - Pint of Science
 - **26/05** - desenvolvimento e entrega parcial
-- **02/06** - desenvolvimento e entrega parcial
-- **09/06** - fechamento e entrega 
+- **02/06** - fechamento e entrega 
 
 ## Conteudos envolvidos
 
